@@ -1924,6 +1924,38 @@ function showVocabularySelectionPopup(vocabResults, onSelect, onDismiss) {
 
 
 /* ================================================================
+   SCROLL TO SEARCH Section
+   Scrolls the user back to the search section if it's not visible.
+   ================================================================ */
+/**
+ * Scrolls to the search section if it's not already visible in the viewport.
+ * Uses a small threshold (50px) to account for partial visibility.
+ * This helps users on mobile devices who may have scrolled down past the search box
+ * when toggling search options.
+ */
+function scrollToSearchSection() {
+    const searchSection = $('.search-section');
+    if (!searchSection) return;
+
+    const rect = searchSection.getBoundingClientRect();
+    const threshold = 50;
+
+    // Check if the search section is NOT fully visible in the viewport
+    const isNotVisible = (
+        rect.top < -threshold ||
+        rect.bottom > (window.innerHeight + threshold) ||
+        rect.left < -threshold ||
+        rect.right > (window.innerWidth + threshold)
+    );
+
+    if (isNotVisible) {
+        // Scroll 5px above the search section for better visual context
+        const targetY = searchSection.getBoundingClientRect().top + window.pageYOffset - 10;
+        window.scrollTo({ top: targetY, behavior: 'smooth' });
+    }
+}
+
+/* ================================================================
    INTERACTION HANDLERS
    Handles user interactions with options, controls, and history.
    ================================================================ */
@@ -1938,6 +1970,9 @@ function toggleOpt(optionId) {
 
     const element = document.querySelector(`[data-oid="${optionId}"]`);
     if (element) element.classList.toggle('active', option.active);
+
+    /* Scroll to search input if not visible (mobile UX) */
+    scrollToSearchSection();
 
     /* Instant URL rebuild + result count fetch on every toggle */
     rebuildUrl();
@@ -1976,6 +2011,10 @@ function removeOption(optionId) {
 
     // Re-render and rebuild URL
     renderOptions();
+
+    /* Scroll to search input if not visible (mobile UX) */
+    scrollToSearchSection();
+
     rebuildUrl({
         immediate: true
     });

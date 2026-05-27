@@ -36,7 +36,7 @@
     --font-size-base: 1rem; /* 14px - headers, search input */
     --font-size-icon: 1.2rem; /* 16.8px - icons in headers, section icons */
     --font-size-logo: 1.5rem; /* 21px - main logo text */
-    --font-size-logo-sm: 1.2rem; /* 16.8px - mobile logo text */
+    --font-size-logo-sm: 1.3rem; /* 18.2px - mobile logo text */
     --font-size-icon-sm: .86rem; /* 12px - checkmarks, badge icons */
     --font-size-tooltip-icon: 1.1rem; /* 15.4px - tooltip icon trigger */
     --font-weight-light: 300;
@@ -215,6 +215,15 @@ body {
     text-decoration: none;
     padding: 4px;
     transition: color 0.2s;
+}
+
+/* Default: show full text, hide mobile text on desktop */
+.about-link-full {
+    display: inline;
+}
+
+.about-link-mobile {
+    display: none;
 }
 
 /* ──────────── Utility: icon margin ────────────*/
@@ -1496,6 +1505,8 @@ body {
     margin-top: 3px;
     font-size: var(--font-size-sm);
     color: var(--color-text-light);
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 /* VuFind result metadata span - no wrap */
@@ -2181,16 +2192,25 @@ body {
         margin-left: 0;
     }
 
-    /* Fix header overflow */
+    /* Fix header overflow - keep logo and links in one row */
     .header-content {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.75rem;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
     }
     .header-links {
         flex-direction: row;
-        gap: 1rem;
+        gap: 0.5rem;
         align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* About link text variants - show short text on mobile */
+    .about-link-full {
+        display: none;
+    }
+    .about-link-mobile {
+        display: inline;
     }
 
     /* Fix footer overflow */

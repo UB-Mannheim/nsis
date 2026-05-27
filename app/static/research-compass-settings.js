@@ -23,6 +23,7 @@ const UI_STRINGS = {
     pageTitle: "Recherche-Kompass | StabiKat",
     logoText: "Recherche-Kompass",
     aboutLink: "Über den Recherche-Kompass",
+    aboutLinkMobile: "Über",
 
     // Search History Sidebar
     searchHistory: "Suchverlauf",
@@ -184,6 +185,7 @@ const UI_STRINGS_EN = {
     pageTitle: "Research Compass | StabiKat",
     logoText: "Research Compass",
     aboutLink: "About the Research Compass",
+    aboutLinkMobile: "About",
 
     // Search History Sidebar
     searchHistory: "Search history",
