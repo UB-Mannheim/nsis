@@ -6,12 +6,12 @@ All LLM models are configured in `core/models_config.py`:
 
 | Task | Default Model | Temperature |
 |------|--------------|-------------|
-| Search Intent | `google/gemini-3.1-flash-lite-preview` | 0.2 |
+| Search Intent | `google/gemini-3.1-flash-lite` | 0.2 |
 | Facet Extraction | `openai/gpt-5.4-mini` | 0.0 |
-| Query Expansion | `google/gemini-3.1-flash-lite-preview` | 0.1 |
-| Reranking | `google/gemini-3.1-flash-lite-preview` | 0.2 |
-| Logical Tree | `google/gemini-3.1-flash-lite-preview` | 0.2 |
-| Query Quality | `google/gemini-3.1-flash-lite-preview` | 0.0 |
+| Query Expansion | `google/gemini-3.1-flash-lite` | 0.1 |
+| Reranking | `google/gemini-3.1-flash-lite` | 0.2 |
+| Logical Tree | `google/gemini-3.1-flash-lite` | 0.2 |
+| Query Quality | `google/gemini-3.1-flash-lite` | 0.0 |
 | Embeddings | `qwen/qwen3-embedding-8b` | - |
 
 **Provider Routing:**
