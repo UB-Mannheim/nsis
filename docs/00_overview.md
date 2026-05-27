@@ -28,7 +28,7 @@ This overview has been split into modular documentation files for easier mainten
 
 | Section | File | Description |
 |---------|------|-------------|
-| Executive Summary | [00_overview.md](00_overview.md) | Project purpose and capabilities |
+| Short Summary | [00_overview.md](00_overview.md) | Project purpose and capabilities |
 | System Architecture | [01_system_architecture.md](01_system_architecture.md) | High-level architecture, flows, diagrams |
 | Software Architecture | [01_system_architecture.md](01_system_architecture.md) | Design patterns, service dependencies |
 | Codebase Structure | [02_codebase_structure.md](02_codebase_structure.md) | Directory organization and module responsibilities |
