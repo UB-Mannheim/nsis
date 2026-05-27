@@ -34,6 +34,7 @@ graph TB
         BK[BK Database]
         GND_HEAD[GND-SAZ-HEAD Database]
         GND_DESC[GND-SAZ-DESC Database]
+        GND_GEO[GND-GEO Database]
         VF[VuFind Catalog API]
         OC[OpenRouter API]
     end
@@ -53,6 +54,7 @@ graph TB
     MS --> BK
     MS --> GND_HEAD
     MS --> GND_DESC
+    MS --> GND_GEO
     VS --> VF
     SI --> OC
     FE2 --> OC
