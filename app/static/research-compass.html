@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <!-- FAVICON -->
+        <link data-i18n-href="faviconSrc" rel="icon" type="image/x-icon">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link data-i18n-href="fontsUrl" rel="stylesheet">
+        <!-- ICONS -->
+        <link rel="stylesheet" data-i18n-href="iconsUrl" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title data-i18n="pageTitle">
+        </title>
+        <link rel="stylesheet" href="/nsis/static/research-compass.css">
+    </head>
+    <body>
+        <!-- header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <img data-i18n-src="logoSrc" data-i18n-alt="logoAltText" class="logo-image">
+                    <div class="logo-text" data-i18n="logoText">
+                    </div>
+                </div>
+                <ul class="header-links">
+                    <li>
+                        <span class="language-switcher">
+                            <a href="#" class="nav-link active" id="langDe" data-i18n-title="langDeTitle" rel="nofollow">
+                                <span class="language-link-label" data-i18n="langDe">
+                                </span>
+                            </a>
+                            <span>|</span>
+                            <a href="#" class="nav-link" id="langEn" data-i18n-title="langEnTitle" rel="nofollow">
+                                <span class="language-link-label" data-i18n="langEn">
+                                </span>
+                            </a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="about-link">
+                            <a href="#" id="aboutLink">
+                                <i class="fa-solid fa-circle-info icon-margin-right">
+                                </i>
+                                <span data-i18n="aboutLink">
+                                </span>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- /header -->
+        <main class="main-container">
+            <!-- sidebar -->
+            <aside class="sidebar">
+                <div class="sidebar-card">
+                    <div class="sidebar-header">
+                        <i class="fa-solid fa-clock-rotate-left">
+                        </i>
+                        <span data-i18n="searchHistory">
+                        </span>
+                        <button class="clear-history-btn" id="clearHistoryBtn" data-i18n-title="clearHistoryBtn">
+                            <i class="fa-solid fa-trash">
+                            </i>
+                        </button>
+                    </div>
+                    <div class="sidebar-body">
+                        <div class="history-list" id="historyList">
+                            <div class="empty-history" data-i18n="emptyHistory">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-card">
+                    <div class="sidebar-header" id="searchExamplesHeader">
+                        <i class="fa-solid fa-magnifying-glass-plus">
+                        </i>
+                        <span data-i18n="searchExamples">
+                        </span>
+                    </div>
+                    <div class="sidebar-body">
+                        <div class="search-examples">
+                            <button class="search-example-item" data-i18n-data="searchExample1Query">
+                                <span class="search-example-text">
+                                    <i data-i18n-class="searchExample1Icon" class="icon-margin-right">
+                                    </i>
+                                    <span data-i18n="searchExample1Text">
+                                    </span>
+                                </span>
+                            </button>
+                            <button class="search-example-item" data-i18n-data="searchExample2Query">
+                                <span class="search-example-text">
+                                    <i data-i18n-class="searchExample2Icon" class="icon-margin-right">
+                                    </i>
+                                    <span data-i18n="searchExample2Text">
+                                    </span>
+                                </span>
+                            </button>
+                            <button class="search-example-item" data-i18n-data="searchExample3Query">
+                                <span class="search-example-text">
+                                    <i data-i18n-class="searchExample3Icon" class="icon-margin-right">
+                                    </i>
+                                    <span data-i18n="searchExample3Text">
+                                    </span>
+                                </span>
+                            </button>
+                            <button class="search-example-item" data-i18n-data="searchExample4Query">
+                                <span class="search-example-text">
+                                    <i data-i18n-class="searchExample4Icon" class="icon-margin-right">
+                                    </i>
+                                    <span data-i18n="searchExample4Text">
+                                    </span>
+                                </span>
+                            </button>
+                            <button class="search-example-item" data-i18n-data="searchExample5Query">
+                                <span class="search-example-text">
+                                    <i data-i18n-class="searchExample5Icon" class="icon-margin-right">
+                                    </i>
+                                    <span data-i18n="searchExample5Text">
+                                    </span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar-card">
+                    <div class="sidebar-header">
+                        <i class="fa-solid fa-circle-info">
+                        </i>
+                        <span data-i18n="sidebarAbout">
+                        </span>
+                    </div>
+                    <div class="sidebar-body sidebar-body-about">
+                        <p class="sidebar-about-paragraph" data-i18n="sidebarAboutParagraph">
+                        </p>
+                        <br>
+                        <p>
+                            <strong data-i18n="sidebarAboutFeaturesLabel">
+                            </strong>
+                        </p>
+                        <div class="sidebar-about-features">
+                            <ul class="sidebar-about-list">
+                                <li data-i18n="sidebarAboutFeature1">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature2">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature3">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature4">
+                                </li>
+                            </ul>
+                            <ul class="sidebar-about-list">
+                                <li data-i18n="sidebarAboutFeature5">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature6">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature7">
+                                </li>
+                                <li data-i18n="sidebarAboutFeature8">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- /sidebar -->
+            <!-- main-content-wrapper -->
+            <div class="main-content-wrapper">
+                <!-- search-panel -->
+                <div class="search-panel">
+                    <!-- search-section -->
+                    <div class="search-section">
+                        <div class="section-header">
+                            <i class="fa-solid fa-magnifying-glass section-icon">
+                            </i>
+                            <h2 data-i18n="searchTitle">
+                            </h2>
+                        </div>
+                        <div class="search-input-container">
+                            <div class="search-box">
+                                <div class="search-input-wrapper">
+                                    <input type="text" class="search-input" id="searchInput"
+                                       data-i18n-placeholder="searchPlaceholder"
+                                       autocomplete="off"
+                                       maxlength="500">
+                                    <button class="search-clear-btn" id="searchClearBtn" data-i18n-title="clearInputBtn" style="display:none">
+                                        <i class="fa-solid fa-xmark">
+                                        </i>
+                                    </button>
+                                </div>
+                                <button class="search-btn" id="searchBtn">
+                                    <i class="fa-solid fa-magnifying-glass">
+                                    </i>
+                                    <span data-i18n="searchBtn">
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                        <!-- debug-panel -->
+                        <div class="debug-panel" id="debugPanel">
+                            <div class="url-box" id="urlBox">
+                                <div class="url-box-title">
+                                    <span class="url-box-title-text" data-i18n="debugInfo">
+                                    </span>
+                                    <span class="url-box-title-shortcut" data-i18n="debugShortcut">
+                                    </span>
+                                </div>
+                                <div class="url-top-row">
+                                    <div class="url-content">
+                                        <div class="url-label" data-i18n="generatedUrl">
+                                        </div>
+                                        <div class="url-text" id="generatedUrl" data-i18n="waitingForResults">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="url-bottom-row">
+                                    <div class="pipeline-status" id="pipelineStatus">
+                                        <div class="pipeline-indicator" id="pipelineSI">
+                                            <div class="pipeline-spinner">
+                                            </div>
+                                            <i class="fa-solid fa-check pipeline-check">
+                                            </i>
+                                            <i class="fa-solid fa-xmark pipeline-error-icon">
+                                            </i>
+                                            <span data-i18n="searchIntent">
+                                            </span>
+                                        </div>
+                                        <div class="pipeline-indicator" id="pipelineQE">
+                                            <div class="pipeline-spinner">
+                                            </div>
+                                            <i class="fa-solid fa-check pipeline-check">
+                                            </i>
+                                            <i class="fa-solid fa-xmark pipeline-error-icon">
+                                            </i>
+                                            <span data-i18n="queryExpansion">
+                                            </span>
+                                        </div>
+                                        <div class="pipeline-indicator" id="pipelineQT">
+                                            <div class="pipeline-spinner">
+                                            </div>
+                                            <i class="fa-solid fa-check pipeline-check">
+                                            </i>
+                                            <i class="fa-solid fa-xmark pipeline-error-icon">
+                                            </i>
+                                            <span data-i18n="queryTransformation">
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="debounce-timer" id="debounceTimer">
+                                        <span class="debounce-timer-label" data-i18n="debounceInterval">
+                                        </span>
+                                        <div class="debounce-timer-bar" id="debounceTimerBar">
+                                        </div>
+                                        <span class="debounce-timer-text" id="debounceTimerText">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /search-section -->
+                    <!-- results-section -->
+                    <div class="results-section" id="resultsSection">
+                        <div class="section-header">
+                            <i class="fa-solid fa-list-ol section-icon">
+                            </i>
+                            <h2 data-i18n="foundResults">
+                            </h2>
+                        </div>
+                        <div class="results-subtitle" id="resultsSubtitle">
+                            <div class="subtitle-content">
+                                <div class="subtitle-info">
+                                    <span class="subtitle-count">
+                                        <span class="count-number" id="subtitleCountNumber">
+                                        </span>
+                                        <span class="count-spinner">
+                                        </span>
+                                        <span data-i18n="hitsInVuFind">
+                                        </span>
+                                    </span>
+                                    <span class="subtitle-quality">
+                                        <span data-i18n="qualityScore">
+                                        </span>
+                                        <span class="quality-score" id="subtitleQualityScore">
+                                        </span>
+                                        <span class="subtitle-quality-spinner">
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="#" class="open-link" id="openInVuFind" target="_blank">
+                                <span data-i18n="openAllResults">
+                                </span>
+                                <i class="fa-solid fa-external-link-alt">
+                                </i>
+                            </a>
+                        </div>
+                        <div class="quality-assessment-container" id="qualityAssessmentContainer">
+                            <span class="quality-assessment" id="qualityAssessmentText">
+                            </span>
+                        </div>
+                        <div class="results-body">
+                            <div id="resultsSpinner" class="results-spinner" style="display:none">
+                                <div class="results-spinner-icon">
+                                </div>
+                                <span data-i18n="resultsLoading">
+                                </span>
+                            </div>
+                            <div class="empty-vufind" id="emptyVufind" data-i18n="noResultsAvailable">
+                            </div>
+                            <div id="vufindResultsList" class="vufind-results-list">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /results-section -->
+                </div>
+                <!-- /search-panel -->
+                <!-- options-panel -->
+                <aside class="options-panel">
+                    <!-- options-section -->
+                    <div class="options-section" id="optionsSection">
+                        <div class="section-header">
+                            <i class="fa-solid fa-gear section-icon">
+                            </i>
+                            <h2 data-i18n="searchOptions">
+                            </h2>
+                        </div>
+                        <div class="options-body">
+                            <div id="optionsSpinner" class="options-spinner" style="display:none">
+                                <div class="options-spinner-icon">
+                                </div>
+                                <span data-i18n="optionsLoading">
+                                </span>
+                            </div>
+                            <div class="options-grid" id="optionsGrid">
+                                <div class="empty-option" data-i18n="noSearchOptionsAvailable">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="controls-container" id="controlsContainer" style="display:none">
+                            <div class="controls-info">
+                                <i class="fa-solid fa-pen-to-square">
+                                </i>
+                                <span data-i18n="activeOptions">
+                                </span>
+                                <span class="controls-badge" id="controlsBadge">0</span>
+                            </div>
+                            <button class="reset-btn" id="resetBtn">
+                                <i class="fa-solid fa-rotate-left">
+                                </i>
+                                <span data-i18n="resetBtn">
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- /options-section -->
+            </aside>
+            <!-- /options-panel -->
+        </div>
+        <!-- /main-content-wrapper -->
+    </main>
+    <!-- vocab-popup-overlay -->
+    <div class="vocab-popup-overlay" id="vocabPopupOverlay">
+        <div class="vocab-popup">
+            <div class="vocab-popup-header">
+                <div class="vocab-popup-header-title">
+                    <i class="fa-solid fa-list-check">
+                    </i>
+                    <span data-i18n="selectOptions">
+                    </span>
+                </div>
+                <button class="vocab-popup-close" data-action="close" data-i18n-title="close">
+                    <i class="fa-solid fa-xmark">
+                    </i>
+                </button>
+            </div>
+            <div class="vocab-popup-body">
+            </div>
+            <div class="vocab-popup-actions">
+                <div class="vocab-popup-actions-left">
+                    <button class="vocab-popup-btn" id="vocabSelectAll" data-action="select-all">
+                        <i class="fa-solid fa-check-square">
+                        </i>
+                        <span data-i18n="selectAll">
+                        </span>
+                    </button>
+                    <button class="vocab-popup-btn" id="vocabDeselectAll" data-action="deselect-all">
+                        <i class="fa-regular fa-square">
+                        </i>
+                        <span data-i18n="deselectAll">
+                        </span>
+                    </button>
+                </div>
+                <button class="vocab-popup-btn primary" id="vocabApply" data-action="apply">
+                    <i class="fa-solid fa-plus">
+                    </i>
+                    <span data-i18n="add">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- /vocab-popup-overlay -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a id="institution-logo-footer" data-i18n-href="institutionUrl" target="_blank">
+                <img data-i18n-src="footerLogoSrc" data-i18n-alt="footerLogoAltText" width="220">
+            </a>
+            <ul class="footer-links">
+                <li>
+                    <a data-i18n="privacyLinkText" data-i18n-href="privacyUrl" target="_blank">
+                    </a>
+                </li>
+                <li>
+                    <a data-i18n="accessibilityLinkText" data-i18n-href="accessibilityUrl" target="_blank">
+                    </a>
+                </li>
+                <li>
+                    <a id="reportAccessibilityIssueLink" data-i18n="reportAccessibilityIssueLinkText" href="#">
+                    </a>
+                </li>
+                <li>
+                    <a data-i18n="imprintLinkText" data-i18n-href="imprintUrl" target="_blank">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <!-- /footer -->
+    <!-- about-popup-overlay -->
+    <div class="popup-overlay" id="aboutPopup">
+        <div class="popup">
+            <div class="popup-header">
+                <div class="popup-header-title">
+                    <i class="fa-solid fa-info-circle">
+                    </i>
+                    <span data-i18n="aboutPopup">
+                    </span>
+                </div>
+                <button class="popup-close" id="aboutPopupClose">
+                    <i class="fa-solid fa-xmark">
+                    </i>
+                </button>
+            </div>
+            <div class="popup-body" data-i18n-html="aboutPopupBodyHTML">
+            </div>
+        </div>
+    </div>
+    <!-- /about-popup-overlay -->
+    <!-- accessibility-report-popup-overlay -->
+    <div class="popup-overlay" id="accessibilityReportPopup">
+        <div class="popup">
+            <div class="popup-header">
+                <div class="popup-header-title">
+                    <i class="fa-solid fa-universal-access">
+                    </i>
+                    <span data-i18n="reportAccessibilityIssue">
+                    </span>
+                </div>
+                <button class="popup-close" id="accessibilityReportPopupClose">
+                    <i class="fa-solid fa-xmark">
+                    </i>
+                </button>
+            </div>
+            <div class="popup-body" data-i18n-html="reportAccessibilityIssueBodyHTML">
+            </div>
+        </div>
+    </div>
+    <!-- /accessibility-report-popup-overlay -->
+    <!-- welcome-popup-overlay -->
+    <div class="popup-overlay" id="welcomePopup">
+        <div class="popup">
+            <div class="popup-header">
+                <div class="popup-header-title">
+                    <i class="fa-regular fa-smile-beam">
+                    </i>
+                    <span data-i18n="welcomePopup">
+                    </span>
+                </div>
+                <button class="popup-close" id="welcomePopupClose">
+                    <i class="fa-solid fa-xmark">
+                    </i>
+                </button>
+            </div>
+            <div class="popup-icon-body">
+                <span class="compass-label compass-label-left" data-i18n="compassLeftText">
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="compass-svg">
+                    <path d="M528 320C528 205.1 434.9 112 320 112C205.1 112 112 205.1 112 320C112 434.9 205.1 528 320 528C434.9 528 528 434.9 528 320zM64 320C64 178.6 178.6 64 320 64C461.4 64 576 178.6 576 320C576 461.4 461.4 576 320 576C178.6 576 64 461.4 64 320zM370.7 389.1L226.4 444.6C207 452.1 187.9 433 195.4 413.6L250.9 269.3C254.2 260.8 260.8 254.2 269.3 250.9L413.6 195.4C433 187.9 452.1 207 444.6 226.4L389.1 370.7C385.8 379.2 379.2 385.8 370.7 389.1zM352 320C352 302.3 337.7 288 320 288C302.3 288 288 302.3 288 320C288 337.7 302.3 352 320 352C337.7 352 352 337.7 352 320z"/>
+                </svg>
+                <span class="compass-label compass-label-right" data-i18n="compassRightText">
+                </span>
+            </div>
+            <div class="popup-body" data-i18n-html="welcomePopupBodyHTML">
+            </div>
+        </div>
+    </div>
+    <!-- /welcome-popup-overlay -->
+    <script src="/nsis/static/research-compass-settings.js"></script>
+    <script src="/nsis/static/research-compass.js"></script>
+</body>
+</html>

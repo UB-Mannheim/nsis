@@ -1,0 +1,3324 @@
+{
+  "test_timestamp": "2026-05-03T20:20:15.376837+00:00",
+  "database": "bk",
+  "total_queries": 127,
+  "nprobe_value": 64,
+  "top_k": 8,
+  "results": [
+    {
+      "query": "Bibliographische Kontrolle und bibliothekarische Ordnung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        6,
+        4,
+        0
+      ],
+      "search_results": [
+        "Bibliothekskataloge",
+        "Katalogisierung, Bestandserschließung",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliotheksverwaltung",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliotheksautomatisierung",
+        "Bibliographie: Allgemeines",
+        "Bibliotheksbenutzung"
+      ]
+    },
+    {
+      "query": "Universalbibliographien und nationale Verzeichnisse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        5,
+        4,
+        3,
+        0
+      ],
+      "search_results": [
+        "Bibliothekskataloge",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Katalogisierung, Bestandserschließung",
+        "Bibliographie: Allgemeines",
+        "Nationalbibliographien, Regionalbibliographien",
+        "Bibliotheksverwaltung",
+        "Allgemeinbibliographien, Universalbibliographien"
+      ]
+    },
+    {
+      "query": "Spezialbibliographien für Fachgebiete",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        2,
+        7
+      ],
+      "search_results": [
+        "Spezialbibliographien",
+        "Spezialbibliotheken",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Nationalbibliographien, Regionalbibliographien",
+        "Bibliothekskataloge",
+        "Bibliotheksarten, IuD-Einrichtungen: Sonstiges",
+        "Wissenschaftliche Bibliotheken",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines"
+      ]
+    },
+    {
+      "query": "Enzyklopädien und allgemeine Nachschlagewerke",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Allgemeine Nachschlagewerke: Allgemeines",
+        "Allgemeinenzyklopädien, Universallexika",
+        "Allgemeine Nachschlagewerke: Sonstiges",
+        "Allgemeinbibliographien, Universalbibliographien",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliographie: Allgemeines",
+        "Bibliothekskataloge"
+      ]
+    },
+    {
+      "query": "Adressbücher und Körperschaftsverzeichnisse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        2
+      ],
+      "search_results": [
+        "Adressbücher",
+        "Abkürzungsverzeichnisse",
+        "Allgemeine Nachschlagewerke: Sonstiges",
+        "Biographische Nachschlagewerke",
+        "Bibliothekskataloge",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Nationalbibliographien, Regionalbibliographien"
+      ]
+    },
+    {
+      "query": "Biographische Wörterbücher und Lexika",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        3
+      ],
+      "search_results": [
+        "Biographische Nachschlagewerke",
+        "Biographie, biographisches Nachschlagewerk",
+        "Allgemeine Nachschlagewerke: Sonstiges",
+        "Allgemeinenzyklopädien, Universallexika",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Allgemeinbibliographien, Universalbibliographien",
+        "Spezialbibliographien",
+        "Nationalbibliographien, Regionalbibliographien"
+      ]
+    },
+    {
+      "query": "Allgemeine Sammelwerke und Anthologien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Allgemeine Sammelwerke",
+        "Allgemeinbibliographien, Universalbibliographien",
+        "Textsammlungen",
+        "Allgemeine Nachschlagewerke: Sonstiges",
+        "Allgemeinenzyklopädien, Universallexika",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Literarische Gattungen: Allgemeines",
+        "Bibliographie: Allgemeines"
+      ]
+    },
+    {
+      "query": "Wissenschaftstheorie und Methodologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        6,
+        0,
+        1,
+        2,
+        4
+      ],
+      "search_results": [
+        "Philosophie und Theorie der Naturwissenschaften",
+        "Philosophie und Theorie der Sozialwissenschaften",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Wissenschaftliche Bibliotheken",
+        "Philosophie und Wissenschaftstheorie der Mathematik",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Grundlagen und Methoden der Philosophie",
+        "Wissenschaftstheorie"
+      ]
+    },
+    {
+      "query": "Geschichte der Wissenschaft und Geistesgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        7,
+        1,
+        4
+      ],
+      "search_results": [
+        "Geschichte der Wissenschaft und Kultur",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Geschichte der Geisteswissenschaften",
+        "Geschichte: Allgemeines",
+        "Geschichtsphilosophie",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Kulturgeschichte"
+      ]
+    },
+    {
+      "query": "Wissenschaftssoziologie und Erkenntnissoziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        3
+      ],
+      "search_results": [
+        "Philosophie und Theorie der Sozialwissenschaften",
+        "Wissenschaft und Gesellschaft",
+        "Sozialwissenschaften allgemein: Sonstiges",
+        "Soziologie: Sonstiges",
+        "Methoden, Techniken und Organisation der sozialwissenschaftlichen Forschung",
+        "Sozialwissenschaften allgemein: Allgemeines",
+        "Theorie der Soziologie",
+        "Philosophie und Theorie der Geisteswissenschaften"
+      ]
+    },
+    {
+      "query": "Wissenschaftspolitik und Forschungsförderung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Wissenschaftspolitik, Kulturpolitik",
+        "Vergleichende Verwaltungslehre",
+        "Öffentliche Verwaltung: Allgemeines",
+        "Verwaltungslehre, Verwaltungswissenschaft: Sonstiges",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Philosophie und Theorie der Verwaltungslehre",
+        "Wissenschaftliche Bibliotheken",
+        "Bibliotheksverwaltung"
+      ]
+    },
+    {
+      "query": "Museologie und Museumspädagogik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        5,
+        6
+      ],
+      "search_results": [
+        "Ethnologische Museen",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Museumskunde, Museologie",
+        "Kunstmuseum",
+        "Bibliotheksarten, IuD-Einrichtungen: Sonstiges",
+        "Materielle Kultur: Sonstiges",
+        "Schulbau, Bibliotheksbau, Museumsbau, Theaterbau, Schulbau, Bibliotheksbau, Museumsbau, Theaterbau",
+        "Bibliothekskataloge"
+      ]
+    },
+    {
+      "query": "Futurologie und Zukunftsforschung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        6,
+        4,
+        4
+      ],
+      "search_results": [
+        "Futurologie, Zukunftsforschung",
+        "Sozialwissenschaften allgemein: Sonstiges",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Sonstige technische Fachgebiete",
+        "Soziologie: Sonstiges",
+        "Information und Dokumentation: Sonstiges",
+        "Philosophie und Theorie der Sozialwissenschaften",
+        "Wissenschaft und Gesellschaft"
+      ]
+    },
+    {
+      "query": "Esoterik und Okkultismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        2,
+        6,
+        6,
+        4
+      ],
+      "search_results": [
+        "Esoterik",
+        "Antike Religionen: Sonstiges",
+        "Neue religiöse Bewegungen, Sekten",
+        "Sonstige Religionen",
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Religionsethnologie: Sonstiges",
+        "Religion, Magie"
+      ]
+    },
+    {
+      "query": "Freimaurerei und geheime Gesellschaften",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        3,
+        4,
+        2
+      ],
+      "search_results": [
+        "Geschichte: Sonstiges",
+        "Freimaurerei",
+        "Sozialgeschichte",
+        "Soziale Gruppen: Sonstiges",
+        "Gesellschaft",
+        "Geschichte der Wissenschaft und Kultur",
+        "Kultursoziologie: Sonstiges",
+        "Sozialethnologie: Sonstiges"
+      ]
+    },
+    {
+      "query": "Kommunikationstheorie und Zeichenprozesse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        6,
+        5
+      ],
+      "search_results": [
+        "Kommunikationstheorie",
+        "Kommunikationsprozesse",
+        "Politische Kommunikation",
+        "Kommunikationswissenschaft: Allgemeines",
+        "Kommunikationswissenschaft: Sonstiges",
+        "Kommunikation und Gesellschaft",
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Philosophie und Theorie der Geisteswissenschaften"
+      ]
+    },
+    {
+      "query": "Massenkommunikation und Medienwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        2,
+        1,
+        6,
+        4
+      ],
+      "search_results": [
+        "Massenkommunikation, Massenmedien: Allgemeines",
+        "Kommunikation und Gesellschaft",
+        "Kommunikationswissenschaft: Allgemeines",
+        "Kommunikationswissenschaft: Sonstiges",
+        "Politische Kommunikation",
+        "Information und Dokumentation: Sonstiges",
+        "Kommunikationstheorie",
+        "Massenkommunikation, Massenmedien: Sonstiges"
+      ]
+    },
+    {
+      "query": "Journalismus und Pressewesen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Pressewesen",
+        "Massenkommunikation, Massenmedien: Allgemeines",
+        "Nachrichtenwesen",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Information und Dokumentation: Sonstiges",
+        "Kommunikation und Gesellschaft",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Politische Kommunikation"
+      ]
+    },
+    {
+      "query": "Rundfunk und Fernsehen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2,
+        7
+      ],
+      "search_results": [
+        "Fernsehen, Hörfunk",
+        "Audiovisuelle Medien",
+        "Massenkommunikation, Massenmedien: Allgemeines",
+        "Massenkommunikation, Massenmedien: Sonstiges",
+        "Hörfunk",
+        "Theater, Film, Musik: Sonstiges",
+        "Medienerziehung, Medienpädagogik",
+        "Medienrecht"
+      ]
+    },
+    {
+      "query": "Filmwissenschaft und Videoproduktion",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        5,
+        2,
+        1,
+        6
+      ],
+      "search_results": [
+        "Film, Video",
+        "Filmgattungen, Filmsparten",
+        "Audiovisuelle Medien",
+        "Filmproduktion, Filmtechnik",
+        "Theater, Film, Musik: Sonstiges",
+        "Systematische Filmwissenschaft, Film und andere Bereiche der Kultur",
+        "Theater, Film, Musik: Allgemeines",
+        "Film: Sonstiges"
+      ]
+    },
+    {
+      "query": "Neue elektronische Medien und Social Media",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        2,
+        7,
+        7
+      ],
+      "search_results": [
+        "Neue elektronische Medien",
+        "Kommunikation und Gesellschaft",
+        "Informatik in Beziehung zu Mensch und Gesellschaft",
+        "Massenkommunikation, Massenmedien: Sonstiges",
+        "Information und Dokumentation: Sonstiges",
+        "Nachrichtentechnik, Kommunikationstechnik: Allgemeines",
+        "Sonstige technische Fachgebiete",
+        "Medienerziehung, Medienpädagogik"
+      ]
+    },
+    {
+      "query": "Öffentliche Meinung und Propagandaforschung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Politische Kommunikation",
+        "Öffentlichkeit",
+        "Kommunikation und Gesellschaft",
+        "Politische Psychologie, Politische Soziologie",
+        "Massenkommunikation, Massenmedien: Allgemeines",
+        "Kommunikationswissenschaft: Allgemeines",
+        "Theorie und Methoden der Politologie",
+        "Politologie: Sonstiges"
+      ]
+    },
+    {
+      "query": "Telekommunikation und Netzwerktechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Nachrichtentechnik, Kommunikationstechnik: Allgemeines",
+        "Sonstige technische Fachgebiete",
+        "Technik allgemein: Sonstiges",
+        "Nachrichtentechnik, Kommunikationstechnik: Sonstiges",
+        "Theoretische Nachrichtentechnik",
+        "Informatik: Sonstiges",
+        "Elektrotechnik: Sonstiges",
+        "Telekommunikation"
+      ]
+    },
+    {
+      "query": "Bibliothekswesen und Dokumentation",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        6,
+        1,
+        3,
+        4
+      ],
+      "search_results": [
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliotheksverwaltung",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekskataloge",
+        "Katalogisierung, Bestandserschließung",
+        "Bibliotheksautomatisierung",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Bibliotheksbenutzung"
+      ]
+    },
+    {
+      "query": "Bibliotheksgeschichte und Handschriftenkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        6,
+        4,
+        0,
+        2
+      ],
+      "search_results": [
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliothekskataloge",
+        "Kodikologie",
+        "Katalogisierung, Bestandserschließung",
+        "Handschriftenkunde: Allgemeines",
+        "Bibliotheksarten, IuD-Einrichtungen: Sonstiges"
+      ]
+    },
+    {
+      "query": "Archivwesen und Aktenkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        3,
+        1,
+        1
+      ],
+      "search_results": [
+        "Bibliotheksverwaltung",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Archive, Archivkunde",
+        "Katalogisierung, Bestandserschließung",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Bibliothekskataloge",
+        "Bibliotheksarten, IuD-Einrichtungen: Sonstiges"
+      ]
+    },
+    {
+      "query": "Informationssysteme und Datenbanken",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        5,
+        4,
+        0,
+        3
+      ],
+      "search_results": [
+        "Informationsmanagement",
+        "Bibliothekskataloge",
+        "Bibliotheksverwaltung",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Datenbanken",
+        "Informationssysteme",
+        "Bibliotheksautomatisierung",
+        "Katalogisierung, Bestandserschließung"
+      ]
+    },
+    {
+      "query": "Information Retrieval und Suchmaschinen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        3,
+        0,
+        6,
+        5
+      ],
+      "search_results": [
+        "Datenbanken",
+        "Informatik: Sonstiges",
+        "Informatik in Beziehung zu Mensch und Gesellschaft",
+        "Informationsmanagement",
+        "Informationssysteme",
+        "Angewandte Informatik",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Theoretische Informatik"
+      ]
+    },
+    {
+      "query": "Buchproduktion und Verlagswesen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Buchwesen: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Buchgeschichte",
+        "Buchwesen: Sonstiges",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Buchproduktion, Buchrestaurierung",
+        "Bibliothekskataloge",
+        "Bibliotheksverwaltung"
+      ]
+    },
+    {
+      "query": "Bibliotheksautomatisierung und Digitalisierung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        2,
+        1,
+        6
+      ],
+      "search_results": [
+        "Bibliotheksautomatisierung",
+        "Bibliothekskataloge",
+        "Bibliotheksverwaltung",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliothekstechnik, Bibliothekseinrichtung",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Katalogisierung, Bestandserschließung",
+        "Bibliotheksbenutzung"
+      ]
+    },
+    {
+      "query": "Philosophie der Antike und Griechische Philosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        3,
+        0
+      ],
+      "search_results": [
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Geschichtsphilosophie",
+        "Mittelalterliche Philosophie",
+        "Griechische Philosophie, römische Philosophie",
+        "Philosophie: Sonstiges",
+        "Politische Philosophie",
+        "Zeitgenössische westliche Philosophie",
+        "Neue westliche Philosophie"
+      ]
+    },
+    {
+      "query": "Mittelalterliche Philosophie und Scholastik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "search_results": [
+        "Mittelalterliche Philosophie",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Geschichtsphilosophie",
+        "Geschichte der Geisteswissenschaften",
+        "Philosophie: Sonstiges",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Griechische Philosophie, römische Philosophie",
+        "Zeitgenössische westliche Philosophie"
+      ]
+    },
+    {
+      "query": "Erkenntnistheorie und Metaphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        1,
+        0,
+        3,
+        6
+      ],
+      "search_results": [
+        "Grundlagen und Methoden der Philosophie",
+        "Metaphysik, Ontologie",
+        "Philosophie: Sonstiges",
+        "Zeitgenössische westliche Philosophie",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Erkenntnistheorie",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Philosophische Anthropologie"
+      ]
+    },
+    {
+      "query": "Ethik und Moralphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        7,
+        4
+      ],
+      "search_results": [
+        "Ethik",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Philosophie: Sonstiges",
+        "Philosophie und Theorie der Volkswirtschaft",
+        "Rechtsphilosophie",
+        "Philosophie und Theorie der Betriebswirtschaft",
+        "Philosophische Anthropologie",
+        "Politische Philosophie"
+      ]
+    },
+    {
+      "query": "Logik und Sprachphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        2,
+        4
+      ],
+      "search_results": [
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Philosophie: Sonstiges",
+        "Grundlagen und Methoden der Philosophie",
+        "Metaphysik, Ontologie",
+        "Zeitgenössische westliche Philosophie",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Philosophische Anthropologie",
+        "Mittelalterliche Philosophie"
+      ]
+    },
+    {
+      "query": "Politische Philosophie und Sozialphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        7,
+        1,
+        6
+      ],
+      "search_results": [
+        "Politische Philosophie",
+        "Staatslehre",
+        "Philosophie und Theorie der Volkswirtschaft",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Philosophie und Theorie der Verwaltungslehre",
+        "Philosophie: Sonstiges",
+        "Rechtsphilosophie",
+        "Sozialphilosophie"
+      ]
+    },
+    {
+      "query": "Religionsphilosophie und Ästhetik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        5,
+        3,
+        2,
+        6
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Religionsphilosophie",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Philosophie: Sonstiges",
+        "Metaphysik, Ontologie",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Systematische Religionswissenschaft: Allgemeines, Vergleichende Religionswissenschaft",
+        "Mittelalterliche Philosophie"
+      ]
+    },
+    {
+      "query": "Naturphilosophie und Kulturphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        0,
+        3,
+        7
+      ],
+      "search_results": [
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Philosophie: Sonstiges",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Metaphysik, Ontologie",
+        "Naturphilosophie",
+        "Philosophische Anthropologie",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Geschichtsphilosophie"
+      ]
+    },
+    {
+      "query": "Geisteswissenschaften und Kulturwissenschaften",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        3,
+        7,
+        7
+      ],
+      "search_results": [
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Geisteswissenschaften allgemein: Allgemeines, Humanwissenschaften allgemein",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Geschichte der Geisteswissenschaften",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Methoden und Techniken der geisteswissenschaftlichen Forschung",
+        "Literatur in Beziehung zu anderen Bereichen von Wissenschaft und Kultur",
+        "Kulturgeschichte"
+      ]
+    },
+    {
+      "query": "Methoden der geisteswissenschaftlichen Forschung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        3,
+        5
+      ],
+      "search_results": [
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Methoden und Techniken der geisteswissenschaftlichen Forschung",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Geschichte der Geisteswissenschaften",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Geisteswissenschaften allgemein: Allgemeines, Humanwissenschaften allgemein",
+        "Philosophie und Theorie der Sozialwissenschaften",
+        "Philosophische Anthropologie"
+      ]
+    },
+    {
+      "query": "Kulturtheorie und Interkulturalität",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        5,
+        6,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Kultursoziologie: Sonstiges",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Philosophie und Theorie der Ethnologie",
+        "Geisteswissenschaften allgemein: Allgemeines, Humanwissenschaften allgemein",
+        "Kultursoziologie: Allgemeines",
+        "Gesellschaft, Kultur",
+        "Sozialethnologie: Sonstiges"
+      ]
+    },
+    {
+      "query": "Vergleichende Religionswissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        1,
+        0,
+        5
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Systematische Religionswissenschaft: Allgemeines, Vergleichende Religionswissenschaft",
+        "Systematische Religionswissenschaft: Sonstiges",
+        "Religionsethnologie: Sonstiges",
+        "Religionsphilosophie",
+        "Religionsethnologie: Allgemeines",
+        "Sonstige Religionen"
+      ]
+    },
+    {
+      "query": "Bibelwissenschaft und Exegese",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        7,
+        5,
+        6
+      ],
+      "search_results": [
+        "Exegese, Hermeneutik",
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Exegese, Hermeneutik",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Bibel: Allgemeines",
+        "Textkritik, historische Kritik",
+        "Bibeltext, Bibelübersetzungen",
+        "Biblische Theologie"
+      ]
+    },
+    {
+      "query": "Kirchengeschichte und Dogmengeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        5,
+        2,
+        0
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Kirchengeschichte, Dogmengeschichte",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Geschichte der Sakralbaukunst",
+        "Katholizismus",
+        "Dogmatik, Konfessionskunde",
+        "Christliche Erbauungsliteratur",
+        "Systematische Religionswissenschaft: Allgemeines, Vergleichende Religionswissenschaft"
+      ]
+    },
+    {
+      "query": "Systematische Theologie und Dogmatik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        2,
+        6,
+        3,
+        1
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Dogmatik, Konfessionskunde",
+        "Kirchengeschichte, Dogmengeschichte",
+        "Systematische Theologie: Allgemeines",
+        "Christliche Erbauungsliteratur",
+        "Systematische Theologie: Sonstiges",
+        "Theologie des Neuen Testaments"
+      ]
+    },
+    {
+      "query": "Praktische Theologie und Seelsorge",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        1,
+        7,
+        4,
+        0
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Praktische Theologie: Sonstiges",
+        "Seelsorge",
+        "Ausbildung, Beruf, Organisationen",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Christliche Erbauungsliteratur",
+        "Kirchliche Soziologie",
+        "Praktische Theologie: Allgemeines"
+      ]
+    },
+    {
+      "query": "Judentum und Israels Geschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        7
+      ],
+      "search_results": [
+        "Jüdisch-christliche Beziehungen",
+        "Judentum: Allgemeines",
+        "Geschichte des jüdischen Volkes außerhalb des Staates Israel",
+        "Altes Testament",
+        "Judentum: Sonstiges",
+        "Geschichte der Sakralbaukunst",
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Kulturgeschichtlicher Hintergrund"
+      ]
+    },
+    {
+      "query": "Islam und muslimische Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        7,
+        2,
+        1,
+        0
+      ],
+      "search_results": [
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Strömungen, Glaubensrichtungen",
+        "Islam: Allgemeines",
+        "Islam: Sonstiges",
+        "Systematische Religionswissenschaft: Allgemeines, Vergleichende Religionswissenschaft",
+        "Geschichte der Sakralbaukunst",
+        "Koran"
+      ]
+    },
+    {
+      "query": "Hinduismus und indische Religionen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        0,
+        7,
+        6
+      ],
+      "search_results": [
+        "Indische Religionen: Allgemeines",
+        "Indische Religionen: Sonstiges",
+        "Sonstige Religionen",
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Hinduismus",
+        "Antike Religionen: Sonstiges",
+        "Theologie, Religionswissenschaft: Allgemeines",
+        "Systematische Religionswissenschaft: Allgemeines, Vergleichende Religionswissenschaft"
+      ]
+    },
+    {
+      "query": "Buddhismus und fernöstliche Philosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        7,
+        4,
+        6,
+        3
+      ],
+      "search_results": [
+        "Nichtwestliche Philosophie: Allgemeines",
+        "Sonstige Religionen",
+        "Theologie, Religionswissenschaft: Sonstiges",
+        "Indische Religionen: Sonstiges",
+        "Chinesische Religionen",
+        "Buddhismus",
+        "Indische Religionen: Allgemeines",
+        "Religionsphilosophie"
+      ]
+    },
+    {
+      "query": "Alte Geschichte und Antike",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        4,
+        7,
+        6,
+        2
+      ],
+      "search_results": [
+        "Klassische Archäologie",
+        "Alte Geschichte",
+        "Klassische Sprachen und Literaturen: Allgemeines",
+        "Geschichte: Allgemeines",
+        "Kunst der Antike: Allgemeines",
+        "Historische Hilfswissenschaften",
+        "Vor- und Frühgeschichte",
+        "Griechenland"
+      ]
+    },
+    {
+      "query": "Mittelalterliche Geschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2
+      ],
+      "search_results": [
+        "Europäische Geschichte in Mittelalter und Neuzeit: Allgemeines",
+        "Deutsche Geschichte bis 1499, Mittelalter <Deutsche Geschichte>",
+        "Deutsche Geschichte: Allgemeines",
+        "Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
+        "Geschichte: Allgemeines",
+        "Europäische Geschichte 1492-1789",
+        "Geschichte der deutschen Länder und Städte: Allgemeines",
+        "Europäische Geschichte 1914-1945"
+      ]
+    },
+    {
+      "query": "Frühneuzeit und Reformation",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "search_results": [
+        "Deutsche Geschichte 1500-1800",
+        "Kirchengeschichte, Dogmengeschichte",
+        "Europäische Geschichte 1492-1789",
+        "Deutsche Geschichte bis 1499, Mittelalter <Deutsche Geschichte>",
+        "Europäische Geschichte in Mittelalter und Neuzeit: Allgemeines",
+        "Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
+        "Deutsche Geschichte: Allgemeines",
+        "Theorie und Methoden der Geschichtswissenschaft"
+      ]
+    },
+    {
+      "query": "Neuere Geschichte und Zeitgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        7
+      ],
+      "search_results": [
+        "Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
+        "Geschichte: Allgemeines",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Europäische Geschichte in Mittelalter und Neuzeit: Allgemeines",
+        "Europäische Geschichte 1914-1945",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Europäische Geschichte 1492-1789",
+        "Politische Geschichte"
+      ]
+    },
+    {
+      "query": "Wirtschaftsgeschichte und Sozialgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        3,
+        5
+      ],
+      "search_results": [
+        "Wirtschaftsgeschichte",
+        "Geschichte der Volkswirtschaft",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Sozialgeschichte",
+        "Geschichte: Allgemeines",
+        "Deutsche Geschichte des 19. Jahrhunderts bis zur Gegenwart",
+        "Geschichte der deutschen Länder und Städte: Allgemeines"
+      ]
+    },
+    {
+      "query": "Kulturgeschichte und Geistesgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Kulturgeschichte",
+        "Geschichte der Geisteswissenschaften",
+        "Geschichte der Wissenschaft und Kultur",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Geschichte: Allgemeines",
+        "Geschichte der westlichen Philosophie: Allgemeines",
+        "Geisteswissenschaften allgemein: Allgemeines, Humanwissenschaften allgemein",
+        "Theorie und Methoden der Geschichtswissenschaft"
+      ]
+    },
+    {
+      "query": "Technikgeschichte und Wissenschaftsgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        6,
+        3,
+        2,
+        7
+      ],
+      "search_results": [
+        "Technikgeschichte",
+        "Geschichte des Informations- und Dokumentationswesens",
+        "Theorie und Methoden der Geschichtswissenschaft",
+        "Geschichte des Maschinenbaus, der Energie- und Fertigungstechnik",
+        "Technik allgemein: Sonstiges",
+        "Sonstige technische Fachgebiete",
+        "Geschichte der Wissenschaft und Kultur",
+        "Geschichte: Allgemeines"
+      ]
+    },
+    {
+      "query": "Sprachwissenschaft und Phonologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        0,
+        1,
+        3
+      ],
+      "search_results": [
+        "Sprach- und Literaturwissenschaft: Allgemeines",
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Indogermanische Sprachen und Literaturen: Allgemeines",
+        "Sprachwissenschaft: Sonstiges",
+        "Sprachwissenschaft: Allgemeines, Linguistik",
+        "Einzelne Sprachen und Literaturen allgemein",
+        "Sprache in Beziehung zu anderen Bereichen der Wissenschaft und Kultur",
+        "Deutsche Sprache und Literatur"
+      ]
+    },
+    {
+      "query": "Germanistische Linguistik und Germanistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        6,
+        1,
+        5
+      ],
+      "search_results": [
+        "Deutsche Sprache und Literatur",
+        "Germanische Sprachen und Literaturen: Allgemeines",
+        "Germanische Sprachen und Literaturen: Sonstiges",
+        "Indogermanische Sprachen und Literaturen: Allgemeines",
+        "Einzelne Sprachen und Literaturen allgemein",
+        "Sprach- und Literaturwissenschaft: Allgemeines",
+        "Deutsche Literatur",
+        "Deutsche Sprache"
+      ]
+    },
+    {
+      "query": "Literaturgattungen und Stilistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        7
+      ],
+      "search_results": [
+        "Literaturwissenschaft: Allgemeines",
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Literarische Gattungen: Allgemeines",
+        "Literaturtheorie: Allgemeines",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Literaturwissenschaft: Sonstiges",
+        "Deutsche Literatur",
+        "Literaturwissenschaftliche Richtungen"
+      ]
+    },
+    {
+      "query": "Textkritik und Editionswissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Textkritik, historische Kritik",
+        "Textkritik",
+        "Textkritik, historische Kritik",
+        "Handschriftenkunde: Allgemeines",
+        "Abendländische Handschriftenkunde: Sonstiges",
+        "Textkritik, historische Kritik",
+        "Kodikologie",
+        "Methoden und Techniken der geisteswissenschaftlichen Forschung"
+      ]
+    },
+    {
+      "query": "Rhetorik und Argumentationstheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        7,
+        0,
+        1,
+        3
+      ],
+      "search_results": [
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Politische Kommunikation",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Sprach- und Literaturwissenschaft: Allgemeines",
+        "Rhetorik, Stilistik, Rhetorik; Stilistik <Sprachwissenschaft>",
+        "Klassische Sprachen und Literaturen: Allgemeines",
+        "Geisteswissenschaften allgemein: Sonstiges",
+        "Stilistik, Rhetorik, Stilistik; Rhetorik <Literaturwissenschaft>"
+      ]
+    },
+    {
+      "query": "Pragmatik und Diskursanalyse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        0,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Sprach- und Literaturwissenschaft: Allgemeines",
+        "Sprachphilosophie",
+        "Philosophie und Theorie der Geisteswissenschaften",
+        "Sprache in Beziehung zu anderen Bereichen der Wissenschaft und Kultur",
+        "Soziolinguistik: Allgemeines",
+        "Pragmatik, Sprechakttheorie",
+        "Semantik"
+      ]
+    },
+    {
+      "query": "Mathematische Linguistik und Computerlinguistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Mathematische Linguistik",
+        "Sprachverarbeitung",
+        "Mathematik: Sonstiges",
+        "Theoretische Informatik",
+        "Theorie und Methoden der Sprach- und Literaturwissenschaft",
+        "Programmiersprachen",
+        "Informatik: Sonstiges",
+        "Sprache in Beziehung zu anderen Bereichen der Wissenschaft und Kultur"
+      ]
+    },
+    {
+      "query": "Kunstgeschichte und Epochen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        5,
+        3,
+        1,
+        4,
+        7
+      ],
+      "search_results": [
+        "Kunstgeschichte: Sonstiges",
+        "Europäische Kunst: Allgemeines",
+        "Kunst der Antike: Allgemeines",
+        "Kunstwissenschaften: Sonstiges",
+        "Geschichte der Malerei",
+        "Kunstwissenschaften: Allgemeines",
+        "Kunst der Antike: Sonstiges",
+        "Geschichte der Kunstwissenschaften"
+      ]
+    },
+    {
+      "query": "Bildende Kunst und Malerei",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        2,
+        5,
+        4,
+        1
+      ],
+      "search_results": [
+        "Kunsthandwerk, Kunstgewerbe: Allgemeines, Dekorative Kunst",
+        "Kunstwissenschaften: Sonstiges",
+        "Bildende Künstler",
+        "Malerei: Sonstiges",
+        "Kunstwissenschaften: Allgemeines",
+        "Kunstgeschichte: Sonstiges",
+        "Methoden und Techniken der Kunstwissenschaften",
+        "Mensch"
+      ]
+    },
+    {
+      "query": "Skulptur und Plastik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        7,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Kunsthandwerk, Kunstgewerbe: Allgemeines, Dekorative Kunst",
+        "Kunsthandwerk, Kunstgewerbe: Sonstiges",
+        "Sonstige Kunstformen",
+        "Kunstwissenschaften: Sonstiges",
+        "Geschichte des Kunsthandwerks und Kunstgewerbes",
+        "Bildende Künstler",
+        "Kunst der Antike: Allgemeines",
+        "Bildhauerei: Allgemeines, Plastik <Bildhauerei>, Skulptur"
+      ]
+    },
+    {
+      "query": "Grafik und Zeichnung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        4
+      ],
+      "search_results": [
+        "Graphik: Allgemeines",
+        "Graphische Technik, Graphisches Material, Graphische Technik, graphisches Material <Kunst>",
+        "Kunsthandwerk, Kunstgewerbe: Allgemeines, Dekorative Kunst",
+        "Geschichte der Zeichnung",
+        "Graphikdesign",
+        "Schriftkunst, Kalligraphie",
+        "Buchgestaltung",
+        "Graphik: Sonstiges"
+      ]
+    },
+    {
+      "query": "Architektur und Baukunst",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        5,
+        3
+      ],
+      "search_results": [
+        "Architektur: Sonstiges",
+        "Architektur: Allgemeines",
+        "Architektur, Bauen, Wohnen",
+        "Bauingenieurwesen, Bautechnik: Sonstiges",
+        "Schulbau, Bibliotheksbau, Museumsbau, Theaterbau, Schulbau, Bibliotheksbau, Museumsbau, Theaterbau",
+        "Bauwesen: Allgemeines",
+        "Bauwesen: Sonstiges",
+        "Ingenieurhochbau: Sonstiges"
+      ]
+    },
+    {
+      "query": "Theaterwissenschaft und Dramenanalyse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        5,
+        3,
+        6,
+        1,
+        4
+      ],
+      "search_results": [
+        "Theorie und Ästhetik des Theaters",
+        "Schauspielkunst",
+        "Theater, Film, Musik: Sonstiges",
+        "Theatergattungen, Theatersparten",
+        "Theater, Film, Musik: Allgemeines",
+        "Systematische Theaterwissenschaft",
+        "Theatergeschichte",
+        "Ausbildung, Beruf, Organisationen"
+      ]
+    },
+    {
+      "query": "Filmtheorie und Filmsemiotik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        5,
+        2,
+        6
+      ],
+      "search_results": [
+        "Theater, Film, Musik: Sonstiges",
+        "Systematische Filmwissenschaft, Film und andere Bereiche der Kultur",
+        "Film, Video",
+        "Filmgattungen, Filmsparten",
+        "Literatur in Beziehung zu anderen Bereichen von Wissenschaft und Kultur",
+        "Theater, Film, Musik: Allgemeines",
+        "Audiovisuelle Medien",
+        "Film: Sonstiges"
+      ]
+    },
+    {
+      "query": "Musikwissenschaft und Musikgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Theater, Film, Musik: Sonstiges",
+        "Systematische Musikwissenschaft: Allgemeines",
+        "Musik: Allgemeines",
+        "Musikformen, Musikgattungen: Allgemeines",
+        "Ausbildung, Beruf, Organisationen",
+        "Systematische Musikwissenschaft: Sonstiges",
+        "Musik: Sonstiges",
+        "Instrumentalmusik"
+      ]
+    },
+    {
+      "query": "Musiktheorie und Komposition",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        5,
+        2,
+        1
+      ],
+      "search_results": [
+        "Theater, Film, Musik: Sonstiges",
+        "Instrumentalmusik",
+        "Musikformen, Musikgattungen: Allgemeines",
+        "Musik: Sonstiges",
+        "Musik: Allgemeines",
+        "Systematische Musikwissenschaft: Allgemeines",
+        "Ausbildung, Beruf, Organisationen",
+        "Systematische Musikwissenschaft: Sonstiges"
+      ]
+    },
+    {
+      "query": "Filmgeschichte und Dokumentarfilm",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        1,
+        0,
+        5,
+        6
+      ],
+      "search_results": [
+        "Film, Video",
+        "Filmgattungen, Filmsparten",
+        "Filmgeschichte",
+        "Film: Sonstiges",
+        "Theater, Film, Musik: Sonstiges",
+        "Systematische Filmwissenschaft, Film und andere Bereiche der Kultur",
+        "Film: Allgemeines",
+        "Audiovisuelle Medien"
+      ]
+    },
+    {
+      "query": "Mathematik und Algebra",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        3,
+        0,
+        2
+      ],
+      "search_results": [
+        "Mathematik: Sonstiges",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Geschichte der Mathematik",
+        "Mathematik: Allgemeines",
+        "Bibliothekswesen, Dokumentationswesen: Allgemeines",
+        "Bibliothekskataloge",
+        "Ausbildung, Beruf, Organisationen",
+        "Katalogisierung, Bestandserschließung"
+      ]
+    },
+    {
+      "query": "Geometrie und Topologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        4,
+        4
+      ],
+      "search_results": [
+        "Mathematik: Sonstiges",
+        "Mathematik: Allgemeines",
+        "Geschichte der Mathematik",
+        "Philosophie und Wissenschaftstheorie der Mathematik",
+        "Geometrie: Sonstiges",
+        "Unterhaltungsmathematik",
+        "Mathematische Statistik",
+        "Numerische Mathematik"
+      ]
+    },
+    {
+      "query": "Analysis und Infinitesimalrechnung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        7,
+        4,
+        6
+      ],
+      "search_results": [
+        "Mathematik: Sonstiges",
+        "Geschichte der Mathematik",
+        "Mathematik: Allgemeines",
+        "Philosophie und Wissenschaftstheorie der Mathematik",
+        "Numerische Mathematik",
+        "Mathematische Statistik",
+        "Mathematische Methoden der Physik",
+        "Partielle Differentialgleichungen"
+      ]
+    },
+    {
+      "query": "Physik und Mechanik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        5,
+        6
+      ],
+      "search_results": [
+        "Technische Mechanik",
+        "Mechanik",
+        "Methoden und Techniken in den Naturwissenschaften",
+        "Sonstige technische Fachgebiete",
+        "Wissenschaftliche Bibliotheken",
+        "Technische Physik: Allgemeines",
+        "Theoretische Physik: Sonstiges",
+        "Naturwissenschaften in Beziehung zu anderen Fachgebieten"
+      ]
+    },
+    {
+      "query": "Optik und Wellenlehre",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        2,
+        6,
+        4
+      ],
+      "search_results": [
+        "Mathematische Methoden der Physik",
+        "Geschichte der Physik",
+        "Theoretische Physik: Sonstiges",
+        "Physikalische Einheiten, Physikalische Konstanten",
+        "Physik: Sonstiges",
+        "Philosophie der Physik",
+        "Technische Physik: Allgemeines",
+        "Technische Physik: Sonstiges"
+      ]
+    },
+    {
+      "query": "Chemie und Stoffumwandlungen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        7,
+        6
+      ],
+      "search_results": [
+        "Anorganische Chemie: Allgemeines",
+        "Chemisches Labor, chemische Methoden",
+        "Organische Chemie: Allgemeines",
+        "Chemie: Sonstiges",
+        "Philosophie der Chemie",
+        "Geschichte der Chemie",
+        "Chemische Technologien: Sonstiges",
+        "Analytische Chemie: Allgemeines"
+      ]
+    },
+    {
+      "query": "Mathematische Statistik und Wahrscheinlichkeitsrechnung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        3
+      ],
+      "search_results": [
+        "Mathematische Statistik",
+        "Mathematik: Sonstiges",
+        "Wahrscheinlichkeitsrechnung",
+        "Medizinische Mathematik, medizinische Statistik",
+        "Mathematik: Allgemeines",
+        "Mathematische Chemie, chemische Statistik",
+        "Geschichte der Mathematik",
+        "Mathematische Linguistik"
+      ]
+    },
+    {
+      "query": "Geographie und Kartographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        6,
+        0,
+        5,
+        4,
+        7
+      ],
+      "search_results": [
+        "Topographische Kartographie",
+        "Methoden und Techniken der Geographie und Anthropogeographie",
+        "Kartographie: Allgemeines",
+        "Kartographie: Sonstiges",
+        "Geschichte der Kartographie",
+        "Thematische Kartographie",
+        "Geographie, Anthropogeographie: Allgemeines",
+        "Geoinformationssysteme"
+      ]
+    },
+    {
+      "query": "Geologie und Mineralogie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        7,
+        4,
+        1
+      ],
+      "search_results": [
+        "Geowissenschaften: Allgemeines",
+        "Methoden und Techniken der Geowissenschaften",
+        "Geologie: Allgemeines",
+        "Geowissenschaften: Sonstiges",
+        "Geologie mineralischer Rohstoffe: Sonstiges",
+        "Geologie: Sonstiges",
+        "Naturgeschichte",
+        "Geologie mineralischer Rohstoffe: Allgemeines, Lagerstättenkunde"
+      ]
+    },
+    {
+      "query": "Meteorologie und Klimatologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        3,
+        0,
+        7
+      ],
+      "search_results": [
+        "Atmosphäre",
+        "Methoden und Techniken in den Naturwissenschaften",
+        "Naturwissenschaften allgemein: Sonstiges",
+        "Meteorologie: Sonstiges",
+        "Meteorologie: Allgemeines",
+        "Naturwissenschaften in Beziehung zu anderen Fachgebieten",
+        "Naturgeschichte",
+        "Natürliche Umwelt"
+      ]
+    },
+    {
+      "query": "Astronomie und Raumfahrt",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Astronomische Beobachtung, Observatorien, Planetarien",
+        "Himmelsmechanik, Astrodynamik",
+        "Philosophie und Theorie der Astronomie",
+        "Astronomie: Sonstiges",
+        "Praktische Astronomie: Sonstiges",
+        "Astronomische Instrumente",
+        "Sonnensystem: Allgemeines",
+        "Praktische Astronomie: Allgemeines"
+      ]
+    },
+    {
+      "query": "Umweltforschung und Ökologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        1,
+        0,
+        5,
+        7,
+        6
+      ],
+      "search_results": [
+        "Natürliche Umwelt",
+        "Umweltforschung, Umweltschutz: Sonstiges",
+        "Umweltforschung, Umweltschutz: Allgemeines",
+        "Naturwissenschaften allgemein: Sonstiges",
+        "Naturgeschichte",
+        "Natürliche Ressourcen",
+        "Naturwissenschaften in Beziehung zu anderen Fachgebieten",
+        "Naturschutz"
+      ]
+    },
+    {
+      "query": "Geophysik und Geochemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Methoden und Techniken der Geowissenschaften",
+        "Geowissenschaften: Sonstiges",
+        "Geowissenschaften: Allgemeines",
+        "Erde",
+        "Geologie: Sonstiges",
+        "Physische Geographie, Physiogeographie, Physiographie, Physikalische Geographie",
+        "Geophysik: Sonstiges",
+        "Geologie: Allgemeines"
+      ]
+    },
+    {
+      "query": "Molekularbiologie und Genetik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        6,
+        0,
+        1,
+        5
+      ],
+      "search_results": [
+        "Biologie: Sonstiges",
+        "Methoden und Techniken der Biologie",
+        "Molekularbiologie",
+        "Wissenschaftliche Bibliotheken",
+        "Naturwissenschaften allgemein: Sonstiges",
+        "Theoretische Biologie",
+        "Biologie: Allgemeines",
+        "Methoden und Techniken in den Naturwissenschaften"
+      ]
+    },
+    {
+      "query": "Botanik und Pflanzensoziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        3,
+        2,
+        4,
+        1,
+        7
+      ],
+      "search_results": [
+        "Naturgeschichte",
+        "Botanische Gärten, Herbarien",
+        "Spezielle Botanik: Allgemeines",
+        "Botanik: Allgemeines",
+        "Botanik: Sonstiges",
+        "Pflanzengeographie, Pflanzenökologie, Pflanzensoziologie",
+        "Pharmazeutische Biologie",
+        "Natürliche Umwelt"
+      ]
+    },
+    {
+      "query": "Zoologie und Tierphysiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        2,
+        3,
+        1,
+        0
+      ],
+      "search_results": [
+        "Spezielle Zoologie: Sonstiges",
+        "Spezielle Zoologie: Allgemeines",
+        "Zoologie: Allgemeines",
+        "Zoologie: Sonstiges",
+        "Naturgeschichte",
+        "Tierphysiologie",
+        "Spezielle Biologie, Systematische Biologie",
+        "Tiergärten, Aquarien, Terrarien"
+      ]
+    },
+    {
+      "query": "Ökologie und Umweltschutz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        5,
+        1,
+        0,
+        3,
+        7
+      ],
+      "search_results": [
+        "Natürliche Umwelt",
+        "Naturschutz",
+        "Naturgeschichte",
+        "Natürliche Ressourcen",
+        "Naturwissenschaften allgemein: Sonstiges",
+        "Umweltforschung, Umweltschutz: Sonstiges",
+        "Umweltforschung, Umweltschutz: Allgemeines",
+        "Naturschutzrecht, Landschaftsschutzrecht, Umweltrecht"
+      ]
+    },
+    {
+      "query": "Anatomie und Physiologie des Menschen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        6,
+        0,
+        3,
+        4
+      ],
+      "search_results": [
+        "Medizinische Grundlagenfächer: Allgemeines",
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Medizin: Sonstiges",
+        "Medizin: Allgemeines",
+        "Methoden und Techniken der Medizin",
+        "Medizinische Spezialfächer: Sonstiges",
+        "Anatomie",
+        "Medizintechnik"
+      ]
+    },
+    {
+      "query": "Innere Medizin und Kardiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Medizinische Spezialfächer: Sonstiges",
+        "Innere Medizin",
+        "Medizinische Spezialfächer: Allgemeines",
+        "Spezialbibliotheken",
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Medizin: Sonstiges",
+        "Methoden und Techniken der Medizin",
+        "Medizin: Allgemeines"
+      ]
+    },
+    {
+      "query": "Chirurgie und Anästhesiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        5,
+        2,
+        0,
+        4
+      ],
+      "search_results": [
+        "Medizinische Spezialfächer: Sonstiges",
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Methoden und Techniken der Medizin",
+        "Medizin: Sonstiges",
+        "Medizin: Allgemeines",
+        "Medizinische Spezialfächer: Allgemeines",
+        "Innere Medizin",
+        "Tiermedizin: Sonstiges"
+      ]
+    },
+    {
+      "query": "Psychiatrie und Psychotherapie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        0,
+        1,
+        7,
+        6
+      ],
+      "search_results": [
+        "Klinische Psychologie",
+        "Medizinische Psychologie",
+        "Psychologie: Sonstiges",
+        "Medizinische Spezialfächer: Sonstiges",
+        "Psychiatrie, Psychopathologie",
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Behandlung, Rehabilitation: Allgemeines",
+        "Angewandte Psychologie"
+      ]
+    },
+    {
+      "query": "Pharmakologie und Toxikologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        6,
+        7,
+        1,
+        2
+      ],
+      "search_results": [
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Pharmazeutische Biologie",
+        "Medizin: Sonstiges",
+        "Medizinische Spezialfächer: Sonstiges",
+        "Pharmakologie",
+        "Methoden und Techniken der Medizin",
+        "Veterinärpharmakologie, Veterinärtoxikologie",
+        "Medizinische Grundlagenfächer: Allgemeines"
+      ]
+    },
+    {
+      "query": "Dermatologie und Venerologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        3,
+        2,
+        7,
+        6
+      ],
+      "search_results": [
+        "Medizinische Spezialfächer: Sonstiges",
+        "Medizinische Grundlagenfächer: Sonstiges",
+        "Medizin: Sonstiges",
+        "Medizinische Spezialfächer: Allgemeines",
+        "Innere Medizin",
+        "Dermatologie",
+        "Methoden und Techniken der Medizin",
+        "Medizin: Allgemeines"
+      ]
+    },
+    {
+      "query": "Maschinenbau und Fertigungstechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        5,
+        4,
+        0,
+        7
+      ],
+      "search_results": [
+        "Technische Mechanik",
+        "Maschinenbau, Energietechnik, Fertigungstechnik: Allgemeines",
+        "Maschinenbau, Energietechnik, Fertigungstechnik: Sonstiges",
+        "Technik allgemein: Sonstiges",
+        "Werkstoffbearbeitung, Werkzeugmaschinen: Allgemeines",
+        "Fertigungstechnik: Sonstiges",
+        "Technik der Verkehrsmittel, Transporttechnik: Allgemeines",
+        "Mechanische Verfahrenstechnik"
+      ]
+    },
+    {
+      "query": "Elektrotechnik und Nachrichtentechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        6,
+        2,
+        3
+      ],
+      "search_results": [
+        "Elektrotechnik: Sonstiges",
+        "Technik allgemein: Sonstiges",
+        "Elektrische Energietechnik: Sonstiges",
+        "Elektrische Maschinen und Antriebe",
+        "Sonstige technische Fachgebiete",
+        "Elektrotechnik: Allgemeines",
+        "Methoden und Techniken der Elektrotechnik",
+        "Elektrische Energietechnik: Allgemeines"
+      ]
+    },
+    {
+      "query": "Bauwesen und Architektur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        7,
+        4,
+        5
+      ],
+      "search_results": [
+        "Bauingenieurwesen, Bautechnik: Sonstiges",
+        "Bauwesen: Allgemeines",
+        "Architektur, Bauen, Wohnen",
+        "Ingenieurhochbau: Sonstiges",
+        "Bauwesen: Sonstiges",
+        "Architektur: Sonstiges",
+        "Schulbau, Bibliotheksbau, Museumsbau, Theaterbau, Schulbau, Bibliotheksbau, Museumsbau, Theaterbau",
+        "Baukonstruktion"
+      ]
+    },
+    {
+      "query": "Chemische Verfahrenstechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        7,
+        4,
+        1,
+        2
+      ],
+      "search_results": [
+        "Chemische Prozesstechnik",
+        "Chemische Technik: Sonstiges",
+        "Chemische Technologien: Sonstiges",
+        "Chemische Reaktionstechnik, Unit processes",
+        "Chemische Technik: Allgemeines",
+        "Geschichte der Chemischen Technik",
+        "Technik allgemein: Sonstiges",
+        "Chemische Betriebstechnik"
+      ]
+    },
+    {
+      "query": "Umwelttechnik und Recycling",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        1
+      ],
+      "search_results": [
+        "Umwelttechnik: Allgemeines, Technischer Umweltschutz",
+        "Umwelttechnik: Sonstiges",
+        "Abfallwirtschaft",
+        "Technik allgemein: Sonstiges",
+        "Umweltforschung, Umweltschutz: Sonstiges",
+        "Sonstige technische Fachgebiete",
+        "Technik der Verkehrsmittel, Verkehrswesen: Sonstiges",
+        "Bauingenieurwesen, Bautechnik: Sonstiges"
+      ]
+    },
+    {
+      "query": "Kraftfahrzeugtechnik und Verkehr",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        2,
+        0,
+        6,
+        7
+      ],
+      "search_results": [
+        "Technik der Verkehrsmittel, Transporttechnik: Allgemeines",
+        "Technik der Verkehrsmittel, Verkehrswesen: Sonstiges",
+        "Technik der Verkehrsmittel, Verkehrswesen: Allgemeines",
+        "Straßenfahrzeugtechnik",
+        "Technik der Verkehrsmittel, Transporttechnik: Sonstiges",
+        "Technik allgemein: Sonstiges",
+        "Fahrzeugführung, Fahrtechnik",
+        "Technische Mechanik"
+      ]
+    },
+    {
+      "query": "Bergbau und Hüttenwesen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Erzbergbau",
+        "Geologie der Industrieminerale",
+        "Hüttenwesen",
+        "Technik allgemein: Sonstiges",
+        "Sonstige technische Fachgebiete",
+        "Geologie der Erze",
+        "Geschichte des Bergbaus",
+        "Technikgeschichte"
+      ]
+    },
+    {
+      "query": "Energietechnik und Kraftwerkstechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        1,
+        2,
+        3,
+        5,
+        0
+      ],
+      "search_results": [
+        "Maschinenbau, Energietechnik, Fertigungstechnik: Sonstiges",
+        "Energietechnik: Sonstiges",
+        "Thermische Energieerzeugung, Wärmetechnik",
+        "Elektrische Energietechnik: Sonstiges",
+        "Technik allgemein: Sonstiges",
+        "Maschinenbau, Energietechnik, Fertigungstechnik: Allgemeines",
+        "Kraftwerkstechnik",
+        "Kerntechnik, Reaktortechnik"
+      ]
+    },
+    {
+      "query": "Soziologie und Sozialstruktur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        4,
+        0,
+        6,
+        7
+      ],
+      "search_results": [
+        "Sozialwissenschaften allgemein: Sonstiges",
+        "Soziologie: Sonstiges",
+        "Gesellschaft",
+        "Soziale Fragen, soziale Konflikte: Allgemeines",
+        "Sozialwissenschaften allgemein: Allgemeines",
+        "Einzelne soziale Gruppen, Außenseiter, Randgruppen",
+        "Soziale Prozesse: Allgemeines",
+        "Soziale Gruppen: Allgemeines"
+      ]
+    },
+    {
+      "query": "Politikwissenschaft und Politische Theorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        0,
+        7,
+        1,
+        2,
+        5
+      ],
+      "search_results": [
+        "Staatslehre",
+        "Politische Organisationen: Allgemeines",
+        "Politische Parteien",
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Theorie und Methoden der Politologie",
+        "Politologie: Sonstiges",
+        "Öffentliche Verwaltung: Allgemeines",
+        "Politische Systeme: Allgemeines, Politische Ordnungen"
+      ]
+    },
+    {
+      "query": "Volkswirtschaft und Betriebswirtschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        5,
+        0,
+        6,
+        3,
+        4
+      ],
+      "search_results": [
+        "Betriebswirtschaft: Sonstiges",
+        "Wirtschaftsrecht",
+        "Betriebswirtschaft: Allgemeines",
+        "Methoden und Techniken der Betriebswirtschaft",
+        "Philosophie und Theorie der Betriebswirtschaft",
+        "Volkswirtschaft: Sonstiges",
+        "Methoden und Techniken der Volkswirtschaft",
+        "Wirtschaftsverfassung, Wirtschaftsverwaltung"
+      ]
+    },
+    {
+      "query": "Rechtswissenschaft und Jurisprudenz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        2,
+        0,
+        3,
+        6
+      ],
+      "search_results": [
+        "Recht: Sonstiges",
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Rechtstheorie, Rechtsmethodik, Allgemeine Rechtslehre",
+        "Rechtsgeschichte",
+        "Recht: Allgemeines, Rechtswissenschaft",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines",
+        "Recht einzelner Länder, Gebiete und Völker",
+        "Öffentliches Recht: Allgemeines"
+      ]
+    },
+    {
+      "query": "Verwaltungswissenschaft und öffentliche Verwaltung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        1,
+        7,
+        5,
+        6
+      ],
+      "search_results": [
+        "Vergleichende Verwaltungslehre",
+        "Verwaltungslehre, Verwaltungswissenschaft: Sonstiges",
+        "Verwaltungslehre, Verwaltungswissenschaft: Allgemeines",
+        "Öffentliche Verwaltung: Allgemeines",
+        "Bibliotheksverwaltung",
+        "Philosophie und Theorie der Verwaltungslehre",
+        "Methoden und Techniken der Verwaltungslehre",
+        "Öffentliche Verwaltung: Sonstiges"
+      ]
+    },
+    {
+      "query": "Ethnologie und Kulturanthropologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Ethnographie, Beschreibende Völkerkunde",
+        "Sozialethnologie: Sonstiges",
+        "Ethnologie: Sonstiges",
+        "Regionale Ethnologie",
+        "Geschichte, Theorie und Methoden der Volkskunde",
+        "Sozialwissenschaften allgemein: Sonstiges",
+        "Kultursoziologie: Sonstiges",
+        "Volkskunde: Sonstiges"
+      ]
+    },
+    {
+      "query": "Psychologie und Entwicklungspsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        6,
+        2,
+        3,
+        3,
+        5
+      ],
+      "search_results": [
+        "Pädagogische Psychologie, Unterrichtspsychologie, Schulpsychologie: Allgemeines",
+        "Pädagogische Psychologie, Unterrichtspsychologie, Schulpsychologie: Sonstiges",
+        "Psychologie: Sonstiges",
+        "Geschichte der Psychologie",
+        "Psychologie: Allgemeines",
+        "Humanistische Psychologie",
+        "Entwicklungspsychologie: Allgemeines",
+        "Allgemeine Psychologie: Sonstiges"
+      ]
+    },
+    {
+      "query": "Pädagogik und Bildungsforschung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        0,
+        5,
+        7,
+        1,
+        4
+      ],
+      "search_results": [
+        "Bildungssysteme, Bildungsinstitutionen: Allgemeines",
+        "Pädagogische Psychologie, Unterrichtspsychologie, Schulpsychologie: Allgemeines",
+        "Bildungswesen: Sonstiges",
+        "Schulwesen, Hochschulwesen, Ausbildungswesen: Sonstiges",
+        "Pädagogische Psychologie, Unterrichtspsychologie, Schulpsychologie: Sonstiges",
+        "Philosophie und Theorie des Bildungswesens",
+        "Bildungswesen: Allgemeines",
+        "Teilgebiete der Pädagogik: Sonstiges"
+      ]
+    },
+    {
+      "query": "Sozialarbeit und Sozialpädagogik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        3,
+        5,
+        1,
+        0
+      ],
+      "search_results": [
+        "Sozialarbeit: Sonstiges",
+        "Sozialpädagogik, Sozialarbeit: Sonstiges",
+        "Ausbildung, Beruf, Organisationen",
+        "Sozialarbeit: Allgemeines",
+        "Ausbildung, Beruf, Organisationen",
+        "Methoden und Techniken der Sozialpädagogik und Sozialarbeit",
+        "Sozialwissenschaften allgemein: Sonstiges",
+        "Sozialpädagogik, Sozialarbeit: Allgemeines, Soziale Arbeit"
+      ]
+    },
+    {
+      "query": "Verfassungsrecht und Grundrechte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        2,
+        5
+      ],
+      "search_results": [
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Staatsrecht, Verfassungsrecht: Sonstiges",
+        "Staatslehre",
+        "Grundrechte",
+        "Staat und Bürger",
+        "Öffentliches Recht: Allgemeines",
+        "Recht einzelner Länder, Gebiete und Völker",
+        "Recht: Sonstiges"
+      ]
+    },
+    {
+      "query": "Strafrecht und Strafprozess",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        1,
+        0,
+        3
+      ],
+      "search_results": [
+        "Strafrecht: Besonderer Teil",
+        "Strafrecht: Allgemeiner Teil",
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Strafrecht: Sonstiges",
+        "Strafprozessrecht",
+        "Recht: Sonstiges",
+        "Rechtstheorie, Rechtsmethodik, Allgemeine Rechtslehre",
+        "Rechtsgeschichte"
+      ]
+    },
+    {
+      "query": "Bürgerliches Recht und Schuldrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        4,
+        3,
+        2
+      ],
+      "search_results": [
+        "Internationales Privatrecht",
+        "Schuldrecht, Obligationenrecht",
+        "Wirtschaftsrecht",
+        "Privatrecht: Allgemeines",
+        "Allgemeiner Teil des BGB",
+        "Recht: Sonstiges",
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Recht einzelner Länder, Gebiete und Völker"
+      ]
+    },
+    {
+      "query": "Internationales Recht und Völkerrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        2,
+        0,
+        7,
+        1
+      ],
+      "search_results": [
+        "Völkerrechtliche Sondergebiete",
+        "Internationales Privatrecht",
+        "Völkerrecht: Sonstiges",
+        "Recht: Sonstiges",
+        "Staatsrecht, Verfassungsrecht: Allgemeines",
+        "Völkerrecht: Allgemeines",
+        "Recht einzelner Länder, Gebiete und Völker",
+        "Recht der internationalen Organisationen"
+      ]
+    },
+    {
+      "query": "Wirtschaftspolitik und Konjunkturtheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "search_results": [
+        "Theorie der Wirtschaftspolitik, Wohlfahrtstheorie",
+        "Volkswirtschaft: Allgemeines, Nationalökonomie: Allgemeines",
+        "Volkswirtschaft: Sonstiges",
+        "Methoden und Techniken der Volkswirtschaft",
+        "Wirtschaftstheorie: Sonstiges",
+        "Sozialistische Wirtschaftslehre, Marxistische Wirtschaftslehre, Marxistisch-Leninistische Politische Ökonomie",
+        "Wirtschaftsverfassung, Wirtschaftsverwaltung",
+        "Geschichte der Volkswirtschaft"
+      ]
+    },
+    {
+      "query": "Internationale Beziehungen und Diplomatie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        5,
+        2,
+        4,
+        6
+      ],
+      "search_results": [
+        "Internationale Beziehungen: Allgemeines",
+        "Internationale Beziehungen: Sonstiges",
+        "Internationale Konflikte: Sonstiges",
+        "Staatslehre",
+        "Politische Geschichte",
+        "Außenpolitik, Internationale Politik",
+        "Politische Geographie",
+        "Innere Beziehungen des Staates: Allgemeines"
+      ]
+    },
+    {
+      "query": "Finanzwissenschaft und Steuerrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        5,
+        1,
+        0
+      ],
+      "search_results": [
+        "Wirtschaftsrecht",
+        "Haushaltsrecht, Finanzrecht",
+        "Wirtschaftsverfassung, Wirtschaftsverwaltung",
+        "Finanzwissenschaft, Öffentliche Finanzwirtschaft, Finanzsystem, Finanzwesen",
+        "Internationales Wirtschaftsrecht",
+        "Steuerrecht",
+        "Wirtschaftsgeschichte",
+        "Volkswirtschaft: Sonstiges"
+      ]
+    },
+    {
+      "query": "Sportwissenschaft und Trainingsmethoden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2,
+        6
+      ],
+      "search_results": [
+        "Ausbildung, Beruf, Organisationen",
+        "Sport, Sportwissenschaft: Allgemeines",
+        "Bewegungserziehung",
+        "Sportarten: Allgemeines",
+        "Sport, Freizeit, Erholung: Sonstiges",
+        "Sportspiele",
+        "Sport, Sportwissenschaft: Sonstiges",
+        "Sport für besondere Zielgruppen"
+      ]
+    },
+    {
+      "query": "Hauswirtschaft und Ernährungswissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        4,
+        5,
+        6,
+        2,
+        3
+      ],
+      "search_results": [
+        "Hauswirtschaft: Sonstiges",
+        "Hauswirtschaft: Allgemeines",
+        "Geschichte der Hauswirtschaftswissenschaft",
+        "Ausbildung, Beruf, Organisationen",
+        "Ernährung, Nahrungszubereitung",
+        "Ernährung, Nahrungsmittelzubereitung",
+        "Wirtschaftslehre des Haushalts",
+        "Wohnung"
+      ]
+    },
+    {
+      "query": "Landwirtschaft und Forstwirtschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Land- und Forstwirtschaft: Sonstiges",
+        "Land- und Forstwirtschaft: Allgemeines",
+        "Technologie land- und forstwirtschaftlicher Chemikalien",
+        "Methoden und Techniken der Land- und Forstwirtschaft",
+        "Landtechnik, Forsttechnik",
+        "Land- und forstwirtschaftliche Betriebslehre",
+        "Geschichte der Land- und Forstwirtschaft",
+        "Bibliotheksarten, IuD-Einrichtungen: Allgemeines"
+      ]
+    },
+    {
+      "query": "Fotografie und Medienproduktion",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        6,
+        4,
+        7,
+        1,
+        2
+      ],
+      "search_results": [
+        "Photographische Technik, photographisches Material",
+        "Geschichte der Photographie",
+        "Graphische Technik",
+        "Photographie: Sonstiges",
+        "Audiovisuelle Medien",
+        "Graphische Technik, Graphisches Material, Graphische Technik, graphisches Material <Kunst>",
+        "Photographie: Allgemeines",
+        "Mediale Kunst"
+      ]
+    },
+    {
+      "query": "Industrielle Chemie und Materialwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        5,
+        7,
+        0,
+        1
+      ],
+      "search_results": [
+        "Chemische Technik: Sonstiges",
+        "Chemische Technologien: Sonstiges",
+        "Chemische Prozesstechnik",
+        "Sonstige technische Fachgebiete",
+        "Technik allgemein: Sonstiges",
+        "Chemische Technologien: Allgemeines",
+        "Technologie land- und forstwirtschaftlicher Chemikalien",
+        "Chemische Technik: Allgemeines"
+      ]
+    },
+    {
+      "query": "Tiermedizin und Veterinärmedizin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        3,
+        1,
+        5,
+        6
+      ],
+      "search_results": [
+        "Klinische Tiermedizin",
+        "Tiermedizin: Sonstiges",
+        "Spezielle Zoologie: Sonstiges",
+        "Methoden und Techniken der Tiermedizin",
+        "Tiermedizinische Grundlagenfächer",
+        "Philosophie und Theorie der Tiermedizin",
+        "Geschichte der Tiermedizin",
+        "Tierproduktion, Tierhaltung: Sonstiges"
+      ]
+    }
+  ],
+  "aggregate": {
+    "overall_acceptance_rate": 0.6063,
+    "hit_rate": 1.0,
+    "mean_relevant_results": 4.85,
+    "quality_tier_distribution": {
+      "FAIL": 0,
+      "POOR": 0,
+      "OK": 10,
+      "GOOD": 33,
+      "EXCELLENT": 84
+    },
+    "cumulative_quality": {
+      "at_least_1": 1.0,
+      "at_least_2": 1.0,
+      "at_least_3": 0.9843,
+      "at_least_4": 0.9213,
+      "at_least_5": 0.6614,
+      "at_least_6": 0.2835,
+      "at_least_7": 0.0,
+      "at_least_8": 0.0
+    },
+    "position_hit_rates": {
+      "position_1": 0.8346456692913385,
+      "position_2": 0.6850393700787402,
+      "position_3": 0.6535433070866141,
+      "position_4": 0.5748031496062992,
+      "position_5": 0.5590551181102362,
+      "position_6": 0.5118110236220472,
+      "position_7": 0.49606299212598426,
+      "position_8": 0.48031496062992124
+    }
+  }
+}

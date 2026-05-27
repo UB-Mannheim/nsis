@@ -1,0 +1,137 @@
+================================================================================
+API ACCESS TEST RESULTS
+================================================================================
+
+Test Configuration:
+  Base URL:            http://localhost:8083
+  Concurrent accesses: 3
+  Repetitions:         3
+  Request timeout:     120.0s
+  Test data entries:   10
+
+--------------------------------------------------------------------------------
+OVERALL RESULTS
+--------------------------------------------------------------------------------
+Total accesses:       9
+Successful accesses:  9
+Failed accesses:      0
+Success rate:         100.0%
+
+--------------------------------------------------------------------------------
+ENDPOINT TIMINGS (in milliseconds)
+--------------------------------------------------------------------------------
+
+  /api/v1/query-transformation
+    Count:   9
+    Min:     3946.64ms
+    Max:     10499.15ms
+    Mean:    6615.65ms
+    Median:  5909.56ms
+    StdDev:  2009.52ms
+
+  /api/v1/perform-vufind-search
+    Count:   9
+    Min:     2135.06ms
+    Max:     5273.02ms
+    Mean:    3724.94ms
+    Median:  3765.59ms
+    StdDev:  968.44ms
+
+  /api/v1/query-judge-quality
+    Count:   9
+    Min:     850.94ms
+    Max:     1181.88ms
+    Mean:    1006.83ms
+    Median:  989.45ms
+    StdDev:  112.51ms
+
+  /api/v1/query-expansion
+    Count:   9
+    Min:     690.85ms
+    Max:     1415.20ms
+    Mean:    982.10ms
+    Median:  805.60ms
+    StdDev:  284.63ms
+
+  research-compass
+    Count:   9
+    Min:     14.30ms
+    Max:     71.55ms
+    Mean:    33.07ms
+    Median:  34.36ms
+    StdDev:  17.16ms
+
+  static/research-compass.js
+    Count:   9
+    Min:     18.06ms
+    Max:     36.76ms
+    Mean:    23.30ms
+    Median:  22.80ms
+    StdDev:  5.43ms
+
+  static/research-compass.css
+    Count:   9
+    Min:     16.66ms
+    Max:     28.66ms
+    Mean:    22.64ms
+    Median:  22.60ms
+    StdDev:  3.03ms
+
+  static/research-compass-settings.js
+    Count:   9
+    Min:     15.38ms
+    Max:     35.53ms
+    Mean:    22.21ms
+    Median:  21.19ms
+    StdDev:  6.75ms
+
+--------------------------------------------------------------------------------
+PER-ACCESS TOTAL TIMES
+--------------------------------------------------------------------------------
+
+  Estimated mean total time per access: ~12430.75ms
+
+--------------------------------------------------------------------------------
+LLM COST STATISTICS (USD)
+--------------------------------------------------------------------------------
+
+  Total LLM cost:          $0.026018
+  Total LLM calls:         54
+  Total accesses:          9
+  Approx cost per access:  $0.002891
+
+  Cost by function:
+    extract_facettes
+      Count:     9
+      Mean:      $0.001531
+      Min:       $0.001109
+      Max:       $0.002293
+      Total:     $0.013783
+    assess_query_quality
+      Count:     9
+      Mean:      $0.000548
+      Min:       $0.000356
+      Max:       $0.000650
+      Total:     $0.004928
+    rerank_search_results
+      Count:     18
+      Mean:      $0.000192
+      Min:       $0.000138
+      Max:       $0.000259
+      Total:     $0.003456
+    perform_query_expansion
+      Count:     9
+      Mean:      $0.000328
+      Min:       $0.000305
+      Max:       $0.000365
+      Total:     $0.002956
+    analyze_search_intent
+      Count:     9
+      Mean:      $0.000099
+      Min:       $0.000099
+      Max:       $0.000100
+      Total:     $0.000895
+
+================================================================================
+Test completed at: 2026-05-19T00:53:15.870694
+================================================================================

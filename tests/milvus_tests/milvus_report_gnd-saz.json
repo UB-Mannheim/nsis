@@ -1,0 +1,8561 @@
+{
+  "test_timestamp": "2026-05-14T16:09:03.273572+00:00",
+  "database": "gnd-saz",
+  "total_queries": 318,
+  "nprobe_value": 1,
+  "top_k": 8,
+  "results": [
+    {
+      "query": "Mathematik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Mathematik",
+        "Mathematik",
+        "Mathemat",
+        "Mathematischer Begriff",
+        "Mathematische Formelsammlung",
+        "Mathematisierung",
+        "Mathematisches Objekt",
+        "Mathematische Methode"
+      ]
+    },
+    {
+      "query": "Algebra",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        2
+      ],
+      "search_results": [
+        "Algebra",
+        "Algebraisches Objekt",
+        "Mengenalgebra",
+        "Analytische Algebra",
+        "Affine Algebra",
+        "Albert-Algebra",
+        "Bewertete Algebra",
+        "Algebraischer Kalkül"
+      ]
+    },
+    {
+      "query": "Geometrie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Geometrie",
+        "Geometrie",
+        "Dreidimensionale Geometrie",
+        "Lineare Geometrie",
+        "Metrische Geometrie",
+        "Euklidische Geometrie",
+        "Geometrie due sunt partes principales",
+        "Geometrische Vorstellung"
+      ]
+    },
+    {
+      "query": "Analysis",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        5,
+        1
+      ],
+      "search_results": [
+        "Datenanalyse",
+        "Funktionsanalyse",
+        "Funktionsanalyse",
+        "Funktionsanalyse",
+        "Funktionsanalyse",
+        "Suchfeldanalyse",
+        "Statistische Analyse",
+        "Inhaltsanalyse"
+      ]
+    },
+    {
+      "query": "Stochastik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Stochastik",
+        "Stochastischer Prozess",
+        "Stochastische Abhängigkeit",
+        "Stochastisches Feld",
+        "Stochastische Konvergenz",
+        "Stochastische Analysis",
+        "Stochastische Optimierung",
+        "Stochastische Ordnung"
+      ]
+    },
+    {
+      "query": "Topologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        6
+      ],
+      "search_results": [
+        "Topologie",
+        "Topologie",
+        "Topologische Struktur",
+        "Topologischer Raum",
+        "Topologische Geometrie",
+        "Mengentheoretische Topologie",
+        "Topologische Mannigfaltigkeit",
+        "Nonstandard-Topologie"
+      ]
+    },
+    {
+      "query": "Zahlentheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        7,
+        4,
+        3,
+        6
+      ],
+      "search_results": [
+        "Zahlentheorie",
+        "Elementare Zahlentheorie",
+        "Dedekind-Zahlentheorie",
+        "Multiplikative Zahlentheorie",
+        "Analytische Zahlentheorie",
+        "Additive Primzahltheorie",
+        "Additive Zahlentheorie",
+        "Algebraische Zahlentheorie"
+      ]
+    },
+    {
+      "query": "Kombinatorik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        4,
+        3,
+        2
+      ],
+      "search_results": [
+        "Kombinatorik",
+        "Abzählende Kombinatorik",
+        "Kombinatorische Wahrscheinlichkeitstheorie",
+        "Kombinatorische Struktur",
+        "Kombinatorische Analysis",
+        "Abzähltheorie",
+        "Kombinatorische Graphentheorie",
+        "Kombinatorische Zahlentheorie"
+      ]
+    },
+    {
+      "query": "Mathematische Logik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        3,
+        1,
+        2,
+        7
+      ],
+      "search_results": [
+        "Mathematische Logik",
+        "Logikkalkül",
+        "Algebraisierbare Logik",
+        "Metamathematik",
+        "Terminologische Logik",
+        "Quantitative Logik",
+        "Aussagenlogik",
+        "Infinitäre Logik"
+      ]
+    },
+    {
+      "query": "Näherungsrechnung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        3,
+        7
+      ],
+      "search_results": [
+        "Näherungsrechnung",
+        "Näherungsverfahren",
+        "Näherungswert",
+        "Näherungsfunktion",
+        "Nichtquadratische Näherungsfunktion",
+        "Approximation",
+        "Born-Näherung",
+        "Differenzenapproximation"
+      ]
+    },
+    {
+      "query": "Natürliche Zahl",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        5,
+        6,
+        7,
+        2
+      ],
+      "search_results": [
+        "Natürliche Zahl",
+        "Naturalkennziffer",
+        "Ganze Zahl",
+        "N-freie Zahl",
+        "Zahlbegriff",
+        "Zahlenbereich",
+        "Elementare Zahlentheorie",
+        "Peano-Axiomensystem"
+      ]
+    },
+    {
+      "query": "Abbildung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "search_results": [
+        "Abbildung",
+        "Abbildung",
+        "Bildliche Darstellung",
+        "Bildkommunikation",
+        "Abbild",
+        "Bildtheorie",
+        "Bildanzeige",
+        "Darstellungstechnik"
+      ]
+    },
+    {
+      "query": "Abakus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        7,
+        1,
+        5
+      ],
+      "search_results": [
+        "Abstrakte Rechenmaschine",
+        "Ethnomathematik",
+        "Rechenfibel",
+        "Rechenschaltung",
+        "Teilnehmerrechensystem",
+        "Vedische Mathematik",
+        "Milesisches Zahlensystem",
+        "Organum Mathematicum"
+      ]
+    },
+    {
+      "query": "Mechanik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Mechanik",
+        "Mechanik",
+        "Technische Mechanik",
+        "Theoretische Mechanik",
+        "Mechanische Größe",
+        "Relativistische Mechanik",
+        "Festkörpermechanik",
+        "Mehrkörpersystem"
+      ]
+    },
+    {
+      "query": "Optik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Geometrische Optik",
+        "Optik",
+        "Optik",
+        "Optische Abbildung",
+        "Optisches System",
+        "Technische Optik",
+        "Optisches Wellenfeld",
+        "Optisches Modell"
+      ]
+    },
+    {
+      "query": "Thermodynamik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        5,
+        7,
+        4,
+        6
+      ],
+      "search_results": [
+        "Thermodynamik",
+        "Erweiterte Thermodynamik",
+        "Thermodynamisches System",
+        "Relativistische Thermodynamik",
+        "Thermodynamisches Potenzial",
+        "Thermodynamisches Gleichgewicht",
+        "Thermodynamische Stabilität",
+        "Thermodynamischer Zustand"
+      ]
+    },
+    {
+      "query": "Quantenphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Quantenphysik",
+        "Quantenphysik",
+        "Quantenmechanik",
+        "Quantenmechanik",
+        "Quantentheorie",
+        "Quantenoptik",
+        "Quantisierung",
+        "Quantisierung"
+      ]
+    },
+    {
+      "query": "Atomphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        3,
+        6,
+        1,
+        2
+      ],
+      "search_results": [
+        "Atomphysik",
+        "Atom-Elektron-Wechselwirkung",
+        "Atomare Wechselwirkung",
+        "Atommodell",
+        "Atombau",
+        "Atom-Photon-Wechselwirkung",
+        "Atomtheorie",
+        "Ion-Atom-Wechselwirkung"
+      ]
+    },
+    {
+      "query": "Kernphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5
+      ],
+      "search_results": [
+        "Kernphysik",
+        "Kernphysik",
+        "Kernreaktorphysik",
+        "Kerntheorie",
+        "Kernastrophysik",
+        "Kernchemie",
+        "Kern-Kern-Streuung",
+        "Kern-Kern-Wechselwirkung"
+      ]
+    },
+    {
+      "query": "Teilchenphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Elementarteilchenphysik",
+        "Elementarteilchenphysik",
+        "Elementarteilchen",
+        "Elementarteilchenwechselwirkung",
+        "Partikelmechanik",
+        "Hochenergiephysik",
+        "Teilchenoptik",
+        "Relativistisches Teilchen"
+      ]
+    },
+    {
+      "query": "Festkörperphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        1,
+        3,
+        4,
+        2
+      ],
+      "search_results": [
+        "Festkörperphysik",
+        "Festkörpertheorie",
+        "Festkörpermechanik",
+        "Festkörper",
+        "Halbleiterphysik",
+        "Niederdimensionaler Festkörper",
+        "Kondensierte Materie",
+        "Eindimensionaler Festkörper"
+      ]
+    },
+    {
+      "query": "Elektrodynamik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        2,
+        3,
+        1
+      ],
+      "search_results": [
+        "Elektrodynamik",
+        "Relativistische Elektrodynamik",
+        "Elektromagnetisches Feld",
+        "Elektromagnetismus",
+        "Elektromagnetismus",
+        "Elektrizitätslehre",
+        "Maxwellsche Gleichungen",
+        "Maxwellsche Theorie"
+      ]
+    },
+    {
+      "query": "Atommodell",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 7,
+      "acceptance_rate": 0.875,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        5,
+        6
+      ],
+      "search_results": [
+        "Atommodell",
+        "Bohr-Sommerfeldsches Atommodell",
+        "Atomtheorie",
+        "Atombau",
+        "Teilchenmodell",
+        "Kernmodell",
+        "Kernmodell",
+        "Bohrkern"
+      ]
+    },
+    {
+      "query": "Atomphysiker",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        5,
+        6
+      ],
+      "search_results": [
+        "Atomphysiker",
+        "Atomphysik",
+        "Atomphysikerin",
+        "Atom-Elektron-Wechselwirkung",
+        "Atomare Wechselwirkung",
+        "Physiker",
+        "Physiker",
+        "Atom-Photon-Wechselwirkung"
+      ]
+    },
+    {
+      "query": "Navier-Stokes-Gleichung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        2,
+        4,
+        6
+      ],
+      "search_results": [
+        "Navier-Stokes-Gleichung",
+        "Stokes-Gleichung",
+        "Oseen-Gleichung",
+        "Hydrodynamische Gleichungen",
+        "Reynoldssche Gleichung",
+        "Navier-Lamé-Gleichungen",
+        "Forchheimer-Gleichung",
+        "Kármán-Differentialgleichung"
+      ]
+    },
+    {
+      "query": "Organische Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        3
+      ],
+      "search_results": [
+        "Organische Chemie",
+        "Organische Verbindungen",
+        "Sauerstofforganische Verbindungen",
+        "Elementorganische Verbindungen",
+        "Organische Synthese",
+        "Bleiorganische Verbindungen",
+        "Bororganische Verbindungen",
+        "Goldorganische Verbindungen"
+      ]
+    },
+    {
+      "query": "Anorganische Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        7,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Anorganische Chemie",
+        "Anorganische Verbindungen",
+        "Technische anorganische Chemie",
+        "Theoretische Anorganische Chemie",
+        "Anorganische Synthese",
+        "Anorganische Säuren",
+        "Präparative anorganische Chemie",
+        "Anorganischer Stoff"
+      ]
+    },
+    {
+      "query": "Biochemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Biochemie",
+        "Biochemische Analyse",
+        "Biochemische Methode",
+        "Biochemische Reaktion",
+        "Biochemisches Praktikum",
+        "Chemische Biologie",
+        "Dynamische Biochemie",
+        "Vergleichende Biochemie"
+      ]
+    },
+    {
+      "query": "Analytische Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "search_results": [
+        "Analytische Chemie",
+        "Chemische Analyse",
+        "Instrumentelle Analytik",
+        "Elementspeziesanalyse",
+        "Metallanalyse",
+        "Multielementanalyse",
+        "Elementanalyse",
+        "Elementaranalyse"
+      ]
+    },
+    {
+      "query": "Physikalische Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Physikalische Chemie",
+        "Physikalisch-chemische Messung",
+        "Physikalisch-chemische Eigenschaft",
+        "Physikalisch-chemisches Praktikum",
+        "Biophysikalische Chemie",
+        "Chemisches Potenzial",
+        "Molekülphysik",
+        "Physikalische Theorie"
+      ]
+    },
+    {
+      "query": "Makromolekulare Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        6
+      ],
+      "search_results": [
+        "Makromolekulare Chemie",
+        "Polymakromonomere",
+        "Hauptkettenpolymere",
+        "Makrocyclische Verbindungen",
+        "Kunststoffchemie",
+        "Stereoreguläre Polymere",
+        "Molmassenverteilung",
+        "Polycarbonylverbindungen"
+      ]
+    },
+    {
+      "query": "Lebensmittelchemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4
+      ],
+      "search_results": [
+        "Lebensmittelchemie",
+        "Lebensmittelwissenschaft",
+        "Lebensmittelanalyse",
+        "Lebensmittelinhaltsstoff",
+        "Lebensmitteltechnologie",
+        "Lebensmittelchemiker",
+        "Lebensmittelkonservierung",
+        "Lebensmittelverfahrenstechnik"
+      ]
+    },
+    {
+      "query": "Naturstoff",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        5,
+        5
+      ],
+      "search_results": [
+        "Naturstoffchemie",
+        "Naturstoff",
+        "Naturprodukt",
+        "Naturstoffmuster",
+        "Naturidentischer Aromastoff",
+        "Natürliches organisches Material",
+        "Naturwissenschaftliches Studium",
+        "Stickstofforganische Verbindungen"
+      ]
+    },
+    {
+      "query": "Chemische Reaktion",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        4,
+        2,
+        6
+      ],
+      "search_results": [
+        "Chemische Reaktion",
+        "Reaktionsgleichung",
+        "Elementarreaktion",
+        "Chemischer Prozess",
+        "Chemische Gleichung",
+        "ChemReact",
+        "Reaktionsmechanismus",
+        "Homogene Reaktion"
+      ]
+    },
+    {
+      "query": "Katalysator",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Katalytische Aktivität",
+        "Trägerkatalysator",
+        "Cokatalysator",
+        "Bifunktioneller Katalysator",
+        "Katalytische Wechselwirkung",
+        "Katalytische Reaktion",
+        "Katalytische Reduktion",
+        "Schalenkatalysator"
+      ]
+    },
+    {
+      "query": "Molekularbiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        1,
+        5,
+        6
+      ],
+      "search_results": [
+        "Molekularbiologie",
+        "Molekularbiologin",
+        "Molekulargenetik",
+        "Molekularbiologische Methode",
+        "Molekulare Biophysik",
+        "Molekulare Virologie",
+        "Biomolekül",
+        "Molekulare Bioinformatik"
+      ]
+    },
+    {
+      "query": "Genetik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Genetik",
+        "Genetik",
+        "Genetische Information",
+        "Genetische Variabilität",
+        "Erblichkeit",
+        "Humangenetik",
+        "Humangenetik",
+        "Genetische Phänomenologie"
+      ]
+    },
+    {
+      "query": "Ökologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Ökologie",
+        "Ökologie",
+        "Ökosystemforschung",
+        "Biologische Umweltlehre",
+        "Ökologische Stabilität",
+        "Ökologiestudium",
+        "Ökometrie",
+        "Tierökologie"
+      ]
+    },
+    {
+      "query": "Botanik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Botanik",
+        "Botanik",
+        "Botanische Terminologie",
+        "Botanikgeschichte",
+        "Allgemeine Botanik",
+        "Geobotanik",
+        "Floristische Geobotanik",
+        "Angewandte Botanik"
+      ]
+    },
+    {
+      "query": "Zoologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        4,
+        3
+      ],
+      "search_results": [
+        "Zoologie",
+        "Allgemeine Zoologie",
+        "Spezielle Zoologie",
+        "Zoologischer Artenschutz",
+        "Mammologie",
+        "Angewandte Zoologie",
+        "Zoologische Nomenklatur",
+        "Zoopädagogik"
+      ]
+    },
+    {
+      "query": "Mikrobiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Mikrobiologie",
+        "Allgemeine Mikrobiologie",
+        "Mikrobiologin",
+        "Mikroorganismus",
+        "Mikrobielles Wachstum",
+        "Mikrobiologisches Praktikum",
+        "Bakteriologie",
+        "Bakteriologie"
+      ]
+    },
+    {
+      "query": "Bioinformatik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        4,
+        7
+      ],
+      "search_results": [
+        "Bioinformatik",
+        "Molekulare Bioinformatik",
+        "Bioinformatiker",
+        "Informationsverarbeitung",
+        "Angewandte Informatik",
+        "Home Informatics",
+        "In silico-Methode",
+        "Informatik"
+      ]
+    },
+    {
+      "query": "Zellbiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Zellphysiologie",
+        "Zellkommunikation",
+        "Zellularwachstum",
+        "Zellzyklus",
+        "Zellteilung",
+        "Zellularpathologie",
+        "Zellfraktionierung",
+        "Zellkultur"
+      ]
+    },
+    {
+      "query": "Entwicklungsbiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        6,
+        1,
+        2,
+        4
+      ],
+      "search_results": [
+        "Entwicklungsbiologie",
+        "Entwicklungsgenetik",
+        "Entwicklungsphysiologie",
+        "Embryonalentwicklung",
+        "Evolutionäre Entwicklungsbiologie",
+        "Geburtenentwicklung",
+        "Embryologie",
+        "Pränatale Entwicklung"
+      ]
+    },
+    {
+      "query": "Aussterben",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        5
+      ],
+      "search_results": [
+        "Artensterben",
+        "Artensterben",
+        "Aussterben",
+        "Aussterben",
+        "Massenaussterben",
+        "Insektensterben",
+        "Biodiversität",
+        "Biodiversität"
+      ]
+    },
+    {
+      "query": "Evolution",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Evolution",
+        "Evolution",
+        "Evolutionstheorie",
+        "Evolutionsbiologie",
+        "Evolutionismus",
+        "Genetic Evolution",
+        "Makroevolution",
+        "Evolutionäre Entwicklungsbiologie"
+      ]
+    },
+    {
+      "query": "Nervensystem",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        2
+      ],
+      "search_results": [
+        "Nervensystem",
+        "Nervensystem",
+        "Strickleiternervensystem",
+        "Zentralnervensystem",
+        "Vegetatives Nervensystem",
+        "Neuromuskuläres System",
+        "Peripheres Nervensystem",
+        "Neuroendokrines System"
+      ]
+    },
+    {
+      "query": "Atmung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Atemmechanik",
+        "Äußere Atmung",
+        "Atemregulation",
+        "Luftatmung",
+        "Sauerstoffaufnahme",
+        "Sauerstoffhaushalt",
+        "Atemtechnik",
+        "Atmungsenzym"
+      ]
+    },
+    {
+      "query": "Maschinenbau",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Maschinenbau",
+        "Maschinenbauindustrie",
+        "Werkzeugmaschinenbau",
+        "Maschinenbaustudium",
+        "Studiengang Maschinen- und Anlagenbau",
+        "Maschinenbauingenieur",
+        "Maschinendynamik",
+        "Kraftmaschinenindustrie"
+      ]
+    },
+    {
+      "query": "Elektrotechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        4,
+        2,
+        0,
+        3,
+        5
+      ],
+      "search_results": [
+        "Elektrotechnologie",
+        "Elektrotechnik",
+        "Elektrische Energietechnik",
+        "Elektrizitätslehre",
+        "Theoretische Elektrotechnik",
+        "Elektrische Regelungstechnik",
+        "Hochspannungstechnik",
+        "Elektroniker Energie- und Gebäudetechnik"
+      ]
+    },
+    {
+      "query": "Bauingenieurwesen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        6,
+        7,
+        2,
+        4,
+        5
+      ],
+      "search_results": [
+        "Ingenieurbau",
+        "Ingenieurbau",
+        "Berufsfeld Bautechnik",
+        "Bauingenieur",
+        "Bautechnik",
+        "Bautechnik",
+        "Bauwesen",
+        "Bauwesen"
+      ]
+    },
+    {
+      "query": "Verfahrenstechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Verfahrenstechnik",
+        "Mechanische Verfahrenstechnik",
+        "Chemische Verfahrenstechnik",
+        "Verfahrenstechnische Prozesseinheit",
+        "Chemisches Verfahren",
+        "Mikroverfahrenstechnik",
+        "Flüssigphasentechnik",
+        "Lebensmittelverfahrenstechnik"
+      ]
+    },
+    {
+      "query": "Umwelttechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Umwelttechnik",
+        "Umwelttechnologin für Abwasserbewirtschaftung",
+        "Umwelttechnologin für Kreislauf- und Abfallwirtschaft",
+        "Umwelttechnologin für Rohrleitungsnetze und Industrieanlagen",
+        "Umwelttechnologe für Abwasserbewirtschaftung",
+        "Umwelttechnischer Beruf",
+        "Abwassertechnologie",
+        "Umwelttechnologin für Wasserversorgung"
+      ]
+    },
+    {
+      "query": "Energietechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        6
+      ],
+      "search_results": [
+        "Energietechnik",
+        "Energieausnutzung",
+        "Energieforschung",
+        "Energieumwandlung",
+        "Kraftwerkstechnik",
+        "Energietechniker",
+        "Elektrochemische Energietechnik",
+        "Wasserstoffenergietechnik"
+      ]
+    },
+    {
+      "query": "Werkstoffkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2,
+        5,
+        3
+      ],
+      "search_results": [
+        "Werkstoffkunde",
+        "Werkstoffforschung",
+        "Metallischer Werkstoff",
+        "Werkstoffgerechtes Konstruieren",
+        "Werkstoff",
+        "Konstruktionswerkstoff",
+        "Metallkunde",
+        "Werkstückstoff"
+      ]
+    },
+    {
+      "query": "Messtechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Messtechnik",
+        "Mechanische Messtechnik",
+        "Feinmesstechnik",
+        "Analysenmesstechnik",
+        "Betriebsmesstechnik",
+        "Elektrische Messtechnik",
+        "Nachrichtenmesstechnik",
+        "Prozessmesstechnik"
+      ]
+    },
+    {
+      "query": "Aufbereitung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        4,
+        2,
+        3,
+        5,
+        0
+      ],
+      "search_results": [
+        "Dateiaufbereitung",
+        "Datenaufbereitung",
+        "Vorverarbeitung",
+        "Weiterverarbeitung",
+        "Verarbeitung",
+        "Prozessierung",
+        "Sachbearbeitung",
+        "Oberflächenvorbereitung"
+      ]
+    },
+    {
+      "query": "Austenitischer Stahl",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        4,
+        3
+      ],
+      "search_results": [
+        "Austenitischer Stahl",
+        "Ferritisch-martensitischer Stahl",
+        "Martensitaushärtender Stahl",
+        "Ferrit-Austenit-Gefüge",
+        "Austenit",
+        "Stickstoffreicher Stahl",
+        "Ledeburitischer Chromstahl",
+        "Mehrphasenstahl"
+      ]
+    },
+    {
+      "query": "Abdichtung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        5
+      ],
+      "search_results": [
+        "Abdichtung",
+        "Basisabdichtung",
+        "Abdichtungsstoff",
+        "Hermetische Abdichtung",
+        "Betondichtungsmittel",
+        "Flachdichtung",
+        "Klebeabdichter",
+        "Dachabdichtung"
+      ]
+    },
+    {
+      "query": "Kraftfahrzeugtechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        3
+      ],
+      "search_results": [
+        "Kraftfahrzeugtechnik",
+        "Berufsfeld Fahrzeugtechnik",
+        "Kraftfahrzeugbau",
+        "Kraftfahrzeugelektrik",
+        "Fahrzeugantrieb",
+        "Kraftfahrzeugingenieur",
+        "Kraftfahrzeugelektronik",
+        "Fahrzeugbau"
+      ]
+    },
+    {
+      "query": "Verbrennungsmotor",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Verbrennungsmotor",
+        "Verbrennungskraftmaschine",
+        "Kraftfahrzeugmotor",
+        "Kolbenmotor",
+        "Fahrzeugmotor",
+        "Viertaktmotor",
+        "PHCCI-Verbrennung",
+        "Zündstrahlgasmotor"
+      ]
+    },
+    {
+      "query": "Getriebe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "search_results": [
+        "Getriebetechnik",
+        "Fahrzeuggetriebe",
+        "Getriebelehre",
+        "Getriebebau",
+        "Gleitkeilgetriebe",
+        "Schubgliedergetriebe",
+        "Übersetzungsgetriebe",
+        "Kegelradgetriebe"
+      ]
+    },
+    {
+      "query": "Fahrwerk",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        6,
+        3,
+        1,
+        2
+      ],
+      "search_results": [
+        "Fahrwerk",
+        "Fahrzeugschwingung",
+        "Fahrzeugrahmen",
+        "Fahrzeugachse",
+        "Fahrzeugantrieb",
+        "Fahrmechanik",
+        "Kraftfahrzeugtechnik",
+        "Achsschenkellenkung"
+      ]
+    },
+    {
+      "query": "KFZ-Elektronik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        4
+      ],
+      "search_results": [
+        "Kraftfahrzeugelektronik",
+        "Kraftfahrzeugelektrik",
+        "Elektronische Steuerung",
+        "Die elektronische KFZ-/PKW-Kostenverwaltung",
+        "Elektroniktechnologie",
+        "Elektronische Regelung",
+        "Elektroantrieb",
+        "Elektronische Baugruppe"
+      ]
+    },
+    {
+      "query": "Alternative Antriebe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        1,
+        0,
+        2,
+        4,
+        6
+      ],
+      "search_results": [
+        "Alternativkraftstoff",
+        "Elektroantrieb",
+        "Erdgasantrieb",
+        "Fahrzeugantrieb",
+        "Hybridantrieb",
+        "Mehrmotorenantrieb",
+        "Hybridtreibstoff",
+        "Hybride Energie"
+      ]
+    },
+    {
+      "query": "Verkehrstechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        1,
+        3,
+        6,
+        2
+      ],
+      "search_results": [
+        "Verkehrstechnik",
+        "Straßenverkehrstechnik",
+        "Verkehrswissenschaft",
+        "Verkehrsleittechnik",
+        "Verkehrsforschung",
+        "Traffic Engineering",
+        "Verkehrsplanung",
+        "Verkehrskonflikttechnik"
+      ]
+    },
+    {
+      "query": "Abgaskatalysator",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2,
+        7,
+        0,
+        5
+      ],
+      "search_results": [
+        "Katalytische Nachverbrennung",
+        "Abgaskatalysator",
+        "Abgaskatalysator",
+        "Reformierkatalysator",
+        "MCM-Katalysator",
+        "NOx-Speicherkatalysator",
+        "Mischkatalysator",
+        "Abgasreinigung"
+      ]
+    },
+    {
+      "query": "Abgasreinigung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        5,
+        0,
+        2,
+        4,
+        3
+      ],
+      "search_results": [
+        "Rauchgasreinigung",
+        "Abgasreinigung",
+        "Heißgasreinigung",
+        "Rauchgasentstickung",
+        "Biologische Abgasreinigung",
+        "Gasreinigung",
+        "Rauchgasentschwefelung",
+        "Feinstaubabscheidung"
+      ]
+    },
+    {
+      "query": "Aufladung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Elektrische Aufladung",
+        "Multipaktorentladung",
+        "Oberflächenladung",
+        "Raumladungskompensation",
+        "Ladungsgekoppeltes Bauelement",
+        "Raumladungsbegrenzter Strom",
+        "Elektrostatische Aufladung",
+        "Elektrische Ladung"
+      ]
+    },
+    {
+      "query": "Informatik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Informatik",
+        "Informationstechnik",
+        "Informationstechnik",
+        "Informationsverarbeitung",
+        "Angewandte Informatik",
+        "Technische Informatik",
+        "Information Engineering",
+        "Informationsverarbeitendes System"
+      ]
+    },
+    {
+      "query": "Datenverarbeitung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "search_results": [
+        "Datenverarbeitung",
+        "Informationsverarbeitung",
+        "Prozessdatenverarbeitung",
+        "Betriebliche Datenverarbeitung",
+        "Datenverarbeitungssystem",
+        "Großdatenverarbeitung",
+        "Nichtnumerische Datenverarbeitung",
+        "Datenverarbeitungsprojekt"
+      ]
+    },
+    {
+      "query": "Softwareentwicklung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        2,
+        4,
+        6,
+        3
+      ],
+      "search_results": [
+        "Softwareentwicklung",
+        "Systementwicklung",
+        "Softwarewissenschaft",
+        "Softwareproduktion",
+        "Softwarelebenszyklus",
+        "Software Engineering",
+        "Agile Softwareentwicklung",
+        "Strukturierte Systementwicklung"
+      ]
+    },
+    {
+      "query": "Algorithmen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        0,
+        3,
+        1,
+        6,
+        4
+      ],
+      "search_results": [
+        "Algorithmentheorie",
+        "Algorithmische Programmierung",
+        "Algorithmus",
+        "Komplexität von Algorithmen",
+        "Algebraischer Algorithmus",
+        "Numerischer Algorithmus",
+        "Effizienter Algorithmus",
+        "Algorithmische Programmiersprache"
+      ]
+    },
+    {
+      "query": "Künstliche Intelligenz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        6,
+        5
+      ],
+      "search_results": [
+        "Künstliche Intelligenz",
+        "Künstliche Intelligenz",
+        "Wissensverarbeitung",
+        "Verteilte künstliche Intelligenz",
+        "Maschinelles Lernen",
+        "ai",
+        "Erklärbare künstliche Intelligenz",
+        "Assistent für Automatisierungs- und Computertechnik"
+      ]
+    },
+    {
+      "query": "Machine Learning",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Maschinelles Lernen",
+        "Mechanisches Lernen",
+        "Statistisches Lernen",
+        "Modelllernen",
+        "ML",
+        "Mathematische Lerntheorie",
+        "Algorithmische Lerntheorie",
+        "Regellernen"
+      ]
+    },
+    {
+      "query": "Cloud Computing",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        5,
+        1,
+        2,
+        4
+      ],
+      "search_results": [
+        "Cloud Computing",
+        "Services Computing",
+        "Grid Computing",
+        "Serverless Computing",
+        "Data-centric computing",
+        "Fog computing",
+        "Metacomputing",
+        "Autonomic Computing"
+      ]
+    },
+    {
+      "query": "Cybersicherheit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "search_results": [
+        "Computersicherheit",
+        "Informationssicherheit",
+        "Cyber-Versicherung",
+        "Technische Sicherheit",
+        "Kritische Informationsinfrastruktur",
+        "Technisches Sicherheitsrecht",
+        "Betriebskybernetik",
+        "Sicherheitsgerechte Konstruktion"
+      ]
+    },
+    {
+      "query": "Attributierte Grammatik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        5,
+        7
+      ],
+      "search_results": [
+        "Attributierte Grammatik",
+        "Attributierte Graph-Grammatik",
+        "Linksassoziative Grammatik",
+        "Koordinaten-Grammatik",
+        "Zweischichtige Grammatik",
+        "Kontextabhängige Grammatik",
+        "Formale Grammatik",
+        "Graph-Grammatik"
+      ]
+    },
+    {
+      "query": "Natürliche Sprache",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        7,
+        4,
+        5
+      ],
+      "search_results": [
+        "Natürliche Sprache",
+        "Natürliche Linguistik",
+        "Natursprache",
+        "Natursprache",
+        "Sprachverarbeitung",
+        "Sprachverarbeitung",
+        "Natürlichsprachiges System",
+        "Natürliche Semantik"
+      ]
+    },
+    {
+      "query": "Nachrichtentechnik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Nachrichtentechnik",
+        "Industrietechnologe Nachrichtentechnik",
+        "Nachrichtenübertragungstechnik",
+        "Digitale Nachrichtentechnik",
+        "Kommunikationstechnik",
+        "Nachrichtenmesstechnik",
+        "Fernmeldetechnik",
+        "Optische Nachrichtentechnik"
+      ]
+    },
+    {
+      "query": "Innere Medizin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Innere Medizin",
+        "Innere Krankheit",
+        "Klinische Medizin",
+        "Allgemeinmedizin",
+        "Wohnmedizin",
+        "Intensivmedizin",
+        "Schulmedizin",
+        "Schulmedizin"
+      ]
+    },
+    {
+      "query": "Kardiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Kardiologie",
+        "Kardiologische Klinik",
+        "Herzstoffwechsel",
+        "Kardiovaskuläre Krankheit",
+        "Herzfunktionsdiagnostik",
+        "Elektrokardiologie",
+        "Herzmuskelfunktion",
+        "Kardioselektivität"
+      ]
+    },
+    {
+      "query": "Gastroenterologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "search_results": [
+        "Gastroenterologie",
+        "Gastroenterologie",
+        "Gastroenterologische Endoskopie",
+        "Gastroenterologische Krankheit",
+        "Gastroenterologe",
+        "Gastroenterologische Chirurgie",
+        "Gastroenterologin",
+        "Gastroenterologische Endosonografie"
+      ]
+    },
+    {
+      "query": "Pneumologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "search_results": [
+        "Pulmonologie",
+        "Pneumologin",
+        "Kinderpneumonologie",
+        "Pneumologe",
+        "Inhalationstherapie",
+        "Atemwegskrankheit",
+        "Atemmechanik",
+        "Atmungs-Orthopädie"
+      ]
+    },
+    {
+      "query": "Endokrinologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Endokrine Regulation",
+        "Endokrinologie",
+        "Endokrinium",
+        "Endokrinologische Funktionsdiagnostik",
+        "Neuroendokrine Regulation",
+        "Endokrin wirksamer Stoff",
+        "Endokriner Effekt",
+        "Endokrinologin"
+      ]
+    },
+    {
+      "query": "Diabetologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        7,
+        2,
+        4,
+        3
+      ],
+      "search_results": [
+        "Diabetologie",
+        "Zuckerstoffwechsel",
+        "Insulinstoffwechsel",
+        "Endokrinologische Funktionsdiagnostik",
+        "Kontinuierliches Glucosemonitoring",
+        "Zuckerwirtschaft",
+        "Alloxan-Diabetes",
+        "Glucosestoffwechsel"
+      ]
+    },
+    {
+      "query": "Nephrologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        3,
+        7,
+        1,
+        2
+      ],
+      "search_results": [
+        "Nephrologie",
+        "Nephrologin",
+        "Nephrologe",
+        "Nierenfunktionsdiagnostik",
+        "Nierenkrankheit",
+        "Nephron",
+        "Glomerulopathie",
+        "Nierenfunktion"
+      ]
+    },
+    {
+      "query": "Rheumatologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        5,
+        6,
+        7,
+        4
+      ],
+      "search_results": [
+        "Rheumatologie",
+        "Rheumatologin",
+        "Rheumatologe",
+        "Rheumatoide Arthritis",
+        "Rheumaklinik",
+        "Gelenkrheumatismus",
+        "Rheumatismus",
+        "Gelenkkrankheit"
+      ]
+    },
+    {
+      "query": "Blut",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Blutvolumen",
+        "Arterielles Blut",
+        "Blutplasma",
+        "Blutgruppe",
+        "Blutviskosität",
+        "Blutderivat",
+        "Durchblutung",
+        "Blutbildendes Gewebe"
+      ]
+    },
+    {
+      "query": "Herz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        3,
+        4,
+        0,
+        2,
+        5
+      ],
+      "search_results": [
+        "Herzstoffwechsel",
+        "Herzfunktion",
+        "Herzdynamik",
+        "Herzmuskel",
+        "Herzmuskelfunktion",
+        "Herzregulation",
+        "Herzbeutel",
+        "Herz-Lungen-System"
+      ]
+    },
+    {
+      "query": "Leber",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        3,
+        5,
+        0,
+        2,
+        6
+      ],
+      "search_results": [
+        "Funktionelles Leberläppchen",
+        "Leberfunktion",
+        "Morphologisches Leberläppchen",
+        "Hepatologie",
+        "Hepatitiskranker",
+        "Leberstoffwechsel",
+        "Lebersegment",
+        "Hepatitis"
+      ]
+    },
+    {
+      "query": "Niere",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        0,
+        3,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Nierenfunktion",
+        "Nebennierenrindenfunktion",
+        "Nierenkrankheit",
+        "Nephron",
+        "Niere",
+        "Nierenfunktionsdiagnostik",
+        "Nephrozyt",
+        "Nephrologie"
+      ]
+    },
+    {
+      "query": "Chirurgie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Chirurgie",
+        "Chirurgie",
+        "Chirurgie",
+        "Ohrenchirurgie",
+        "Mastdarmchirurgie",
+        "Colonchirurgie",
+        "Magenchirurgie",
+        "Leberchirurgie"
+      ]
+    },
+    {
+      "query": "Orthopädie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Orthopädie",
+        "Orthopädische Chirurgie",
+        "Orthopädische Krankheit",
+        "Orthopädietechnik",
+        "Knochenchirurgie",
+        "Kinderorthopädie",
+        "Knöchelchirurgie",
+        "Orthopädische Gymnastik"
+      ]
+    },
+    {
+      "query": "Traumatologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        2,
+        5,
+        1,
+        3
+      ],
+      "search_results": [
+        "Traumatologie",
+        "Polytrauma",
+        "Unfallchirurgie",
+        "Schädel-Hirn-Trauma",
+        "Schädel-Hirn-Trauma",
+        "Trauma",
+        "Trauma",
+        "Militärchirurgie"
+      ]
+    },
+    {
+      "query": "Anästhesiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Anästhesiologie",
+        "Anästhesie",
+        "Narkoseführung",
+        "Narkoseüberwachung",
+        "Minimal-Flow-Narkose",
+        "Narkosevorbereitung",
+        "Analgosedierung",
+        "Intravenöse Anästhesie"
+      ]
+    },
+    {
+      "query": "Radiologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        3,
+        2,
+        4,
+        7
+      ],
+      "search_results": [
+        "Radiologische Diagnostik",
+        "Radiologie",
+        "Röntgenologie",
+        "Medizinische Radiologie",
+        "Röntgendiagnostik",
+        "Röntgendiagnostik",
+        "Röntgenaufnahmetechnik",
+        "Interventionsradiologie"
+      ]
+    },
+    {
+      "query": "Onkologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Onkologie",
+        "Krebsbekämpfung",
+        "Krebsforschung",
+        "Tumortherapiefelder",
+        "Gynäkologische Onkologie",
+        "Onkologe",
+        "Onkologin",
+        "Urologische Onkologie"
+      ]
+    },
+    {
+      "query": "Dermatologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        7,
+        4,
+        6,
+        3
+      ],
+      "search_results": [
+        "Dermatologie",
+        "Psychodermatologie",
+        "derma",
+        "Dermatoskopie",
+        "Hautarztpraxis",
+        "Dermatotoxizität",
+        "Dermatitis",
+        "Hautarzt"
+      ]
+    },
+    {
+      "query": "Ophthalmologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Augenheilkunde",
+        "Augenheilkunde",
+        "Ophthalmologische Optik",
+        "Ergophthalmologie",
+        "Optometrie",
+        "Neuroophthalmologie",
+        "Orthoptik",
+        "Augenchirurgie"
+      ]
+    },
+    {
+      "query": "Narkose",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Narkosevorbereitung",
+        "Narkoseführung",
+        "Narkoseüberwachung",
+        "Injektionsnarkose",
+        "Infusionsnarkose",
+        "Neuroleptanalgesie",
+        "Inhalationsnarkose",
+        "Kurznarkose"
+      ]
+    },
+    {
+      "query": "Augenheilkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        3,
+        2
+      ],
+      "search_results": [
+        "Augenheilkunde",
+        "Augenheilkunde",
+        "Ergophthalmologie",
+        "Ophthalmologische Optik",
+        "Augenkrankheit",
+        "Augenchirurgie",
+        "Augenoptik",
+        "Orthoptik"
+      ]
+    },
+    {
+      "query": "Augenchirurgie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        6
+      ],
+      "search_results": [
+        "Augenchirurgie",
+        "Hornhautchirurgie",
+        "Augenheilkunde",
+        "Augenheilkunde",
+        "Laserchirurgie",
+        "Ergophthalmologie",
+        "Neodym-YAG-Laserchirurgie",
+        "Augenhöhlenplastik"
+      ]
+    },
+    {
+      "query": "Haut",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        6,
+        7,
+        5,
+        4
+      ],
+      "search_results": [
+        "Hochschnitt",
+        "Kopfhaut",
+        "Höhe",
+        "Höhe",
+        "Dachhaut",
+        "Kopfhaar",
+        "Hautschutz",
+        "Hautgefäß"
+      ]
+    },
+    {
+      "query": "Psychiatrie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Psychiatrie",
+        "Psychiatrie",
+        "Klinische Psychiatrie",
+        "Psychiatrische Versorgung",
+        "Psychiatrische Krankenpflege",
+        "Psychiatrische Behandlung",
+        "Sozialpsychiatrie",
+        "Vergleichende Psychiatrie"
+      ]
+    },
+    {
+      "query": "Psychotherapie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        7,
+        4,
+        3
+      ],
+      "search_results": [
+        "Psychotherapeutischer Prozess",
+        "Psychotherapie",
+        "Psychotherapie",
+        "Psychotherapeutische Versorgung",
+        "Psychotherapeutische Beziehung",
+        "Psychotherapeutische Praxis",
+        "Psychotherapeutische Beratung",
+        "Klinische Psychotherapie"
+      ]
+    },
+    {
+      "query": "Psychoanalyse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Psychoanalyse",
+        "Psychoanalyse",
+        "Psychoanalysmus",
+        "Psychoorganische Analyse",
+        "Psychoanalytische Gruppentherapie",
+        "Psychoanalytische Grundregel",
+        "Neopsychoanalyse",
+        "Psychoanalytische Pädagogik"
+      ]
+    },
+    {
+      "query": "Neurologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Neurologie",
+        "Nervenheilkunde",
+        "Neurowissenschaften",
+        "Neurowissenschaften",
+        "Neurobiologie",
+        "Neuroorthopädie",
+        "Neuroimmunologie",
+        "Neurobiologin"
+      ]
+    },
+    {
+      "query": "Kinderpsychiatrie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        4,
+        5,
+        3
+      ],
+      "search_results": [
+        "Kinderpsychiatrie",
+        "Kinderpsychopathologie",
+        "Jugendpsychiatrie",
+        "Kinder- und Jugendpsychiater",
+        "Kinderpsychologie",
+        "Kinderpsychotherapie",
+        "Sozialpädiatrie",
+        "Kinder- und Jugendpsychiaterin"
+      ]
+    },
+    {
+      "query": "Gerontopsychiatrie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        7,
+        3
+      ],
+      "search_results": [
+        "Alterspsychiatrie",
+        "Geriatrische Psychotherapie",
+        "Gerontopsychiatrisches Modellprojekt München-Hasenbergl",
+        "Interventionsgerontologie",
+        "Geriatrie",
+        "Gerontologie",
+        "Psychiatrische Krankenpflege",
+        "Psychiatrische Versorgung"
+      ]
+    },
+    {
+      "query": "Suchtmedizin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Suchtmedizin",
+        "Suchttherapie",
+        "Suchtkrankenseelsorge",
+        "Drogentherapie",
+        "Arzneimittelabhängigkeit",
+        "Suchtkrankenhilfe",
+        "Drogenabhängigkeit",
+        "Drogenabhängigkeit"
+      ]
+    },
+    {
+      "query": "Abwehrmechanismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        2
+      ],
+      "search_results": [
+        "Abwehrmechanismus",
+        "Wahrnehmungsabwehr",
+        "Vermeidungsreaktion",
+        "Abwehrreaktion",
+        "Schutzfunktion",
+        "Isolationsmechanismus",
+        "Neuronale Selbstvermeidung",
+        "Abwehrpsychoneurose"
+      ]
+    },
+    {
+      "query": "Narzissmus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Narzissmus",
+        "Narzissmus",
+        "Narzisstische Persönlichkeitsstörung",
+        "Narzisstische Depression",
+        "Narzisstische Kränkung",
+        "Narzisstische Kränkung",
+        "Selbstabsorption",
+        "Selbst-Psychologie"
+      ]
+    },
+    {
+      "query": "Ausdruck",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "search_results": [
+        "Schriftlicher Ausdruck",
+        "Sprachliche Ausdrucksfähigkeit",
+        "Nichtverbale Äußerung",
+        "Arithmetischer Ausdruck",
+        "Mündlicher Ausdruck",
+        "Expressionsvektor",
+        "Expressiver Sprechakt",
+        "Heckenausdruck"
+      ]
+    },
+    {
+      "query": "Tiefenpsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        5,
+        4
+      ],
+      "search_results": [
+        "Tiefenpsychologie",
+        "Tiefenpsychologisch fundierte Psychotherapie",
+        "Tiefenpsychologe",
+        "Psychoorganische Analyse",
+        "Daseinsanalytische Psychologie",
+        "Analytische Psychologie",
+        "Psychodynamik",
+        "Tonpsychologie"
+      ]
+    },
+    {
+      "query": "Pharmakologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        7,
+        5,
+        6
+      ],
+      "search_results": [
+        "Pharmakologie",
+        "Pharmakodynamik",
+        "Pharmakokinetik",
+        "Vergleichende Pharmakologie",
+        "Pharmazeutische Chemie",
+        "Pharmakotherapie",
+        "Klinische Pharmazie",
+        "Klinische Pharmakologie"
+      ]
+    },
+    {
+      "query": "Toxikologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Toxikologie",
+        "Gentoxikologie",
+        "Toxikologische Bewertung",
+        "Gewerbetoxikologie",
+        "Lebensmitteltoxikologie",
+        "Immuntoxikologie",
+        "Umwelttoxizität",
+        "Umwelttoxizität"
+      ]
+    },
+    {
+      "query": "Arzneimittelentwicklung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Arzneimittelentwicklung",
+        "Arzneimitteldesign",
+        "Arzneimittelforschung",
+        "Arzneimittelzulassung",
+        "Arzneimittelsynthese",
+        "Arzneimittelprüfung",
+        "Arzneimittelstabilität",
+        "Arzneimittelsicherheit"
+      ]
+    },
+    {
+      "query": "Pharmazeutische Chemie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        1,
+        0
+      ],
+      "search_results": [
+        "Pharmazeutische Technologie",
+        "Pharmazeutische Analyse",
+        "Arzneimittelsynthese",
+        "Chemische Synthese",
+        "Präparative Chemie",
+        "Markush-Formeln",
+        "Phosphorsäurederivate",
+        "Phosphoramiditderivate"
+      ]
+    },
+    {
+      "query": "Immunologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Immunbiologie",
+        "Immunologie",
+        "Immunsystem",
+        "Immuncytologie",
+        "Immungenetik",
+        "Immunologin",
+        "Immunregulation",
+        "Infektionsimmunität"
+      ]
+    },
+    {
+      "query": "Virologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Virologie",
+        "Molekulare Virologie",
+        "Tierpathogene Viren",
+        "Retroviren",
+        "Virusinfektion",
+        "Endogene Viren",
+        "Myxoviren",
+        "Picornaviren"
+      ]
+    },
+    {
+      "query": "ACTH 4-9",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        3
+      ],
+      "search_results": [
+        "ACTH 4-9",
+        "ACTH",
+        "ACTH-Rezeptor",
+        "Opiomelanocortin",
+        "ACTH-Inhibitor",
+        "Corticoliberin",
+        "Proopiomelanocortin",
+        "Urocortin"
+      ]
+    },
+    {
+      "query": "Augmentan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 1,
+      "acceptance_rate": 0.125,
+      "hit": true,
+      "quality_tier": "POOR",
+      "selected_indices": [
+        0
+      ],
+      "search_results": [
+        "Data Augmentation",
+        "Augmentationsideal",
+        "Erweiterte Realität",
+        "Messverstärker",
+        "Fadenverstärkung",
+        "Wanderfeldverstärker",
+        "Restlichtverstärker",
+        "Impulsverstärker"
+      ]
+    },
+    {
+      "query": "Nährwert",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Nährwert",
+        "Nährstoffgehalt",
+        "Nährstoff",
+        "Nährstoffbedarf",
+        "Nährstoffbilanz",
+        "Nährstoffversorgung",
+        "Energetischer Futterwert",
+        "Nährstoffaufnahme"
+      ]
+    },
+    {
+      "query": "Alte Geschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Alte Geschichte",
+        "Alte Geschichte",
+        "Vor- und Frühgeschichte",
+        "Vor- und Frühgeschichte",
+        "Vor- und Frühgeschichte",
+        "Alttestamentliche Zeitgeschichte",
+        "Altertumswissenschaft",
+        "Germanische Altertumskunde"
+      ]
+    },
+    {
+      "query": "Mittelalterliche Geschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        5,
+        3,
+        2,
+        6
+      ],
+      "search_results": [
+        "Mittelalterliche Geschichte",
+        "Mittelalterbegriff",
+        "Mittelalterliche Archäologie",
+        "Hochmittelalter",
+        "Mittelalter",
+        "Mittelalter",
+        "Handschriften des Mittelalters",
+        "Schneidler-Mediaeval"
+      ]
+    },
+    {
+      "query": "Frühneuzeit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        6,
+        4,
+        5,
+        1
+      ],
+      "search_results": [
+        "Frühe Neuzeit",
+        "Frühneuhochdeutsche Literatur",
+        "Frühscholastik",
+        "Mittelalterbegriff",
+        "Frühabsolutismus",
+        "Frührenaissance",
+        "Reformationszeit",
+        "Spätmittelalter"
+      ]
+    },
+    {
+      "query": "Neueste Geschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Neuere Geschichte",
+        "Zeitgeschichte",
+        "Zeitgeschichte",
+        "Zeitgeschichte",
+        "Neuhistoriker",
+        "Geschichtswissenschaft",
+        "Geschichtswissenschaft",
+        "Forschungsgeschichte"
+      ]
+    },
+    {
+      "query": "Wirtschaftsgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Wirtschaftsgeschichte",
+        "Wirtschaftsgeschichte",
+        "Wirtschaftsgeschichtsschreibung",
+        "Wirtschaftsarchiv",
+        "Geldgeschichte",
+        "Wirtschaftshistoriker",
+        "Wirtschaftsforschung",
+        "Wirtschaftsentwicklung"
+      ]
+    },
+    {
+      "query": "Sozialgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Sozialgeschichte",
+        "Sozialgeschichte",
+        "Sozialgeschichte",
+        "Sozialgeschichtsschreibung",
+        "Geschichtssoziologie",
+        "Historische Soziologie",
+        "Historische Sozialforschung",
+        "Historische Sozialisationsforschung"
+      ]
+    },
+    {
+      "query": "Kulturgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        7,
+        3,
+        4
+      ],
+      "search_results": [
+        "Kulturgeschichte",
+        "Kulturgeschichte",
+        "Kulturgeschichtsschreibung",
+        "Sachkulturforschung",
+        "Humanities-Net Sozial- und Kulturgeschichte",
+        "Kulturkreislehre",
+        "Traditionsgeschichtliche Forschung",
+        "Kulturwissenschaften"
+      ]
+    },
+    {
+      "query": "Technikgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Technikgeschichte",
+        "Technikgeschichte",
+        "Technischer Fortschritt",
+        "Technischer Fortschritt",
+        "Technische Innovation",
+        "Technik und Naturwissenschaft",
+        "Industriearchäologie",
+        "Technisches Arbeitsmittel"
+      ]
+    },
+    {
+      "query": "Aufklärung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 8,
+      "acceptance_rate": 1.0,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        0,
+        1,
+        6,
+        7
+      ],
+      "search_results": [
+        "Literarische Aufklärung",
+        "Literarische Aufklärung",
+        "Aufklärung",
+        "Aufklärung",
+        "Aufklärung",
+        "Aufklärung",
+        "Aufgeklärter Absolutismus",
+        "Schottische Aufklärung"
+      ]
+    },
+    {
+      "query": "Napoleonische Kriege",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2
+      ],
+      "search_results": [
+        "Napoleonische Kriege",
+        "Napoleonische Kriege",
+        "Französische Raubkriege",
+        "Befreiungskriege",
+        "Befreiungskriege",
+        "Befreiungskriege",
+        "Bonapartismus",
+        "Ungarnkriege"
+      ]
+    },
+    {
+      "query": "Absolutismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        7,
+        6
+      ],
+      "search_results": [
+        "Absolutismus",
+        "Absolutismus",
+        "Frühabsolutismus",
+        "Aufgeklärter Absolutismus",
+        "Universalmonarchie",
+        "Universalmonarchie",
+        "Absolutheitsanspruch",
+        "Neoabsolutismus"
+      ]
+    },
+    {
+      "query": "Philosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Philosophie",
+        "Philosophie",
+        "Philosophie",
+        "Als-ob-Philosophie",
+        "Theoretische Philosophie",
+        "philosophia",
+        "Philosophiegeschichte",
+        "Philosophiegeschichte"
+      ]
+    },
+    {
+      "query": "Erkenntnistheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Erkenntnistheorie",
+        "Erkenntnistheorie",
+        "Erkenntnistheoretischer Skeptizismus",
+        "Erkenntniskritik",
+        "Epistemologische Überzeugung",
+        "Erkenntnis",
+        "Soziale Erkenntnistheorie",
+        "Erkenntnis"
+      ]
+    },
+    {
+      "query": "Metaphysik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        2
+      ],
+      "search_results": [
+        "Metaphysik",
+        "Metaphysik",
+        "Metaphilosophie",
+        "Theoretische Philosophie",
+        "Ende der Metaphysik",
+        "Existenzialontologie",
+        "Metaphysikkritik",
+        "Gegenstandstheorie"
+      ]
+    },
+    {
+      "query": "Ethik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Informationsethik",
+        "ETHICS",
+        "Normative Ethik",
+        "Fundamentalethik",
+        "Güterethik",
+        "Etische Analyse",
+        "Gesinnungsethik",
+        "Sozialethik"
+      ]
+    },
+    {
+      "query": "Logik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Logik",
+        "Logik",
+        "Logikkalkül",
+        "Philosophie der Logik",
+        "Klassische Logik",
+        "Terminologische Logik",
+        "Kategorielle Logik",
+        "logikos"
+      ]
+    },
+    {
+      "query": "Sprachphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Sprachphilosophie",
+        "Philosophische Semantik",
+        "Philosophie der Alltagssprache",
+        "Linguistic Turn",
+        "Sprachlogik",
+        "Metaphilosophie",
+        "Sprachtheorie",
+        "Philosophie der Logik"
+      ]
+    },
+    {
+      "query": "Geschichtsphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        6,
+        3,
+        1,
+        7
+      ],
+      "search_results": [
+        "Geschichtsphilosophie",
+        "Philosophiegeschichtsschreibung",
+        "Geschichtstheorie",
+        "Historische Philosophie",
+        "Philosophiegeschichte",
+        "Philosophiegeschichte",
+        "Geschichtsdenken",
+        "Vergleichende Ideengeschichte"
+      ]
+    },
+    {
+      "query": "Rechtsphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        7,
+        2,
+        4
+      ],
+      "search_results": [
+        "Rechtsphilosophie",
+        "Rechtstheorie",
+        "Analytische Rechtstheorie",
+        "Rechtsethnologie",
+        "Rechtslehre",
+        "Rechtsethik",
+        "Rechtspolitologie",
+        "Rechtspositivismus"
+      ]
+    },
+    {
+      "query": "Aussage",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Aussageverb",
+        "Aussagesatz",
+        "Aussage",
+        "Aussage",
+        "Äußerung",
+        "Verbale Äußerung",
+        "Aussagenverbindung",
+        "Generische Aussage"
+      ]
+    },
+    {
+      "query": "Naturphilosophie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        7,
+        5,
+        4
+      ],
+      "search_results": [
+        "Naturphilosophie",
+        "Naturphilosoph",
+        "Naturverständnis",
+        "Naturverständnis",
+        "Naturwissenschaftliches Weltbild",
+        "Naturerkenntnis",
+        "Biophilosophie",
+        "Ökologische Philosophie"
+      ]
+    },
+    {
+      "query": "Utopie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0,
+        4,
+        7,
+        6
+      ],
+      "search_results": [
+        "Literarische Utopie",
+        "Utopie",
+        "Idealtypus",
+        "Schreibwettbewerb \"Utopia\"",
+        "Zukunftsentwürfe",
+        "Gildensozialismus",
+        "Einheitsgesellschaft",
+        "Klassenlose Gesellschaft"
+      ]
+    },
+    {
+      "query": "Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Religionstheologie",
+        "Theologie",
+        "Theologie",
+        "Theologiegeschichte",
+        "Theologische Erkenntnistheorie",
+        "Theologiestudium",
+        "Fundamentaltheologie",
+        "Philosophische Theologie"
+      ]
+    },
+    {
+      "query": "Bibelwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        1,
+        4,
+        5
+      ],
+      "search_results": [
+        "Bibelwissenschaft",
+        "Bibelkritik",
+        "Biblische Theologie",
+        "Biblische Hermeneutik",
+        "Bibellektüre",
+        "Bibelarbeit",
+        "Bibelunterricht",
+        "Bibelverfremdung"
+      ]
+    },
+    {
+      "query": "Kirchengeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Kirchengeschichte",
+        "Kirchengeschichte",
+        "Evangelische Kirchengeschichte",
+        "Kirchengeschichtsschreibung",
+        "Kirchliche Rechtsgeschichte",
+        "Theologiegeschichte",
+        "Religionsgeschichte",
+        "Religionsgeschichte"
+      ]
+    },
+    {
+      "query": "Systematische Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        3,
+        1,
+        2,
+        6
+      ],
+      "search_results": [
+        "Systematische Theologie",
+        "Theologische Prinzipienlehre",
+        "Theologische Erkenntnistheorie",
+        "Evangelische Dogmatik",
+        "Fundamentaltheologie",
+        "Kerygmatische Theologie",
+        "Dialektische Theologie",
+        "Ökumenische Theologie"
+      ]
+    },
+    {
+      "query": "Praktische Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Praktische Theologie",
+        "Pastoraltheologie",
+        "Vermittlungstheologie",
+        "Diakonische Theologie",
+        "Missionstheologie",
+        "Empirische Theologie",
+        "Theologische Erwachsenenbildung",
+        "Theological education by extension"
+      ]
+    },
+    {
+      "query": "Religionswissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        7,
+        5,
+        3
+      ],
+      "search_results": [
+        "Religionswissenschaftliches Studium",
+        "Religionswissenschaft",
+        "Vergleichende Religionswissenschaft",
+        "Religionssoziologie",
+        "Religionsanthropologie",
+        "Religionsvergleich",
+        "Kognitive Religionswissenschaft",
+        "Religionswissenschaftler"
+      ]
+    },
+    {
+      "query": "Ökumenische Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        3,
+        2,
+        6,
+        5
+      ],
+      "search_results": [
+        "Ökumenische Theologie",
+        "Ökumenische Erziehung",
+        "Interkulturelle Theologie",
+        "Communio-Ekklesiologie",
+        "Ökologische Theologie",
+        "Vermittlungstheologie",
+        "Missionstheologie",
+        "Dialektische Theologie"
+      ]
+    },
+    {
+      "query": "Auferstehung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Auferstehungsglaube",
+        "resurrectio",
+        "Auferstehung Jesu",
+        "Auferstehung Jesu",
+        "Reinkarnationsbewusstsein",
+        "resurgere",
+        "apokatastasis",
+        "Totenglaube"
+      ]
+    },
+    {
+      "query": "Nächstenliebe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Nächstenliebe",
+        "Nächstenliebe",
+        "Agape",
+        "Leibliche Werke der Barmherzigkeit",
+        "Liebesfähigkeit",
+        "Werke der Barmherzigkeit",
+        "Selbstlosigkeit",
+        "Selbstlosigkeit"
+      ]
+    },
+    {
+      "query": "Natürliche Theologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        4,
+        0,
+        2,
+        3
+      ],
+      "search_results": [
+        "Physikotheologie",
+        "Natürliche Theologie",
+        "Physikotheologischer Gottesbeweis",
+        "Teleologischer Gottesbeweis",
+        "Philosophische Theologie",
+        "Analytische Theologie",
+        "Theistische Evolutionstheorie",
+        "Naturverständnis"
+      ]
+    },
+    {
+      "query": "Naturrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 7,
+      "acceptance_rate": 0.875,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        4,
+        4,
+        5
+      ],
+      "search_results": [
+        "Naturrecht",
+        "Naturrecht",
+        "Objektives Recht",
+        "Reine Rechtslehre",
+        "Ius gentium",
+        "Naturgesetz",
+        "Rechtstheorie",
+        "Naturverständnis"
+      ]
+    },
+    {
+      "query": "Literaturwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        6,
+        0,
+        2,
+        1,
+        7
+      ],
+      "search_results": [
+        "Literaturwissenschaftliches Studium",
+        "Empirische Literaturwissenschaft",
+        "Literaturwissenschaftliche Methode",
+        "Linguistische Literaturwissenschaft",
+        "Literaturwissenschaft",
+        "Buchwissenschaft",
+        "Literaturwissenschaft",
+        "Quantitative Literaturwissenschaft"
+      ]
+    },
+    {
+      "query": "Literaturgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        6,
+        7,
+        2
+      ],
+      "search_results": [
+        "Literaturgeschichte",
+        "Literaturgeschichte",
+        "Buchgeschichte",
+        "Literaturgeschichtsschreibung",
+        "Bibliotheksgeschichte",
+        "Bibliotheksgeschichte",
+        "Sozialgeschichte der Literatur",
+        "Historische Literatur"
+      ]
+    },
+    {
+      "query": "Linguistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        5,
+        6,
+        1,
+        7
+      ],
+      "search_results": [
+        "Linguistik",
+        "Linguistikstudium",
+        "Systemlinguistik",
+        "Linguistische Literaturwissenschaft",
+        "Linguistische Informationswissenschaft",
+        "Deskriptive Linguistik",
+        "Strukturelle Linguistik",
+        "Slawistische Linguistik"
+      ]
+    },
+    {
+      "query": "Germanistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Germanistische Linguistik",
+        "Germanistik",
+        "Germanistikstudent",
+        "Deutsche Literaturwissenschaft",
+        "Germanist",
+        "Altgermanistik",
+        "Germanistin",
+        "Deutschkunde"
+      ]
+    },
+    {
+      "query": "Romanistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        3,
+        0,
+        4,
+        7,
+        7
+      ],
+      "search_results": [
+        "Galloromanistik",
+        "Latinistikstudium",
+        "Latinistik",
+        "Romanistik",
+        "Rumänistik",
+        "Italianistikstudium",
+        "Linguistikstudium",
+        "Frankoromanist"
+      ]
+    },
+    {
+      "query": "Anglistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Anglistikstudium",
+        "Anglistik",
+        "Anglistikstudent",
+        "Anglistin",
+        "Anglist",
+        "Linguistikstudium",
+        "Linguistische Literaturwissenschaft",
+        "Englische Literatur"
+      ]
+    },
+    {
+      "query": "Textkritik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Textkritik",
+        "Kritische Ausgabe",
+        "Textilverarbeitung",
+        "Textgeschichte",
+        "Textlinguistik",
+        "Textilveredelung",
+        "Literarkritik",
+        "Kontrastive Textlinguistik"
+      ]
+    },
+    {
+      "query": "Komparatistik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        2
+      ],
+      "search_results": [
+        "Vergleichende Literaturwissenschaft",
+        "Vergleichende Sprachwissenschaft",
+        "Vergleichende Forschung",
+        "Kontrastive Linguistik",
+        "Vergleichende Geschichtswissenschaft",
+        "Kontrastive Textlinguistik",
+        "Komparativer Begriff",
+        "Historisch-vergleichende Methode"
+      ]
+    },
+    {
+      "query": "Abenteuerroman",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Abenteuerroman",
+        "Abenteuerliteratur",
+        "Abenteuererzählung",
+        "Abenteuer",
+        "Abenteuer",
+        "Kolonialroman",
+        "Fantastischer Roman",
+        "Unterhaltungsroman"
+      ]
+    },
+    {
+      "query": "Naturalismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        7,
+        5
+      ],
+      "search_results": [
+        "Naturalismus",
+        "Naturalismus",
+        "Konsequenter Naturalismus",
+        "Naturverständnis",
+        "Naturverständnis",
+        "Naturwissenschaftliches Weltbild",
+        "Ethischer Naturalismus",
+        "Naturphilosoph"
+      ]
+    },
+    {
+      "query": "Neologismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Neologismus",
+        "Neologie",
+        "Neologie",
+        "Wortbildung",
+        "Kunstwort",
+        "Anglizismus",
+        "Phraseologismus",
+        "Wort des Jahres"
+      ]
+    },
+    {
+      "query": "Nebensatz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Nebensatz",
+        "Weiterführender Nebensatz",
+        "Uneingeleiteter Nebensatz",
+        "Appositioneller Relativsatz",
+        "Adverbialsatz",
+        "Relativsatz",
+        "Nebenbestimmung",
+        "Freier Relativsatz"
+      ]
+    },
+    {
+      "query": "Psychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        4
+      ],
+      "search_results": [
+        "Psychologie",
+        "Psychologie",
+        "Psychologie",
+        "Psychologische Forschung",
+        "Psychologiestudium",
+        "Psychologielehrbuch",
+        "Allgemeine Psychologie",
+        "Geopsychologie"
+      ]
+    },
+    {
+      "query": "Entwicklungspsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        2,
+        7,
+        5
+      ],
+      "search_results": [
+        "Entwicklungspsychologie",
+        "Life-span developmental Psychology",
+        "Life Span developmental Psychology",
+        "Entwicklungspsychologie der Lebensspanne",
+        "Kinderentwicklung",
+        "Psychosoziale Entwicklung",
+        "Entwicklungspädagogik",
+        "Psychische Entwicklung"
+      ]
+    },
+    {
+      "query": "Sozialpsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Sozialpsychologie",
+        "Angewandte Sozialpsychologie",
+        "Sozialisationsforschung",
+        "Psychosoziologie",
+        "Soziale Beeinflussung",
+        "Experimentelle Sozialpsychologie",
+        "Assoziationspsychologie",
+        "Kollektivpsychologie"
+      ]
+    },
+    {
+      "query": "Klinische Psychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Klinische Psychologie",
+        "Klinische Psychotherapie",
+        "Klinische Neuropsychologie",
+        "Klinische Psychiatrie",
+        "Klinische Psychologin",
+        "Klinischer Psychologe",
+        "Medizinische Psychologie",
+        "Klinische Seelsorgeausbildung"
+      ]
+    },
+    {
+      "query": "Tiefenpsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        5,
+        4
+      ],
+      "search_results": [
+        "Tiefenpsychologie",
+        "Tiefenpsychologisch fundierte Psychotherapie",
+        "Tiefenpsychologe",
+        "Psychoorganische Analyse",
+        "Daseinsanalytische Psychologie",
+        "Analytische Psychologie",
+        "Psychodynamik",
+        "Tonpsychologie"
+      ]
+    },
+    {
+      "query": "Kognitionspsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        1,
+        2,
+        4
+      ],
+      "search_results": [
+        "Kognitive Psychologie",
+        "Kognitionswissenschaft",
+        "Kognitiver Prozess",
+        "Wissenspsychologie",
+        "Denkpsychologie",
+        "Kognitive Neurowissenschaft",
+        "Kognition",
+        "Kognition"
+      ]
+    },
+    {
+      "query": "Differentialpsychologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        5,
+        4,
+        7
+      ],
+      "search_results": [
+        "Differentielle Psychologie",
+        "Persönlichkeitspsychologie",
+        "Personalpsychologie",
+        "Persönlichkeitsforschung",
+        "Psychologische Diagnostik",
+        "Persönlichkeitsdiagnostik",
+        "Differentielle Psychotherapie",
+        "Individualpsychologie"
+      ]
+    },
+    {
+      "query": "Außersinnliche Wahrnehmung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Außersinnliche Wahrnehmung",
+        "Außersinnliche Wahrnehmung",
+        "Parapsychologie",
+        "Parapsychologie",
+        "Das Übersinnliche",
+        "Radiästhesie",
+        "Paranormologie",
+        "Unterschwellige Wahrnehmung"
+      ]
+    },
+    {
+      "query": "Aura",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        6,
+        7
+      ],
+      "search_results": [
+        "Neue Aurora",
+        "Aurora Borealis",
+        "Atmosphäre",
+        "Atmosphäre",
+        "ASTRA",
+        "Innere Atmosphäre",
+        "Biofeld",
+        "Astralmythologie"
+      ]
+    },
+    {
+      "query": "Abhängigkeit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Abhängigkeit",
+        "Abhängigkeit",
+        "Soziale Abhängigkeit",
+        "Soziale Abhängigkeit",
+        "Arzneimittelabhängigkeit",
+        "Wirtschaftliche Abhängigkeit",
+        "Feldabhängigkeit",
+        "Nachfrageinterdependenz"
+      ]
+    },
+    {
+      "query": "Soziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        6,
+        7,
+        5,
+        3
+      ],
+      "search_results": [
+        "Soziologische Forschung",
+        "Soziologie",
+        "Soziologiestudium",
+        "Sozialisationsforschung",
+        "Sozialwissenschaftliches Studium",
+        "Wissenssoziologie",
+        "Angewandte Soziologie",
+        "Erklärende Soziologie"
+      ]
+    },
+    {
+      "query": "Gesellschaftstheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        4,
+        0,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Soziologische Systemtheorie",
+        "Soziologische Theorie",
+        "Strukturell-funktionale Theorie",
+        "Relationale Soziologie",
+        "Gesellschaftsanalyse",
+        "Sozialisationstheorie",
+        "Gemeinschaftssoziologie",
+        "Wissenssoziologie"
+      ]
+    },
+    {
+      "query": "Sozialstruktur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        5,
+        7
+      ],
+      "search_results": [
+        "Sozialstruktur",
+        "Sozialstruktur",
+        "Soziale Schichtung",
+        "Soziale Stellung",
+        "Soziale Stellung",
+        "Gesellschaftliche Organisation",
+        "Soziale Differenzierung",
+        "Gesellschaftsanalyse"
+      ]
+    },
+    {
+      "query": "Migrationssoziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        3,
+        2,
+        5
+      ],
+      "search_results": [
+        "Migrationssoziologie",
+        "Übergangssieden",
+        "Altern in der Migration",
+        "Internationale Migration",
+        "Siedlungssoziologie",
+        "Koethnische Migration",
+        "Migration",
+        "Migration"
+      ]
+    },
+    {
+      "query": "Politische Soziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Politische Soziologie",
+        "Vergleichende politische Soziologie",
+        "Staatssoziologie",
+        "Politische Wissenschaft",
+        "Politikfeldanalyse",
+        "Politikwissenschaftliches Studium",
+        "Vergleichende politische Wissenschaft",
+        "Politische Institutionenlehre"
+      ]
+    },
+    {
+      "query": "Wirtschaftssoziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        1,
+        6,
+        7,
+        2
+      ],
+      "search_results": [
+        "Wirtschaftssoziologie",
+        "Industriesoziologie",
+        "Berufssoziologie",
+        "Sozialökonom",
+        "Sozialökonomin",
+        "Arbeitssoziologie",
+        "Finanzsoziologie",
+        "Ökonomische Anthropologie"
+      ]
+    },
+    {
+      "query": "Familiensoziologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        1,
+        6,
+        6
+      ],
+      "search_results": [
+        "Familiensoziologie",
+        "Familienpsychologie",
+        "Familienstruktur",
+        "Familienbildung",
+        "Kernfamilie",
+        "Familienökonomie",
+        "Familienpolitik",
+        "Familienpolitik"
+      ]
+    },
+    {
+      "query": "Abweichendes Verhalten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        4,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Abweichendes Sexualverhalten",
+        "Abweichendes Sexualverhalten",
+        "Verhaltensgestörter",
+        "Verhaltensgestörter Jugendlicher",
+        "Verhaltensstörung",
+        "Verhaltensstörung",
+        "Außerdienstliches Verhalten",
+        "Sozialtypisches Verhalten"
+      ]
+    },
+    {
+      "query": "Ausländer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        1,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Ausländerpolitik",
+        "Erste Ausländergeneration",
+        "Auslandsdeutsche",
+        "Ausländerrecht",
+        "Ausländerforschung",
+        "Ausländische Gesellschaft",
+        "Auslandsösterreicher",
+        "Ausländerkriminalität"
+      ]
+    },
+    {
+      "query": "Aussiedler",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        4,
+        7
+      ],
+      "search_results": [
+        "Aussiedler",
+        "Australischer Einwanderer",
+        "Österreichischer Einwanderer",
+        "Elsässischer Einwanderer",
+        "Deutscher Einwanderer",
+        "Südeuropäischer Einwanderer",
+        "Israelischer Einwanderer",
+        "Europäischer Einwanderer"
+      ]
+    },
+    {
+      "query": "Nachbarschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        3
+      ],
+      "search_results": [
+        "Nachbarschaftliches Gemeinschaftsverhältnis",
+        "Nachbarschaftsraum",
+        "Nachbarwissenschaft",
+        "Nachbarschaftsverband",
+        "Wohnumfeld",
+        "Sozialraum",
+        "Sozialraum",
+        "Nachbargruppeneffekt"
+      ]
+    },
+    {
+      "query": "Politikwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        6,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Politikwissenschaftliches Studium",
+        "Politische Wissenschaft",
+        "Politikfeldanalyse",
+        "Vergleichende politische Wissenschaft",
+        "Politische Institutionenlehre",
+        "Politische Soziologie",
+        "Staatswissenschaft",
+        "Vergleichende Regierungslehre"
+      ]
+    },
+    {
+      "query": "Politische Theorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Politische Theorie",
+        "Politische Philosophie",
+        "Politische Wissenschaft",
+        "Machttheorie",
+        "Politische Institutionenlehre",
+        "Politisches Denken",
+        "Politische Soziologie",
+        "Zweigewaltenlehre"
+      ]
+    },
+    {
+      "query": "Internationale Politik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Internationales politisches System",
+        "Internationale Politik",
+        "Internationale Politik",
+        "Transnationale Politik",
+        "Transnationale Politik",
+        "Politische Weltkunde",
+        "Internationale Verflechtung",
+        "Internationale Kooperation"
+      ]
+    },
+    {
+      "query": "Vergleichende Politikwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        2,
+        1,
+        3,
+        5
+      ],
+      "search_results": [
+        "Vergleichende politische Wissenschaft",
+        "Vergleichende politische Soziologie",
+        "Vergleichende Regierungslehre",
+        "Politische Institutionenlehre",
+        "Politische Wissenschaft",
+        "Vergleichende Forschung",
+        "Politikwissenschaftliches Studium",
+        "Politikfeldanalyse"
+      ]
+    },
+    {
+      "query": "Europäische Politik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Europäische Politische Zusammenarbeit",
+        "Europäische Integration",
+        "Europäische Integration",
+        "Europaforschung",
+        "Europäisierung",
+        "Europagedanke",
+        "Europagedanke",
+        "Europäische Nachbarschaftspolitik"
+      ]
+    },
+    {
+      "query": "Entwicklungspolitik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        7,
+        4,
+        1,
+        2
+      ],
+      "search_results": [
+        "Entwicklungspolitik",
+        "Entwicklungsforschung",
+        "Entwicklungswissenschaft",
+        "Entwicklungszusammenarbeit",
+        "Entwicklungsökonomie",
+        "Entwicklungsethnologie",
+        "Entwicklungsländerbild",
+        "Entwicklungshilfe"
+      ]
+    },
+    {
+      "query": "Atomkrieg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Atomkriegsgefahr",
+        "Atomkriegsgefahr",
+        "Atomkrieg",
+        "Atomkrieg",
+        "Atomare Rüstung",
+        "Begrenzter Atomkrieg",
+        "Atomwaffenpolitik",
+        "Atomstrategie"
+      ]
+    },
+    {
+      "query": "Atomstrategie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Atomphysik",
+        "Atommodell",
+        "Atomare Wechselwirkung",
+        "Atomkern",
+        "Atomtheorie",
+        "yatôm",
+        "Atom",
+        "Atom"
+      ]
+    },
+    {
+      "query": "Attentat",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Attentat",
+        "Attentat",
+        "Attentismus",
+        "Attentismus",
+        "Selbstmordattentat",
+        "Selbstmordattentat",
+        "Attentat von Anagni",
+        "Via-Rasella-Attentat"
+      ]
+    },
+    {
+      "query": "Aufstand",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "search_results": [
+        "Aufstandsbekämpfung",
+        "Bauernaufstand Waidhofen an der Ybbs",
+        "Posener Aufstand",
+        "Posener Aufstand",
+        "Posener Aufstand",
+        "Posener Aufstand",
+        "Gesmolder Bauernaufstand",
+        "Jüdischer Aufstand"
+      ]
+    },
+    {
+      "query": "Nationalismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Nationalismus",
+        "Nationalismus",
+        "Nationalbewusstsein",
+        "Nationalbewusstsein",
+        "Nationenbildung",
+        "Nationenbildung",
+        "Nativismus",
+        "Nativismus"
+      ]
+    },
+    {
+      "query": "Rechtswissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        3
+      ],
+      "search_results": [
+        "Rechtswissenschaft",
+        "Rechtssystematik",
+        "Rechtsquellenlehre",
+        "Juristisches Studium",
+        "Rechtsliteratur",
+        "Juristische Methodik",
+        "Rechtstatsachenforschung",
+        "Staatsrechtswissenschaft"
+      ]
+    },
+    {
+      "query": "Verfassungsrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Verfassungsrecht",
+        "Verfassungsprozessrecht",
+        "Verfassungsmäßigkeit von Gesetzen",
+        "Verfassungspolitik",
+        "Verfassungsnorm",
+        "Verfassungslehre",
+        "Konstitutionslehre",
+        "Verfassungsgeschichte"
+      ]
+    },
+    {
+      "query": "Strafrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Strafrechtsnorm",
+        "Strafrecht",
+        "Strafrecht",
+        "Strafverfahrensrecht",
+        "Relative Strafrechtstheorie",
+        "Strafrechtswissenschaft",
+        "Strafbarkeit",
+        "Täterstrafrecht"
+      ]
+    },
+    {
+      "query": "Bürgerliches Recht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        6
+      ],
+      "search_results": [
+        "Bürgerliches Recht",
+        "Zivilgesetzbuch",
+        "Privatrechtswissenschaft",
+        "Civil Law",
+        "Privatrechtsordnung",
+        "Zivilprozessrecht",
+        "Römisches Privatrecht",
+        "Bürgerlicher Rechtsstreit"
+      ]
+    },
+    {
+      "query": "Verwaltungsrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "search_results": [
+        "Verwaltungsrechtswissenschaft",
+        "Verwaltungsrecht",
+        "Allgemeines Verwaltungsrecht",
+        "Verwaltungsverfahrensrecht",
+        "Besonderes Verwaltungsrecht",
+        "Verwaltungsrechtspflege",
+        "Verwaltungskostenrecht",
+        "Verwaltungsprivatrecht"
+      ]
+    },
+    {
+      "query": "Völkerrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        3
+      ],
+      "search_results": [
+        "Völkerrecht",
+        "Völkerrecht",
+        "Seevölkerrecht",
+        "Internationales Einheitsrecht",
+        "Entwicklungsvölkerrecht",
+        "Internationales Gesellschaftsrecht",
+        "Völkergewohnheitsrecht",
+        "Internationales Sozialrecht"
+      ]
+    },
+    {
+      "query": "Europarecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        4,
+        3,
+        7
+      ],
+      "search_results": [
+        "Europarecht",
+        "Europäisches Gemeinschaftsrecht",
+        "EU-Recht",
+        "Europäische Beweisanordnung",
+        "EU-Richtlinie",
+        "Europäisierung",
+        "Europaforschung",
+        "Europäische Integration"
+      ]
+    },
+    {
+      "query": "Internationales Strafrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        6,
+        1,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Internationales Deliktsrecht",
+        "Internationales Strafverfahrensrecht",
+        "Internationales Strafrecht",
+        "Internationales Umweltstrafrecht",
+        "Internationale Zuständigkeit",
+        "Internationales Kartellrecht",
+        "Internationale Strafgerichtsbarkeit",
+        "Internationales Prozessrecht"
+      ]
+    },
+    {
+      "query": "Aufenthaltsgenehmigung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Aufenthaltsgenehmigung",
+        "Aufenthaltsrecht",
+        "Aufenthaltsbestimmung",
+        "Aufenthaltsregelung",
+        "Arbeitserlaubnis",
+        "Unterbringungsrecht",
+        "Ausländerrecht",
+        "Ausländerbeschäftigung"
+      ]
+    },
+    {
+      "query": "Namensrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Namensrecht",
+        "Internationales Namensrecht",
+        "Urheberpersönlichkeitsrecht",
+        "Designrecht",
+        "Wertrechte",
+        "Persönlichkeitsrecht",
+        "Recht am Unternehmen",
+        "Namenkunde"
+      ]
+    },
+    {
+      "query": "Nachbarrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "search_results": [
+        "Nachbarerbbaurecht",
+        "Nachbarrecht",
+        "Baunachbarrecht",
+        "Nachbarschaftliches Gemeinschaftsverhältnis",
+        "Nachbarklage",
+        "Näherrecht",
+        "Nebengüterrecht",
+        "Heimstättenrecht"
+      ]
+    },
+    {
+      "query": "Ausschluss",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        5,
+        3
+      ],
+      "search_results": [
+        "Ausschluss",
+        "Ausschlussklausel",
+        "Bezugsrechtsausschluss",
+        "Gewerkschaftsausschluss",
+        "Ausschließungsrecht",
+        "Gesellschafterausschluss",
+        "Ausgrenzung",
+        "Ausgrenzung"
+      ]
+    },
+    {
+      "query": "Volkswirtschaftslehre",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        7,
+        4,
+        2
+      ],
+      "search_results": [
+        "Volkswirtschaftslehre",
+        "Volkswirtschaft",
+        "Volkswirtschaftliches Rechnungswesen",
+        "Wirtschaftstheorie",
+        "Wirtschaftslehre",
+        "Wirtschafts- und Rechtslehre",
+        "Wirtschaftsforschung",
+        "Makroökonomie"
+      ]
+    },
+    {
+      "query": "Betriebswirtschaftslehre",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        7,
+        5
+      ],
+      "search_results": [
+        "Betriebswirtschaftslehre",
+        "Betriebsökonomik",
+        "Betriebswirtschaftliches Studium",
+        "Entscheidungsorientierte Betriebswirtschaftslehre",
+        "Systemorientierte Betriebswirtschaftslehre",
+        "Betriebswirtschaftliche Entscheidungsfindung",
+        "Wirtschaftlicher Geschäftsbetrieb",
+        "Spezielle Betriebswirtschaftslehre"
+      ]
+    },
+    {
+      "query": "Finanzwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Finanzwissenschaft",
+        "Finanztheorie",
+        "Finanzwirtschaft",
+        "Finanzwirtschaft",
+        "Finanzierungstheorie",
+        "Finanzmathematik",
+        "Finanzmanagement",
+        "Finanzgeografie"
+      ]
+    },
+    {
+      "query": "Makroökonomie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Makroökonomie",
+        "Makroökonomisches Modell",
+        "Dynamische Makroökonomie",
+        "Neue Makroökonomie",
+        "Makroökonomische Produktionsfunktion",
+        "Makroökonomische Konsumfunktion",
+        "Makroökonomische Investitionsfunktion",
+        "Makrostruktur"
+      ]
+    },
+    {
+      "query": "Mikroökonomie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5
+      ],
+      "search_results": [
+        "Mikroökonomie",
+        "Mikroökonomisches Modell",
+        "Mikroökonomische Produktionsstruktur",
+        "Mikroökonomische Fundierung",
+        "Neue Mikroökonomie",
+        "Markttheorie",
+        "Makroökonomie",
+        "Produktionstheorie"
+      ]
+    },
+    {
+      "query": "Internationale Wirtschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        7,
+        1,
+        2,
+        4,
+        3
+      ],
+      "search_results": [
+        "Internationale Wirtschaftspolitik",
+        "Internationaler Konjunkturzusammenhang",
+        "Internationale Wettbewerbsfähigkeit",
+        "Internationales Wirtschaftsrecht",
+        "Internationale Betriebswirtschaftslehre",
+        "Internationales Handelsrecht",
+        "Internationale Marktforschung",
+        "Außenwirtschaftstheorie"
+      ]
+    },
+    {
+      "query": "Wirtschaftspolitik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        5,
+        4
+      ],
+      "search_results": [
+        "Wirtschaftspolitik",
+        "Wirtschaftspolitisches Ziel",
+        "Konjunkturpolitik",
+        "Wirtschaftspolitisches Instrument",
+        "Internationale Wirtschaftspolitik",
+        "Angebotsorientierte Wirtschaftspolitik",
+        "Wirtschaftspolitische Beratung",
+        "Wirtschaftstheorie"
+      ]
+    },
+    {
+      "query": "Nachfrage",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        1,
+        4,
+        0,
+        5,
+        3
+      ],
+      "search_results": [
+        "Nachfrageermittlung",
+        "Gesamtwirtschaftliche Nachfrage",
+        "Nachfrage",
+        "Dienstleistungsnachfrage",
+        "Nachfrageverhalten",
+        "Bedarfsforschung",
+        "Gebrauchsgüternachfrage",
+        "Konsumgüternachfrage"
+      ]
+    },
+    {
+      "query": "Absatz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "search_results": [
+        "Absatzmarktforschung",
+        "Absatzmarkt",
+        "Absatzsegmentrechnung",
+        "Absatzmethode",
+        "Absatzprognose",
+        "Warenästhetik",
+        "Einzelhandelsbetriebslehre",
+        "Warenverkaufskunde"
+      ]
+    },
+    {
+      "query": "Auslandsinvestition",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        5
+      ],
+      "search_results": [
+        "Auslandsinvestition",
+        "Direktinvestition",
+        "Auslandskapital",
+        "Direkte Investitionslenkung",
+        "Auslandsanlage",
+        "Investitionsschutz",
+        "Investitionsschutzabkommen",
+        "Investitionspolitik"
+      ]
+    },
+    {
+      "query": "Außenhandel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        5,
+        3,
+        0,
+        7
+      ],
+      "search_results": [
+        "Außenhandelsbetriebslehre",
+        "Außenhandel",
+        "Außenwirtschaftsverkehr",
+        "Außenhandelsstruktur",
+        "Außenhandelsstatistik",
+        "Außenhandelspolitik",
+        "Außenwirtschaftsstatistik",
+        "Interindustrieller Außenhandel"
+      ]
+    },
+    {
+      "query": "Außenwirtschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        0,
+        3,
+        5,
+        1,
+        6
+      ],
+      "search_results": [
+        "Außenwirtschaftstheorie",
+        "Außenwirtschaftsstatistik",
+        "Außenwirtschaft",
+        "Außenwirtschaftsverkehr",
+        "Außenhandelsbetriebslehre",
+        "Außenhandelspolitik",
+        "Außenhandelsstruktur",
+        "Außenwirtschaftliches Gleichgewicht"
+      ]
+    },
+    {
+      "query": "Kunstgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        6
+      ],
+      "search_results": [
+        "Kunstgeschichte",
+        "Kunstgeschichte",
+        "Kunstgeschichtsschreibung",
+        "Kunstwissenschaftliches Studium",
+        "Kunstwissenschaft",
+        "Historisierende Kunst",
+        "Empirische Kunstwissenschaft",
+        "Historienkunst"
+      ]
+    },
+    {
+      "query": "Bildende Kunst",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        5,
+        7,
+        2
+      ],
+      "search_results": [
+        "Bildnerische Erziehung",
+        "Artbildung",
+        "Kunstgattung",
+        "Bildnerisches Gestalten",
+        "Bildnerisches Gestalten",
+        "Kunsterziehung",
+        "Kunstwissenschaftliches Studium",
+        "Künstlerische Technik"
+      ]
+    },
+    {
+      "query": "Skulptur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        6,
+        0,
+        4,
+        1,
+        7
+      ],
+      "search_results": [
+        "Monumentalplastik",
+        "Steinbildhauerhandwerk",
+        "SCULPT",
+        "Bildnisplastik",
+        "Sandsteinplastik",
+        "Bildhauerzeichnung",
+        "Marmorstatue",
+        "Monumentalkunst"
+      ]
+    },
+    {
+      "query": "Grafik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Grafikdesign",
+        "Grafische Technik",
+        "Graphique",
+        "Graphik",
+        "PLOTGRAF",
+        "Liniengraphik",
+        "Grafische Primitive",
+        "Buchgraphik"
+      ]
+    },
+    {
+      "query": "Museologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Museumskunde",
+        "Museumsdokumentation",
+        "Museumspolitik",
+        "Museologin",
+        "Museumsbibliothek",
+        "Museumsverwaltung",
+        "Museologe",
+        "Museumsbestand"
+      ]
+    },
+    {
+      "query": "Denkmalkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        2,
+        1,
+        0,
+        3,
+        4
+      ],
+      "search_results": [
+        "Denkmalkult",
+        "Denkmalschutz",
+        "Denkmalpflege",
+        "Monumentalkunst",
+        "Monumentalplastik",
+        "Weihinschrift",
+        "Brandenburgischer Denkmalpflegepreis",
+        "Rheinisch-Westfälischer Staatspreis für Denkmalpflege"
+      ]
+    },
+    {
+      "query": "Kunsthandwerk",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        3,
+        4
+      ],
+      "search_results": [
+        "Kunsthandwerk",
+        "Kunsthandwerk",
+        "Handwerkskunst",
+        "Holzbildhauerhandwerk",
+        "Schmiedehandwerk",
+        "Steinmetzhandwerk",
+        "Kunsthandwerker",
+        "Buchbinderhandwerk"
+      ]
+    },
+    {
+      "query": "Design",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        3,
+        0,
+        2,
+        5,
+        6
+      ],
+      "search_results": [
+        "Designwissenschaft",
+        "Design",
+        "Produktgestaltung",
+        "Gestaltung",
+        "Axiomatic Design",
+        "Design Thinking",
+        "Service-Design",
+        "MDESIGN"
+      ]
+    },
+    {
+      "query": "Schmucknadel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        6,
+        5,
+        7
+      ],
+      "search_results": [
+        "Schmucknadel",
+        "Krawattennadel",
+        "Stahlschmuck",
+        "Bügelfibel",
+        "Hausschmuck",
+        "Goldscheibenfibel",
+        "Scheibenfibel",
+        "Trachtenschmuck"
+      ]
+    },
+    {
+      "query": "Naive Kunst",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        3,
+        4
+      ],
+      "search_results": [
+        "Naive Kunst",
+        "Art brut",
+        "Minimal Art",
+        "Primitivismus",
+        "Kunstgattung",
+        "Heimatkunstbewegung",
+        "Laienmalerei",
+        "Nambankunst"
+      ]
+    },
+    {
+      "query": "Nationaldenkmal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Nationaldenkmal",
+        "Nationaldenkmal",
+        "National Monument",
+        "Nationalgüter",
+        "Nationales Naturerbe",
+        "Politisches Denkmal",
+        "Bodendenkmal",
+        "Denkmalbereich"
+      ]
+    },
+    {
+      "query": "Musikwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Musikwissenschaft",
+        "Musikwissenschaftliches Studium",
+        "Angewandte Musikwissenschaft",
+        "Systematische Musikwissenschaft",
+        "Vergleichende Musikwissenschaft",
+        "Musikphilologie",
+        "Historische Musikwissenschaft",
+        "Musikwissenschaftler"
+      ]
+    },
+    {
+      "query": "Musikgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        5
+      ],
+      "search_results": [
+        "Musikgeschichte",
+        "Musikgeschichte",
+        "Historische Musikwissenschaft",
+        "Musikgeschichtsschreibung",
+        "Historische Musikpraxis",
+        "Musikwissenschaft",
+        "Musikarchäologie",
+        "Musikphilologie"
+      ]
+    },
+    {
+      "query": "Musiktheorie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Musiktheorie",
+        "Musiklehre",
+        "Systematische Musikwissenschaft",
+        "Musikalische Formenlehre",
+        "Harmonielehre",
+        "Kompositionslehre",
+        "Kognitive Musikwissenschaft",
+        "Pitch class set theory"
+      ]
+    },
+    {
+      "query": "Komposition",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        2,
+        0,
+        7,
+        1
+      ],
+      "search_results": [
+        "Kompositionslehre",
+        "Kompositionsstudium",
+        "Komposition",
+        "Komposition",
+        "Komposition",
+        "Komposition",
+        "Komposition",
+        "Ringkomposition"
+      ]
+    },
+    {
+      "query": "Musikpädagogik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Musikalische Bildung",
+        "Musikerziehung",
+        "Musikpädagogisches Studium",
+        "Elementare Musikpädagogik",
+        "Schulmusikerziehung",
+        "Musikgeragogik",
+        "Musik- und Bewegungserziehung",
+        "Musiklehre"
+      ]
+    },
+    {
+      "query": "Jazz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        7,
+        5,
+        6
+      ],
+      "search_results": [
+        "Jazz",
+        "Jazz",
+        "Traditional Jazz",
+        "Jazzforschung",
+        "Two-beat-Jazz",
+        "Hardbop",
+        "Jazz-Rock",
+        "Bebop"
+      ]
+    },
+    {
+      "query": "Popmusik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Popmusik",
+        "Popmusik",
+        "Unterhaltungsmusik",
+        "Unterhaltungsmusik",
+        "Musikgattung",
+        "Popkonzert",
+        "Volkstümliche Musik",
+        "Popsong"
+      ]
+    },
+    {
+      "query": "Musikinstrumente",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        5
+      ],
+      "search_results": [
+        "Musikinstrumentenkunde",
+        "Melodieinstrument",
+        "Musikinstrument",
+        "Musikinstrument",
+        "Harmonikainstrument",
+        "Volksmusikinstrument",
+        "Diskantinstrument",
+        "Rohrblattinstrumenttechnik"
+      ]
+    },
+    {
+      "query": "Theaterwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        5,
+        4,
+        7
+      ],
+      "search_results": [
+        "Theaterwissenschaftliches Studium",
+        "Theaterwissenschaft",
+        "Theaterwissenschaftler",
+        "Studiengang Theater-, Film- und Fernsehwissenschaft",
+        "Theatertheorie",
+        "Theaterwissenschaftlerin",
+        "Theaterpädagogik",
+        "Theatersemiotik"
+      ]
+    },
+    {
+      "query": "Filmwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Filmwissenschaft",
+        "Filmtheorie",
+        "Filmwissenschaftler",
+        "Filmsemiotik",
+        "Essayfilm",
+        "Filmästhetik",
+        "Filmunterricht",
+        "Filmphilologie"
+      ]
+    },
+    {
+      "query": "Dramaturgie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        7,
+        1,
+        2,
+        4
+      ],
+      "search_results": [
+        "Dramaturgie",
+        "Drameninszenierung",
+        "Dramentechnik",
+        "Dramaturgin",
+        "Theatertheorie",
+        "Theatersemiotik",
+        "Dramatisierung",
+        "Dramaturg"
+      ]
+    },
+    {
+      "query": "Schauspiel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        1,
+        5,
+        6
+      ],
+      "search_results": [
+        "Schauspielkunst",
+        "Schauspielersprache",
+        "Theaterspiel",
+        "Theaterwissenschaftliches Studium",
+        "Theaterberuf",
+        "Theaterstück",
+        "Theaterpädagogik",
+        "Theatersemiotik"
+      ]
+    },
+    {
+      "query": "Filmgeschichte",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        2
+      ],
+      "search_results": [
+        "Filmgeschichtsschreibung",
+        "Filmwissenschaft",
+        "Filmarchiv",
+        "Essayfilm",
+        "Filmbildung",
+        "Filmgestalt",
+        "Filmtheorie",
+        "Filmunterricht"
+      ]
+    },
+    {
+      "query": "Dokumentarfilm",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Dokumentarfilm",
+        "Dokumentarfilmer",
+        "Dokumentarischer Spielfilm",
+        "Dokumentarfilmerin",
+        "Dokumentar",
+        "Mediendokumentar",
+        "Direct cinema",
+        "Dokumentarin"
+      ]
+    },
+    {
+      "query": "Medienwissenschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        2,
+        6,
+        1,
+        4
+      ],
+      "search_results": [
+        "Medienwissenschaft",
+        "Medienwissenschaftliches Studium",
+        "Medienforschung",
+        "Mediaforschung",
+        "Medienwissenschaftler",
+        "Medientheorie",
+        "Mediensoziologie",
+        "Medienökologie"
+      ]
+    },
+    {
+      "query": "Geographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        7,
+        1,
+        6,
+        0
+      ],
+      "search_results": [
+        "Geografiestudium",
+        "Bodengeografie",
+        "Geografie",
+        "Geografie",
+        "Geografin",
+        "Geografieunterricht",
+        "Landschaftsgeographie",
+        "Physische Geografie"
+      ]
+    },
+    {
+      "query": "Physische Geographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Physische Geografie",
+        "Physische Anthropogeografie",
+        "Landschaftsgeographie",
+        "Bodengeografie",
+        "Umweltgeografie",
+        "Geomorphographie",
+        "Geografiestudium",
+        "Landschaftskunde"
+      ]
+    },
+    {
+      "query": "Humangeographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        3
+      ],
+      "search_results": [
+        "Anthropogeografie",
+        "Sozialgeografie",
+        "Bevölkerungsgeografie",
+        "Spatial Anthropology",
+        "Vergleichende Anthropogeografie",
+        "Siedlungsgeografie",
+        "Wahrnehmungsgeografie",
+        "Anthropogeologie"
+      ]
+    },
+    {
+      "query": "Kartographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Kartografie",
+        "Kartografie",
+        "Kartografie",
+        "Kartografische Darstellung",
+        "Kartografiestudium",
+        "Theoretische Kartografie",
+        "Computerkartografie",
+        "Kartografisches Material"
+      ]
+    },
+    {
+      "query": "Geoinformatik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Geoinformatik",
+        "Geoinformation",
+        "Geoinformationssystem",
+        "Geodateninfrastruktur",
+        "Geoinformatiker",
+        "Landinformationssystem",
+        "Computerkartografie",
+        "Bodeninformationssystem"
+      ]
+    },
+    {
+      "query": "Landschaftsökologie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Landschaftsökologie",
+        "Angewandte Landschaftsökologie",
+        "Landschaftsbiologie",
+        "Landschaftsstruktur",
+        "Landschaftsforschung",
+        "Landschaftskunde",
+        "Landschaftshaushalt",
+        "Landschaftsentwicklung"
+      ]
+    },
+    {
+      "query": "Stadtgeographie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        5
+      ],
+      "search_results": [
+        "Stadtgeografie",
+        "Siedlungsgeografie",
+        "Stadt-Land-Beziehung",
+        "Stadtforschung",
+        "Stadtstruktur",
+        "Stadtsoziologie",
+        "Stadttyp",
+        "Sozialgeografie"
+      ]
+    },
+    {
+      "query": "Abfluss",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        3,
+        7
+      ],
+      "search_results": [
+        "Abflussmessung",
+        "Abflussregime",
+        "Abflusskurve",
+        "Entwässerung",
+        "Entwässerung",
+        "Entwässerung",
+        "Bemessungsabfluss",
+        "Drainage"
+      ]
+    },
+    {
+      "query": "Auenwald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        4,
+        2,
+        7,
+        6
+      ],
+      "search_results": [
+        "Eichen-Ulmen-Auenwald",
+        "Auenwald",
+        "Waldökosystem",
+        "Eichen-Hainbuchenwald",
+        "Hygrophiler Laubwald",
+        "Waldlandschaft",
+        "Auenmoorboden",
+        "Feuchtgebiet"
+      ]
+    },
+    {
+      "query": "Aue",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Australische Literatur",
+        "Auer-Antiqua",
+        "Amtliches Werk",
+        "AUGIAS-Archiv 8.1",
+        "Bibliografische Auskunft",
+        "AUGIAS-Archiv 8.2",
+        "Ausländisches Buch",
+        "AUGIAS-Archiv 8.3"
+      ]
+    },
+    {
+      "query": "Naturräumliche Gliederung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        6,
+        2,
+        4
+      ],
+      "search_results": [
+        "Naturräumliche Gliederung",
+        "Landschaftsgliederung",
+        "Geografischer Raum",
+        "Bodengeografie",
+        "Geografischer Raum",
+        "Landschaftsgeographie",
+        "Regionale Geografie",
+        "Landschaftszone"
+      ]
+    },
+    {
+      "query": "Umweltschutz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Umweltschutz",
+        "Umweltschutz",
+        "Umgebungsschutz",
+        "Internationaler Umweltschutz",
+        "Umweltbewusstsein",
+        "Umweltbewusstsein",
+        "Umweltsicherheit",
+        "Umweltbezogenes Management"
+      ]
+    },
+    {
+      "query": "Klimawandel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Anthropogene Klimaänderung",
+        "Klimaänderung",
+        "Klimaänderung",
+        "Klimaschwankung",
+        "Klimavariation",
+        "Umweltveränderung",
+        "Klimaschutz",
+        "Angewandte Klimatologie"
+      ]
+    },
+    {
+      "query": "Nachhaltigkeit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        7
+      ],
+      "search_results": [
+        "Nachhaltigkeit",
+        "Nachhaltigkeit",
+        "Dauerhafte umweltverträgliche Entwicklung",
+        "Umweltbezogenes Management",
+        "Umweltverträglichkeit",
+        "Umweltorientiertes Rechnungswesen",
+        "Betriebswirtschaftliche Umweltbeziehungen",
+        "Ökoeffizienz"
+      ]
+    },
+    {
+      "query": "Naturschutz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Naturschutz",
+        "Naturschutz",
+        "Naturschutzplanung",
+        "Biotopschutz",
+        "Naturschutzmonitoring",
+        "Naturschutzrecht",
+        "Vertragsnaturschutz",
+        "Integrierter Naturschutz"
+      ]
+    },
+    {
+      "query": "Umweltverschmutzung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Umweltverschmutzung",
+        "Umweltverschmutzung",
+        "Umweltbelastung",
+        "Umweltbelastung",
+        "Umweltgefährdung",
+        "Umweltgefährdung",
+        "Umweltschaden",
+        "Umweltschaden"
+      ]
+    },
+    {
+      "query": "Erneuerbare Energien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        2,
+        7,
+        4
+      ],
+      "search_results": [
+        "Erneuerbare Energien",
+        "Erneuerbare Energien",
+        "Erneuerbare Ressourcen",
+        "Windenergie",
+        "Dezentrale Energieversorgung",
+        "Energieautarkie",
+        "Energieforschung",
+        "Energiequelle"
+      ]
+    },
+    {
+      "query": "Umweltpolitik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        2,
+        5,
+        6
+      ],
+      "search_results": [
+        "Umweltpolitik",
+        "Umweltbezogenes Management",
+        "Luftreinhaltepolitik",
+        "Umweltschutz",
+        "Umweltschutz",
+        "Umweltplanung",
+        "Umweltökonomie",
+        "Umgebungsschutz"
+      ]
+    },
+    {
+      "query": "Abfall",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        7,
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Abfallwirtschaft",
+        "Abfallbehandlung",
+        "Abfallaufkommen",
+        "Abfallanalyse",
+        "Abfallpolitik",
+        "Abfallberatung",
+        "Abfallvermeidung",
+        "Abfall"
+      ]
+    },
+    {
+      "query": "Abfallwirtschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        2,
+        3,
+        7,
+        5
+      ],
+      "search_results": [
+        "Abfallwirtschaft",
+        "Duale Abfallwirtschaft",
+        "Abfallbehandlung",
+        "Abfallpolitik",
+        "Entsorgungswirtschaft",
+        "Abfallaufkommen",
+        "Abfallanalyse",
+        "Abfallvermeidung"
+      ]
+    },
+    {
+      "query": "Abwasser",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Abwasserwirtschaft",
+        "Abwasserreinigung",
+        "Abwasserbeseitigung",
+        "Häusliches Abwasser",
+        "Abwasseranalyse",
+        "Abwassertechnologie",
+        "Abwasserrecht",
+        "Abwasserbelastung"
+      ]
+    },
+    {
+      "query": "Abwasserreinigung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Abwasserreinigung",
+        "Weitergehende Abwasserreinigung",
+        "Abwasseraufbereitung",
+        "Umwelttechnologin für Abwasserbewirtschaftung",
+        "Abwassertechnologie",
+        "Biologische Abwasserreinigung",
+        "Abwasserwirtschaft",
+        "Abwasserbeseitigung"
+      ]
+    },
+    {
+      "query": "Naturkatastrophe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Naturkatastrophe",
+        "Naturkatastrophe",
+        "Naturgefahr",
+        "Naturereignis",
+        "Naturereignis",
+        "Katastrophenrisiko",
+        "Umweltkatastrophe",
+        "Umweltkatastrophe"
+      ]
+    },
+    {
+      "query": "Außerirdisches Leben",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Außerirdisches Leben",
+        "Außerirdisches Leben",
+        "Außerirdische Intelligenz",
+        "Außerirdische Intelligenz",
+        "Extraterrestrische Forschung",
+        "Astrobiologie",
+        "Panspermielehre",
+        "Extraterrestrische Physik"
+      ]
+    },
+    {
+      "query": "Atmosphäre",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        7,
+        2
+      ],
+      "search_results": [
+        "Atmosphäre",
+        "Atmosphäre",
+        "Wasserstoffatmosphäre",
+        "Atmosphärisches Aerosol",
+        "Atmosphärische Grenzschicht",
+        "Innere Atmosphäre",
+        "ATMOS",
+        "Allgemeine atmosphärische Zirkulation"
+      ]
+    },
+    {
+      "query": "Interkulturalität",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Interkulturalität",
+        "Interkulturalität",
+        "Interkulturelle Kompetenz",
+        "Interkulturelles Lernen",
+        "Interkulturelle Erziehung",
+        "Interkulturelles Management",
+        "Interkulturelle Sozialarbeit",
+        "Interdisziplinarität"
+      ]
+    },
+    {
+      "query": "Globalisierung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Globalisierung",
+        "Globalisierung",
+        "Transnationalisierung",
+        "Transnationalisierung",
+        "Internationalisierung",
+        "Internationalisierung",
+        "Internationale Verflechtung",
+        "Globales Lernen"
+      ]
+    },
+    {
+      "query": "Digitalisierung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Digitalisierung",
+        "Digitale Revolution",
+        "Digitale Revolution",
+        "Digitale Daten",
+        "Informationsgesellschaft",
+        "Informationsgesellschaft",
+        "Digitales Beweismittel",
+        "Arbeitsmarktwirkungen moderner Technologien"
+      ]
+    },
+    {
+      "query": "Nachhaltige Entwicklung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        4,
+        3,
+        7
+      ],
+      "search_results": [
+        "Dauerhafte umweltverträgliche Entwicklung",
+        "Nachhaltigkeit",
+        "Nachhaltigkeit",
+        "Betriebswirtschaftliche Umweltbeziehungen",
+        "Umweltbezogenes Management",
+        "Umweltorientiertes Rechnungswesen",
+        "Entwicklungswissenschaft",
+        "Gesellschaftliche Entwicklung"
+      ]
+    },
+    {
+      "query": "Technikfolgenabschätzung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        7,
+        4,
+        5
+      ],
+      "search_results": [
+        "Technikbewertung",
+        "Technikethik",
+        "Technisches Gutachten",
+        "Ex-ante-Beurteilung",
+        "Technischer Fortschritt",
+        "Technischer Fortschritt",
+        "Technologietransfer",
+        "Techniksoziologie"
+      ]
+    },
+    {
+      "query": "Wissensmanagement",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5
+      ],
+      "search_results": [
+        "Wissensmanagement",
+        "Wissensorganisation",
+        "Wissensorganisation",
+        "Wissensintensives Unternehmen",
+        "Informationsmanagement",
+        "Wissenstechnik",
+        "Informations- und Dokumentationswissenschaft",
+        "Wissensproduktion"
+      ]
+    },
+    {
+      "query": "Kulturtransfer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Kulturübertragung",
+        "Kulturübertragung",
+        "Kulturvermittlung",
+        "Kulturvergleich",
+        "Kulturkontakt",
+        "Kulturkontakt",
+        "Kulturtheorie",
+        "Interkulturelles Lernen"
+      ]
+    },
+    {
+      "query": "Ausbreitung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        7,
+        1,
+        2
+      ],
+      "search_results": [
+        "Ausbreitung",
+        "Ausbreitungsmodell",
+        "Samenausbreitung",
+        "Verbreitung",
+        "Propagation",
+        "Ausbreitungswiderstand",
+        "Rissausbreitung",
+        "Spread"
+      ]
+    },
+    {
+      "query": "Auslese",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        0,
+        4
+      ],
+      "search_results": [
+        "Beerenauslese",
+        "Auslese",
+        "Auslese",
+        "Auslese",
+        "Spätlese",
+        "Bundesweinprämierung",
+        "Best of Riesling",
+        "Konventioneller Weinbau"
+      ]
+    },
+    {
+      "query": "Abhängigkeit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Abhängigkeit",
+        "Abhängigkeit",
+        "Soziale Abhängigkeit",
+        "Soziale Abhängigkeit",
+        "Arzneimittelabhängigkeit",
+        "Wirtschaftliche Abhängigkeit",
+        "Feldabhängigkeit",
+        "Nachfrageinterdependenz"
+      ]
+    },
+    {
+      "query": "Künstliche Intelligenz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        3,
+        6,
+        5
+      ],
+      "search_results": [
+        "Künstliche Intelligenz",
+        "Künstliche Intelligenz",
+        "Wissensverarbeitung",
+        "Verteilte künstliche Intelligenz",
+        "Maschinelles Lernen",
+        "ai",
+        "Erklärbare künstliche Intelligenz",
+        "Assistent für Automatisierungs- und Computertechnik"
+      ]
+    },
+    {
+      "query": "Big Data",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Big Data",
+        "Big Data",
+        "Großdatenverarbeitung",
+        "Data-centric computing",
+        "Data Science",
+        "Data Mining",
+        "Hochdimensionale Daten",
+        "Datenwirtschaft"
+      ]
+    },
+    {
+      "query": "Blockchain",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        5,
+        3,
+        2,
+        7
+      ],
+      "search_results": [
+        "Distributed Ledger Technologie",
+        "Blockchain",
+        "Finanztechnologie",
+        "Dezentralisierte Autonome Organisation",
+        "Public-Key-Infrastruktur",
+        "Dezentrale Datenverarbeitung",
+        "Interoperabilität",
+        "Schlüsseltechnologie"
+      ]
+    },
+    {
+      "query": "Internet der Dinge",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "search_results": [
+        "Internet der Dinge",
+        "Sensor-Aktor-Netzwerk",
+        "Intelligentes Objekt",
+        "Cyber-physisches System",
+        "Sozio-Cyber-Physisches Systeme",
+        "Intelligente Fertigung",
+        "Ubiquitous Computing",
+        "Edge computing"
+      ]
+    },
+    {
+      "query": "Robotik",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        6,
+        7,
+        1,
+        2
+      ],
+      "search_results": [
+        "Robotik",
+        "Montageroboter",
+        "Soziale Robotik",
+        "Parallelroboter",
+        "Mechatronik",
+        "Autonomer Roboter",
+        "Mobiler Roboter",
+        "Kollaborativer Roboter"
+      ]
+    },
+    {
+      "query": "Autonomes Fahren",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2,
+        6,
+        3
+      ],
+      "search_results": [
+        "Autonomes Fahrzeug",
+        "Fahrerassistenzsystem",
+        "Kraftfahrzeugelektronik",
+        "Fahrerloses Transportsystem",
+        "Autopilot",
+        "Fahrzeugverhalten",
+        "Car-to-Car-Kommunikation",
+        "Autonomer Roboter"
+      ]
+    },
+    {
+      "query": "Quantencomputer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        6
+      ],
+      "search_results": [
+        "Quantencomputer",
+        "Quanteninformatik",
+        "Quantenschaltung",
+        "Quantentechnologie",
+        "Quantenalgorithmus",
+        "Quantensimulator",
+        "Quantengatter",
+        "Quantensoftware"
+      ]
+    },
+    {
+      "query": "3D-Druck",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        7,
+        3,
+        6,
+        2
+      ],
+      "search_results": [
+        "3D-Druck",
+        "4D-Druck",
+        "High Speed Sintering",
+        "Direct Metal Laser Sintering",
+        "Materialdruck",
+        "Fused Deposition Modeling",
+        "Selektives Laserschmelzen",
+        "Stereolithographie"
+      ]
+    },
+    {
+      "query": "Atkins-Diät",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Ketogenese",
+        "Essenzielle Aminosäuren",
+        "Polyenfettsäurenstoffwechsel",
+        "Kohlenhydratstoffwechsel",
+        "Ketonkörper",
+        "Lipidsenker",
+        "Essenzielle Fettsäuren",
+        "Fettsäurestoffwechsel"
+      ]
+    },
+    {
+      "query": "Audiometrie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Audiometrie",
+        "Sprachaudiometrie",
+        "Impedanzaudiometrie",
+        "Audiometer",
+        "Otoakustische Emission",
+        "Audiologie",
+        "Tympanometrie",
+        "Akustische Messung"
+      ]
+    },
+    {
+      "query": "Abdichtungsstoff",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        5,
+        1,
+        3,
+        4
+      ],
+      "search_results": [
+        "Abdichtungsstoff",
+        "Betondichtungsmittel",
+        "Abdichtung",
+        "Klebeabdichter",
+        "Basisabdichtung",
+        "Dichtungsmasse",
+        "Beschichtungsstoff",
+        "Füllungswerkstoff"
+      ]
+    },
+    {
+      "query": "Abfindung",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Abfindung",
+        "Abgangsentschädigung",
+        "Abfindungsklausel",
+        "Abfindungsvertrag",
+        "Abfindungsanspruch",
+        "Trennungsentschädigung",
+        "Geldentschädigung",
+        "Abwicklungsverhältnis"
+      ]
+    },
+    {
+      "query": "Nachbarrecht",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0
+      ],
+      "search_results": [
+        "Nachbarerbbaurecht",
+        "Nachbarrecht",
+        "Baunachbarrecht",
+        "Nachbarschaftliches Gemeinschaftsverhältnis",
+        "Nachbarklage",
+        "Näherrecht",
+        "Nebengüterrecht",
+        "Heimstättenrecht"
+      ]
+    },
+    {
+      "query": "Nachbarschaft",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        3
+      ],
+      "search_results": [
+        "Nachbarschaftliches Gemeinschaftsverhältnis",
+        "Nachbarschaftsraum",
+        "Nachbarwissenschaft",
+        "Nachbarschaftsverband",
+        "Wohnumfeld",
+        "Sozialraum",
+        "Sozialraum",
+        "Nachbargruppeneffekt"
+      ]
+    },
+    {
+      "query": "Nachfrage",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        1,
+        4,
+        0,
+        5,
+        3
+      ],
+      "search_results": [
+        "Nachfrageermittlung",
+        "Gesamtwirtschaftliche Nachfrage",
+        "Nachfrage",
+        "Dienstleistungsnachfrage",
+        "Nachfrageverhalten",
+        "Bedarfsforschung",
+        "Gebrauchsgüternachfrage",
+        "Konsumgüternachfrage"
+      ]
+    },
+    {
+      "query": "Nachtarbeit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        7
+      ],
+      "search_results": [
+        "Nachtarbeitsverbot",
+        "Schichtarbeit",
+        "Schichtarbeit",
+        "Nachtarbeit",
+        "Nachtarbeiter",
+        "Mehrarbeit",
+        "Zweischichtarbeit",
+        "Arbeitszeitpolitik"
+      ]
+    },
+    {
+      "query": "Narkose",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Narkosevorbereitung",
+        "Narkoseführung",
+        "Narkoseüberwachung",
+        "Injektionsnarkose",
+        "Infusionsnarkose",
+        "Neuroleptanalgesie",
+        "Inhalationsnarkose",
+        "Kurznarkose"
+      ]
+    },
+    {
+      "query": "Nation",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 8,
+      "acceptance_rate": 1.0,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        1,
+        2,
+        6,
+        7,
+        5
+      ],
+      "search_results": [
+        "Nationalstaat",
+        "Nationalbewusstsein",
+        "Nationalbewusstsein",
+        "Nationenbildung",
+        "Nationenbildung",
+        "nationalitas",
+        "Nationalismus",
+        "Nationalismus"
+      ]
+    },
+    {
+      "query": "Nationalbewusstsein",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Nationalbewusstsein",
+        "Nationalbewusstsein",
+        "Staatsbewusstsein",
+        "Nationalismus",
+        "Nationalismus",
+        "Nationenbildung",
+        "Nationenbildung",
+        "Nationalcharakter"
+      ]
+    },
+    {
+      "query": "Nationalsozialismus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Nationalsozialismus",
+        "Nationalsozialismus",
+        "Nationalsozialismus",
+        "Nationalsozialismus",
+        "Nationalsozialistisches Recht",
+        "Nationalsozialist",
+        "Nationalsozialist",
+        "Volksgemeinschaft"
+      ]
+    },
+    {
+      "query": "Nationalstaat",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Nationalstaat",
+        "Staatsbildung",
+        "Nationenbildung",
+        "Begrenzte Staatlichkeit",
+        "Nationenbildung",
+        "Staatsbewusstsein",
+        "Nationalbewusstsein",
+        "Nationalbewusstsein"
+      ]
+    },
+    {
+      "query": "Natur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "search_results": [
+        "Natur",
+        "Natur",
+        "natura",
+        "Natur, Mensch, Gesellschaft",
+        "Naturae cursus",
+        "Naturwissenschaften",
+        "Naturwissenschaften",
+        "Naturwissenschaftliches Studium"
+      ]
+    },
+    {
+      "query": "Naturheilkunde",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Naturheilkunde",
+        "Naturheilverfahren",
+        "Naturheilmittel",
+        "Naturnahe Pflege",
+        "Alternative Medizin",
+        "Ganzheitsmedizin",
+        "Ökotherapie",
+        "Anthroposophische Medizin"
+      ]
+    },
+    {
+      "query": "Naturschutzgebiet",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        2,
+        1,
+        6,
+        4
+      ],
+      "search_results": [
+        "Naturschutzgebiet",
+        "Landschaftsschutzgebiet",
+        "Großschutzgebiet",
+        "Geschützte Natur",
+        "Naturschutzplanung",
+        "Naturwaldreservat",
+        "Naturpark",
+        "Biotopschutz"
+      ]
+    },
+    {
+      "query": "Naturwissenschaften",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Naturwissenschaftliches Studium",
+        "Naturwissenschaften",
+        "Naturwissenschaften",
+        "Naturwissenschaftliche Forschung",
+        "Naturwissenschaftliche Bildung",
+        "Naturwissenschaft und Technik",
+        "Naturwissenschaftliche Erkenntnis",
+        "Exakte Naturwissenschaften"
+      ]
+    },
+    {
+      "query": "Naturwissenschaftler",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        6,
+        2,
+        3
+      ],
+      "search_results": [
+        "Naturwissenschaftler",
+        "Naturwissenschaftler",
+        "Naturwissenschaftliche Forschung",
+        "Naturwissenschaftliches Studium",
+        "Biowissenschaftler",
+        "Naturwissenschaften",
+        "Naturwissenschaften",
+        "Naturwissenschaftliche Bildung"
+      ]
+    },
+    {
+      "query": "Navigation",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Navigation",
+        "Terrestrische Navigation",
+        "Satellitennavigation",
+        "Navigationssatellit",
+        "Schiffsnavigation",
+        "Hyperbelnavigation",
+        "Funknavigation",
+        "Koppelnavigation"
+      ]
+    },
+    {
+      "query": "Nebel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1,
+        5,
+        2,
+        3
+      ],
+      "search_results": [
+        "Nebelbildung",
+        "Wassernebel",
+        "Wolkenbildung",
+        "Bewölkung",
+        "Ölnebel",
+        "Strahlungsnebel",
+        "Kondensstreifen",
+        "Cloudy wing particle"
+      ]
+    },
+    {
+      "query": "Nervensystem",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        6,
+        2
+      ],
+      "search_results": [
+        "Nervensystem",
+        "Nervensystem",
+        "Strickleiternervensystem",
+        "Zentralnervensystem",
+        "Vegetatives Nervensystem",
+        "Neuromuskuläres System",
+        "Peripheres Nervensystem",
+        "Neuroendokrines System"
+      ]
+    },
+    {
+      "query": "Nervenzelle",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Nervenzelle",
+        "GABAerge Nervenzelle",
+        "Hirnzelle",
+        "Serotonerge Nervenzelle",
+        "Cholinerge Nervenzelle",
+        "Nervenstammzelle",
+        "Renshaw-Zelle",
+        "Dopaminerge Nervenzelle"
+      ]
+    },
+    {
+      "query": "Neugeborenes",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        5,
+        4,
+        2
+      ],
+      "search_results": [
+        "Neugeborenes",
+        "Neugeborenes",
+        "Neugeborenensterblichkeit",
+        "Perinatale Sterblichkeit",
+        "Perinatalperiode",
+        "Säuglingspflege",
+        "Neonatologie",
+        "Frühgeborenensterblichkeit"
+      ]
+    },
+    {
+      "query": "Netzgerät",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        1,
+        1,
+        2
+      ],
+      "search_results": [
+        "Netzgerät",
+        "Netztransformator",
+        "Netzgeführter Stromrichter",
+        "Stromversorgungsgerät",
+        "Schaltnetzteil",
+        "Netzplantechnik",
+        "Netzleittechnik",
+        "Gerätebeschreibung"
+      ]
+    }
+  ],
+  "aggregate": {
+    "overall_acceptance_rate": 0.7248,
+    "hit_rate": 0.9937,
+    "mean_relevant_results": 5.8,
+    "quality_tier_distribution": {
+      "FAIL": 2,
+      "POOR": 1,
+      "OK": 38,
+      "GOOD": 277,
+      "EXCELLENT": 0
+    },
+    "cumulative_quality": {
+      "at_least_1": 0.9937,
+      "at_least_2": 0.9906,
+      "at_least_3": 0.9906,
+      "at_least_4": 0.9811,
+      "at_least_5": 0.9528,
+      "at_least_6": 0.8711,
+      "at_least_7": 0.0126,
+      "at_least_8": 0.0063
+    },
+    "position_hit_rates": {
+      "position_1": 0.9654088050314465,
+      "position_2": 0.9150943396226415,
+      "position_3": 0.8490566037735849,
+      "position_4": 0.8018867924528302,
+      "position_5": 0.6981132075471698,
+      "position_6": 0.6163522012578616,
+      "position_7": 0.4716981132075472,
+      "position_8": 0.4591194968553459
+    }
+  }
+}

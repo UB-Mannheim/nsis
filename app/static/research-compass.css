@@ -1,0 +1,2240 @@
+:root {
+    /* Main color palette */
+    --color-main: #2f3e6a;
+    --color-main-light: #0066cc;
+    --color-accent: #dce1ef;
+    --color-border: #ccd9e6;
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-white: #ffffff;
+    --color-gray: #f3f7fc;
+    --color-success: #28a745;
+    --color-relevant: #23923d;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-disabled: #6c757d;
+    /* URL syntax highlighting colors */
+    --url-color-base: #2f3e6a;
+    --url-color-join: #6c757d;
+    --url-color-group-0: #2970cc;
+    --url-color-group-1: #1a9a99;
+    --url-color-group-2: #4a9944;
+    --url-color-group-3: #cc9922;
+    --url-color-group-4: #cc6622;
+    --url-color-group-5: #cc2255;
+    --url-color-group-6: #6622aa;
+    /* Font settings */
+    --font-family-base: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-family-mono: "SF Mono", Monaco, "Cascadia Code", monospace;
+    --font-size-root: 14px;
+    --font-size-xs: .65rem; /* 9.1px - result index badges */
+    --font-size-sm: .7rem; /* 9.8px - type badges, metadata */
+    --font-size-sm-md: .75rem; /* 10.5px - URL labels, hints */
+    --font-size-md: .8rem; /* 11.2px - tooltips, pipeline, debounce */
+    --font-size-lg: .85rem; /* 11.9px - VuFind results, history items, options, buttons */
+    --font-size-xl: .9rem; /* 12.6px - section titles, links, open-link */
+    --font-size-base: 1rem; /* 14px - headers, search input */
+    --font-size-icon: 1.2rem; /* 16.8px - icons in headers, section icons */
+    --font-size-logo: 1.5rem; /* 21px - main logo text */
+    --font-size-logo-sm: 1.2rem; /* 16.8px - mobile logo text */
+    --font-size-icon-sm: .86rem; /* 12px - checkmarks, badge icons */
+    --font-size-tooltip-icon: 1.1rem; /* 15.4px - tooltip icon trigger */
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+    --font-weight-strong: 700;
+}
+
+/* Set default margins/padding, use border-box for sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base font size for rem units */
+html {
+    font-size: var(--font-size-root);
+}
+
+/* Flexbox page layout - body as column container */
+body {
+    font-family: var(--font-family-base);
+    background: var(--color-gray);
+    color: var(--color-text);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ──────────── Shared Interactive Elements ────────────*/
+/* Keyboard focus indicator for accessibility */
+.history-item:focus-visible, .option-item:focus-visible, .search-example-item:focus-visible, .vocab-popup-item:focus-visible, .vufind-result-item:focus-visible {
+    outline: 2px solid var(--color-main-light);
+    outline-offset: 2px;
+    transition: none;
+}
+
+/* Interactive list items - removes native button appearance */
+.history-item, .option-item, .search-example-item, .vocab-popup-item {
+    width: 100%;
+    text-align: left;
+    color: var(--color-text);
+    appearance: none;
+    box-sizing: border-box;
+}
+
+/* ──────────── Header ────────────*/
+/* Main header bar - primary color background with shadow */
+.header {
+    background: var(--color-main);
+    color: var(--color-white);
+    padding: 1.25rem 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+/* Centers and constrains header content width */
+.header-content {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo container - flex layout for image and text alignment */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+}
+
+/* Logo image - fixed height, auto width to maintain aspect ratio */
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
+/* Logo text - larger, bold font for brand name */
+.logo-text {
+    font-size: var(--font-size-logo);
+    font-weight: var(--font-weight-bold);
+    margin-left: 1rem;
+}
+
+/* Light weight for subtitle/part of logo text */
+.logo-text span {
+    font-weight: var(--font-weight-light);
+}
+
+/* Header navigation - horizontal list layout */
+.header-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Header link styling - white text, no underline by default */
+.header-links li a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+/* Header link hover - accent color and underline */
+.header-links li a:hover {
+    color: var(--color-accent);
+}
+
+/* Only underline the span text inside header links, not the whole link including icon */
+.header-links li a:hover span {
+    text-decoration: underline;
+}
+
+/* ──────────── Language Switcher ────────────*/
+/* Language switcher container - horizontal flex layout */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+/* Language switcher links - white text, no underline by default */
+.language-switcher .nav-link {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+/* Language switcher link hover - accent color */
+.language-switcher .nav-link:hover {
+    color: var(--color-accent);
+}
+
+/* Language switcher link active - accent color and underline */
+.language-switcher .nav-link.active {
+    color: var(--color-accent);
+}
+
+/* Language switcher active label - bold weight */
+.language-switcher .nav-link.active .language-link-label {
+    font-weight: var(--font-weight-strong);
+}
+
+/* Language switcher label text - same font as aboutLink */
+.language-switcher .language-link-label {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Language switcher separator - white color, smaller size */
+.language-switcher > span {
+    color: var(--color-white);
+    font-size: var(--font-size-lg);
+    opacity: 0.7;
+}
+
+/* ──────────── About Link ────────────*/
+/* About link wrapper -  flex layout for vertical alignment */
+.about-link {
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+/* ──────────── Utility: icon margin ────────────*/
+/* Right margin for icons adjacent to text in buttons/links */
+.icon-margin-right {
+    margin-right: 4px;
+}
+
+/* ──────────── Sidebar (left) ────────────*/
+/* Sidebar container - vertical flex layout, sticks to top */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-self: start;
+    min-width: 0;
+}
+
+/* Sidebar card - white background with rounded corners and shadow */
+.sidebar-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    overflow: hidden;
+    min-width: 0;
+}
+
+/* Sidebar header - accent background, bold title text */
+.sidebar-header {
+    background: var(--color-accent);
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--color-border);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-xl);
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Sidebar header icon - matches main color */
+.sidebar-header i {
+    font-size: var(--font-size-base);
+    color: var(--color-main);
+}
+
+/* Clear history button - circular, transparent background */
+.clear-history-btn {
+    margin-left: auto;
+    padding: 4px;
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .2s;
+}
+
+/* Clear history icon - main color, smaller size */
+.clear-history-btn i {
+    color: var(--color-main);
+    transition: color .2s;
+    font-size: var(--font-size-xl);
+}
+
+/* Clear history button hover - light red background */
+.clear-history-btn:hover {
+    background: rgba(220, 53, 69, .1);
+}
+
+/* Clear history icon hover - danger red color */
+.clear-history-btn:hover i {
+    color: var(--color-danger);
+}
+
+/* Sidebar content area - consistent padding */
+.sidebar-body {
+    padding: 16px;
+}
+
+/* Scrollable container for search history */
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 300px;
+    overflow-y: visible;
+    min-width: 0;
+    padding: 2px;
+}
+
+/* History item - gray background, border, hover highlight */
+.history-item {
+    padding: 10px 12px;
+    background: var(--color-gray);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    transition: background .2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    min-width: 0;
+    border: 1px solid var(--color-border);
+}
+
+/* History item hover - accent background */
+.history-item:hover {
+    background: var(--color-accent);
+}
+
+/* History text - truncate with ellipsis for overflow */
+.history-text {
+    flex: 1;
+    min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Empty history message - italic, light text, centered */
+.empty-history {
+    color: var(--color-text-light);
+    font-style: italic;
+    font-size: var(--font-size-lg);
+    text-align: center;
+    padding: 10px 12px;
+    line-height: 1.4;
+}
+
+/* Search examples container - vertical stack */
+.search-examples {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+/* Search example item - clickable row with border */
+.search-example-item {
+    padding: 10px 14px;
+    background: var(--color-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    cursor: pointer;
+    text-align: left;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+}
+
+/* Search example text - allow word breaking for long queries */
+.search-example-text {
+    flex: 1;
+    min-width: 0;
+    word-break: break-word;
+}
+
+/* Search example hover - accent background */
+.search-example-item:hover {
+    background: var(--color-accent);
+}
+
+/* ──────────── Sidebar About ────────────*/
+/* About sidebar body - smaller font, lighter color */
+.sidebar-body-about {
+    font-size: var(--font-size-lg);
+    color: var(--color-text-light);
+}
+
+/* About sidebar paragraph - auto hyphens */
+.sidebar-about-paragraph {
+    hyphens: auto;
+}
+
+/* About sidebar features wrapper - flex layout with gap */
+.sidebar-about-features {
+    margin-top: 8px;
+    display: flex;
+    gap: 2em;
+}
+
+/* About sidebar feature list - left margin and padding */
+.sidebar-about-list {
+    margin-left: 6px;
+    padding-left: 6px;
+}
+
+/* ──────────── Main Container / Layout ────────────*/
+/* Main layout container - 3-column grid (sidebar, search, options) */
+.main-container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) 2fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    flex: 1;
+}
+
+/* Allows children to participate in parent grid without creating extra grid context */
+.main-content-wrapper {
+    display: contents;
+}
+
+/* Search panel - vertical flex container for search sections */
+.search-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Options panel - vertical flex, aligned to top */
+.options-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-self: start;
+}
+
+/* Search section - white card with rounded corners and shadow */
+.search-section {
+    background: var(--color-white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    overflow: hidden;
+}
+
+/* Section header - accent background, icon + title layout */
+.section-header {
+    background: var(--color-accent);
+    padding: 1rem 1.5rem;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Section header title - bold, main color text */
+.section-header h2 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+}
+
+/* Section icon - centered, fixed width */
+.section-icon {
+    color: var(--color-main);
+    font-size: var(--font-size-icon);
+    width: 24px;
+    text-align: center;
+}
+
+/* ──────────── Search input ────────────*/
+/* Search input container - padding around the input area */
+.search-input-container {
+    padding: 1.5rem;
+    border: none;
+}
+
+/* Search box - horizontal flex layout for input + button */
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+/* Search input wrapper - relative positioned for absolute clear button */
+.search-input-wrapper {
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+/* Search input field - full width, rounded borders */
+.search-input {
+    flex: 1;
+    padding: 14px 40px 14px 18px;
+    font-size: var(--font-size-base);
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+    width: 100%;
+}
+
+/* Search input focus - subtle glow effect */
+.search-input:focus {
+    box-shadow: 0 0 0 4px rgba(47, 62, 106, .1); /* --color-main at 10% opacity */
+}
+
+/* Hardcoded - not using variable for placeholder visibility */
+.search-input::placeholder {
+    color: #999;
+}
+
+/* Clear button - positioned inside input, circular transparent style */
+.search-clear-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-light);
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+/* Clear button hover - red color with light red background */
+.search-clear-btn:hover {
+    color: var(--color-danger);
+    background: rgba(220, 53, 69, .1);
+}
+
+/* Clear button icon - fixed size */
+.search-clear-btn i {
+    font-size: var(--font-size-base);
+}
+
+/* Search submit button - primary color, rounded */
+.search-btn {
+    padding: 14px 28px;
+    background: var(--color-main);
+    color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: background .2s, transform .1s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+}
+
+/* Active/pressed state - slight scale down for tactile feedback */
+.search-btn:active {
+    transform: scale(.98);
+}
+
+/* Disabled state - grayed out, no pointer */
+.search-btn:disabled {
+    background: #999;
+    cursor: not-allowed;
+}
+
+/* ──────────── Debug Panel / URL Display ────────────*/
+/* Debug panel - shows generated URL and pipeline status */
+.debug-panel {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+/* URL syntax highlighting - parts bold on hover for readability */
+.url-part {
+    transition: font-weight 0.15s;
+}
+
+/* URL part hover - bold weight for emphasis */
+.url-part:hover {
+    font-weight: var(--font-weight-strong);
+}
+
+/* URL base part - primary color, medium weight */
+.url-base {
+    color: var(--url-color-base);
+    font-weight: var(--font-weight-medium);
+}
+
+/* URL join part (AND/OR) - muted gray color */
+.url-join {
+    color: var(--url-color-join);
+}
+
+/* URL group part - lighter weight for grouped terms */
+.url-group {
+    font-weight: var(--font-weight-normal);
+}
+
+/* Pipeline step indicators (loading/done/error states) */
+.pipeline-status {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0;
+}
+
+/* States: .loading (yellow/warning), .done (green/success)*/
+.pipeline-indicator {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    background: var(--color-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: var(--font-size-md);
+}
+
+/* Loading state - yellow/warning border and background */
+.pipeline-indicator.loading {
+    border-color: var(--color-warning);
+    background: #fffbf0;
+}
+
+/* Done state - green/success border and background */
+.pipeline-indicator.done {
+    border-color: var(--color-success);
+    background: #f0fff4;
+}
+
+/* Loading spinner - border-top creates rotation illusion */
+.pipeline-spinner {
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+/* Smaller spinner variant for use in pipeline indicators */
+.pipeline-indicator .pipeline-spinner {
+    width: 12px;
+    height: 12px;
+    border-width: 2px;
+}
+
+/* Hide spinner when done or error - show checkmark or error icon instead */
+.pipeline-indicator.done .pipeline-spinner, .pipeline-indicator.error .pipeline-spinner {
+    display: none;
+}
+
+/* Hide spinner when not loading */
+.pipeline-indicator:not(.loading) .pipeline-spinner {
+    display: none;
+}
+
+/* Checkmark icon - shown when .done */
+.pipeline-check {
+    display: none;
+    color: var(--color-success);
+}
+
+/* Error icon - shown when .error */
+.pipeline-error-icon {
+    display: none;
+    color: var(--color-danger);
+}
+
+/* Show checkmark when pipeline step is done */
+.pipeline-indicator.done .pipeline-check {
+    display: inline;
+}
+
+/* Show error icon when pipeline step has error */
+.pipeline-indicator.error .pipeline-error-icon {
+    display: inline;
+}
+
+/* External link button - opens VuFind URL */
+.open-link {
+    color: var(--color-white);
+    background: var(--color-main);
+    border: 1px solid var(--color-main);
+    text-decoration: none;
+    font-size: var(--font-size-xl);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    margin-left: 2rem;
+    border-radius: 8px;
+    white-space: nowrap;
+    transition: background .2s;
+}
+
+/* Open link hover - keep primary color */
+.open-link:hover {
+    background: var(--color-main);
+}
+
+/* URL display box - shows constructed query URL */
+.url-box {
+    background: var(--color-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* URL box title - bold, main color, with bottom border */
+.url-box-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 4px;
+}
+
+/* URL box title shortcut hint - smaller, lighter text */
+.url-box-title-shortcut {
+    font-size: var(--font-size-sm-md);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-text-light);
+}
+
+/* URL top row - flex layout for content and open link button */
+.url-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* URL bottom row - debounce timer and pipeline status */
+.url-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    margin-top: 8px;
+}
+
+/* ──────────── Debounce Timer ────────────*/
+/* Debounce timer - shows countdown before search executes */
+.debounce-timer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 10px;
+    background: var(--color-gray);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: var(--font-size-md);
+    min-width: 120px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Active state - timer is counting down */
+.debounce-timer.active {
+    display: flex;
+}
+
+/* Visual countdown bar that shrinks from left */
+.debounce-timer-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: var(--color-main-light);
+    opacity: 0.2;
+    transform-origin: left;
+    transition: transform 0.1s linear;
+}
+
+/* Debounce timer text - shows remaining seconds */
+.debounce-timer-text {
+    position: relative;
+    z-index: 1;
+    color: var(--color-text-light);
+}
+
+/* Debounce timer label - light text color */
+.debounce-timer-label {
+    position: relative;
+    z-index: 1;
+    color: var(--color-text-light);
+    white-space: nowrap;
+}
+
+/* Active timer text - darker color and medium weight */
+.debounce-timer.active .debounce-timer-text {
+    color: var(--color-main);
+    font-weight: var(--font-weight-medium);
+}
+
+/* Monospace font for URL readability */
+.url-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* URL label - uppercase, small, light text */
+.url-label {
+    font-size: var(--font-size-sm-md);
+    text-transform: uppercase;
+    color: var(--color-text-light);
+    font-weight: var(--font-weight-bold);
+    margin-bottom: 6px;
+    letter-spacing: .5px;
+}
+
+/* URL text - monospace font for query display */
+.url-text {
+    font-family: var(--font-family-mono);
+    font-size: var(--font-size-md);
+    color: var(--color-text);
+    word-break: break-all;
+}
+
+/* ──────────── Options Panel ────────────*/
+/* Options panel - white card with search options */
+.options-section {
+    background: var(--color-white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    overflow: hidden;
+}
+
+/* Options section header - accent background with icon and title */
+.options-section .section-header {
+    background: var(--color-accent);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Options section title - bold, main color */
+.options-section .section-header h2 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+}
+
+/* Options section icon - centered, main color */
+.options-section .section-header i {
+    color: var(--color-main);
+    font-size: var(--font-size-icon);
+    width: 24px;
+    text-align: center;
+}
+
+/* Options body - flexible layout with scrolling */
+.options-body {
+    padding: 16px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* ──────────── Options Grid ────────────*/
+/* Options section title - bold, main color, with icon */
+.options-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Single column grid - options stack vertically */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Option card - white background with border and rounded corners */
+.option-card {
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Option card header - accent background with title and icon */
+.option-card-header {
+    background: var(--color-accent);
+    padding: 10px 14px;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Option icon - fixed width for alignment */
+.option-icon {
+    width: 16px;
+    text-align: center;
+}
+
+/* Option card body - consistent padding */
+.option-card-body {
+    padding: 10px 14px;
+}
+
+/* Option item - clickable row with checkbox, text, and type label */
+.option-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin: 6px 0;
+    background: var(--color-gray);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    gap: 10px;
+    cursor: pointer;
+    transition: all .2s;
+    border: 1px solid var(--color-border);
+    user-select: none;
+}
+
+/* Option item hover - accent background */
+.option-item:hover {
+    background: var(--color-accent);
+}
+
+/* Option item active - accent background when selected */
+.option-item.active {
+    background: var(--color-accent);
+}
+
+/* Custom checkbox - icon shown via display:block when .active */
+.option-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all .2s;
+    background: var(--color-white);
+}
+
+/* Active checkbox - main color background with checkmark */
+.option-item.active .option-checkbox {
+    background: var(--color-main);
+}
+
+/* Show checkmark icon when checkbox is active */
+.option-item.active .option-checkbox i {
+    display: block;
+}
+
+/* Checkbox icon - hidden by default, white color */
+.option-checkbox i {
+    display: none;
+    font-size: var(--font-size-icon-sm);
+    color: var(--color-white);
+}
+
+/* Option text - flexible, allows word breaking */
+.option-item-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+/* Option type badge - small uppercase label */
+.option-item-type {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+    background: var(--color-white);
+    padding: 2px 6px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    white-space: nowrap;
+}
+
+/* ──────────── Option Remove Button ────────────*/
+/* Remove button - small circular button to remove an option */
+.option-remove-btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all .2s;
+    margin-left: auto;
+    padding: 0;
+}
+
+/* Remove button icon - light gray color */
+.option-remove-btn i {
+    font-size: var(--font-size-icon-sm);
+    color: var(--color-text-light);
+}
+
+/* Remove button hover - light red background */
+.option-remove-btn:hover {
+    background: rgba(220, 53, 69, .15);
+}
+
+/* Remove button icon hover - danger red color */
+.option-remove-btn:hover i {
+    color: var(--color-danger);
+}
+
+/* Empty state - spans full grid width */
+.empty-option {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--color-text-light);
+    font-style: italic;
+    font-size: var(--font-size-lg);
+    padding: 20px;
+}
+
+/* ──────────── Placeholder option item ────────────*/
+/* Dashed border indicates placeholder - solid on hover for input focus */
+.placeholder-item {
+    border-style: dashed;
+    opacity: 0.8;
+    padding: 4px 10px;
+}
+
+/* Placeholder hover - solid border, accent background */
+.placeholder-item:hover {
+    opacity: 1;
+    background: var(--color-accent);
+    border-style: solid;
+}
+
+/* Placeholder icon - dashed border, flex container */
+.option-placeholder-icon {
+    width: 18px;
+    height: 18px;
+    border: 2px dashed var(--color-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all .2s;
+}
+
+/* Placeholder icon hover - main color fill */
+.placeholder-item:hover .option-placeholder-icon {
+    border-color: var(--color-main);
+    background: var(--color-main);
+}
+
+/* Placeholder icon - light gray color */
+.option-placeholder-icon i {
+    font-size: var(--font-size-icon-sm);
+    color: var(--color-text-light);
+}
+
+/* Placeholder icon hover - white icon on main color background */
+.placeholder-item:hover .option-placeholder-icon i {
+    color: var(--color-white);
+}
+
+/* Placeholder input - transparent bg, solid border on focus */
+.placeholder-input {
+    flex: 1;
+    padding: 6px 10px;
+    font-size: var(--font-size-lg);
+    border: 1px dashed var(--color-border);
+    border-radius: 4px;
+    outline: none;
+    background: transparent;
+    color: var(--color-text);
+    transition: all .2s;
+}
+
+/* Placeholder input placeholder - light gray text */
+.placeholder-input::placeholder {
+    color: var(--color-text-light);
+    opacity: 0.7;
+}
+
+/* Placeholder input hover - white background */
+.placeholder-item:hover .placeholder-input {
+    background: var(--color-white);
+}
+
+/* Placeholder input focus - solid border, main color, with glow */
+.placeholder-input:focus {
+    border-style: solid;
+    border-color: var(--color-main);
+    background: var(--color-white);
+    box-shadow: 0 0 0 3px rgba(47, 62, 106, 0.1);
+}
+
+/* Spinner shown while loading suggestions */
+.option-placeholder-spinner {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    flex-shrink: 0;
+}
+
+/* Loading state - reduced opacity, no pointer events */
+.placeholder-item.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* ──────────── Suggested Option ────────────*/
+/* Suggested option - highlighted with border and gradient background */
+.option-item.suggested {
+    border-color: var(--color-main-light);
+    background: linear-gradient(135deg, rgba(0, 102, 204, 0.05), rgba(0, 75, 147, 0.08));
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+/* Suggested option hover - stronger gradient */
+.option-item.suggested:hover {
+    background: linear-gradient(135deg, rgba(0, 102, 204, 0.1), rgba(0, 75, 147, 0.15));
+}
+
+/* ──────────── Negated Keyword Badge ────────────*/
+/* Negated badge - red background, white text, uppercase */
+.option-negated-badge {
+    background: var(--color-danger);
+    color: var(--color-white);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+/* ──────────── Controls Bar ────────────*/
+/* Selection count + reset button */
+.controls-container {
+    margin: 0 1rem 1rem 1rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-accent);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* Controls info - shows selection count */
+.controls-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: var(--font-size-xl);
+    color: var(--color-text);
+}
+
+/* Controls badge - main color badge for count display */
+.controls-badge {
+    background: var(--color-main);
+    color: var(--color-white);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-bold);
+}
+
+/* Reset button - white background, border, rounded */
+.reset-btn {
+    padding: 10px 20px;
+    background: var(--color-white);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: background .2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Reset button hover - gray background */
+.reset-btn:hover {
+    background: var(--color-gray);
+}
+
+/* ──────────── Legend ────────────*/
+/* Color legend for query types */
+.legend {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    font-size: var(--font-size-md);
+    flex-wrap: wrap;
+}
+
+/* Legend item - icon + label layout */
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Legend dot - small colored square */
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+}
+
+/* Legend dot query type - main color background */
+.legend-dot.qt {
+    background: var(--color-main);
+}
+
+/* ──────────── Results Section ────────────*/
+/* Results section - white card with shadow */
+.results-section {
+    background: var(--color-white);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    overflow: visible;
+}
+
+/* Results section header - accent background */
+.results-section .section-header {
+    background: var(--color-accent);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Results subtitle - hidden by default, shows quality/count info */
+.results-subtitle {
+    position: relative;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-gray);
+    border-bottom: 1px solid var(--color-border);
+    gap: 1rem;
+}
+
+/* Show subtitle when visible */
+.results-subtitle.visible {
+    display: flex;
+}
+
+/* Subtitle content - flexible column layout */
+.subtitle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    flex: 1;
+}
+
+/* Loading spinners for quality/count - hidden when content loads */
+.subtitle-quality-spinner {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    display: none;
+    margin-left: 8px;
+}
+
+/* Show quality spinner when loading */
+.subtitle-quality.loading .subtitle-quality-spinner {
+    display: inline-block;
+}
+
+/* Hide quality score when loading */
+.subtitle-quality.loading .quality-score {
+    display: none;
+}
+
+/* Quality score - left margin for spacing */
+.quality-score {
+    margin-left: 0.5em;
+}
+
+/* Quality assessment container - hidden by default */
+.quality-assessment-container {
+    position: relative;
+    padding: 1rem 1.5rem 0.0rem 1.5rem;
+    background: var(--color-white);
+    display: none;
+}
+
+/* Show quality assessment when visible */
+.quality-assessment-container.visible {
+    display: block;
+}
+
+/* Quality assessment - accent background, main color text */
+.quality-assessment {
+    display: inline-block;
+    position: relative;
+    background: var(--color-accent);
+    color: var(--color-main);
+    padding: 0.7rem;
+    border-radius: 6px;
+    font-size: var(--font-size-xl);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Count spinner - small rotating indicator */
+.count-spinner {
+    width: 12px;
+    height: 12px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+    display: none;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Show count spinner when loading */
+.subtitle-count.loading .count-spinner {
+    display: inline-block;
+}
+
+/* Hide count number when loading */
+.subtitle-count.loading .count-number {
+    display: none;
+}
+
+/* Count number - main color, bold */
+.count-number {
+    color: var(--color-main);
+    font-weight: var(--font-weight-strong);
+}
+
+/* Subtitle info - column layout for quality and count */
+.subtitle-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    font-size: var(--font-size-xl);
+    color: var(--color-text-light);
+}
+
+/* Subtitle count - main color, bold */
+.subtitle-count {
+    color: var(--color-main);
+    font-weight: var(--font-weight-strong);
+}
+
+/* Results section header title - bold, main color */
+.results-section .section-header h2 {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+}
+
+/* Results section header icon - centered, main color */
+.results-section .section-header i {
+    color: var(--color-main);
+    font-size: var(--font-size-icon);
+    width: 24px;
+    text-align: center;
+}
+
+/* Results body - flexible layout with scrolling */
+.results-body {
+    padding: 16px;
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* ──────────── VuFind Results ────────────*/
+/* VuFind results list - vertical scrollable list */
+.vufind-results-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    padding: 4px;
+}
+
+/* Results spinner and empty state - centered, padded */
+.results-body > .results-spinner, .results-body > .empty-vufind {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Search result item - index badge + title + metadata */
+.vufind-result-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 8px 10px;
+    background: var(--color-gray);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    text-decoration: none;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    transition: all .2s;
+    line-height: 1.4;
+}
+
+/* VuFind result hover - accent background, main color text */
+.vufind-result-item:hover {
+    background: var(--color-accent);
+    color: var(--color-main);
+}
+
+/* VuFind result index badge - circular, main color */
+.vufind-result-index {
+    flex-shrink: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--color-main);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-strong);
+    margin-top: 1px;
+}
+
+/* Relevant result index badge - green background */
+.vufind-result-index.relevant {
+    background: var(--color-relevant);
+}
+
+/* VuFind result title - flexible, allows word breaking */
+.vufind-result-title {
+    flex: 1;
+    word-break: break-word;
+}
+
+/* VuFind result metadata - horizontal layout for author/year/etc */
+.vufind-result-meta {
+    display: flex;
+    gap: 6px;
+    margin-top: 3px;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-light);
+}
+
+/* VuFind result metadata span - no wrap */
+.vufind-result-meta span {
+    white-space: nowrap;
+}
+
+/* Empty VuFind results - italic, centered */
+.empty-vufind {
+    color: var(--color-text-light);
+    font-style: italic;
+    font-size: var(--font-size-lg);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* ──────────── Options Spinner ────────────*/
+/* Options loading spinner - centered with icon */
+.options-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 0 20px 0;
+    color: var(--color-text-light);
+    font-size: var(--font-size-lg);
+    flex: 1;
+    min-height: 60px;
+}
+
+/* Options spinner icon - small rotating border */
+.options-spinner-icon {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+/* ──────────── Results Spinner ────────────*/
+/* Results loading spinner - centered with icon */
+.results-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px 0;
+    color: var(--color-text-light);
+    font-size: var(--font-size-lg);
+}
+
+/* Results spinner icon - small rotating border */
+.results-spinner-icon {
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--color-border);
+    border-top-color: var(--color-main);
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+/* ──────────── Generic Spinner ────────────*/
+/* Generic spinner - white border, transparent top */
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--color-white);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin .8s linear infinite;
+}
+
+/* Spin animation - rotate 360 degrees */
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Smooth entry animation for dynamic content */
+.fade-in {
+    animation: fadeIn .3s ease-out;
+}
+
+/* Fade in animation - opacity and slight upward motion */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ──────────── Tooltips ────────────*/
+/* Tooltip icon - inline flex container for trigger element */
+.tooltip-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-tooltip-icon);
+    vertical-align: middle;
+}
+
+/* Parent span of tooltip-icon - flex to align its children vertically */
+.sidebar-header > span:last-child:has(.tooltip-icon), .option-card-header > span:last-child:has(.tooltip-icon) {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Tooltip icon hover - main color for icon */
+.tooltip-icon:hover i {
+    color: var(--color-main);
+}
+
+/* Tooltip - white-space: pre-wrap preserves newlines in content */
+.tooltip {
+    display: none;
+    position: fixed;
+    background: var(--color-accent);
+    color: var(--color-main);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: var(--font-size-md);
+    max-width: 250px;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    line-height: 1.4;
+    white-space: pre-wrap;
+}
+
+/* Tooltip - Error/warning, temporary variant - red background */
+.tooltip.tooltip-temporary {
+    display: block;
+    background: var(--color-danger);
+    color: var(--color-white);
+}
+
+/* ──────────── Footer (same style as header) ────────────*/
+/* Footer - main color background with inverted shadow */
+.footer {
+    background: var(--color-main);
+    color: var(--color-white);
+    padding: 1.25rem 2rem;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer content - centered, max-width constrained */
+.footer-content {
+    max-width: 1800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Footer navigation - horizontal list */
+.footer-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Footer link - white text, no underline by default */
+.footer-links li a {
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 4px;
+    transition: color 0.2s;
+}
+
+/* Footer link hover - accent color and underline */
+.footer-links li a:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+}
+
+/* ──────────── Vocabulary Selection Popup ────────────*/
+/* Vocabulary popup overlay - dark backdrop, centered content */
+.vocab-popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Show popup when visible */
+.vocab-popup-overlay.visible {
+    display: flex;
+}
+
+/* Vocabulary popup - white card with shadow */
+.vocab-popup {
+    background: var(--color-white);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Vocabulary popup header - accent background with title */
+.vocab-popup-header {
+    background: var(--color-accent);
+    padding: 12px 16px;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border-bottom: 1px solid var(--color-border);
+}
+
+/* Vocab popup header title - icon + text layout */
+.vocab-popup-header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Vocab popup close button - circular transparent */
+.vocab-popup-close {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background .2s;
+}
+
+/* Vocab popup close hover - light red background */
+.vocab-popup-close:hover {
+    background: rgba(220, 53, 69, .1);
+}
+
+/* Vocab popup close icon - light gray */
+.vocab-popup-close i {
+    color: var(--color-text-light);
+    font-size: var(--font-size-base);
+}
+
+/* Vocab popup close icon hover - danger red */
+.vocab-popup-close:hover i {
+    color: var(--color-danger);
+}
+
+/* Vocab popup body - scrollable content area */
+.vocab-popup-body {
+    padding: 12px 16px;
+    max-height: 400px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Vocab popup empty state - italic, centered */
+.vocab-popup-empty {
+    color: var(--color-text-light);
+    font-style: italic;
+    font-size: var(--font-size-lg);
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Vocab popup item - clickable row with checkbox */
+.vocab-popup-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin: 4px 0;
+    background: var(--color-gray);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    gap: 10px;
+    cursor: pointer;
+    transition: all .2s;
+    border: 1px solid var(--color-border);
+    user-select: none;
+}
+
+/* Vocab popup item hover - accent background */
+.vocab-popup-item:hover {
+    background: var(--color-accent);
+}
+
+/* Vocab popup item selected - accent background */
+.vocab-popup-item.selected {
+    background: var(--color-accent);
+}
+
+/* Vocab popup checkbox - same style as options checkbox */
+.vocab-popup-item .option-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all .2s;
+    background: var(--color-white);
+}
+
+/* Selected checkbox - main color background */
+.vocab-popup-item.selected .option-checkbox {
+    background: var(--color-main);
+}
+
+/* Show checkmark when selected */
+.vocab-popup-item.selected .option-checkbox i {
+    display: block;
+}
+
+/* Checkbox icon - hidden by default, white when visible */
+.vocab-popup-item .option-checkbox i {
+    display: none;
+    font-size: var(--font-size-icon-sm);
+    color: var(--color-white);
+}
+
+/* Vocab popup item text - flexible, allows word breaking */
+.vocab-popup-item-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+/* Vocab popup actions - footer with buttons */
+.vocab-popup-actions {
+    padding: 12px 16px;
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    background: var(--color-gray);
+}
+
+/* Vocab popup actions left - cancel button area */
+.vocab-popup-actions-left {
+    display: flex;
+    gap: 8px;
+}
+
+/* Vocab popup button - white background, rounded */
+.vocab-popup-btn {
+    padding: 8px 16px;
+    background: var(--color-white);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: background .2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Vocab popup button hover - accent background */
+.vocab-popup-btn:hover {
+    background: var(--color-accent);
+}
+
+/* Vocab popup primary button - main color */
+.vocab-popup-btn.primary {
+    background: var(--color-main);
+    color: var(--color-white);
+    border-color: var(--color-main);
+}
+
+/* Vocab popup primary button hover - keep main color */
+.vocab-popup-btn.primary:hover {
+    background: var(--color-main);
+}
+
+/* ──────────── Popup (shared) ────────────*/
+/* Popup overlay - dark backdrop, high z-index to be on top */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Show popup when visible */
+.popup-overlay.visible {
+    display: flex;
+}
+
+/* Popup - white card with shadow */
+.popup {
+    background: var(--color-white);
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 500px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Popup header - accent background */
+.popup-header {
+    background: var(--color-accent);
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Popup header title - bold, main color text */
+.popup-header-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    margin-right: 10px;
+}
+
+/* Popup header title icon - main color */
+.popup-header-title i {
+    color: var(--color-main);
+}
+
+/* Popup close button - circular transparent */
+.popup-close {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background .2s;
+}
+
+/* Popup close button - dark red hover color */
+.popup-close:hover {
+    background: rgba(220, 53, 69, 0.1);
+}
+
+/* Popup close button icon - text-light color */
+.popup-close i {
+    color: var(--color-text-light);
+    font-size: var(--font-size-base);
+}
+
+/* Popup close button icon - red / danger color on hover */
+.popup-close:hover i {
+    color: var(--color-danger);
+}
+
+/* Popup body - scrollable content area */
+.popup-body {
+    padding: 16px;
+    overflow-y: auto;
+    color: var(--color-text);
+}
+
+/* Popup text elements */
+.popup-body p {
+    color: var(--color-text);
+}
+
+/* Popup link - main color, bold */
+.popup-body a {
+    color: var(--color-main);
+    font-weight: var(--font-weight-strong);
+}
+
+/* Popup placeholder - centered, light text */
+.popup-placeholder {
+    text-align: center;
+    padding: 32px 16px;
+    color: var(--color-text-light);
+}
+
+/* Popup placeholder paragraph - italic */
+.popup-placeholder p {
+    font-style: italic;
+}
+
+/* ──────────── Welcome Popup ────────────*/
+/* Popup icon body - flex container for compass with side labels */
+.popup-icon-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 18px 12px 18px;
+    gap: 0;
+    container-type: inline-size;
+}
+
+/* Compass label text - large, main color, auto fit */
+.compass-label {
+    font-size: clamp(1rem, 8cqi, 1.8rem);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-main);
+    text-align: center;
+    line-height: 1.2;
+    width: auto;
+    white-space: nowrap;
+}
+
+/* Left label - right-aligned to center under compass */
+.compass-label-left {
+    text-align: right;
+    padding-right: clamp(8px, 4cqi, 16px);
+}
+
+/* Right label - left-aligned to center under compass */
+.compass-label-right {
+    text-align: left;
+    padding-left: clamp(8px, 4cqi, 16px);
+}
+
+/* Compass SVG - rotation controlled by JavaScript (compassAnim in research-compass.js) */
+.compass-svg {
+    width: 60px;
+    height: 60px;
+    min-width: 40px;
+    min-height: 40px;
+    fill: var(--color-main);
+    transform-origin: center center;
+    /* Force GPU rendering to prevent blurriness during animation */
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    /* Ensure crisp SVG rendering */
+    shape-rendering: geometricPrecision;
+    /* Fallback rendering hints */
+    -webkit-backface-visibility: hidden;
+    /* Anti-aliasing for smooth edges */
+    -webkit-filter: contrast(1.01) brightness(1.01);
+    filter: contrast(1.01) brightness(1.01);
+    /* Smooth scaling for better edge quality */
+    image-rendering: -webkit-optimize-quality;
+    image-rendering: optimizeQuality;
+}
+
+/* Welcome popup body - left-aligned text */
+#welcomePopup .popup-body {
+    padding: 12px 20px 20px 20px;
+    text-align: left;
+    hyphens: auto;
+}
+
+/* ──────────── Responsive Breakpoints ────────────*/
+/* Responsive: two columns, reorder panels */
+
+@media(max-width:1200px) {
+    /* Tablet layout - 2 column grid */
+    .main-container {
+        grid-template-columns: 1fr 2fr;
+    }
+    /* Content wrapper spans second column */
+    .main-content-wrapper {
+        display: grid;
+        grid-column: 2;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 1.5rem;
+        align-items: start;
+    }
+    /* Sidebar first */
+    .sidebar {
+        order: 0;
+    }
+    /* Search second */
+    .search-panel {
+        order: 1;
+    }
+    /* Options third */
+    .options-panel {
+        order: 2;
+    }
+}
+
+/* Responsive: single column, reorder panels */
+
+@media(max-width:900px) {
+    /* Small tablet - single column layout */
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+    /* Content wrapper spans full width */
+    .main-content-wrapper {
+        display: grid;
+        grid-column: 1;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 1.5rem;
+        align-items: start;
+    }
+    /* Search first */
+    .search-panel {
+        order: 0;
+    }
+    /* Options second */
+    .options-panel {
+        order: 1;
+    }
+    /* Sidebar last */
+    .sidebar {
+        order: 2;
+    }
+}
+
+/* Responsive: mobile layout adjustments */
+
+@media(max-width:640px) {
+    /* Stack search input elements vertically */
+    .search-box {
+        flex-direction: column;
+    }
+    /* Center search button text */
+    .search-btn {
+        justify-content: center;
+    }
+    /* Single column options grid */
+    .options-grid {
+        grid-template-columns: 1fr;
+    }
+    /* Horizontal controls layout */
+    .controls-container {
+        flex-direction: row;
+        text-align: center;
+    }
+    /* Stack URL row elements */
+    .url-top-row {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    /* Full width options panel */
+    .options-panel {
+        width: 100%;
+    }
+
+    /* Fix header overflow */
+    .header {
+        padding: 1rem 1rem;
+    }
+    .logo-text {
+        margin-left: 0.5rem;
+        font-size: var(--font-size-logo-sm);
+    }
+    .logo-image {
+        height: 32px;
+        margin-left: 0;
+    }
+
+    /* Fix header overflow */
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    .header-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    /* Fix footer overflow */
+    .footer {
+        padding: 1rem 1rem;
+    }
+    .footer-content {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* Fix main container */
+    .main-container {
+        padding: 1rem;
+    }
+
+    /* Remove nowrap from buttons */
+    .search-btn, .open-link {
+        white-space: normal;
+    }
+
+    /* Fix URL box layout */
+    .url-bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* Fix pipeline status */
+    .pipeline-status {
+        flex-wrap: wrap;
+    }
+
+    /* Fix debounce timer */
+    .debounce-timer {
+        min-width: 100px;
+    }
+
+    /* Safety measure */
+    body {
+        overflow-x: hidden;
+    }
+}

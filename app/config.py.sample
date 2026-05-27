@@ -1,0 +1,132 @@
+# -*- coding: utf-8 -*-
+# =============================================================================
+# config.py
+# =============================================================================
+#
+# Author:      Dorian Grosch
+# E-Mail:      dorian.grosch@sbb.spk-berlin.de
+# Institution: Staatsbibliothek zu Berlin
+#
+# =============================================================================
+
+"""
+Configuration management for nsis FastAPI application.
+Uses pydantic-settings for environment-based configuration.
+"""
+
+from pathlib import Path
+from typing import List
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+
+class Settings(BaseSettings):
+    """Application settings loaded from environment variables."""
+
+    model_config = SettingsConfigDict(
+        env_file=str(Path(__file__).parent.parent / ".env"),
+        case_sensitive=False,
+    )
+
+    # API Configuration
+    api_title: str = "API_TITLE"
+    api_version: str = "1.0.0"
+    api_description: str = "API_DESCRIPTION"
+    api_prefix: str = "/api"
+    root_path: str = "/nsis" # Nginx proxy prefix
+
+    # API Versions
+    supported_versions: List[str] = ["v1"]
+
+    # Server Configuration
+    host: str = "" # loaded from .env
+    port: int = 8000 # loaded from .env
+    domain: str = "" # loaded from .env, needed for TrustedHostMiddleware setup
+
+    # Inference Provider API Configuration
+    inference_provider_base_url: str = "" # loaded from .env
+    inference_provider_api_key: str = "" # loaded from .env
+
+    # Milvus Configuration
+    milvus_device: str = "cpu"
+
+    milvus_bk_csv_path: str = "./metadata/BK/bk.csv"
+    milvus_bk_db_path: str = "./databases/bk.db"
+
+    milvus_gnd_saz_head_csv_path: str = "./metadata/GND/Sachbegriffe/gnd-sachbegriffe-systematik.csv"
+    milvus_gnd_saz_head_db_path: str = "./databases/gnd_saz_head.db"
+
+    milvus_gnd_saz_desc_csv_path: str = "./metadata/GND/Sachbegriffe/gnd-sachbegriffe-systematik.csv"
+    milvus_gnd_saz_desc_db_path: str = "./databases/gnd_saz_desc.db"
+
+    milvus_gnd_geo_csv_path: str = "./metadata/GND/Geografika/gnd-geografika.csv"
+    milvus_gnd_geo_db_path: str = "./databases/gnd_geo.db"
+
+    # VuFind Configuration
+    vufind_base_url: str = "VUFIND_BASE_URL"
+    vufind_api_base_url: str = "VUFIND_API_BASE_URL"
+
+    # CORS Configuration
+    cors_origins: List[str] = ["*"]
+
+    # IP Blocking Configuration
+    blocked_ips: str = ""  # Comma-separated IPs to block, loaded from .env
+    blocked_ip_ranges: str = ""  # Comma-separated CIDR ranges to block, loaded from .env
+
+    # Safe hosts where some security features are disabled
+    safe_hosts: str = ""  # Comma-separated hostnames where e.g. auto IP blocking is disabled, loaded from .env
+    safe_ip_ranges: str = ""  # Comma-separated CIDR ranges (e.g. "192.168.0.0/24,10.0.0.0/8") to never auto-block, loaded from .env
+
+    # Auto IP Blocking Configuration (for bot detection)
+    # Note: Block duration is tiered (1min, 2min, 4min, 8min...) based on block count
+    auto_block_enabled: bool = True
+    auto_block_threshold: float = 10.0  # violation score to trigger block
+    auto_block_window_minutes: int = 60  # time window for tracking violations
+    auto_block_rate_violations_weight: int = 5  # weight for rate limit violations
+    auto_block_errors_weight: int = 2  # weight for error responses (4xx/5xx)
+    auto_block_request_volume_weight: int = 500  # weight for excessive request volume
+
+    # Logging Configuration
+    log_level: str = "INFO"
+    log_dir: str = "LOG_DIR"
+    logger_name: str = "LOGGER_NAME"
+
+    # Content Security Policy Configuration
+    # Single source of truth for external domains used by the frontend
+    csp_fonts_domain: str = "https://fonts.bunny.net"
+    csp_icons_domain: str = "https://unpkg.com"
+    csp_vufind_domain: str = "CSP_VUFIND_DOMAIN" # same as VUFIND_BASE_URL
+    csp_institution_domain: str = "CSP_INSTITUTION_DOMAIN"
+
+    @property
+    def csp_value(self) -> str:
+        """Generate CSP meta tag value from domain configuration."""
+        return (
+            f"default-src 'self';\n"
+            f"font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
+            f"img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
+            f"script-src 'self';\n"
+            f"style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
+            f"style-src-attr 'unsafe-inline';\n"
+            f"connect-src 'self' {self.domain}"
+        )
+
+    @property
+    def csp_meta_tag(self) -> str:
+        """Generate CSP meta tag HTML with formatted, readable output."""
+        content = (
+            f"default-src 'self';\n"
+            f"        font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
+            f"        img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
+            f"        script-src 'self';\n"
+            f"        style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
+            f"        style-src-attr 'unsafe-inline';\n"
+            f"        connect-src 'self' {self.domain}"
+        )
+        return (
+            f'<meta http-equiv="Content-Security-Policy"\n'
+            f'    content="{content}">'
+        )
+
+
+# Global settings instance
+settings = Settings()

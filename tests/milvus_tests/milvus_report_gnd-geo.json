@@ -1,0 +1,8410 @@
+{
+  "test_timestamp": "2026-05-14T16:09:22.746502+00:00",
+  "database": "gnd-geo",
+  "total_queries": 322,
+  "nprobe_value": 1,
+  "top_k": 8,
+  "results": [
+    {
+      "query": "Deutschland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Deutsches Sprachgebiet",
+        "Deutsches Sprachgebiet",
+        "Deutsches Sprachgebiet",
+        "Deutschgegend",
+        "Westdeutschland",
+        "Main-Kinzig-Gebiet",
+        "Mitteldeutschland",
+        "Mitteldeutschland"
+      ]
+    },
+    {
+      "query": "Frankreich",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Französisches Sprachgebiet",
+        "Französisches Sprachgebiet",
+        "Zentralfrankreich",
+        "Zentralfrankreich",
+        "Zentralfrankreich",
+        "Zentralfrankreich",
+        "Frankreich",
+        "Frankreich"
+      ]
+    },
+    {
+      "query": "Italien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Italienische Westküste",
+        "Inselitalien",
+        "Mittelitalien",
+        "Mittelitalien",
+        "Mittelitalien",
+        "Mittelitalien",
+        "Mittelitalien",
+        "Italienische Riviera"
+      ]
+    },
+    {
+      "query": "Spanien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Termes, Spanien",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel",
+        "Iberische Halbinsel"
+      ]
+    },
+    {
+      "query": "Polen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "search_results": [
+        "Polnische Ostseeküste",
+        "Polnische Ostgebiete",
+        "Polnische Ostgebiete",
+        "Świdnica Polska/Środa Śląska",
+        "Równina Łe̜czyńsko-Włodawska",
+        "Równina Łe̜czyńsko-Włodawska",
+        "Mittlere Polesje",
+        "De̜bno Polskie"
+      ]
+    },
+    {
+      "query": "Niederlande",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6
+      ],
+      "search_results": [
+        "Niederländisches Sprachgebiet",
+        "Mittelniederlande",
+        "Neuniederlande",
+        "Niederlern",
+        "Niederlandenbeck",
+        "Niederlauken",
+        "Niederland",
+        "Delfland"
+      ]
+    },
+    {
+      "query": "Belgien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1
+      ],
+      "search_results": [
+        "Ostbelgien",
+        "Provinz Belgien",
+        "Ancienne Belgique",
+        "Pajottenland",
+        "Belgien",
+        "Belgien",
+        "Belgien",
+        "Belgien"
+      ]
+    },
+    {
+      "query": "Österreich",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Österreichisches Alpenvorland",
+        "Oberösterreichischer Zentralraum",
+        "Innerösterreich",
+        "Niederösterreichisches Alpenvorland",
+        "Niederösterreichisches Alpenvorland",
+        "Oberes Innviertel",
+        "Oststeirisches Hügelland",
+        "Niederösterreichischer Zentralraum"
+      ]
+    },
+    {
+      "query": "Schweiz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        7
+      ],
+      "search_results": [
+        "Deutsche Schweiz",
+        "Schweizer Mittelland",
+        "Schweizer Mittelland",
+        "Schweizer Mittelland",
+        "Französische Schweiz",
+        "Französische Schweiz",
+        "Holsteinische Schweiz",
+        "Metropolie der Schweiz"
+      ]
+    },
+    {
+      "query": "Tschechien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Tschechowo",
+        "Hostomice, Nordböhmisches Gebiet",
+        "Mittelböhmen",
+        "Severní Čechy",
+        "Westböhmisches Gebiet",
+        "Westböhmisches Gebiet",
+        "Südböhmen",
+        "Südböhmen"
+      ]
+    },
+    {
+      "query": "Ungarn",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Ungarisches Sprachgebiet",
+        "Ehemalige ungarische Gebiete",
+        "Ungarisches Tiefland",
+        "Großes Ungarisches Tiefland",
+        "Großes Ungarisches Tiefland",
+        "Großes Ungarisches Tiefland",
+        "Hernad-Weichsel-Gebiet",
+        "Kleines Ungarisches Tiefland"
+      ]
+    },
+    {
+      "query": "Rumänien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Rumänien",
+        "Rumänien",
+        "Rumänien",
+        "Rumänien",
+        "Rumänien",
+        "Rumänien",
+        "Rumänien",
+        "Rumänien"
+      ]
+    },
+    {
+      "query": "Bulgarien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Ehemalige Bulgarische Westgebiete",
+        "Bolgary",
+        "Bulgarien",
+        "Bulgarien",
+        "Bulgarien",
+        "Bulgarien",
+        "Bulgarien",
+        "Bulgarien"
+      ]
+    },
+    {
+      "query": "Griechenland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        4,
+        2
+      ],
+      "search_results": [
+        "Südgriechenland",
+        "Nordgriechenland",
+        "Griechische Inseln",
+        "Griechische Inseln",
+        "Mittelgriechenland",
+        "Mittelgriechenland",
+        "Griechenland",
+        "Griechenland"
+      ]
+    },
+    {
+      "query": "Portugal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        7,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Portugiesisches Sprachgebiet",
+        "Portugiesisches Sprachgebiet",
+        "Distrikt Faro, Algarve",
+        "Zentralportugal",
+        "Lagos, Algarve",
+        "Caparica",
+        "Lissabon- Penha de França",
+        "Algarve"
+      ]
+    },
+    {
+      "query": "Schweden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Südschweden",
+        "Südschweden",
+        "Südschwedische Ostseeküste",
+        "Mittelschweden",
+        "Mittelschweden",
+        "Mittelschweden",
+        "Mittelschweden",
+        "Mittelschweden"
+      ]
+    },
+    {
+      "query": "Norwegen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "search_results": [
+        "Nordnorwegen",
+        "Mittelnorwegen",
+        "Geirangerfjord-Gebiet",
+        "Norwegen",
+        "Norwegen",
+        "Norwegen",
+        "Norwegen",
+        "Norwegen"
+      ]
+    },
+    {
+      "query": "Dänemark",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Dänische Inseln",
+        "Dänemark",
+        "Dänemark",
+        "Dänemark",
+        "Dänemark",
+        "Dänemark",
+        "Dänemark",
+        "Dänemark"
+      ]
+    },
+    {
+      "query": "Finnland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        0,
+        1,
+        5,
+        7,
+        2
+      ],
+      "search_results": [
+        "Mittelfinnland",
+        "Mittelfinnland",
+        "Finnougrisches Sprachgebiet",
+        "Finneland-Kahlwinkel",
+        "Zentralfennoskandia",
+        "Varsinais Suomi",
+        "Finland",
+        "Pohjanmaa"
+      ]
+    },
+    {
+      "query": "Estland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Estland",
+        "Estland",
+        "Estland",
+        "Estland",
+        "Estland",
+        "Estland",
+        "Estland",
+        "Estland"
+      ]
+    },
+    {
+      "query": "Lettland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Łe̜towe",
+        "Lettland",
+        "Lettland",
+        "Lettland",
+        "Lettland",
+        "Lettland",
+        "Lettland",
+        "Lettland"
+      ]
+    },
+    {
+      "query": "Litauen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Lītāni",
+        "Litwa Środkowa",
+        "Litauen",
+        "Litauen",
+        "Litauen",
+        "Litauen",
+        "Litauen",
+        "Litauen"
+      ]
+    },
+    {
+      "query": "Slowakei",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Mährische Slowakei",
+        "Zentralslowakei",
+        "Liptovské Sliače",
+        "Spišská Sobota",
+        "Slovensko primorje",
+        "Spišská Nová Ves",
+        "Spišská Nová Ves",
+        "Svidník"
+      ]
+    },
+    {
+      "query": "Slowenien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "search_results": [
+        "Zentralslowenien",
+        "Slowenisches Voralpenland",
+        "Slovensko primorje",
+        "Solčava",
+        "Solčava",
+        "Zasavje",
+        "Begunje na Gorenjskem",
+        "Begunje na Gorenjskem"
+      ]
+    },
+    {
+      "query": "Kroatien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        6,
+        3,
+        7,
+        2
+      ],
+      "search_results": [
+        "Kroatisches Küstenland",
+        "Kroatische Adriaküste",
+        "Gradac, Kroatisches Küstenland",
+        "Hoch-Kroatien",
+        "Polje, Krk",
+        "Cetina-Gurk-Gebiet",
+        "Mitteldalmatien",
+        "Gorski kotar"
+      ]
+    },
+    {
+      "query": "Berlin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "search_results": [
+        "Berlin- Charlottenburg-Wilmersdorf",
+        "Berlin- Prenzlauer Berg",
+        "Berlin- Märkisches Viertel",
+        "Berlin-Mitte",
+        "Berlin-Hansaviertel",
+        "Berlin-Spreeinsel",
+        "Berlin- Rosenthaler Vorstadt",
+        "Berlin-Wilhelmsruh"
+      ]
+    },
+    {
+      "query": "München",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "München- Messestadt Riem",
+        "München-Ludwigsvorstadt-Isarvorstadt",
+        "München-Innenstadt",
+        "München-Mittersendling",
+        "München-Schwanthalerhöhe",
+        "München-Ludwigsvorstadt",
+        "Wenigmünchen",
+        "München-Menterschwaige"
+      ]
+    },
+    {
+      "query": "Hamburg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Hamburg- Mitte Altona",
+        "Hamburg- Neugraben-Fischbek",
+        "Hamburg-Neumühlen",
+        "Hamburg-Lemsahl-Mellingstedt",
+        "Hamburg-Langenhorn",
+        "Hamburg-Övelgönne",
+        "Hamburg-Rothenburgsort",
+        "Hamburg-Hinschenfelde"
+      ]
+    },
+    {
+      "query": "Köln",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Köln-Bergheim-Erftstadt",
+        "Köln-Hahnwald",
+        "Köln- Altstadt Nord",
+        "Köln-Marienburg",
+        "Köln-Langel",
+        "Köln-Langel",
+        "Köln-Grengel",
+        "Köln-Eil"
+      ]
+    },
+    {
+      "query": "Frankfurt am Main",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Frankfurt-Innenstadt",
+        "Frankfurt- Nieder Erlenbach",
+        "Main-Kinzig-Gebiet",
+        "Frankfurt am Main- Griesheim",
+        "Frankfurt- Nieder Eschbach",
+        "Frankfurt-Mainkur",
+        "Frankfurt-Nied",
+        "Frankfurt-Gutleutviertel"
+      ]
+    },
+    {
+      "query": "Stuttgart",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Stuttgart-Giebel",
+        "Stuttgart-Innenstadt",
+        "Stuttgart-Asemwald",
+        "Stuttgart-Ost",
+        "Stuttgart-Mitte",
+        "Stuttgart-Weinsteige",
+        "Stuttgart-Luginsland",
+        "Stuttgart-Süd"
+      ]
+    },
+    {
+      "query": "Dresden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Dresden-Altfranken",
+        "Dresden-Gorbitz",
+        "Dresden-Löbtau",
+        "Dresden-Friedrichstadt",
+        "Dresden-Coschütz",
+        "Dresden-Weißig",
+        "Dresden-Gostritz",
+        "Dresden-Räcknitz"
+      ]
+    },
+    {
+      "query": "Leipzig",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Leipzig-Südwest",
+        "Leipzig-Abtnaundorf",
+        "Leipzig-Süd",
+        "Leipzig-Lößnig",
+        "Leipzig-Böhlitz-Ehrenberg",
+        "Leipzig-Mitte",
+        "Leipzig-Südost",
+        "Leipzig-Neusellerhausen"
+      ]
+    },
+    {
+      "query": "Düsseldorf",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Düsseldorf-Seestern Düsseldorf",
+        "Düsseldorf-Düsseltal",
+        "Düsseldorf-Stadtmitte",
+        "Düsseldorf-Süd",
+        "Düsseldorf-Altstadt",
+        "Düsseldorf-Mörsenbroich",
+        "Düsseldorf-Golzheim",
+        "Düsseldorf-Carlstadt"
+      ]
+    },
+    {
+      "query": "Nürnberg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Nürnberg-Südstadt",
+        "Nürnberg-Sündersbühl",
+        "Nürnberg-Süd",
+        "Nürnberg-Erlenstegen",
+        "Nürnberg-Tullnau",
+        "Westumgehung Nürnberg",
+        "Nürnberg-Buchenbühl",
+        "Nürnberg-Laufamholz"
+      ]
+    },
+    {
+      "query": "Paris",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        6,
+        2,
+        4,
+        7
+      ],
+      "search_results": [
+        "Paris-Cité",
+        "Région de Paris",
+        "Metro Paris",
+        "Marne-la-Vallée- Val d'Europe",
+        "Paris- Saint-Germain-des-Prés",
+        "Pont-sur-Seine",
+        "Région Parisienne",
+        "Paris- Les Halles"
+      ]
+    },
+    {
+      "query": "Lyon",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        4,
+        7,
+        5,
+        6
+      ],
+      "search_results": [
+        "Lyon-Presqu'île",
+        "Lyon-Valpré",
+        "Chazelles-sur-Lyon",
+        "Lyon-Confluent",
+        "Lyon- La Guillotière",
+        "Notre-Dame-de-Lyon Lyon",
+        "Lyonnais",
+        "Lyon- La Croix-Rousse"
+      ]
+    },
+    {
+      "query": "Marseille",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Hafen Marseille",
+        "Marseille-Saint-Jean-du-Désert",
+        "Marseille-Mazargues",
+        "Saint-Martin Marseille",
+        "Marseille-Corniche",
+        "Marseillan",
+        "Marseille-Belsunce",
+        "Marseille-Saint-Julien"
+      ]
+    },
+    {
+      "query": "Toulouse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        3
+      ],
+      "search_results": [
+        "Grafschaft Toulouse",
+        "Saint-Pierre-des-Cuisines Toulouse",
+        "Villeneuve-Tolosane",
+        "Toulouse- Le Mirail",
+        "Toulouse",
+        "Toulouse",
+        "Toulouse",
+        "Toulouse"
+      ]
+    },
+    {
+      "query": "Straßburg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Straßburg-Königshofen",
+        "Straßburg-Robertsau",
+        "Straßburg- Port du Rhin- Neuhof",
+        "Straßburg-Koenigshoffen",
+        "Straßburg-Neudorf",
+        "Straßburg-Neuhof",
+        "Oberstadt Breisach, Rhein",
+        "Münster Straßburg"
+      ]
+    },
+    {
+      "query": "Rom",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Herzogtum Rom",
+        "Römerstadt",
+        "Römerstadt",
+        "Rom- Tor di Nona",
+        "Rom- Tor Manciana",
+        "Rom-Primavalle",
+        "Rom- Prati di Castello",
+        "Rom"
+      ]
+    },
+    {
+      "query": "Mailand",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "search_results": [
+        "Metropolitanstadt Mailand",
+        "Mailand- Quartiere Ticinese",
+        "Mailand-Garegnano",
+        "Milanino",
+        "Mailand-Nosedo",
+        "Somma Lombardo- Malpensa",
+        "Muggiò",
+        "Mailand-Lampugnano"
+      ]
+    },
+    {
+      "query": "Venedig",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Venedig- Favaro Veneto",
+        "Venezianisches Tiefland",
+        "Venedig-Carpenedo",
+        "Venetien",
+        "Venetien",
+        "Venetien",
+        "Venetien",
+        "Venetien"
+      ]
+    },
+    {
+      "query": "Florenz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Florenz-Isolotto-Legnaia",
+        "Florenz- San Niccolò Oltrarno",
+        "Florenz-Petriolo",
+        "Florenz-Settignano",
+        "Florenz-Monticelli",
+        "Florenz-Trespiano",
+        "Florenz- San Donato",
+        "Florenz-Oltrarno"
+      ]
+    },
+    {
+      "query": "Neapel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Neapel- Agnano Terme",
+        "Neapel- Rione Sanità",
+        "Metropolitanstadt Neapel",
+        "Neapel- Rione Carità",
+        "Neapel- Quartieri spagnoli",
+        "Neapel-Poggioreale",
+        "Neapel-Piedigrotta",
+        "Neapel-Ponticelli"
+      ]
+    },
+    {
+      "query": "Madrid",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Madrid-El Pardo",
+        "Madridejos",
+        "Madrid",
+        "Madrid",
+        "Madrid",
+        "Madrid",
+        "Madrid",
+        "Madrid"
+      ]
+    },
+    {
+      "query": "Barcelona",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        2,
+        4,
+        5
+      ],
+      "search_results": [
+        "Barceloneta Barcelona",
+        "Barcelona- San Andrés de Palomar",
+        "Barcelona- La Barceloneta",
+        "Barcelona-Cantunis",
+        "Barcelona-Eixample",
+        "Barcelona-Raval",
+        "Provinz Barcelona",
+        "Hafen Barcelona"
+      ]
+    },
+    {
+      "query": "Sevilla",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        5,
+        4
+      ],
+      "search_results": [
+        "La Serena, Spanien",
+        "Jerez de la Frontera",
+        "Jerez de la Frontera",
+        "Jerez de los Caballeros",
+        "Alcalá de Guadaira",
+        "Sevilla-Triana",
+        "Sevilla",
+        "Sevilla"
+      ]
+    },
+    {
+      "query": "Valencia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        5,
+        0,
+        3,
+        4,
+        1
+      ],
+      "search_results": [
+        "Valencia- El Grao",
+        "Albufera-de-Valencia-Gebiet",
+        "Provinz Valencia",
+        "Valencia-Cabanyal",
+        "Valencia-Benituria",
+        "Autonome Region Valencia",
+        "Valencin",
+        "Valencina de la Concepción"
+      ]
+    },
+    {
+      "query": "Bilbao",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Bilbao",
+        "Bilbao",
+        "Zorrozaurre Bilbao",
+        "Vitoria-Gasteiz",
+        "Vitoria-Gasteiz",
+        "San Sebastián",
+        "San Sebastián",
+        "San Sebastián"
+      ]
+    },
+    {
+      "query": "Wien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Wien-Donau-City",
+        "Wien- Innere Stadt",
+        "Wien-Eßling",
+        "Wien-Kaisermühlen",
+        "Wien-Altmannsdorf",
+        "Wien-Speising",
+        "Wien-Gatterhölzl",
+        "Wien-Salmannsdorf"
+      ]
+    },
+    {
+      "query": "Prag",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        5,
+        7,
+        4,
+        6
+      ],
+      "search_results": [
+        "Prag- Horní Počernice",
+        "Prag-Altstadt",
+        "Prag-Josefstadt",
+        "Prag-Letnany",
+        "Prag-Střešovice",
+        "Prag-Neustadt",
+        "Prag-Libeň",
+        "Prag-Holešovice"
+      ]
+    },
+    {
+      "query": "Budapest",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Budapest-Belváros-Lipótváros",
+        "Budapest- Innere Stadt",
+        "Budapest-Budaszentlőrinc",
+        "Budapest-Terézváros",
+        "Budapest-Gazdagrét",
+        "Budapest-Pestszentlőrinc",
+        "Burgviertel Budapest",
+        "Budapest-Cinkota"
+      ]
+    },
+    {
+      "query": "Warschau",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        6,
+        5,
+        0,
+        1,
+        3
+      ],
+      "search_results": [
+        "Warschau-Włochy",
+        "Warschau- Saska Kępa",
+        "Warschau-Wawer-Las",
+        "Warschau-Gocław",
+        "Warschau-Altstadt",
+        "Warschau-Powiśle",
+        "Warschau-Neustadt",
+        "Warschau-Zacisze"
+      ]
+    },
+    {
+      "query": "Krakau",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Krakau-Altstadt",
+        "Krakau-Krowodrza",
+        "Krakau-Kleparz",
+        "Grodzka Krakau",
+        "Krasków",
+        "Krakau-Bielany",
+        "Krasków",
+        "Krakau-Bronowice"
+      ]
+    },
+    {
+      "query": "Bayern",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Baierische Provinz Schwaben",
+        "Niederbayern",
+        "Bezirk Niederbayern",
+        "Regierungsbezirk Niederbayern und Oberpfalz",
+        "Regierungsbezirk Niederbayern",
+        "Bezirk Oberbayern",
+        "Regierungsbezirk Niederbayern",
+        "Regierungsbezirk Niederbayern"
+      ]
+    },
+    {
+      "query": "Baden-Württemberg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Baden-Baden, Mittlerer Oberrhein",
+        "Zentral- Baden-Württemberg",
+        "Oberrheinkreis, Baden",
+        "Enzkreis, Baden",
+        "Mittelbaden",
+        "Baden-Baden-Lichtental",
+        "Baden-Baden-Lichtental",
+        "Regierungsbezirk Nordbaden"
+      ]
+    },
+    {
+      "query": "Nordrhein-Westfalen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Wupper-Ennepe-Gebiet",
+        "Südwestfalen",
+        "Ruhr-Lippe-Gebiet",
+        "Mittleres Ruhrgebiet",
+        "Ostwestfalen",
+        "Nordrheinprovinz",
+        "Rheinland-Westfalen",
+        "Rheinisch-Westfälisches Industriegebiet"
+      ]
+    },
+    {
+      "query": "Hessen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        3,
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Hessenstein-Kirchlotheim",
+        "Oberhessen",
+        "Vorderes Hessenfeld",
+        "Nordhessen",
+        "Mittelhessen",
+        "Langenhessen",
+        "Hessisches Bergland",
+        "Niederhessen"
+      ]
+    },
+    {
+      "query": "Sachsen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        6,
+        7,
+        4
+      ],
+      "search_results": [
+        "Sachsenberg-Georgenthal",
+        "Saale-Unstrut-Gebiet",
+        "Eichelsachsen",
+        "Eichelsachsen",
+        "Provinz Sachsen",
+        "Sachsenflur",
+        "Sachsen",
+        "Sachsen"
+      ]
+    },
+    {
+      "query": "Katalonien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Katalanisches Sprachgebiet",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien"
+      ]
+    },
+    {
+      "query": "Andalusien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        0
+      ],
+      "search_results": [
+        "Andalusisches Gebirgsland",
+        "Andalusisches Gebirgsland",
+        "Andalusien",
+        "Andalusien",
+        "Guadalentín-Gebiet",
+        "Andalusien",
+        "Andalusien",
+        "Andalusien"
+      ]
+    },
+    {
+      "query": "Baskenland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Baskenland",
+        "Baskenland",
+        "Baskenland",
+        "Baskenland",
+        "Niedernavarra",
+        "Niedernavarra",
+        "Valle del Baztán",
+        "Bidasoa-Gebiet"
+      ]
+    },
+    {
+      "query": "Galicien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Galicien",
+        "Galicien",
+        "Galicien",
+        "Galicien",
+        "Galicien",
+        "Galicien",
+        "Galicien",
+        "Distrikt Galizien"
+      ]
+    },
+    {
+      "query": " Lombardei",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Lombardei",
+        "Lombardei",
+        "Lombardei",
+        "Lombardei",
+        "Lombardei",
+        "Lombardei",
+        "Lombardei",
+        "Lombardei"
+      ]
+    },
+    {
+      "query": "Toskana",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        2,
+        4,
+        5
+      ],
+      "search_results": [
+        "Toskanisches Hügelland",
+        "Tavarnelle Val di Pesa- Passignano",
+        "Val d'Orcia",
+        "Incisa in Valdarno",
+        "Provinz Florenz",
+        "Provinz Grosseto",
+        "Toskana",
+        "Toskana"
+      ]
+    },
+    {
+      "query": "Sizilien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien"
+      ]
+    },
+    {
+      "query": "Sardinien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Zentralsardinien",
+        "Tiana, Sardinien",
+        "Sardinien",
+        "Sardinien",
+        "Sardinien",
+        "Sardinien",
+        "Sardinien",
+        "Sardinien"
+      ]
+    },
+    {
+      "query": "Schottland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Schottland",
+        "Schottland",
+        "Schottland",
+        "Schottland",
+        "Schottland",
+        "Schottland",
+        "Schottland",
+        "Schottland"
+      ]
+    },
+    {
+      "query": "Wales",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0
+      ],
+      "search_results": [
+        "Mittelwales",
+        "Wales",
+        "Wales",
+        "Wales",
+        "Wales",
+        "Wales",
+        "Wales",
+        "Wales"
+      ]
+    },
+    {
+      "query": "Cornwall",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Halbinsel Cornwall",
+        "Halbinsel Cornwall",
+        "Halbinsel Cornwall",
+        "Halbinsel Cornwall",
+        "Cornwall",
+        "Cornwall",
+        "Cornwall",
+        "Cornwall"
+      ]
+    },
+    {
+      "query": "Bretagne",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 7,
+      "acceptance_rate": 0.875,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        0,
+        2
+      ],
+      "search_results": [
+        "Basse-Bretagne",
+        "Lanfains, Bretagne",
+        "Haute-Bretagne",
+        "Bretagne",
+        "Bretagne",
+        "Bretagne",
+        "Bretagne",
+        "Bretagne"
+      ]
+    },
+    {
+      "query": "Normandie",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        1,
+        4,
+        7
+      ],
+      "search_results": [
+        "Vire Normandie",
+        "Pays de Caux",
+        "Basse-Normandie",
+        "Haute-Normandie",
+        "Bocage normand",
+        "Tour-en-Bessin",
+        "Côte Fleurie",
+        "Vexin Normand"
+      ]
+    },
+    {
+      "query": "Thüringen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        3,
+        0,
+        6,
+        6
+      ],
+      "search_results": [
+        "Thüringer Städtekette",
+        "Tambach-Dietharz/Thür. Wald",
+        "Tambach-Dietharz/Thür. Wald",
+        "Mittelthüringen",
+        "Tambach-Dietharz/Thür. Wald",
+        "Tambach-Dietharz/Thür. Wald",
+        "Mittlerer Thüringer Wald",
+        "Thüringen"
+      ]
+    },
+    {
+      "query": "Sachsen-Anhalt",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        2,
+        1,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Nordöstliches Altenburger Land",
+        "Saale-Unstrut-Gebiet",
+        "Mittleres Elbe-Saale-Gebiet",
+        "Südliches Anhalt- Lausigk",
+        "Südliches Anhalt",
+        "Unstrut-Gebiet",
+        "Unteres Unstrut-Berg-und-Hügelland",
+        "Landkreis Aschersleben"
+      ]
+    },
+    {
+      "query": "Brandenburg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        6,
+        7,
+        2,
+        4,
+        0
+      ],
+      "search_results": [
+        "Kreis Brandenburg",
+        "Fürstentum Dannenberg, Elbe",
+        "Provinz Brandenburg",
+        "Brandenburg-Schmerzke",
+        "Landkreis Brandenburg an der Havel",
+        "Brandenburg",
+        "Brandenburg",
+        "Brandenburg"
+      ]
+    },
+    {
+      "query": "Mecklenburg-Vorpommern",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        5
+      ],
+      "search_results": [
+        "Neu-Vorpommern",
+        "Mittelmecklenburg",
+        "Fischland-Darß-Zingst",
+        "Mittleres Hinterpommern",
+        "Mitteldeutsche Seenlandschaft",
+        "Mittleres Mecklenburg",
+        "Vorpommern",
+        "Vorpommern"
+      ]
+    },
+    {
+      "query": "New York",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "New York- Manhattan",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York- Yorkville, NY"
+      ]
+    },
+    {
+      "query": "Los Angeles",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        2,
+        0,
+        1
+      ],
+      "search_results": [
+        "Los Angeles- Venice, Calif.",
+        "Los Angeles- Bel Air, Calif.",
+        "Los Angeles- Hollywood",
+        "Los Angeles, Calif.",
+        "Los Angeles, Calif.",
+        "Los Angeles, Calif.",
+        "Los Angeles- Encino, Calif.",
+        "Beverly Hills, Calif."
+      ]
+    },
+    {
+      "query": "Chicago",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        1
+      ],
+      "search_results": [
+        "North Chicago, Ill.",
+        "Illinois Chicago, Ill.",
+        "Chicago Heights, Ill.",
+        "Chicago, Ill.",
+        "Chicago, Ill.",
+        "Chicago, Ill.",
+        "Skokie, Ill.",
+        "Wilmette, Ill."
+      ]
+    },
+    {
+      "query": "Houston",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Houston, Tex.",
+        "Houston, Tex.",
+        "Huntsville, Tex.",
+        "Hurst, Tex.",
+        "Texas City, Tex.",
+        "Bay City, Tex.",
+        "Beaumont, Tex.",
+        "Brazoria, Tex."
+      ]
+    },
+    {
+      "query": "Phoenix",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        4
+      ],
+      "search_results": [
+        "Arizona City, Ariz.",
+        "Phoenix, Ariz.",
+        "Phönix Nord",
+        "Pio Rico, Ariz.",
+        "Phoenix, Ariz.",
+        "Peoria, Ariz.",
+        "Mesa, Ariz.",
+        "Gila Bend, Ariz."
+      ]
+    },
+    {
+      "query": "Philadelphia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Philadelphia, Pa.",
+        "Philadelphia, Pa.",
+        "Philadelphia, Pa.",
+        "Phoenixville, Pa.",
+        "Christiana, Pa.",
+        "Pennsburg, Pa.",
+        "Drexel Hill, Pa.",
+        "Glenside, Pa."
+      ]
+    },
+    {
+      "query": "San Antonio",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "San Antonio, Tex.",
+        "San Antonio, Tex.",
+        "San Augustine, Tex.",
+        "San Saba, Tex.",
+        "San Angelo, Tex.",
+        "San Antonio, Niederkalifornien",
+        "San Antonio, Niederkalifornien",
+        "New Braunfels, Tex."
+      ]
+    },
+    {
+      "query": "San Diego",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "San Diego, Calif.",
+        "San Diego, Calif.",
+        "San Diego, Calif.",
+        "San Diego County, Calif.",
+        "Escondido, Calif.",
+        "Chula Vista, Calif.",
+        "San Juan Capistrano, Calif.",
+        "Solana Beach, Calif."
+      ]
+    },
+    {
+      "query": "Dallas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4
+      ],
+      "search_results": [
+        "Dallas, Tex.",
+        "Dallas, Tex.",
+        "Fort Worth, Tex.",
+        "Fort Worth, Tex.",
+        "Dallas County, Tex.",
+        "Denton, Tex.",
+        "Tarrant, Tex.",
+        "Taylor, Tex."
+      ]
+    },
+    {
+      "query": "San Francisco",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "San Francisco, Calif.",
+        "San Francisco, Calif.",
+        "San Francisco, Calif.",
+        "San Francisco, Calif.",
+        "San Rafael, Calif.",
+        "Daly City, Calif.",
+        "Sausalito, Calif.",
+        "Presidio San Francisco, Calif."
+      ]
+    },
+    {
+      "query": "Austin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4
+      ],
+      "search_results": [
+        "Austin, Tex.",
+        "Austin, Tex.",
+        "New Braunfels, Tex.",
+        "San Augustine, Tex.",
+        "Austin, Minn.",
+        "Dripping Springs, Tex.",
+        "Austinburg, Oh.",
+        "Round Rock, Tex."
+      ]
+    },
+    {
+      "query": "Seattle",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        2
+      ],
+      "search_results": [
+        "Suquamish, Wash.",
+        "Seattle, Wash.",
+        "Seattle, Wash.",
+        "Bellevue, Wash.",
+        "Steilacoom, Wash.",
+        "Kirkland, Wash.",
+        "Everett, Wash.",
+        "Gig Harbor, Wash."
+      ]
+    },
+    {
+      "query": "Denver",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Denver, Colo.",
+        "Denver, Colo.",
+        "Georgetown, Colo.",
+        "Dillon, Colo.",
+        "Centennial, Colo.",
+        "Colorado Springs, Colo.",
+        "Pueblo, Colo.",
+        "Colorado Springs, Colo."
+      ]
+    },
+    {
+      "query": "Boston",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0
+      ],
+      "search_results": [
+        "South Boston, Mass.",
+        "Boston, Mass.",
+        "Boston, Mass.",
+        "Bedford, Mass.",
+        "Beverly, Mass.",
+        "Boylston, Mass.",
+        "Needham Heights, Mass.",
+        "Revere, Mass."
+      ]
+    },
+    {
+      "query": "Detroit",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0
+      ],
+      "search_results": [
+        "Flughafen Detroit, Mich.",
+        "Detroit, Mich.",
+        "Detroit, Mich.",
+        "Dearborn, Mich.",
+        "Pontiac, Mich.",
+        "Wyandotte, Mich.",
+        "Hamtramck, Mich.",
+        "DeWitt, Mich."
+      ]
+    },
+    {
+      "query": "Portland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        6,
+        1,
+        2,
+        7,
+        4
+      ],
+      "search_results": [
+        "East Portland, Or.",
+        "Portland, Or.",
+        "Portland, Or.",
+        "Oregon City, Or.",
+        "South Portland, Me.",
+        "Portland",
+        "Portland",
+        "Portland, Me."
+      ]
+    },
+    {
+      "query": "Las Vegas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Las Vegas, Nev.",
+        "Las Vegas, Nev.",
+        "Beowawe, Nev.",
+        "Beowawe, Nev.",
+        "Genoa, Nev.",
+        "Summerlin, Nev.",
+        "Reno, Nev.",
+        "Reno, Nev."
+      ]
+    },
+    {
+      "query": "Miami",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        6,
+        3,
+        4,
+        0,
+        1
+      ],
+      "search_results": [
+        "North Miami Beach, Fla.",
+        "North Miami, Fla.",
+        "Miami Springs, Fla.",
+        "Miami Beach, Fla.",
+        "South Beach, Fla.",
+        "Miami, Fla.",
+        "Miami, Fla.",
+        "Dade, Fla."
+      ]
+    },
+    {
+      "query": "Atlanta",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        7
+      ],
+      "search_results": [
+        "Alpharetta, Ga.",
+        "Atlanta, Ga.",
+        "Atlanta, Ga.",
+        "Peachtree City, Ga.",
+        "Decatur, Ga.",
+        "Chamblee, Ga.",
+        "Dalton, Ga.",
+        "Buckhead, Ga."
+      ]
+    },
+    {
+      "query": "Washington D.C.",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        6,
+        3,
+        0,
+        5
+      ],
+      "search_results": [
+        "Georgetown, DC",
+        "Washington, DC",
+        "Washington, DC",
+        "Washington-Georgetown",
+        "Georgetown, Del.",
+        "Federal Triangle",
+        "District of Columbia",
+        "Pentagon City, Va."
+      ]
+    },
+    {
+      "query": "Toronto",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        4,
+        2,
+        6,
+        7
+      ],
+      "search_results": [
+        "Toronto",
+        "Toronto",
+        "Etobicoke",
+        "Tronto",
+        "Toronto-Chinatown",
+        "Saint Catharines",
+        "Brampton",
+        "Brampton"
+      ]
+    },
+    {
+      "query": "Montreal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Montréal-Hochelaga",
+        "Notre-Dame-de-Montréal Montréal",
+        "Montréal",
+        "Montréal",
+        "Montréal",
+        "Montréal",
+        "Montréal",
+        "Montréal"
+      ]
+    },
+    {
+      "query": "Vancouver",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        0,
+        1,
+        3,
+        6
+      ],
+      "search_results": [
+        "Vancouver-Burrard",
+        "North Vancouver",
+        "Clinton, British Columbia",
+        "West Vancouver",
+        "Vancouver",
+        "Vancouver",
+        "Hafen Vancouver",
+        "Nanaimo"
+      ]
+    },
+    {
+      "query": "Calgary",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Calgary",
+        "Calgary",
+        "Calgary",
+        "Lethbridge",
+        "Lethbridge",
+        "Bashaw, Alberta",
+        "Grande Prairie",
+        "Cardston"
+      ]
+    },
+    {
+      "query": "Ottawa",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Ottawa",
+        "Ottawa",
+        "Ottawa-Formation",
+        "Parlamentsgebäude Ottawa",
+        "Outaouais",
+        "Gatineau",
+        "Petawawa",
+        "Ottawa, Ill."
+      ]
+    },
+    {
+      "query": "Kalifornien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Oberkalifornien",
+        "Mittelkalifornien",
+        "Big Sur, Calif.",
+        "Big-Canyon-Gebiet, Calif.",
+        "Niederkalifornien",
+        "Niederkalifornien",
+        "El Triunfo, Niederkalifornien",
+        "El Triunfo, Niederkalifornien"
+      ]
+    },
+    {
+      "query": "Texas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Zentraltexas",
+        "Nacogdoches, Tex.",
+        "Commerce, Tex.",
+        "Goliad, Tex.",
+        "Bandera, Tex.",
+        "Bandera, Tex.",
+        "Stephenville, Tex.",
+        "Tyler, Tex."
+      ]
+    },
+    {
+      "query": "Florida",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "De Land, Fla.",
+        "Seaside, Fla.",
+        "Key Largo, Fla.",
+        "Destin, Fla.",
+        "Flagler Beach, Fla.",
+        "Aventura, Fla.",
+        "Sanibel, Fla.",
+        "Fernandina Beach, Fla."
+      ]
+    },
+    {
+      "query": "New York",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "New York- Manhattan",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York, NY",
+        "New York- Yorkville, NY"
+      ]
+    },
+    {
+      "query": "Illinois",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Illinois Chicago, Ill.",
+        "Lincolnshire, Ill.",
+        "Elgin, Ill.",
+        "Vandalia, Ill.",
+        "Belleville, Ill.",
+        "Techny, Ill.",
+        "Itasca, Ill.",
+        "Glencoe, Ill."
+      ]
+    },
+    {
+      "query": "Pennsylvania",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Media, Pa.",
+        "Kittanning, Pa.",
+        "Shippensburgh, Pa.",
+        "Shickshinny, Pa.",
+        "North Wales, Pa.",
+        "Lancaster County, Pa.",
+        "Laurel Highlands, Pa.",
+        "Lehigh County, Pa."
+      ]
+    },
+    {
+      "query": "Ohio",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Materials Park, Ohio",
+        "Galion, Ohio",
+        "Kidron District, Ohio",
+        "Mansfield, Ohio",
+        "Orrville, Ohio",
+        "Centerville, Oh.",
+        "Bucyrus, Ohio",
+        "Easton, Ohio"
+      ]
+    },
+    {
+      "query": "Georgia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Georgien",
+        "Georgien",
+        "Georgien",
+        "Georgien",
+        "Georgien",
+        "Georgien",
+        "Darien, Ga.",
+        "Experiment, Ga."
+      ]
+    },
+    {
+      "query": "Michigan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Michigamme, Mich.",
+        "Michigamme, Mich.",
+        "Petoskey, Mich.",
+        "Otsego, Mich.",
+        "Escanaba, Mich.",
+        "Saginaw, Mich.",
+        "Charlevoix, Mich.",
+        "Manistique, Mich."
+      ]
+    },
+    {
+      "query": "New Jersey",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Zentral- New Jersey",
+        "Mays Landing, NJ",
+        "Mays Landing, NJ",
+        "Toms River, NJ",
+        "Belmar, NJ",
+        "West Long Branch, NJ",
+        "Freehold Township, NJ",
+        "Cliffside Park, New Jersey"
+      ]
+    },
+    {
+      "query": "Virginia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Virginia-Formation",
+        "Fauquier, Va.",
+        "Bridgewater, Va.",
+        "Virginia Beach, Va.",
+        "Gordonsville, Va.",
+        "Tappahannock, Va.",
+        "Waynesboro, Va.",
+        "Danville, Va."
+      ]
+    },
+    {
+      "query": "Washington",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        2,
+        3,
+        1,
+        0,
+        4
+      ],
+      "search_results": [
+        "Washington-Georgetown",
+        "Georgetown, DC",
+        "Washington, DC",
+        "Washington, DC",
+        "Kirkland, Wash.",
+        "Bainbridge Island, Wash.",
+        "Suquamish, Wash.",
+        "Washington"
+      ]
+    },
+    {
+      "query": "Arizona",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Superior, Ariz.",
+        "Palagonia, Ariz.",
+        "Kayenta, Ariz.",
+        "Ajo, Ariz.",
+        "Ajo, Ariz.",
+        "Rincon Valley, Ariz.",
+        "Arizona City, Ariz.",
+        "Pio Rico, Ariz."
+      ]
+    },
+    {
+      "query": "Massachusetts",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Mashpee, Mass.",
+        "Dana, Mass.",
+        "Manomet, Mass.",
+        "Leverett, Mass.",
+        "Dennis, Mass.",
+        "Barnstable, Mass.",
+        "Barnstable, Mass.",
+        "Middlesex, Mass."
+      ]
+    },
+    {
+      "query": "Tennessee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Tullahoma, Tenn.",
+        "Jonesborough, Tenn.",
+        "La Vergne, Tenn.",
+        "Monteagle, Tenn.",
+        "Harrogate, Tenn.",
+        "Summertown, Tenn.",
+        "Pinson, Tenn.",
+        "Townsend, Tenn."
+      ]
+    },
+    {
+      "query": "São Paulo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "São Paulo",
+        "São Paulo",
+        "São Paulo",
+        "Bragança Paulista",
+        "Guarulhos",
+        "São Bernardo do Campo",
+        "Campinas",
+        "Cubatão"
+      ]
+    },
+    {
+      "query": "Buenos Aires",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Buenos Aires- Puerto Madero",
+        "Buenos Aires- Belgrano",
+        "Buenos Aires- Villa Lugano",
+        "Ciudad Eva Perón",
+        "Buenos Aires",
+        "Buenos Aires",
+        "Buenos Aires",
+        "Montecarlo, Argentina"
+      ]
+    },
+    {
+      "query": "Rio de Janeiro",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        6
+      ],
+      "search_results": [
+        "Rio de Janeiro- Barra da Tijuca",
+        "Rio de Janeiro",
+        "Rio de Janeiro",
+        "Rio de Janeiro",
+        "Rio de Janeiro",
+        "Rio de Janeiro- Praça Onze de Junho",
+        "Rio de Janeiro- Copacabana",
+        "Teresópolis"
+      ]
+    },
+    {
+      "query": "Lima",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "La Lima",
+        "La Lima",
+        "Lima- Santiago de Surco",
+        "Lima-Miraflores",
+        "Lima-Miraflores",
+        "Lima- San Isidro",
+        "Lima",
+        "Lima"
+      ]
+    },
+    {
+      "query": "Bogotá",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Puerto Bogotá",
+        "Aburrá Valley",
+        "Bogotá",
+        "Bogotá",
+        "Bogotá-Lucero",
+        "Departement Cundinamarca",
+        "Bucaramanga",
+        "Bucaramanga"
+      ]
+    },
+    {
+      "query": "Santiago",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Santiago de Chile",
+        "Santiago de Chile",
+        "Santiago de Chile",
+        "Santiago",
+        "Santiago",
+        "Santiago",
+        "Santiago",
+        "Santiago"
+      ]
+    },
+    {
+      "query": "Caracas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Caracas",
+        "Caracas",
+        "Caracas",
+        "Maiquetía",
+        "Generalkapitanat Caracas",
+        "Generalkapitanat Caracas",
+        "Generalkapitanat Carácas",
+        "Ciudad Bolívar"
+      ]
+    },
+    {
+      "query": "Brasília",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        5
+      ],
+      "search_results": [
+        "Brasília",
+        "Brasília",
+        "Ceilândia",
+        "Ceilândia",
+        "Taguatinga",
+        "Superquadra Brasília",
+        "Bundesterritorium Rio Branco",
+        "Goiânia"
+      ]
+    },
+    {
+      "query": "Salvador",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0
+      ],
+      "search_results": [
+        "São Salvador",
+        "Salvador",
+        "Salvador",
+        "São Vicente",
+        "São Vicente",
+        "São Vicente",
+        "São Vicente",
+        "Porto Seguro"
+      ]
+    },
+    {
+      "query": "Fortaleza",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 1,
+      "acceptance_rate": 0.125,
+      "hit": true,
+      "quality_tier": "POOR",
+      "selected_indices": [
+        0
+      ],
+      "search_results": [
+        "Fortaleza",
+        "Porto Grande, São Vicente",
+        "Porto Amboim",
+        "Monfortinho",
+        "Sobral",
+        "Sobral",
+        "Burg Santa Maria da Feira",
+        "Cidade Velha"
+      ]
+    },
+    {
+      "query": "Medellín",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "search_results": [
+        "Medellín",
+        "Medellin",
+        "Medellin",
+        "Aburrá Valley",
+        "Manizales",
+        "Manizales",
+        "Envigado",
+        "Girardota"
+      ]
+    },
+    {
+      "query": "Guayaquil",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0
+      ],
+      "search_results": [
+        "Provinz Guayaquil",
+        "Guayaquil",
+        "Zentralecuador",
+        "Puerto Ayora",
+        "Portoviejo",
+        "Esmeraldas",
+        "Esmeraldas",
+        "Esmeraldas"
+      ]
+    },
+    {
+      "query": "Montevideo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Montevideo",
+        "Montevideo",
+        "Montevideo",
+        "Montevideo",
+        "Punta del Este",
+        "Colonia del Sacramento",
+        "Montecarlo, Argentina",
+        "Monteviale"
+      ]
+    },
+    {
+      "query": "Asunción",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Asunción",
+        "Asunción",
+        "Asunción de Nuestra Señora",
+        "Ciudad del Este",
+        "Caacupé",
+        "Santa Cruz de la Sierra",
+        "Santa Cruz de la Sierra",
+        "San Salvador de Jujuy"
+      ]
+    },
+    {
+      "query": "La Paz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "La Paz",
+        "La Paz",
+        "La Paz",
+        "La Paz",
+        "La Paz",
+        "Cochabamba",
+        "Cochabamba",
+        "Cochabamba"
+      ]
+    },
+    {
+      "query": "Amazonas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Rio-Madeira-Gebiet",
+        "Orinoko-Rio-Negro-Gebiet",
+        "Rio-Tapajós-Gebiet",
+        "Guaporé-Gebiet"
+      ]
+    },
+    {
+      "query": "Patagonien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Peninsula-Valdés-Gebiet",
+        "Patagonien",
+        "Patagonien",
+        "Patagonien",
+        "Patagonien",
+        "Patagonien",
+        "Patagonien",
+        "Patagonien"
+      ]
+    },
+    {
+      "query": "Anden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Adensen",
+        "ʿAndaqīt"
+      ]
+    },
+    {
+      "query": "Mittelchile",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Zentralchile",
+        "Zentralchile",
+        "Mittelargentinien",
+        "Provinz Maule",
+        "Maule-Gebiet",
+        "Colchagua",
+        "Chile",
+        "Chile"
+      ]
+    },
+    {
+      "query": "Südosten Brasiliens",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Recôncavo da Baḥia",
+        "Zentralbrasilien",
+        "Zentralbrasilien",
+        "Zentralbrasilien",
+        "Campos Gerais",
+        "Rio-Itajaí-Açu-Gebiet",
+        "Serra do Sudeste",
+        "Rio-Tocantins-Gebiet"
+      ]
+    },
+    {
+      "query": "Cuyo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        3
+      ],
+      "search_results": [
+        "Curueño-Gebiet",
+        "Provinz Cuyo",
+        "San Salvador de Jujuy",
+        "Luján de Cuyo",
+        "Ceres, Argentinien",
+        "Valles Calchaquíes",
+        "Yucay",
+        "Yucay"
+      ]
+    },
+    {
+      "query": "Mesopotamia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        7,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Mesopotam",
+        "Mesopotam",
+        "Euphrat-Gebiet",
+        "Tigris-Gebiet",
+        "Tigris-Gebiet",
+        "Mesopotamia",
+        "Khabur-Gebiet",
+        "Euphrat-Tigris-Becken"
+      ]
+    },
+    {
+      "query": "Gran Chaco",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        6
+      ],
+      "search_results": [
+        "Gran Chaco",
+        "Paraguay-Gebiet",
+        "Parque Nacional Kaa-Iya del Gran Chaco e Izogog",
+        "Pampas",
+        "Pampas",
+        "Guaporé-Gebiet",
+        "Zentralparaguay",
+        "Rio-Tambopata-Gebiet"
+      ]
+    },
+    {
+      "query": "China",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1
+      ],
+      "search_results": [
+        "Zentralchina",
+        "Chinesische Ostküste",
+        "Südchinesische Küste",
+        "Chinesische Südküste",
+        "China",
+        "China",
+        "China",
+        "China"
+      ]
+    },
+    {
+      "query": "Japan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan",
+        "Japan"
+      ]
+    },
+    {
+      "query": "Indien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Indien",
+        "Indien",
+        "Indien",
+        "Indien",
+        "Indien",
+        "Indien",
+        "Indien",
+        "Indien"
+      ]
+    },
+    {
+      "query": "Südkorea",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Distrikt Korea",
+        "Kyŏngsangnam-do",
+        "Kyŏngnam",
+        "Kyŏngsang-do",
+        "Seosan City",
+        "Gyeongsangbuk-do",
+        "Suweon",
+        "Südkorea"
+      ]
+    },
+    {
+      "query": "Indonesien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Außeninseln, Indonesien",
+        "Muna, Indonesien",
+        "Inđija",
+        "Riauarchipel",
+        "Anambasinseln",
+        "Anambasinseln",
+        "Mentawaiinseln",
+        "Seribuat Archipelago"
+      ]
+    },
+    {
+      "query": "Thailand",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        1,
+        0
+      ],
+      "search_results": [
+        "Zentralthailand",
+        "Thailand",
+        "Thailand",
+        "Thailand",
+        "Thailand",
+        "Thailand",
+        "Thailand",
+        "Thailand"
+      ]
+    },
+    {
+      "query": "Vietnam",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Mittelvietnam",
+        "Vietnam",
+        "Vietnam",
+        "Vietnam",
+        "Vietnam",
+        "Vietnam",
+        "Südvietnam",
+        "Südvietnam"
+      ]
+    },
+    {
+      "query": "Philippinen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        1,
+        7,
+        2
+      ],
+      "search_results": [
+        "Philippinenthal",
+        "Philippinischer Archipel",
+        "Visayainseln",
+        "Philippinen",
+        "Philippinen",
+        "Philippinen",
+        "Philippine",
+        "Philippines"
+      ]
+    },
+    {
+      "query": "Malaysia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        6,
+        4,
+        5,
+        1,
+        2
+      ],
+      "search_results": [
+        "Malaysia",
+        "Bukit Mertajam",
+        "Mersing",
+        "Mersing",
+        "Putrajaya",
+        "Langkawi",
+        "Federated Malay States",
+        "Cameron Highlands"
+      ]
+    },
+    {
+      "query": "Singapur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Singapur",
+        "Singnapur",
+        "Straße von Singapur",
+        "Sembawang",
+        "Tanah Merah",
+        "Putrajaya",
+        "Ubin",
+        "Cyberjaya"
+      ]
+    },
+    {
+      "query": "Türkei",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        2
+      ],
+      "search_results": [
+        "Türkische Mittelmeerküste",
+        "Türkische Ägäisküste",
+        "Türkische Riviera",
+        "Türkei",
+        "Türkei",
+        "Türkei",
+        "Türkei",
+        "Türkei"
+      ]
+    },
+    {
+      "query": "Iran",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Hochland von Iran",
+        "Iran",
+        "Īrānshahr",
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran",
+        "Iran"
+      ]
+    },
+    {
+      "query": "Irak",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        2,
+        0,
+        1
+      ],
+      "search_results": [
+        "Irakisches Tiefland",
+        "Barzān, Irak",
+        "Iraq",
+        "Irak",
+        "Irak",
+        "Irak",
+        "Irak",
+        "Irak"
+      ]
+    },
+    {
+      "query": "Saudi-Arabien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Mittleres Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien",
+        "Saudi-Arabien"
+      ]
+    },
+    {
+      "query": "Vereinigte Arabische Emirate",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        6
+      ],
+      "search_results": [
+        "Vereinigte Arabische Emirate",
+        "Vereinigte Arabische Emirate",
+        "Umm Al-Kaiwain",
+        "Abu Dhabi",
+        "Abu Dhabi",
+        "Musandam",
+        "Jebel Ali",
+        "Emirat Banū Uqail"
+      ]
+    },
+    {
+      "query": "Israel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Zentralisrael",
+        "Israel",
+        "Israel",
+        "Israel",
+        "Israel",
+        "Israel",
+        "Palästinensische Autonomiegebiete",
+        "Westjordanland"
+      ]
+    },
+    {
+      "query": "Pakistan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        7,
+        2,
+        0
+      ],
+      "search_results": [
+        "Federally Administered Tribal Areas",
+        "Distrikt Dera Ismail Khan",
+        "West Pakistan",
+        "Distrikt Peshawar",
+        "Pakistan",
+        "Pakistan",
+        "Pakistan",
+        "Pakistan"
+      ]
+    },
+    {
+      "query": "Bangladesh",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Chittagong Hill Tracts",
+        "Srimangal",
+        "Distrikt Chittagong",
+        "Brahmanbaria",
+        "Distrikt Brahmanbaria",
+        "Cox's Bazar",
+        "Distrikt Nārāyanganj",
+        "Baṅgabhabana Dhaka"
+      ]
+    },
+    {
+      "query": "Myanmar",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        7
+      ],
+      "search_results": [
+        "Myanmar",
+        "Myanmar",
+        "Myanmar",
+        "Myanmar",
+        "Myanmar",
+        "Myanmar",
+        "Myanmar",
+        "Burma"
+      ]
+    },
+    {
+      "query": "Afghanistan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Zentralafghanistan",
+        "Badakhshan",
+        "Badakhshan",
+        "Provinz Wardak",
+        "Mazār-e Sharīf",
+        "Mazār-e Sharīf",
+        "Afghanistan",
+        "Afghanistan"
+      ]
+    },
+    {
+      "query": "Tokio",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "search_results": [
+        "Metro Tokio",
+        "Tokio",
+        "Tokio",
+        "Tokio",
+        "Tokio",
+        "Tokio-Nihonbashi",
+        "Tokio-Mamachi",
+        "Tokio-Shinagawa"
+      ]
+    },
+    {
+      "query": "Peking",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        3,
+        2
+      ],
+      "search_results": [
+        "Peking-Zhejiangcun",
+        "Pekʿin",
+        "Gesandschaftsviertel Peking",
+        "Beiping",
+        "Peking-Dongzhimen",
+        "Peqin",
+        "Peking",
+        "Peking"
+      ]
+    },
+    {
+      "query": "Shanghai",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        0,
+        1,
+        5,
+        3,
+        4
+      ],
+      "search_results": [
+        "Wirtschaftszone Schanghai",
+        "Schanghai-Pudong",
+        "Shanghai-Luwan",
+        "Schanghai-Baoshan",
+        "Schanghai-Minhang",
+        "Hafen Schanghai",
+        "Songjiang",
+        "Schanghai"
+      ]
+    },
+    {
+      "query": "Hongkong",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        0,
+        7,
+        6
+      ],
+      "search_results": [
+        "Hongkong- New Territories",
+        "Hongkong- New Territories",
+        "Hongkong- New Territories",
+        "Hongkong",
+        "Hongkong",
+        "Hongkong",
+        "Sai Kung Peninsula",
+        "Kowloon"
+      ]
+    },
+    {
+      "query": "Singapur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Singapur",
+        "Singnapur",
+        "Straße von Singapur",
+        "Sembawang",
+        "Tanah Merah",
+        "Putrajaya",
+        "Ubin",
+        "Cyberjaya"
+      ]
+    },
+    {
+      "query": "Seoul",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        0,
+        2
+      ],
+      "search_results": [
+        "Seoul-Mokdong",
+        "Suwon",
+        "Seoul-Sadang",
+        "Seoul",
+        "Seoul",
+        "Suweon",
+        "Incheon",
+        "Seongnam"
+      ]
+    },
+    {
+      "query": "Bangkok",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Vǎt-Braḥ-Keev Bangkok",
+        "Muang Khôngxédôn",
+        "Bangkok",
+        "Bangkok",
+        "Bangkok",
+        "Bang Lamung",
+        "Thonburi",
+        "Nong Lom"
+      ]
+    },
+    {
+      "query": "Taipeh",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        2,
+        1
+      ],
+      "search_results": [
+        "Bezirk Taoyuan, Taiwan",
+        "Kreis Taipeh",
+        "Neu-Taipeh",
+        "Nan-t'ou, Taiwan",
+        "Taipeh",
+        "Taipeh",
+        "Bezirk Nan-t'ou, Taiwan",
+        "Chunan, Taiwan"
+      ]
+    },
+    {
+      "query": "Hanoi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        0,
+        2,
+        7
+      ],
+      "search_results": [
+        "Hoàng-Thành-Thăng-Long Hanoi",
+        "Hanoi- Lĩnh-Nam",
+        "36-Gassen-Gebiet Hanoi",
+        "Hanoi",
+        "Hanoi",
+        "Ḥa Long City",
+        "Ha Nam Ninh",
+        "Văn-Mi'êu Hanoi"
+      ]
+    },
+    {
+      "query": "Kuala Lumpur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        4
+      ],
+      "search_results": [
+        "Putrajaya",
+        "Kuala Lumpur",
+        "Kuala Lumpur",
+        "Petaling Jaya",
+        "Cyberjaya",
+        "Bandar Baharu",
+        "Johore Bahru",
+        "Seremban"
+      ]
+    },
+    {
+      "query": "Dubai",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        6,
+        7
+      ],
+      "search_results": [
+        "Dubai",
+        "Dubai",
+        "Jebel Ali",
+        "Masdar City",
+        "Sharja",
+        "Sharja",
+        "Abu Dhabi",
+        "Abu Dhabi"
+      ]
+    },
+    {
+      "query": "Istanbul",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        1,
+        7,
+        0
+      ],
+      "search_results": [
+        "Istanbul-Tepebas̜ı",
+        "Istanbul-Sultanahmet",
+        "Istanbul-Kuzguncuk",
+        "Istanbul-C̜engelköy",
+        "Istanbul",
+        "Istanbul",
+        "Istanbul",
+        "Istanbul-Üsküdar"
+      ]
+    },
+    {
+      "query": "Tel Aviv",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        1,
+        3,
+        0
+      ],
+      "search_results": [
+        "Tēl-Āvîv-Yāfô-Rāmat-Āvîv",
+        "Tel Aviv- Jaffa",
+        "Tel Aviv",
+        "Tel Aviv-Jaffa",
+        "Hod Hasharon",
+        "Herzliyya",
+        "Rishon Le Zion",
+        "Giv'atayyim"
+      ]
+    },
+    {
+      "query": "Jerusalem",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        0,
+        3,
+        7
+      ],
+      "search_results": [
+        "Zion Jerusalem",
+        "Jerusalem- Bab Hutah",
+        "Jerusalem- Sheikh Jarrah",
+        "Felsendom Jerusalem",
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem",
+        "Jerusalem-Ofel"
+      ]
+    },
+    {
+      "query": "Mumbai",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Navi Muṃbaī",
+        "Bombay-Fort",
+        "Bombay",
+        "Bombay",
+        "Bombay",
+        "Bombay",
+        "Mumbai",
+        "Mumbai"
+      ]
+    },
+    {
+      "query": "Delhi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        3,
+        2,
+        0
+      ],
+      "search_results": [
+        "Distrikt Delhi",
+        "Distrikt Delhi",
+        "Unionsterritorium Delhi",
+        "Delhi",
+        "Delhi",
+        "Delhi",
+        "Delhi",
+        "Delhi"
+      ]
+    },
+    {
+      "query": "Karatschi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "search_results": [
+        "Distrikt Karatschi",
+        "Hafen Karatschi",
+        "Karatschi",
+        "Karatschi",
+        "Nawabshah",
+        "Ghotki",
+        "Dera Ismail Khan",
+        "Dera Ismail Khan"
+      ]
+    },
+    {
+      "query": "Dhaka",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        5,
+        1,
+        0
+      ],
+      "search_results": [
+        "Baṅgabhabana Dhaka",
+        "Distrikt Dhaka",
+        "Dhaka",
+        "Dhaka",
+        "Distrikt Nārāyanganj",
+        "Dakka",
+        "Narayanganj",
+        "Distrikt Gazipur"
+      ]
+    },
+    {
+      "query": "Manila",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Nedre Manilla",
+        "Metropolitan Manila",
+        "Manila-Tondo",
+        "Manila-Intramuros",
+        "Philippinendorf",
+        "Lipa City",
+        "Manila",
+        "Manila"
+      ]
+    },
+    {
+      "query": "Jakarta",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        7,
+        6,
+        0
+      ],
+      "search_results": [
+        "Jakarta- Lapangan Banteng",
+        "Jakartovice",
+        "Jakarta",
+        "Jakarta",
+        "Jakarta",
+        "Jakarta-Jatinegara",
+        "Jakarta Selatan",
+        "Jakarta Pusat"
+      ]
+    },
+    {
+      "query": "Ägypten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Ägypten",
+        "Ägypten",
+        "Ägypten",
+        "Ägypten",
+        "Ägypten",
+        "Ägypten",
+        "Ägypten",
+        "Ägypten"
+      ]
+    },
+    {
+      "query": "Südafrika",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Südafrika",
+        "Südafrika",
+        "Südafrika",
+        "Südafrika",
+        "Südafrika",
+        "Südafrika",
+        "Südafrika",
+        "Südafrika"
+      ]
+    },
+    {
+      "query": "Nigeria",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Zentralnigeria",
+        "Zentralnigeria",
+        "North-Eastern State of Nigeria",
+        "North-Western State of Nigeria",
+        "Western Region of Nigeria",
+        "Western State of Nigeria",
+        "Mid-Western Nigeria",
+        "Southern Nigeria"
+      ]
+    },
+    {
+      "query": "Kenia",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Mount-Kenya-Gebiet",
+        "Kenya",
+        "Kenia",
+        "Kenia",
+        "Kenia",
+        "Kenia",
+        "Kenia",
+        "Kenia"
+      ]
+    },
+    {
+      "query": "Marokko",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Zentralmarokko",
+        "Marokko",
+        "Marokko",
+        "Marokko",
+        "Marokko",
+        "Marokko",
+        "Marokko",
+        "Marokko"
+      ]
+    },
+    {
+      "query": "Algerien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Provinz Algier",
+        "Alger",
+        "Algerien",
+        "Algerien",
+        "Algerien",
+        "Algerien",
+        "Algerien",
+        "Algerien"
+      ]
+    },
+    {
+      "query": "Tunesien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Tuns̜i",
+        "Tunesien",
+        "Tunesien",
+        "Tunesien",
+        "Tunesien",
+        "Tunesien",
+        "Tunesien",
+        "Tunesien"
+      ]
+    },
+    {
+      "query": "Ghana",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Hügelland von Aschanti",
+        "Ghana",
+        "Ghana",
+        "Ghana",
+        "Ghana",
+        "Ghana",
+        "Ghana",
+        "Ghana"
+      ]
+    },
+    {
+      "query": "Tansania",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Tansanisches Küstentiefland",
+        "Region Arusha",
+        "Tansania",
+        "Tansania",
+        "Tansania",
+        "Tansania",
+        "Tansania",
+        "Tansania"
+      ]
+    },
+    {
+      "query": "Etiopien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "search_results": [
+        "Äthiopische Region",
+        "Abessinisches Hochland",
+        "Hochland von Abessinien",
+        "Äthiopien",
+        "Äthiopien",
+        "Äthiopien",
+        "Äthiopien",
+        "Äthiopien"
+      ]
+    },
+    {
+      "query": "Kamerun",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        5,
+        6,
+        7,
+        1,
+        0
+      ],
+      "search_results": [
+        "Kamerunberg-Gebiet",
+        "Cameroons",
+        "Mittelkamerun",
+        "Kamerun",
+        "Cameroun Oriental",
+        "Kamerun",
+        "Kamerun",
+        "Kamerun"
+      ]
+    },
+    {
+      "query": "Senegal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Senegal-Gebiet",
+        "Senegambien",
+        "Senegal",
+        "Senegal",
+        "Senegal",
+        "Senegal",
+        "Senegal",
+        "Senegal"
+      ]
+    },
+    {
+      "query": "Simbabwe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Groß-Simbabwe",
+        "Simbabwe",
+        "Simbabwe",
+        "Simbabwe",
+        "Simbabwe",
+        "Simbabwe",
+        "Simbabwe",
+        "Simbabwe"
+      ]
+    },
+    {
+      "query": "Uganda",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Uganda",
+        "Bezirk Mukono"
+      ]
+    },
+    {
+      "query": "Angola",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Provinz Angola",
+        "Angola",
+        "Angola",
+        "Angola",
+        "Angola",
+        "Angola",
+        "Angola",
+        "Angola-Benguela-Frontal-Zone"
+      ]
+    },
+    {
+      "query": "Kairo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        6,
+        7,
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Kairo- Wasat al-Balad",
+        "Kairo-Mokattam",
+        "Kairo- Darb al-Ahmar",
+        "Kairo-Heliopolis",
+        "Kairo-al-Fustat",
+        "Kairo",
+        "Kairo",
+        "Kairo"
+      ]
+    },
+    {
+      "query": "Johannesburg",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Johannesburg-Houghton",
+        "Johannesburg-Braamfontein",
+        "Johannesburg-Fairland",
+        "Johannesburg-Sophiatown",
+        "Surwold-Johannesburg",
+        "Midrand",
+        "Johannesburg",
+        "Johannesburg"
+      ]
+    },
+    {
+      "query": "Kapstadt",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Constantia-Kapstadt",
+        "Kapstadt",
+        "Kapstadt",
+        "Kapstadt- District Six",
+        "Kapstadt-Wynberg",
+        "Hafen Kapstadt",
+        "Mauritsstaad",
+        "Simon's Town"
+      ]
+    },
+    {
+      "query": "Lagos",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Staat Lagos",
+        "Lagos",
+        "Lagos",
+        "Lagos",
+        "Lagos",
+        "Lagos",
+        "Lagos",
+        "Lagos"
+      ]
+    },
+    {
+      "query": "Nairobi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        0,
+        1,
+        2,
+        5
+      ],
+      "search_results": [
+        "Nairobi-Gigiri",
+        "Nairobi- Mathare Valley",
+        "Nairobi-Kawangware",
+        "Nairobi",
+        "Nairobi",
+        "Nairobi-Kibera",
+        "Nakuru",
+        "Nanyuki"
+      ]
+    },
+    {
+      "query": "Casablanca",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Rabat",
+        "Rabat",
+        "Rabat",
+        "Rabat",
+        "Essaouira",
+        "Essaouira",
+        "Salé",
+        "Marrakesch"
+      ]
+    },
+    {
+      "query": "Tunis",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Tunis",
+        "Tunis",
+        "Tunis",
+        "Tuns̜i",
+        "Zentraltunesien",
+        "Hammamet",
+        "Ténès",
+        "Nabeul"
+      ]
+    },
+    {
+      "query": "Accra",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        3
+      ],
+      "search_results": [
+        "Region Greater Accra",
+        "Accra",
+        "Akropong",
+        "Achimota",
+        "Cape Coast",
+        "Kumasi",
+        "Winneba",
+        "Koforidua"
+      ]
+    },
+    {
+      "query": "Dakar",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        6
+      ],
+      "search_results": [
+        "Dakar",
+        "Dakar",
+        "Thiès",
+        "Thiès",
+        "Diourbel",
+        "Conakry",
+        "Pikine",
+        "Banjul"
+      ]
+    },
+    {
+      "query": "Addis Abeba",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Addis Abeba",
+        "Addis Abeba",
+        "Belet Weyne",
+        "Asmara",
+        "Asmara",
+        "Mogadischu",
+        "Mogadischu",
+        "Mek'elē"
+      ]
+    },
+    {
+      "query": "Australien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        6,
+        3,
+        5
+      ],
+      "search_results": [
+        "Australische Region",
+        "Wallmapu",
+        "Nordaustralien",
+        "Australisches Florenreich",
+        "Zentralaustralien",
+        "Australis",
+        "North Australia",
+        "Australisches Antarktis-Territorium"
+      ]
+    },
+    {
+      "query": "Neuseeland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        5,
+        2,
+        1
+      ],
+      "search_results": [
+        "Neuseeländische Westküste",
+        "Zentrale Nordinsel",
+        "Neuseeländisches Alpenvorland",
+        "Auckland-Inseln",
+        "Auckland-Inseln",
+        "Westneuseeländische Küste",
+        "Neuseeland",
+        "Neuseeland"
+      ]
+    },
+    {
+      "query": "Fidschi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        0,
+        5
+      ],
+      "search_results": [
+        "Beqa, Fidschi",
+        "Fidschi",
+        "Fidschi",
+        "Fidschi",
+        "Fidschi",
+        "Ata, Fidschi",
+        "Fidschi-Becken",
+        "Fidschi-Becken"
+      ]
+    },
+    {
+      "query": "Papua-Neuguinea",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Port-Moresby-Kairuku-Gebiet",
+        "Territorium Papua und Neuguinea",
+        "Neuguinea",
+        "Neuguinea",
+        "Zentralneuguinea",
+        "Neuguinea",
+        "Neuguinea",
+        "Neuguinea"
+      ]
+    },
+    {
+      "query": "Samoa",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7
+      ],
+      "search_results": [
+        "Samoa",
+        "Westsamoa",
+        "Samoainseln",
+        "Deutsch-Samoa",
+        "Lomaiviti Islands",
+        "Savaii",
+        "Beqa, Fidschi",
+        "Upolu"
+      ]
+    },
+    {
+      "query": "Sydney",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        0,
+        3,
+        5,
+        1
+      ],
+      "search_results": [
+        "Sydney- Bondi Beach",
+        "Sydney Basin",
+        "Sydney Basin",
+        "Sydney-Castlecrag",
+        "Port Jackson",
+        "North Sydney",
+        "Sydney",
+        "Sydney"
+      ]
+    },
+    {
+      "query": "Melbourne",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Melbourne- East Melbourne",
+        "Melbourne- Clifton Hill",
+        "Melbourne- Moonee Ponds",
+        "Wenigenlupnitz-Melborn",
+        "Melbourne-Kooyong",
+        "Melbourne-Jolimont",
+        "Mornington",
+        "Melbourne-Brunswick"
+      ]
+    },
+    {
+      "query": "Brisbane",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        2,
+        3,
+        0
+      ],
+      "search_results": [
+        "Brisbane-Ashgrove",
+        "Redland City",
+        "Brisbane",
+        "Brisbane",
+        "Gold Coast- Broadbeach",
+        "Toowoomba",
+        "Bundaberg",
+        "Caboolture"
+      ]
+    },
+    {
+      "query": "Perth",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        2,
+        4
+      ],
+      "search_results": [
+        "Perth, Westaustralien",
+        "Bridgetown, Westaustralien",
+        "Perth- West Perth",
+        "Geraldton, Westaustralien",
+        "Perth-Joondalup",
+        "Poonindie, Südaustralien",
+        "Perthois",
+        "Perth"
+      ]
+    },
+    {
+      "query": "Adelaide",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        5,
+        4,
+        7,
+        0
+      ],
+      "search_results": [
+        "Hahndorf, Südaustralien",
+        "Poonindie, Südaustralien",
+        "Ceduna, Südaustralien",
+        "Ceduna, Südaustralien",
+        "Walkerville, Südaustralien",
+        "Adelaide- Rundle Mall",
+        "North Adelaide",
+        "Gawler"
+      ]
+    },
+    {
+      "query": "Auckland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        4,
+        6,
+        7
+      ],
+      "search_results": [
+        "Auckland-Inseln",
+        "Auckland-Inseln",
+        "Whangaparaoa",
+        "Kerikeri",
+        "Auckland",
+        "Whangarei",
+        "Auckland",
+        "Auckland"
+      ]
+    },
+    {
+      "query": "Wellington",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Wellington",
+        "Wellington",
+        "Wellington",
+        "Wellington",
+        "Wellington",
+        "Wellington",
+        "Wellington",
+        "Wellington, Kan."
+      ]
+    },
+    {
+      "query": "Christchurch",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Christchurch",
+        "Christchurch",
+        "Christchurch",
+        "Canterbury, Neuseeland",
+        "Timaru",
+        "Invercargill",
+        "Oamaru",
+        "Dunedin"
+      ]
+    },
+    {
+      "query": "Canberra",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        6,
+        5,
+        0,
+        3
+      ],
+      "search_results": [
+        "Canberra-Barton",
+        "Canberra",
+        "Canberra",
+        "Canberra-Curtin",
+        "Canberra-Macquarie",
+        "National Capital District",
+        "Australian Capital Territory",
+        "Tamworth, Australien"
+      ]
+    },
+    {
+      "query": "Hobart",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        5,
+        6,
+        4
+      ],
+      "search_results": [
+        "Devonport, Tasmanien",
+        "Burnie, Tasmanien",
+        "Queenstown, Tasmanien",
+        "Great-Lake-Gebiet, Tasmanien",
+        "Huonville",
+        "Hobart",
+        "Hobarton",
+        "North West Bay, Tasmanien"
+      ]
+    },
+    {
+      "query": "Alpen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        3,
+        6,
+        7,
+        5
+      ],
+      "search_results": [
+        "Zentralalpen",
+        "Zentralalpen",
+        "Zentralalpen",
+        "Österreichische Alpen",
+        "Österreichische Alpen",
+        "Albula-Alpen",
+        "Südalpen",
+        "Grajische Alpen"
+      ]
+    },
+    {
+      "query": "Pyrenäen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Französische Pyrenäen",
+        "Spanische Pyrenäen",
+        "Zentralpyrenäen",
+        "Pyrenäen",
+        "Pyrenäen",
+        "Pyrenäen",
+        "Pyrenäen",
+        "Pyrenäen"
+      ]
+    },
+    {
+      "query": "Karpaten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      "search_results": [
+        "Karpaten-Balkan-Gebiet",
+        "Polnische Karpaten",
+        "Rumänische Karpaten",
+        "Kleine Karpaten",
+        "Kleine Karpaten",
+        "Kleine Karpaten",
+        "Serbische Karpaten",
+        "Karpaten-Dnjestr-Gebiet"
+      ]
+    },
+    {
+      "query": "Apennin",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "search_results": [
+        "Südlicher Apennin",
+        "Zentralapennin",
+        "Nördlicher Apennin",
+        "Emilianischer Apennin",
+        "Etruskischer Apennin",
+        "Etruskischer Apennin",
+        "Abruzzischer Apennin",
+        "Östlicher Apennin"
+      ]
+    },
+    {
+      "query": "Kaukasus",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus",
+        "Kaukasus"
+      ]
+    },
+    {
+      "query": "Himalaya",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        5,
+        1,
+        4
+      ],
+      "search_results": [
+        "Zentraler Himalaja",
+        "Byasrikh Himal",
+        "Vorderhimalaja",
+        "Nepal-Himalaja",
+        "Siwalikketten",
+        "Sikkim-Himalaja",
+        "Nepal-Himalaya-Park",
+        "Gurla-Mandhata-Gebiet"
+      ]
+    },
+    {
+      "query": "Anden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Anden",
+        "Adensen",
+        "ʿAndaqīt"
+      ]
+    },
+    {
+      "query": "Rocky Mountains",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        5,
+        7
+      ],
+      "search_results": [
+        "Rocky Mountains",
+        "Rocky Mountains",
+        "Rocky Mountains",
+        "Rocky Mountains",
+        "Kanadische Rocky Mountains",
+        "Front Range",
+        "Front Range",
+        "Medicine Bow Mountains"
+      ]
+    },
+    {
+      "query": "Sierra Nevada",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Sierra-Nevada-Batholith",
+        "Zentrale Sierra Nevada",
+        "Sierra Nevada",
+        "Sierra Nevada",
+        "Sierra Nevada",
+        "Sierra Nevada",
+        "Sierra Nevada",
+        "Sierra Nevada"
+      ]
+    },
+    {
+      "query": "Matterhorn",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        5
+      ],
+      "search_results": [
+        "Matterhorn-Gebiet",
+        "Stockhorn-Gebiet, Berner Alpen",
+        "Matterhorn-Rundweg",
+        "Mont Rigi",
+        "Monte-Generoso-Gebiet",
+        "Klein Matterhorn",
+        "Kroppacher Schweiz",
+        "Bietschhorn-Gebiet"
+      ]
+    },
+    {
+      "query": "Mont Blanc",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        2,
+        3,
+        4,
+        0
+      ],
+      "search_results": [
+        "Montblanc-Gebiet",
+        "Mont-Cenis-Gebiet",
+        "Massif du Mont-Blanc",
+        "Chamonix-Mont-Blanc",
+        "Chamonix-Mont-Blanc",
+        "Munt Baselgia",
+        "Mont Blanc",
+        "Moncenisio"
+      ]
+    },
+    {
+      "query": "Zugspitze",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        4,
+        5
+      ],
+      "search_results": [
+        "Jakobswiese Kempten, Allgäu",
+        "Bad Hindelang- Oberjoch",
+        "Bad Staffelstein- Vierzehnheiligen",
+        "Oberjoch",
+        "Zugspitz-Gebiet",
+        "Zugspitz-Gebiet",
+        "Hoher Peißenberg",
+        "Feldberggipfel"
+      ]
+    },
+    {
+      "query": "Mount Everest",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Mount-Everest-Gebiet",
+        "Mount Everest",
+        "Mount-Everest-Massiv",
+        "Sagarmatha National Park",
+        "Sagarmatha National Park",
+        "Nepal-Himalaya-Park",
+        "Annapurna-Gebiet",
+        "Annapurna-Gebiet"
+      ]
+    },
+    {
+      "query": "K2",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        0,
+        4
+      ],
+      "search_results": [
+        "K 2- Gebiet",
+        "K 2",
+        "Gasherbrum II",
+        "Nanga-Parbat-Gebiet",
+        "Broad Peak",
+        "Bagrot, Karakorum",
+        "Kleiner Kara-Kul, Muztagh Ata",
+        "Kailas-Gebiet"
+      ]
+    },
+    {
+      "query": "Fujisan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        3,
+        4,
+        0,
+        2
+      ],
+      "search_results": [
+        "Fuji-Kawaguchiko",
+        "Fudschijama",
+        "Fuji-Yoshida",
+        "Fuji",
+        "Fuji",
+        "Usu-dake",
+        "Daisen-Oki National Park",
+        "Yamatokōriyama"
+      ]
+    },
+    {
+      "query": "Kilimandscharo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        5,
+        0
+      ],
+      "search_results": [
+        "Kilimandscharo-Gebiet",
+        "Mount-Kenya-Gebiet",
+        "Mount Kenya National Park",
+        "Mount Kenya",
+        "Kilombero",
+        "Kilimandscharo",
+        "Usambara Mountains",
+        "Usambara Mountains"
+      ]
+    },
+    {
+      "query": "Montblanc",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Montblanc-Gebiet",
+        "Montblancgruppe",
+        "Montblancgruppe",
+        "Montblancgruppe",
+        "Montblancgruppe",
+        "Montblancgruppe",
+        "Munt Baselgia",
+        "Montbrelloz"
+      ]
+    },
+    {
+      "query": "Jungfrau",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0
+      ],
+      "search_results": [
+        "JungfrauPark",
+        "Jungfrau-Gebiet",
+        "UNESCO-Welterbe Jungfrau-Aletsch-Bietschhorn",
+        "Jakobswiese Kempten, Allgäu",
+        "Stockhorn-Gebiet, Berner Alpen",
+        "Bürgenstock-Gebiet",
+        "Frohnalpstock-Gebiet",
+        "Jungental"
+      ]
+    },
+    {
+      "query": "Monte Rosa",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        4
+      ],
+      "search_results": [
+        "Monte-Rosa-Gebiet",
+        "Monte-Rosa-Gebiet",
+        "Monte-Generoso-Gebiet",
+        "Montagna in Valtellina",
+        "Monte-Rosa-Decke",
+        "Monte-Lussari-Gebiet",
+        "Monte-Pastello-Gebiet",
+        "Gran-Paradiso-Gruppe"
+      ]
+    },
+    {
+      "query": "Rhein",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Rhein-Gebiet",
+        "Kamp, Rhein",
+        "Mittelrheintal",
+        "Mittelrheintal",
+        "Mittelrheintal",
+        "Unterer Mittelrhein",
+        "Rhein-Mosel-Gebiet",
+        "Unterer Mittelrhein"
+      ]
+    },
+    {
+      "query": "Donau",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Donaukai Neuburg, Donau",
+        "Niederdonau",
+        "Niederdonau",
+        "Donau-March-Thaya-Aue",
+        "Donau-Inn-Gebiet",
+        "Vilstal, Donau",
+        "Donautal",
+        "Donautal"
+      ]
+    },
+    {
+      "query": "Elbe",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Position Elbe 1",
+        "Eger-Gebiet, Elbe",
+        "Unterelbe-Gebiet",
+        "Unterelbe-Gebiet",
+        "Südliche Altmark, Elbe",
+        "Obere-Elbe-Tal",
+        "Elbe-Schwarze-Elster-Gebiet",
+        "Elbe-Parey-Parey"
+      ]
+    },
+    {
+      "query": "Main",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Mainland",
+        "Mittelmain",
+        "Mesta-Gebiet",
+        "Sèvre-Maine-Gebiet",
+        "Großstädteln",
+        "Finland, Minn.",
+        "Finland, Minn.",
+        "Finland, Minn."
+      ]
+    },
+    {
+      "query": "Mosel",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        4,
+        2,
+        1,
+        3
+      ],
+      "search_results": [
+        "Mittelmosel-Gebiet",
+        "Müden (Mosel)",
+        "Obermosel-Gebiet",
+        "Merl, Mosel",
+        "Mittelmosel",
+        "Mosel-Gebiet",
+        "Zwickau-Mosel",
+        "Möseln"
+      ]
+    },
+    {
+      "query": "Themse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        0,
+        7,
+        3,
+        2,
+        4
+      ],
+      "search_results": [
+        "Mittlere Themse",
+        "Thames River",
+        "Themse-Gebiet",
+        "Untere Themse",
+        "Obere-Themse-Tal",
+        "Mittlere-Themse-Tal",
+        "Untere-Themse-Tal",
+        "Obere Themse"
+      ]
+    },
+    {
+      "query": "Seine",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        4,
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Untere Seine",
+        "Untere Seine",
+        "Obere Seine",
+        "Mittlere Seine",
+        "Seine-Gebiet",
+        "Tournedos-sur-Seine",
+        "Seine",
+        "Sèvre Nantaise"
+      ]
+    },
+    {
+      "query": "Rhone",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        0,
+        2,
+        4,
+        5,
+        1
+      ],
+      "search_results": [
+        "Rhône-Gebiet",
+        "Mittlere-Rhône-Tal",
+        "Rhônetal",
+        "Untere-Rhône-Tal",
+        "Obere Rhône",
+        "Obere Rhône",
+        "Rhône",
+        "Untere Rhône"
+      ]
+    },
+    {
+      "query": "Po",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Pöls",
+        "Pöls",
+        "Pöls",
+        "Poso-Gebiet",
+        "Pohritzsch",
+        "Ponešice",
+        "Pępowo",
+        "Pępowo"
+      ]
+    },
+    {
+      "query": "Ebro",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Ebro-Ebene",
+        "Oberer-Ebro-Tal",
+        "Mittlerer-Ebro-Tal",
+        "Mittlerer Ebro",
+        "Oberer Ebro",
+        "Ebro",
+        "Unterer-Ebro-Tal",
+        "Unterer Ebro"
+      ]
+    },
+    {
+      "query": "Nil",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Oberer Nil",
+        "Oberer Nil",
+        "Nill",
+        "Unterer Nil",
+        "Unterer-Nil-Tal",
+        "Mittlerer Nil",
+        "Mittlerer Nil",
+        "Upper Nile"
+      ]
+    },
+    {
+      "query": "Kongo",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        2,
+        5
+      ],
+      "search_results": [
+        "Kongo-Gebiet",
+        "Kwango-Gebiet",
+        "Königreich Kongo",
+        "Katanga-Gebiet",
+        "Kasai-Gebiet",
+        "M'Banza Congo",
+        "Republik Kongo",
+        "Republik Kongo"
+      ]
+    },
+    {
+      "query": "Niger",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Niger-Gebiet",
+        "Nigertal",
+        "Mittlerer Niger",
+        "Mittlerer Niger",
+        "Nigritien",
+        "Zentralnigeria",
+        "Zentralnigeria",
+        "North-Eastern State of Nigeria"
+      ]
+    },
+    {
+      "query": "Sambesi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        0,
+        3,
+        1,
+        4,
+        7
+      ],
+      "search_results": [
+        "Sambesi-Gebiet",
+        "Sambesi-Becken",
+        "Unterer-Sambesi-Becken",
+        "Region Sambesi",
+        "Unterer Sambesi",
+        "Sassandra-Gebiet",
+        "Sambesi",
+        "Oberer Sambesi"
+      ]
+    },
+    {
+      "query": "Mekong",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "search_results": [
+        "Unteres Mekongbecken",
+        "Mekongbecken",
+        "Mekongtal",
+        "Mekong",
+        "Mekongdelta",
+        "Chindwin-Gebiet",
+        "Salween",
+        "Mittelvietnam"
+      ]
+    },
+    {
+      "query": "Yangtse",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        6,
+        2
+      ],
+      "search_results": [
+        "Jangtsekiang",
+        "Yalong Jiang",
+        "Unterer Jangtsekiang",
+        "Xi'er River Basin",
+        "Jangtsekiangtal",
+        "Cheine",
+        "Jangtsekiangdelta",
+        "Hwangho-Gebiet"
+      ]
+    },
+    {
+      "query": "Ganges",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Anūpshahr, Ganges",
+        "Anūpshahr, Ganges",
+        "Unterer Ganges",
+        "Ganges",
+        "Ganges",
+        "Gangesebene",
+        "Ganges-Brahmaputra-Mündungsdelta",
+        "Ganges-Brahmaputra-Mündungsdelta"
+      ]
+    },
+    {
+      "query": "Mississippi",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        4,
+        2,
+        3,
+        7
+      ],
+      "search_results": [
+        "Mississippi City, Miss.",
+        "Mississippi-Gebiet",
+        "Mississippidelta",
+        "Mittlerer-Mississippi-Tal",
+        "Mississippital",
+        "Pascagoula, Miss.",
+        "Mississippi State, Miss.",
+        "Unterer-Mississippi-Tal"
+      ]
+    },
+    {
+      "query": "Amazonas",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Amazonas-Gebiet",
+        "Rio-Madeira-Gebiet",
+        "Orinoko-Rio-Negro-Gebiet",
+        "Rio-Tapajós-Gebiet",
+        "Guaporé-Gebiet"
+      ]
+    },
+    {
+      "query": "Rio Grande",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        7,
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Rio-Grande-Gebiet",
+        "Oberer Rio Grande",
+        "Oberer Rio Grande",
+        "Río Grande",
+        "Río Grande",
+        "Unterer Rio Grande",
+        "Rio-Chicama-Gebiet",
+        "Rio Grande"
+      ]
+    },
+    {
+      "query": "Mittelmeer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        1
+      ],
+      "search_results": [
+        "Südeuropäische Mittelmeerküste",
+        "Mittelmeerregion",
+        "Zentraler Mittelmeerraum",
+        "Mittelmeerraum",
+        "Mittelmeerraum",
+        "Mittelmeerraum",
+        "Mittelmeerraum",
+        "Mittelmeerraum"
+      ]
+    },
+    {
+      "query": "Nordsee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        0
+      ],
+      "search_results": [
+        "Deutsche Nordseeküste",
+        "Nordseeküste",
+        "Nordseeküste",
+        "Nordseeküste",
+        "Nordseeküste",
+        "Nordseeküste",
+        "Wurster Nordseeküste- Nordholz",
+        "Deutsche Ostseeküste"
+      ]
+    },
+    {
+      "query": "Ostsee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Deutsche Ostseeküste",
+        "Ostseeküste",
+        "Ostseeküste",
+        "Ostseeküste",
+        "Ostseeküste",
+        "Ostseeküste",
+        "Ostrów Wielki, Wdzidzensee",
+        "Zentrale Ostsee"
+      ]
+    },
+    {
+      "query": "Adria",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        3,
+        4,
+        5,
+        2,
+        0,
+        1
+      ],
+      "search_results": [
+        "Italienische Adriaküste",
+        "Kroatische Adriaküste",
+        "Periadriatische Region",
+        "Adriatischer Raum",
+        "Adriatischer Raum",
+        "Adriatischer Raum",
+        "Kvarner",
+        "Adriatische Platte"
+      ]
+    },
+    {
+      "query": "Ägäis",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Ägäis-Gebiet",
+        "Ägäis-Gebiet",
+        "Ägäis-Gebiet",
+        "Ägadische Inseln",
+        "Ägäis",
+        "Ägäis",
+        "Ägäis",
+        "Ägäis"
+      ]
+    },
+    {
+      "query": "Schwarzes Meer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        7
+      ],
+      "search_results": [
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeer-Gebiet",
+        "Schwarzmeerküste"
+      ]
+    },
+    {
+      "query": "Kaspisches Meer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Aralsee-Gebiet",
+        "Aralsee-Gebiet",
+        "Aralsee-Gebiet",
+        "Aralsee-Gebiet",
+        "Kaspische Senke",
+        "Kaspische Senke",
+        "Kaspische Senke",
+        "Kaspisches Meer"
+      ]
+    },
+    {
+      "query": "Rotes Meer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Rotes Meer",
+        "Rotes Meer",
+        "Rotes Meer",
+        "Rotes Meer",
+        "Rotes Meer",
+        "Rotes Meer",
+        "Erythräisches Meer",
+        "Erythräisches Meer"
+      ]
+    },
+    {
+      "query": "Golf von Mexiko",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Malischer Golf",
+        "Golfo de Morrosquillo",
+        "Golfo de los Mosquitos",
+        "Golfo de Chiriqui",
+        "Golfo de Rosas",
+        "Exmouth Gulf",
+        "Golfo de Corcovado",
+        "Pagasäischer Golf"
+      ]
+    },
+    {
+      "query": "Bodensee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        7
+      ],
+      "search_results": [
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Gebiet",
+        "Bodensee-Oberschwaben"
+      ]
+    },
+    {
+      "query": "Genfer See",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Sempacher-See-Gebiet",
+        "Neuenburger See",
+        "Neuenburger See",
+        "Neuenburger See",
+        "Neuenburger See",
+        "Zürichsee-Gebiet",
+        "Neuenburger See",
+        "Greifensee-Gebiet"
+      ]
+    },
+    {
+      "query": "Comer See",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Am Mellensee- Mellensee",
+        "Comer See",
+        "Comer See",
+        "Comer See",
+        "Comer See",
+        "Comer See",
+        "Sarner-See-Gebiet",
+        "Lake Como, Pa."
+      ]
+    },
+    {
+      "query": "Gardasee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet",
+        "Gardasee-Gebiet"
+      ]
+    },
+    {
+      "query": "Victoriasee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        7,
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "search_results": [
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee-Gebiet",
+        "Victoriasee"
+      ]
+    },
+    {
+      "query": "Tanganjika",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        5,
+        3,
+        4
+      ],
+      "search_results": [
+        "Tanganjikasee-Gebiet",
+        "Tansanisches Küstentiefland",
+        "Bezirk Tanga",
+        "Kigoma",
+        "Kigoma",
+        "Provinz Tanganyika",
+        "Lake-Rukwa-Gebiet",
+        "Bezirk Tabora"
+      ]
+    },
+    {
+      "query": "Malawisee",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        1,
+        2
+      ],
+      "search_results": [
+        "Malawi",
+        "Malawi",
+        "Malawi",
+        "Maltatal",
+        "Mali i Gjalicës",
+        "Malliß",
+        "Provinz Moçambique",
+        "Malaien"
+      ]
+    },
+    {
+      "query": "Baikal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        7
+      ],
+      "search_results": [
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikalsee-Gebiet",
+        "Baikal-Stanovoy-Riftsystem"
+      ]
+    },
+    {
+      "query": "Mesopotamien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Mesopotam",
+        "Mesopotam",
+        "Euphrat-Gebiet",
+        "Tigris-Gebiet",
+        "Tigris-Gebiet",
+        "Khabur-Gebiet",
+        "Mesopotamia",
+        "Euphrat-Tigris-Becken"
+      ]
+    },
+    {
+      "query": "Mesopotamien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        6,
+        7,
+        2,
+        3,
+        5
+      ],
+      "search_results": [
+        "Mesopotam",
+        "Mesopotam",
+        "Euphrat-Gebiet",
+        "Tigris-Gebiet",
+        "Tigris-Gebiet",
+        "Khabur-Gebiet",
+        "Mesopotamia",
+        "Euphrat-Tigris-Becken"
+      ]
+    },
+    {
+      "query": "Persien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Provinz Fars",
+        "Khorasan",
+        "Khorasan",
+        "Khorasan",
+        "Khorasan",
+        "Tabaristan",
+        "Şiran",
+        "Kreis Belgard, Persante"
+      ]
+    },
+    {
+      "query": "Byzanz",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        7,
+        2,
+        4
+      ],
+      "search_results": [
+        "Byzacium",
+        "Brysē, Zypern",
+        "Bosporus-Gebiet",
+        "Anadolu Hisarı",
+        "Bithynien",
+        "Beycesultan",
+        "Belgrad- Stari Grad",
+        "Konstantinopel"
+      ]
+    },
+    {
+      "query": "Römische Reich",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        4,
+        1,
+        2
+      ],
+      "search_results": [
+        "Römische Provinzen",
+        "Römerstadt",
+        "Römerstadt",
+        "Herzogtum Rom",
+        "Weströmisches Reich",
+        "Lateinisches Kaiserreich",
+        "Germanische Provinzen",
+        "Romangia"
+      ]
+    },
+    {
+      "query": "Karolinger Reich",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        5,
+        6,
+        7,
+        0,
+        1
+      ],
+      "search_results": [
+        "Ostfränkisches Reich",
+        "Westfränkisches Reich",
+        "Fränkisches Steinreich",
+        "Herrschaft Karlsbach",
+        "Fränkisches Reich",
+        "Fränkisches Reich",
+        "Fränkisches Reich",
+        "Fränkisches Reich"
+      ]
+    },
+    {
+      "query": "Heiliges Römisches Reich",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Heiliges Römisches Reich",
+        "Sacrum Romanum Imperium",
+        "Fränkisches Reich",
+        "Fränkisches Reich",
+        "Fränkisches Reich",
+        "Fränkisches Reich",
+        "Oberer Herrenteich",
+        "Herzogtum Franken"
+      ]
+    },
+    {
+      "query": "Ostkolonisation",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        7
+      ],
+      "search_results": [
+        "Aschaffenburg- Österreicher Kolonie",
+        "Deutsche Ostgebiete",
+        "Deutsche Ostgebiete",
+        "Osterland",
+        "Ostetal",
+        "Ostslowakisches Gebiet",
+        "Oosterland",
+        "Ostland"
+      ]
+    },
+    {
+      "query": "Alte Ägypten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Oberägypten",
+        "Oberägypten",
+        "Oberägypten",
+        "Oberägypten",
+        "Unterägypten",
+        "Iset-Gebiet",
+        "Provinz Giseh",
+        "Mittelägypten"
+      ]
+    },
+    {
+      "query": "Kanaan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        2,
+        3
+      ],
+      "search_results": [
+        "Kanaan",
+        "Untergaliläa",
+        "Westjordanland",
+        "Ostjordanland",
+        "Betʾania",
+        "Khirbet Kanafar",
+        "Malka-Arda-Gebiet",
+        "Aijalon Valley"
+      ]
+    },
+    {
+      "query": "Phönizien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        0,
+        4
+      ],
+      "search_results": [
+        "Syria Phoenice",
+        "Phönikien",
+        "Phönikien",
+        "Kaphtor",
+        "Byblos",
+        "Phaselis",
+        "Zentralsyrien",
+        "Henares-Gebiet"
+      ]
+    },
+    {
+      "query": "Indus-Kultur",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        7,
+        7
+      ],
+      "search_results": [
+        "Rur-Inde-Gebiet",
+        "Unterer-Khabur-Tal",
+        "Mehrgarh",
+        "Kalibangan",
+        "Oberer-Indus-Tal",
+        "Malwa Plain",
+        "Inamgaon",
+        "Daimabad"
+      ]
+    },
+    {
+      "query": "Akropolis",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        7,
+        4,
+        0
+      ],
+      "search_results": [
+        "Athen-Plaka",
+        "Akropolis Athen",
+        "Akrokorinth",
+        "Kulturgebäude Akadēmia Athēnōn",
+        "Pelargikon Athen",
+        "Akropolis Monte Sannace",
+        "Nationalpark Athen",
+        "Propyläen Athen"
+      ]
+    },
+    {
+      "query": "Kolosseum",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "search_results": [
+        "Kolosseum",
+        "Colosseum",
+        "Anfiteatro Romano",
+        "Anfiteatro Romano",
+        "Circo romano",
+        "Amphitheatrum Castrense",
+        "Stadium Domitiani",
+        "Anfiteatro Campano"
+      ]
+    },
+    {
+      "query": "Eiffelturm",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 1,
+      "acceptance_rate": 0.125,
+      "hit": true,
+      "quality_tier": "POOR",
+      "selected_indices": [
+        7
+      ],
+      "search_results": [
+        "Europaturm",
+        "Europaturm",
+        "OpernTurm",
+        "Eurotower",
+        "Messeturm Frankfurt",
+        "Elbtower",
+        "Rhein-Weser-Turm",
+        "Arc de Triomphe"
+      ]
+    },
+    {
+      "query": "Big Ben",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        5,
+        7
+      ],
+      "search_results": [
+        "Bankgebäude der Bank of England",
+        "Palace of Westminster",
+        "Palace of Westminster",
+        "Tower of London",
+        "Tower of London",
+        "Houses of Parliament",
+        "Tower of London",
+        "Houses of Parliament"
+      ]
+    },
+    {
+      "query": "Brandenburger Tor",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 2,
+      "acceptance_rate": 0.25,
+      "hit": true,
+      "quality_tier": "OK",
+      "selected_indices": [
+        0,
+        1
+      ],
+      "search_results": [
+        "Brandenburger Tor",
+        "Brandenburger Tor",
+        "Charlottenburger Tor",
+        "Hahnentor",
+        "Berliner Tor",
+        "Berliner Tor",
+        "Kottbusser Tor",
+        "Kottbusser Tor"
+      ]
+    },
+    {
+      "query": "Parthenon",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Parthenon",
+        "Akropolis Athen",
+        "Athenetempel",
+        "Athenetempel",
+        "Athenetempel",
+        "Propyläen Athen",
+        "Pelargikon Athen",
+        "Athenatempel"
+      ]
+    },
+    {
+      "query": "Machu Picchu",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 4,
+      "acceptance_rate": 0.5,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        7,
+        6,
+        1
+      ],
+      "search_results": [
+        "Machu Picchu",
+        "Ollantaytambo",
+        "Huaca San Marcos Site",
+        "Caral Supe Site",
+        "Mount Pisco",
+        "Otuzco",
+        "Rio-Urubamba-Gebiet",
+        "Inka Trail"
+      ]
+    },
+    {
+      "query": "Angkor Wat",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 7,
+      "acceptance_rate": 0.875,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        2,
+        3,
+        0,
+        0,
+        1,
+        6
+      ],
+      "search_results": [
+        "Bayon Angkor",
+        "Banteay Srei",
+        "Angkor",
+        "Angkor",
+        "Angkor Vat",
+        "Srŏk Prasat Bakong",
+        "Ta Kaev",
+        "Koh Ker"
+      ]
+    },
+    {
+      "query": "Taj Mahal",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 7,
+      "acceptance_rate": 0.875,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        5,
+        5,
+        7
+      ],
+      "search_results": [
+        "Humayun-Mausoleum",
+        "Jahangir-Mausoleum",
+        "Tadsch Mahal",
+        "Mausoleum des Itimad-ud-Daula",
+        "Fatehpur-Sikri",
+        "Mausoleum Akbars",
+        "Gumbaz",
+        "Mausoleum des Nawab Asaf Khan"
+      ]
+    },
+    {
+      "query": "Große Mauer",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Hohenberg-Krusemark-Altenzaun",
+        "Dunkelsteinerwald- Mauer bei Melk",
+        "Nationaler GeoPark GrenzWelten",
+        "Nationaler GeoPark GrenzWelten",
+        "Ringwallanlage Ochsenberg",
+        "Ringwallanlage Steinmandl",
+        "Fürstenwall Magdeburg",
+        "Landturm Großharbach"
+      ]
+    },
+    {
+      "query": "Petra",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Petra",
+        "Petra",
+        "Petra",
+        "Petra",
+        "Petra",
+        "Kirche Petra",
+        "Umm al-Ǧimāl",
+        "Avdat"
+      ]
+    },
+    {
+      "query": "Pompeji",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        6,
+        7,
+        2,
+        1
+      ],
+      "search_results": [
+        "Nueva Pompeya",
+        "Stabiae",
+        "Herculaneum",
+        "Castellammare di Stabia",
+        "Castellammare di Stabia",
+        "Pompeji",
+        "Pompeji",
+        "Pompeji"
+      ]
+    },
+    {
+      "query": "Stonehenge",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        3,
+        4,
+        2,
+        7
+      ],
+      "search_results": [
+        "Stonehenge",
+        "Stonehenge",
+        "Rollright Stones",
+        "Woodhenge",
+        "Avebury",
+        "Hambledon Hill Site",
+        "Silbury Hill",
+        "Stanton Drew"
+      ]
+    },
+    {
+      "query": "Chichen Itza",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        4,
+        2,
+        3,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Izamal",
+        "Dzibilchaltún",
+        "Uxmal",
+        "Cobá",
+        "Chichén Itzá",
+        "Palenque Site",
+        "Chicanná",
+        "Edzná"
+      ]
+    },
+    {
+      "query": "Forbidden City",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        5,
+        0,
+        2,
+        3,
+        6
+      ],
+      "search_results": [
+        "Jingshan-Park Peking",
+        "Yongle-Palast Ruicheng",
+        "Himmelstempel Peking",
+        "Sommerpalast Peking",
+        "Sommerresidenz Chengde",
+        "Palazzo imperiale",
+        "Yuanmingyuan",
+        "Tongbai Palace"
+      ]
+    },
+    {
+      "query": "Spreewald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        1,
+        5,
+        7
+      ],
+      "search_results": [
+        "Spreewald-Gebiet",
+        "Oberspreewald",
+        "Biosphärenreservat Spreewald",
+        "Landkreis Fürstenwalde, Spree",
+        "Kleine-Spree-Gebiet",
+        "Spreewaldheide",
+        "Sternberger Seenlandschaft",
+        "Oder-Spree-Gebiet"
+      ]
+    },
+    {
+      "query": "Schwarzwald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Schwarzatal- Oberweißbach/Thür. Wald",
+        "Schwarzach, Odenwald",
+        "Nordschwarzwald",
+        "Kandel-Gebiet, Schwarzwald",
+        "Nordschwarzwald",
+        "Naturpark Schwarzwald Mitte/Nord",
+        "Mittlerer Schwarzwald",
+        "Mittlerer Schwarzwald"
+      ]
+    },
+    {
+      "query": "Bayerischer Wald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Mittlerer Bayerischer Wald",
+        "Euregio Bayerischer Wald- Böhmerwald- Unterer Inn",
+        "Oberer Bayerischer Wald",
+        "Mittlerer Oberpfälzer Wald",
+        "Vorderer Bayerischer Wald",
+        "Bayerischer Wald- Zwiesel",
+        "Zellertal, Bayerischer Wald",
+        "Hinterer Bayerischer Wald"
+      ]
+    },
+    {
+      "query": "Odenwald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7
+      ],
+      "search_results": [
+        "Mittlerer Odenwald",
+        "Vorderer Odenwald",
+        "Vorderer Odenwald",
+        "Oberweißbach/Thür. Wald",
+        "Oberweißbach/Thür. Wald",
+        "Hinterer Odenwald",
+        "Kleiner Odenwald",
+        "Buchen, Odenwald"
+      ]
+    },
+    {
+      "query": "Pfälzer Wald",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        7,
+        1
+      ],
+      "search_results": [
+        "Naturpark Pfälzerwald",
+        "Pfälzer Waldpfad",
+        "Pfalzen, Pustertal",
+        "Naturpark Saar-Hunsrück Rheinland-Pfalz",
+        "Holzbachtal, Hochwald, Hunsrück",
+        "Naturpark Schwarzwald Mitte/Nord",
+        "Naturschutzgebiet Pleidelsheimer Wiesental",
+        "Biosphärenreservat Pfälzerwald"
+      ]
+    },
+    {
+      "query": "Bodden",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Nordrügener Bodden",
+        "Bodstedter Bodden",
+        "Darß-Zingster Boddenkette",
+        "Vitter Bodden",
+        "Kubitzer Bodden",
+        "Rügischer Bodden",
+        "Kleiner Jasmunder Bodden",
+        "Saaler Bodden"
+      ]
+    },
+    {
+      "query": "Marsch",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4
+      ],
+      "search_results": [
+        "Marschlande",
+        "Hanerau-Hademarschen",
+        "Hanerau-Hademarschen",
+        "Süderelbmarsch",
+        "Düffel, Kellener Altrhein und Flussmarschen",
+        "Moormerland-Neermoor",
+        "Hademarschen",
+        "Mitteldithmarschen"
+      ]
+    },
+    {
+      "query": "Ferner Osten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        1,
+        2,
+        0
+      ],
+      "search_results": [
+        "Orientalische Region",
+        "Ostasien",
+        "Asiatisch-Pazifischer Raum",
+        "Südostasien",
+        "Südostasien",
+        "Südostasien",
+        "Südostasien",
+        "Südostasien"
+      ]
+    },
+    {
+      "query": "Vorderer Orient",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 5,
+      "acceptance_rate": 0.625,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        6,
+        7,
+        5,
+        4
+      ],
+      "search_results": [
+        "Orientalische Region",
+        "Ostjordanland",
+        "Ostjordanisches Bergland",
+        "Oriente",
+        "Bilad al-Sham",
+        "Syrisch-palästinensischer Raum",
+        "Mittlerer Osten",
+        "Mittlerer Osten"
+      ]
+    },
+    {
+      "query": "Naher Osten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten"
+      ]
+    },
+    {
+      "query": "Mittlerer Osten",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        3,
+        4
+      ],
+      "search_results": [
+        "Mittlerer Osten",
+        "Mittlerer Osten",
+        "Mittlerer Osten",
+        "MENA-Region",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten",
+        "Naher Osten"
+      ]
+    },
+    {
+      "query": "Westjordanland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 3,
+      "acceptance_rate": 0.375,
+      "hit": true,
+      "quality_tier": "GOOD",
+      "selected_indices": [
+        0,
+        0,
+        6
+      ],
+      "search_results": [
+        "Westjordanland",
+        "Ostjordanland, Landschaft",
+        "Ostjordanland, Landschaft",
+        "Zentraljordanien",
+        "Zentraljordanien",
+        "Ostjordanland",
+        "Jordan-Gebiet",
+        "Ostjordanisches Bergland"
+      ]
+    },
+    {
+      "query": "Gazastreifen",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 0,
+      "acceptance_rate": 0.0,
+      "hit": false,
+      "quality_tier": "FAIL",
+      "selected_indices": [],
+      "search_results": [
+        "Gayá-Gebiet",
+        "Grabia-Gebiet",
+        "Gausta-Gebiet",
+        "Grenzbitumenzone",
+        "Gete-Gebiet",
+        "Galidzga-Gebiet",
+        "Pasłe̜ka-Gebiet",
+        "Jordan-Gebiet"
+      ]
+    },
+    {
+      "query": "Kurdistan",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "search_results": [
+        "Provinz Kurdistan",
+        "Kurdistan-Irak",
+        "Kurdistan",
+        "Kurdistan",
+        "Kurdistan",
+        "Kurdistan",
+        "Kurdistan",
+        "Kurdische Republik Mahabad"
+      ]
+    },
+    {
+      "query": "Baskenland",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Baskenland",
+        "Baskenland",
+        "Baskenland",
+        "Baskenland",
+        "Niedernavarra",
+        "Niedernavarra",
+        "Valle del Baztán",
+        "Bidasoa-Gebiet"
+      ]
+    },
+    {
+      "query": "Katalonien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "search_results": [
+        "Katalanisches Sprachgebiet",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien",
+        "Katalonien"
+      ]
+    },
+    {
+      "query": "Galizien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Distrikt Galizien",
+        "Gallizien",
+        "Westgalizien",
+        "Galizien",
+        "Galizien",
+        "Galizien",
+        "Galizien",
+        "Ostgalizien"
+      ]
+    },
+    {
+      "query": "Korsika",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "search_results": [
+        "Corsica",
+        "Korsika",
+        "Korsika",
+        "Korsika",
+        "Korsika",
+        "Korsika",
+        "Korsika",
+        "Canari, Korsika"
+      ]
+    },
+    {
+      "query": "Sizilien",
+      "top_k": 8,
+      "search_results_count": 8,
+      "reranker_selected_count": 6,
+      "acceptance_rate": 0.75,
+      "hit": true,
+      "quality_tier": "EXCELLENT",
+      "selected_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "search_results": [
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien",
+        "Sizilien"
+      ]
+    }
+  ],
+  "aggregate": {
+    "overall_acceptance_rate": 0.6258,
+    "hit_rate": 0.9845,
+    "mean_relevant_results": 5.01,
+    "quality_tier_distribution": {
+      "FAIL": 5,
+      "POOR": 2,
+      "OK": 22,
+      "GOOD": 35,
+      "EXCELLENT": 258
+    },
+    "cumulative_quality": {
+      "at_least_1": 0.9845,
+      "at_least_2": 0.9783,
+      "at_least_3": 0.9099,
+      "at_least_4": 0.8012,
+      "at_least_5": 0.7143,
+      "at_least_6": 0.6087,
+      "at_least_7": 0.0093,
+      "at_least_8": 0.0
+    },
+    "position_hit_rates": {
+      "position_1": 0.7795031055900621,
+      "position_2": 0.7484472049689441,
+      "position_3": 0.7484472049689441,
+      "position_4": 0.6677018633540373,
+      "position_5": 0.6832298136645962,
+      "position_6": 0.5745341614906833,
+      "position_7": 0.40062111801242234,
+      "position_8": 0.38819875776397517
+    }
+  }
+}
