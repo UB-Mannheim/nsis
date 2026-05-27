@@ -2188,9 +2188,9 @@ body {
         gap: 0.75rem;
     }
     .header-links {
-        flex-direction: column;
-        gap: 0.5rem;
-        align-items: flex-start;
+        flex-direction: row;
+        gap: 1rem;
+        align-items: center;
     }
 
     /* Fix footer overflow */

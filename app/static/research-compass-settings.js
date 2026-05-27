@@ -141,7 +141,7 @@ const UI_STRINGS = {
     <br>
     <p>Der StabiKat Recherche-Kompass unterstützt Sie bei der Recherche in den Beständen der Staatsbibliothek zu Berlin. Mithilfe künstlicher Intelligenz werden Ihre natürlichsprachigen Suchanfragen automatisch in optimierte Suchoptionen für den StabiKat umgewandelt. Die Treffer stammen dabei gesichert aus den Beständen der Staatsbibliothek zu Berlin.</p>
     <br>
-    <p>Zur Verarbeitung Ihrer Suchanfragen werden externe Dienstleister eingebunden. Es werden hierbei keinerlei personenbezogene Daten erfasst, übermittelt oder gespeichert.</p>`,
+    <p>Zur Verarbeitung Ihrer Suchanfragen werden externe Dienstleister eingebunden. Bitte geben Sie keine personenbezogenen Daten ein. Weiterhin werden keine personenbezogenen Daten erfasst, übermittelt oder gespeichert.</p>`,
 
     // Report Accessibility Issue Content (HTML)
     reportAccessibilityIssueBodyHTML: `
@@ -310,7 +310,7 @@ const UI_STRINGS_EN = {
     <br>
     <p>The StabiKat Research Compass supports you in researching the collections of the Staatsbibliothek zu Berlin. Using artificial intelligence, your natural language search queries are automatically transformed into optimized search options for StabiKat. The results reliably come from the holdings of the Berlin State Library.</p>
     <br>
-    <p>External service providers are engaged to process your search queries. No personal data is collected, transmitted, or stored in this process.</p>`,
+    <p>External service providers are used to process your search queries. Please do not enter any personal data. Furthermore, no personal data is collected, transmitted, or stored.</p>`,
 
     // Dynamic Strings (used in JavaScript)
     searchInProgress: "Searching ...",
