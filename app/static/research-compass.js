@@ -426,6 +426,7 @@ Pipeline.register('queryTransformation', {
  * @param {string} query - Search query string
  */
 async function doSearch(query) {
+    scrollToSearchSection();
     query = safeStr(query).trim();
     if (!query) return;
 
