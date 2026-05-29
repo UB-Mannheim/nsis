@@ -2,6 +2,10 @@
 
 A FastAPI-based API that transforms natural language queries into structured search parameters for VuFind library catalogs. It uses BK (Basisklassifikation), GND-SAZ (GND Sachbegriffe), and GND-GEO (GND Geografika) authority databases combined with LLM-powered query expansion, facet extraction, and search result reranking to improve media discovery and provide an automatic research consultation for library catalogs. The frontend ("Research Compass") is served as a Single-Page-Application (HTML+JS+CSS) by the API.
 
+# Live Instance
+
+Navigate to this link to test the live instance: [https://kompass.stabikat.de](https://kompass.stabikat.de)
+
 # Docs
 
 Detailed documentation of the nsis API lives in the `docs/` folder. Start with reading the [overview](docs/00_overview.md).
