@@ -5,7 +5,7 @@
 const CONFIG = {
     // API_BASE_URL is derived from current website location
     API_BASE_URL: (window.location.origin) + '/nsis/api/v1',
-    VUFIND_BASE_URL: 'https://1089442e-84fc-4d40-b319-673124c513fc.ma.bw-cloud-instance.org/vufind',
+    VUFIND_BASE_URL: 'https://1089442e-84fc-4d40-b319-673124c513fc.ma.bw-cloud-instance.org',
     MAX_HISTORY: 5,
     FETCH_DEBOUNCE_MS: 800,
     LOCAL_STORAGE_KEY: 'research-compass-history',
@@ -20,7 +20,7 @@ const CONFIG = {
    ================================================================ */
 const UI_STRINGS = {
     // Page
-    pageTitle: "Recherche-Kompass | StabiKat",
+    pageTitle: "Recherche-Kompass | KaRMa",
     logoText: "Recherche-Kompass",
     aboutLink: "Über den Recherche-Kompass",
     aboutLinkMobile: "Über",
@@ -54,9 +54,9 @@ const UI_STRINGS = {
 
     // Results Section
     foundResults: "Gefundene Ergebnisse",
-    hitsInVuFind: "Treffer im StabiKat",
+    hitsInVuFind: "Treffer in KaRMa",
     qualityScore: "Passgenauigkeit: ",
-    openAllResults: "Alle Ergebnisse im StabiKat öffnen",
+    openAllResults: "Alle Ergebnisse in KaRMa öffnen",
     waitingForResults: "Warten auf Ergebnisse …",
     resultsLoading: "Ergebnisse werden geladen …",
     noResultsAvailable: "Noch keine Ergebnisse verfügbar",
@@ -79,7 +79,7 @@ const UI_STRINGS = {
     aboutPopup: "Über den Recherche-Kompass",
 
     // Welcome Popup Title and Logo
-    welcomePopup: "Willkommen beim StabiKat Recherche-Kompass",
+    welcomePopup: "Willkommen bei KaRMa Recherche-Kompass",
     compassLeftText: "Recherche",
     compassRightText: "Kompass",
 
@@ -115,7 +115,7 @@ const UI_STRINGS = {
     searchExample5Query: "Historische Karten von Berlin und Brandenburg vor dem Jahr 1900",
 
     // Sidebar About Content
-    sidebarAboutParagraph: "Der StabiKat Recherche-Kompass nutzt künstliche Intelligenz, um Sie bei Ihrer Recherche zu unterstützen. Suchanfragen in natürlicher Sprache werden in strukturierte StabiKat-Abfragen umgewandelt. Alle Ergebnisse stammen aus dem StabiKat der Staatsbibliothek zu Berlin.",
+    sidebarAboutParagraph: "Der KaRMa Recherche-Kompass nutzt künstliche Intelligenz, um Sie bei Ihrer Recherche zu unterstützen. Suchanfragen in natürlicher Sprache werden in strukturierte KaRMa-Abfragen umgewandelt. Alle Ergebnisse stammen aus dem KaRMa der Universitätsbibliothek Mannheim.",
     sidebarAboutFeaturesLabel: "Funktionen:",
     sidebarAboutFeature1: "Vorschau der Suchergebnisse",
     sidebarAboutFeature2: "Verwandte Suchbegriffe",
@@ -128,19 +128,19 @@ const UI_STRINGS = {
 
     // About Popup Content (HTML)
     aboutPopupBodyHTML: `
-    <p>Der <strong>Recherche-Kompass</strong> ist eine API-gestützte Suchschnittstelle, die den StabiKat mit modernen KI-Technologien verbindet. Ziel der Anwendung ist, Nutzende bei der Formulierung präziser Suchanfragen zu unterstützen und so die Qualität ihrer Suchergebnisse zu verbessern. Die API verarbeitet Eingaben in natürlicher Sprache und wandelt sie in strukturierte, katalogtaugliche Suchparameter um.</p>
+    <p>Der <strong>Recherche-Kompass</strong> ist eine API-gestützte Suchschnittstelle, die KaRMa mit modernen KI-Technologien verbindet. Ziel der Anwendung ist, Nutzende bei der Formulierung präziser Suchanfragen zu unterstützen und so die Qualität ihrer Suchergebnisse zu verbessern. Die API verarbeitet Eingaben in natürlicher Sprache und wandelt sie in strukturierte, katalogtaugliche Suchparameter um.</p>
     <br>
     <p><strong>Kernfunktionen</strong> umfassen die Analyse der Suchintention, die Erweiterung von Suchbegriffen mit semantisch verwandten Termen, sowie die Extraktion von Facetten und Filtern direkt aus der Suchanfrage. Zusätzlich bietet das System eine semantische Suche in kontrollierten Normdateien wie der GND (Gemeinsame Normdatei) und der Basisklassifikation (BK). Die Passgenauigkeitsbewertung ermöglicht es, die Relevanz der erzielten Ergebnisse einzuschätzen.</p>
     <br>
     <p><strong>Technisch</strong> basiert der Recherche-Kompass auf FastAPI (Python) und stellt die Web-Schnittstelle als Single-Page-Application zur Verfügung. Der Recherche-Kompass integriert Large Language Models (LLMs) für die semantische Analyse der Suchanfragen, eine Vektordatenbank für die Suche in den kontrollierten Vokabularen sowie die VuFind-Katalog-API als Quelle für bibliographische Daten.</p>
     <br>
-    <p><strong>Kontakt:</strong> <a href="mailto:dorian.grosch@sbb.spk-berlin.de?subject=StabiKat%20Recherche-Kompass">Dorian Grosch</a> (Staatsbibliothek zu Berlin)</p>
+    <p><strong>Kontakt:</strong> <a href="mailto:renat.shigapov@uni-mannheim.de?subject=KaRMa%20Recherche-Kompass">Renat Kaufmann</a> (Universitätsbibliothek Mannheim)</p>
     `,
 
     // Welcome Popup Content (HTML)
-    welcomePopupBodyHTML: `<p>Willkommen beim <strong>StabiKat Recherche-Kompass</strong>!</p>
+    welcomePopupBodyHTML: `<p>Willkommen beim <strong>KaRMa Recherche-Kompass</strong>!</p>
     <br>
-    <p>Der StabiKat Recherche-Kompass unterstützt Sie bei der Recherche in den Beständen der Staatsbibliothek zu Berlin. Mithilfe künstlicher Intelligenz werden Ihre natürlichsprachigen Suchanfragen automatisch in optimierte Suchoptionen für den StabiKat umgewandelt. Die Treffer stammen dabei gesichert aus den Beständen der Staatsbibliothek zu Berlin.</p>
+    <p>Der KaRMa Recherche-Kompass unterstützt Sie bei der Recherche in den Beständen der Universitätsbibliothek Mannheim. Mithilfe künstlicher Intelligenz werden Ihre natürlichsprachigen Suchanfragen automatisch in optimierte Suchoptionen für KaRMa umgewandelt. Die Treffer stammen dabei gesichert aus den Beständen der Universitätsbibliothek Mannheim.</p>
     <br>
     <p>Zur Verarbeitung Ihrer Suchanfragen werden externe Dienstleister eingebunden. Bitte geben Sie keine personenbezogenen Daten ein. Weiterhin werden keine personenbezogenen Daten erfasst, übermittelt oder gespeichert.</p>`,
 
@@ -148,11 +148,9 @@ const UI_STRINGS = {
     reportAccessibilityIssueBodyHTML: `
     <p>Sind Ihnen Mängel beim barrierefreien Zugang zu Inhalten dieser Webseite aufgefallen? Oder haben Sie Fragen zum Thema Barrierefreiheit? Dann können Sie sich gerne bei uns melden:</p>
     <br>
-    <p>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</p>
-    <p>Potsdamer Str. 33</p>
-    <p>10785 Berlin</p>
+    <p>Universitätsbibliothek Mannheim</p>
     <br>
-    <p>E-Mail: <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></p>
+    <p>E-Mail: <a href="mailto:ub.info@uni-mannheim.de">ub.info@uni-mannheim.de</a></p>
     <br>
     <p>Im Rahmen der Kontaktaufnahme werden gegebenenfalls personenbezogene Daten verarbeitet. Genaue Informationen finden Sie in unserer <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/" target="_blank">Datenschutzerklärung</a>.</p>
     `,
@@ -182,7 +180,7 @@ const UI_STRINGS = {
    ================================================================ */
 const UI_STRINGS_EN = {
     // Page
-    pageTitle: "Research Compass | StabiKat",
+    pageTitle: "Research Compass | KaRMa",
     logoText: "Research Compass",
     aboutLink: "About the Research Compass",
     aboutLinkMobile: "About",
@@ -216,9 +214,9 @@ const UI_STRINGS_EN = {
 
     // Results Section
     foundResults: "Found Results",
-    hitsInVuFind: "Hits in StabiKat",
+    hitsInVuFind: "Hits in KaRMa",
     qualityScore: "Relevance: ",
-    openAllResults: "Open all results in StabiKat",
+    openAllResults: "Open all results in KaRMa",
     waitingForResults: "Waiting for results ...",
     resultsLoading: "Loading results ...",
     noResultsAvailable: "No results available yet",
@@ -272,7 +270,7 @@ const UI_STRINGS_EN = {
     searchExample5Query: "Historical maps of Berlin and Brandenburg before the year 1900",
 
     // Sidebar About Content
-    sidebarAboutParagraph: "The StabiKat Research Compass uses artificial intelligence to assist you with your research. Natural language search queries are transformed into structured StabiKat queries. All results come from the StabiKat of the Staatsbibliothek zu Berlin.",
+    sidebarAboutParagraph: "The KaRMa Research Compass uses artificial intelligence to assist you with your research. Natural language search queries are transformed into structured KaRMa queries. All results come from the KaRMa of the Mannheim University Library.",
     sidebarAboutFeaturesLabel: "Features:",
     sidebarAboutFeature1: "Preview of search results",
     sidebarAboutFeature2: "Related search terms",
@@ -285,32 +283,30 @@ const UI_STRINGS_EN = {
 
     // About Popup Content (HTML)
     aboutPopupBodyHTML: `
-    <p>The <strong>Research Compass</strong> is an API-powered search interface that connects StabiKat with modern AI technologies. The goal of the application is to support users in formulating precise search queries and thereby improving the quality of their search results. The API processes natural language inputs and transforms them into structured, catalog-compatible search parameters.</p>
+    <p>The <strong>Research Compass</strong> is an API-powered search interface that connects KaRMa with modern AI technologies. The goal of the application is to support users in formulating precise search queries and thereby improving the quality of their search results. The API processes natural language inputs and transforms them into structured, catalog-compatible search parameters.</p>
     <br>
     <p><strong>Core features</strong> include search intent analysis, expansion of search terms with semantically related terms, as well as the extraction of facets and filters directly from the search query. Additionally, the system offers semantic search in controlled authority files such as the GND (German integrated authority file) and the Basisklassifikation (BK). The relevance scoring allows users to assess the quality of the obtained results.</p>
     <br>
     <p><strong>Technically</strong>, the Research Compass is based on FastAPI and integrates Large Language Models (LLMs) for semantic analysis, a vector database for searching in controlled authority files, and the VuFind catalog API as a source for bibliographic data.</p>
     <br>
-    <p><strong>Contact:</strong> <a href="mailto:dorian.grosch@sbb.spk-berlin.de?subject=StabiKat%20Research%20Compass">Dorian Grosch</a> (Staatsbibliothek zu Berlin)</p>
+    <p><strong>Contact:</strong> <a href="mailto:dorian.grosch@sbb.spk-berlin.de?subject=KaRMa%20Research%20Compass">Dorian Grosch</a> (Staatsbibliothek zu Berlin)</p>
     `,
 
     // Report Accessibility Issue Content (HTML)
     reportAccessibilityIssueBodyHTML: `
     <p>Have you noticed barriers to accessing content on this website? Or do you have questions about accessibility? Please feel free to contact us:</p>
     <br>
-    <p>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</p>
-    <p>Potsdamer Str. 33</p>
-    <p>10785 Berlin</p>
+    <p>Universitätsbibliothek Mannheim</p>
     <br>
-    <p>Email: <a href="mailto:bitv@sbb.spk-berlin.de">bitv@sbb.spk-berlin.de</a></p>
+    <p>Email: <a href="mailto:ub.info@uni-mannheim.de">ub.info@uni-mannheim.de</a></p>
     <br>
     <p>When contacting us, personal data may be processed. For detailed information, please see our <a href="https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy/" target="_blank">Privacy Policy</a>.</p>
     `,
 
     // Welcome Popup Content (HTML)
-    welcomePopupBodyHTML: `<p>Welcome to the <strong>StabiKat Research Compass</strong>!</p>
+    welcomePopupBodyHTML: `<p>Welcome to the <strong>KaRMa Research Compass</strong>!</p>
     <br>
-    <p>The StabiKat Research Compass supports you in researching the collections of the Staatsbibliothek zu Berlin. Using artificial intelligence, your natural language search queries are automatically transformed into optimized search options for StabiKat. The results reliably come from the holdings of the Berlin State Library.</p>
+    <p>The KaRMa Research Compass supports you in researching the collections of the Mannheim University Library. Using artificial intelligence, your natural language search queries are automatically transformed into optimized search options for KaRMa. The results reliably come from the holdings of the Mannheim University Library.</p>
     <br>
     <p>External service providers are used to process your search queries. Please do not enter any personal data. Furthermore, no personal data is collected, transmitted, or stored.</p>`,
 
