@@ -1,0 +1,4 @@
+/.env
+/app/config.py
+/LOG_DIR
+__pycache__
