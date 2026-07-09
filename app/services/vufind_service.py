@@ -74,7 +74,7 @@ class VuFindService:
         format_str = formats[0] if formats else "Unknown"
         publication_dates = record.get("publicationDates", [])
         year = publication_dates[0] if publication_dates else None
-        url = record.get("recordPage", "")
+        url = record.get("recordPage", "").replace("/vufind", "")
         subjects = record.get("subjects", [])
         summary = record.get("summary", [])
         toc = record.get("toc", [])
