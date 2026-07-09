@@ -45,9 +45,9 @@ import httpx
 
 CONFIG = {
     # Base URL of the API server (from app/config.py: host, port)
-    "base_url": "http://localhost:8083",
+    "base_url": "http://localhost:8000",
 
-    "vufind_base_url": "https://stabikat.de",
+    "vufind_base_url": 'https://karma.bib.uni-mannheim.de',
 
     # API version prefix (from app/config.py: supported_versions[0])
     "api_version": "v1",

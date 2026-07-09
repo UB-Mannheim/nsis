@@ -73,7 +73,7 @@ async def assess_query_quality(user_request: str, titles: List[str], subjects: O
         model=MODEL_QUERY_QUALITY,
         response_format=QueryQualityAssessment,
         temperature=TEMP_QUERY_QUALITY,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

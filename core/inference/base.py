@@ -34,7 +34,7 @@ async def perform_inference(
     response_format: Optional[Any] = None,
     temperature: float = 0.2,
     max_retries: int = 3,
-    provider_sort: Optional[str] = None
+#    provider_sort: Optional[str] = None
 ) -> str:
     """
     Core async function for LLM inference with structured output parsing.
@@ -57,8 +57,8 @@ async def perform_inference(
         try:
             # Build extra_body for provider routing if provided
             extra_body = None
-            if provider_sort is not None:
-                extra_body = {"provider": {"sort": provider_sort}}
+#            if provider_sort is not None:
+#                extra_body = {"provider": {"sort": provider_sort}}
 
             if response_format:
                 chat_completion = await inference_client.client.chat.completions.parse(
@@ -69,7 +69,7 @@ async def perform_inference(
                     model=model,
                     response_format=response_format,
                     temperature=temperature,
-                    reasoning_effort="minimal",
+                    #reasoning_effort="low",
                     extra_body=extra_body
                 )
             else:
@@ -80,7 +80,7 @@ async def perform_inference(
                     ],
                     model=model,
                     temperature=temperature,
-                    reasoning_effort="minimal",
+                    #reasoning_effort="low",
                     extra_body=extra_body
                 )
 

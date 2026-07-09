@@ -18,6 +18,8 @@ cp .env.sample .env
 | `INFERENCE_PROVIDER_API_KEY` | Your OpenRouter API key | `<your-api-key-here>` |
 | `VUFIND_BASE_URL` | Public VuFind instance URL | - |
 | `VUFIND_API_BASE_URL` | VuFind API endpoint | - |
+| `VUFIND_API_TOKEN` | Token sent with outbound VuFind API requests | (empty) |
+| `VUFIND_API_TOKEN_HEADER` | Header name for the VuFind API token | `X-API-KEY` |
 | `HOST` | Server bind IP | - |
 | `PORT` | Server bind port | - |
 | `DOMAIN` | Public domain (e.g., `https://kompass.vufind.de`) | - |
@@ -93,6 +95,8 @@ cp app/config.py.sample app/config.py
 |---------|-------------|---------|
 | `vufind_base_url` | Public VuFind URL | (empty) |
 | `vufind_api_base_url` | VuFind API URL | (empty) |
+| `vufind_api_token` | Token sent to VuFind API from `.env` as `VUFIND_API_TOKEN`; empty sends no auth header | (empty) |
+| `vufind_api_token_header` | Header name used for the VuFind API token | `X-API-KEY` |
 
 **Content Security Policy:**
 | Setting | Description | Default |

@@ -50,7 +50,7 @@ async def perform_query_expansion(user_request: str, search_intent: Optional[str
         model=MODEL_EXPAND,
         response_format=QueryExpansion,
         temperature=TEMP_EXPAND,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

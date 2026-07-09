@@ -37,7 +37,7 @@ project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root))
 
 from core.inference.base import perform_inference  # noqa: E402
-from core.models_config import MODEL_GEMINI_3_1_FLASH_LITE, MODEL_PROVIDER_SORT  # noqa: E402
+from core.models_config import MODEL_LOCAL, MODEL_GEMINI_3_1_FLASH_LITE, MODEL_PROVIDER_SORT  # noqa: E402
 
 # Pydantic response schema for LLM output
 class BKDescriptionResponse(BaseModel):
@@ -151,10 +151,10 @@ async def generate_llm_description_async(
     response = await perform_inference(
         system_prompt=SYSTEM_PROMPT,
         user_prompt=user_prompt,
-        model=MODEL_GEMINI_3_1_FLASH_LITE,
+        model=MODEL_LOCAL,
         response_format=BKDescriptionResponse,
         temperature=0.2,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     # Parse JSON response and extract llmDescription

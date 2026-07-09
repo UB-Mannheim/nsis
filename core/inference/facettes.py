@@ -46,7 +46,7 @@ async def extract_facettes(user_request: str) -> Dict:
         model=MODEL_EXTRACT_FACETTES,
         response_format=NsisQtSchemaFacettes,
         temperature=TEMP_EXTRACT_FACETTES,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

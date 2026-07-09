@@ -48,7 +48,7 @@ async def rerank_search_results(user_request: str, results: List[str], type: str
         model=MODEL_RERANKER,
         response_format=NsisQtSchemaReranker,
         temperature=TEMP_RERANKER,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):
@@ -85,7 +85,7 @@ async def rerank_vocabulary_lookup(user_request: str, results: List[str], type: 
         model=MODEL_RERANKER,
         response_format=NsisQtSchemaReranker,
         temperature=TEMP_RERANKER,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

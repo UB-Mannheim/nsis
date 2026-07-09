@@ -35,6 +35,7 @@ from cachetools import LRUCache
 from pymilvus import MilvusClient, DataType
 
 from core.inference.embeddings import EmbeddingFunction, perform_embedding_batch
+from core.models_config import EMBEDDING_DIM
 from core.schemas.types import MilvusHit
 from core.usage_stats_logging import usage_stats_logger
 from app.utils.dev_print import DevPrint
@@ -65,7 +66,7 @@ def _build_geo_query(query: str):
 CACHE_PICKLE_PATH = Path(__file__).parent.parent / "databases" / "query_embedding_cache.pkl"
 
 # Module-level LRU cache for query embeddings to avoid duplicate encoding
-# Max 2^14 = 16384 entries ≈ 268 MB (4096 dims × 4 bytes × 16384)
+# Max 2^14 = 16384 entries (EMBEDDING_DIM × 4 bytes × 16384)
 # Automatically evicts least recently used entries when full
 _query_embedding_cache: LRUCache = LRUCache(maxsize=16384)
 _query_embedding_cache_lock = asyncio.Lock()
@@ -403,7 +404,7 @@ class Milvus_Search:
         )
 
         # common fields for all data types
-        schema.add_field(field_name="dense_vector", datatype=DataType.FLOAT_VECTOR, dim=4096)
+        schema.add_field(field_name="dense_vector", datatype=DataType.FLOAT_VECTOR, dim=EMBEDDING_DIM)
 
         # define data_type specific collection fields
         if self.data_type == 'bk':
@@ -670,7 +671,7 @@ class Milvus_Search:
             DevPrint.debug(f"    Warming up {self.data_type}...")
             res = self.client.search(
                 collection_name=self.collection_name,
-                data=[[0 for i in range(4096)]],
+                data=[[0 for i in range(EMBEDDING_DIM)]],
                 anns_field="dense_vector", # field to search on
                 search_params=search_params_dense,
                 limit=top_k, # return top k matches

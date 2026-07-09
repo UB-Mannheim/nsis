@@ -155,7 +155,7 @@ async def add_keyword_to_concepts(
         model=MODEL_LOGICAL_TREE,
         response_format=KeywordMappingDecision,
         temperature=TEMP_LOGICAL_TREE,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

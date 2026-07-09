@@ -44,7 +44,7 @@ async def analyze_search_intent(user_request: str) -> Dict:
         model=MODEL_SEARCH_INTENT,
         response_format=NsisQtSchemaSearchIntent,
         temperature=TEMP_SEARCH_INTENT,
-        provider_sort=MODEL_PROVIDER_SORT
+        #provider_sort=MODEL_PROVIDER_SORT
     )
 
     if is_well_formed_json(result):

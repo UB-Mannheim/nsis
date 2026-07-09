@@ -145,6 +145,12 @@ class VuFindAPIClient:
         """Get HTTP headers for requests."""
         headers = BASE_HEADERS.copy()
         headers["User-Agent"] = f"{settings.api_title}/{settings.api_version}"
+
+        token = settings.vufind_api_token.strip()
+        token_header = settings.vufind_api_token_header.strip()
+        if token and token_header:
+            headers[token_header] = token
+
         return headers
 
     def replace_url_prefix(self, url: str) -> str:
@@ -277,5 +283,4 @@ class VuFindAPIClient:
             raise VuFindAPITimeoutError(f"Request to {api_url} timed out after {self.timeout} seconds")
         except requests.RequestException as e:
             raise VuFindAPIClientError(f"Request failed: {str(e)}")
-
 
