@@ -5,7 +5,7 @@
 const CONFIG = {
     // API_BASE_URL is derived from current website location
     API_BASE_URL: (window.location.origin) + '/nsis/api/v1',
-    VUFIND_BASE_URL: 'https://stabikat.de',
+    VUFIND_BASE_URL: 'https://1089442e-84fc-4d40-b319-673124c513fc.ma.bw-cloud-instance.org/vufind',
     MAX_HISTORY: 5,
     FETCH_DEBOUNCE_MS: 800,
     LOCAL_STORAGE_KEY: 'research-compass-history',
@@ -99,8 +99,8 @@ const UI_STRINGS = {
     langEnTitle: "Wechsel zu Englisch",
 
     // Alt Text
-    logoAltText: "StabiKat Logo",
-    footerLogoAltText: "Staatsbibliothek zu Berlin",
+    logoAltText: "UB Mannheim Logo",
+    footerLogoAltText: "Universitätsbibliothek Mannheim",
 
     // Search Examples
     searchExample1Text: "Klimawandel-Artikel (Deutsch)",
@@ -256,8 +256,8 @@ const UI_STRINGS_EN = {
     langEnTitle: "Switch to English",
 
     // Alt Text
-    logoAltText: "StabiKat Logo",
-    footerLogoAltText: "Staatsbibliothek zu Berlin",
+    logoAltText: "UB Mannheim Logo",
+    footerLogoAltText: "Mannheim University Library",
 
     // Search Examples
     searchExample1Text: "Climate Change Articles (German)",
@@ -339,19 +339,20 @@ const UI_STRINGS_EN = {
    ================================================================ */
 const UI_ELEMENTS = {
     // Images
-    logoSrc: "https://stabikat.de/themes/stabikat/images/stabikat-logo.svg?_=1774850719",
-    footerLogoSrc: "https://stabikat.de/themes/core/images/sbb_logo.svg",
-    faviconSrc: "https://stabikat.de/themes/core/images/favicon.svg?_=1773923073",
+    logoSrc: "/nsis/static/images/logo.svg",
+    footerLogoSrc: "/nsis/static/images/logo.svg",
+    faviconSrc: "/nsis/static/images/favicon.ico",
 
     // External Resources
+    // TODO: avoid external URLs
     fontsUrl: "https://fonts.bunny.net/css",
     iconsUrl: "https://unpkg.com/@fortawesome/fontawesome-free@6.5.1/css/all.min.css",
 
     // External Links
-    institutionUrl: "https://staatsbibliothek-berlin.de/",
-    privacyUrl: "https://staatsbibliothek-berlin.de/extras/allgemeines/impressum/datenschutz-privacy-policy",
-    accessibilityUrl: "https://stabikat.de/accessibility",
-    imprintUrl: "https://staatsbibliothek-berlin.de/extras/allgemeines/impressum",
+    institutionUrl: "https://www.bib.uni-mannheim.de/",
+    privacyUrl: "https://www.uni-mannheim.de/datenschutzerklaerung/",
+    accessibilityUrl: "https://www.uni-mannheim.de/digitale-barrierefreiheit/",
+    imprintUrl: "https://www.uni-mannheim.de/impressum/",
 
     // Search Example Icons
     searchExample1Icon: "fa-solid fa-earth-americas fa-fw",
