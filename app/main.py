@@ -18,6 +18,7 @@ FastAPI application for nsis - natürlichsprachige Suche im StabiKat
 # =============================================================================
 
 # Standard library imports
+import json
 import logging
 import uuid
 import time
@@ -474,6 +475,16 @@ async def root():
     csp_meta_tag = settings.csp_meta_tag
     html_content = html_content.replace("<head>", f"<head>\n    {csp_meta_tag}", 1)
 
+    # Inject runtime config for instance-specific settings
+    runtime_config = json.dumps({
+        "vufind_base_url": settings.vufind_base_url,
+        "api_prefix": settings.api_prefix,
+        "csp_vufind_domain": settings.csp_vufind_domain,
+        "csp_institution_domain": settings.csp_institution_domain,
+    })
+    config_script = f'<script>window.RUNTIME_CONFIG = {runtime_config};</script>'
+    html_content = html_content.replace("<head>", f"<head>\n    {config_script}", 1)
+
     return HTMLResponse(content=html_content)
 
 
@@ -488,17 +499,6 @@ async def api_info():
         "health": "/health",
         "api_prefix": settings.api_prefix,
         "supported_versions": settings.supported_versions
-    }
-
-
-@app.get("/api/config", include_in_schema=False)
-async def get_config():
-    """Frontend configuration endpoint for instance-specific settings."""
-    return {
-        "vufind_base_url": settings.vufind_base_url,
-        "csp_vufind_domain": settings.csp_vufind_domain,
-        "csp_institution_domain": settings.csp_institution_domain,
-        "api_prefix": settings.api_prefix,
     }
 
 

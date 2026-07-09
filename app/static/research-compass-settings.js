@@ -5,8 +5,8 @@
 const CONFIG = {
     // API_BASE_URL is derived from current website location
     API_BASE_URL: (window.location.origin) + '/nsis/api/v1',
-    // VUFIND_BASE_URL: fallback value, overridden at runtime via /api/config
-    VUFIND_BASE_URL: 'https://1089442e-84fc-4d40-b319-673124c513fc.ma.bw-cloud-instance.org/vufind',
+    // VUFIND_BASE_URL: fallback value, injected at runtime from .env
+    VUFIND_BASE_URL: 'https://stabikat.de',
     MAX_HISTORY: 5,
     FETCH_DEBOUNCE_MS: 800,
     LOCAL_STORAGE_KEY: 'research-compass-history',
