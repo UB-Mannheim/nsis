@@ -2578,7 +2578,19 @@ function updateOptionLabels() {
    Sets up event listeners on page load. Handles search input, option
    interactions, keyboard shortcuts, tooltips, and UI popups.
    ================================================================ */
-document.addEventListener('DOMContentLoaded', () => {    // Check if welcome popup was previously dismissed (by checking if research-compass-settings key exists)
+document.addEventListener('DOMContentLoaded', async () => {
+    // Fetch runtime config from backend (instance-specific settings)
+    try {
+        const res = await fetch('/api/config');
+        if (res.ok) {
+            const config = await res.json();
+            if (config.vufind_base_url) CONFIG.VUFIND_BASE_URL = config.vufind_base_url;
+        }
+    } catch (e) {
+        console.warn('Failed to fetch runtime config:', e);
+    }
+
+    // Check if welcome popup was previously dismissed (by checking if research-compass-settings key exists)
     const wasDismissed = localStorage.getItem('research-compass-settings') !== null;
     if (!wasDismissed) {
         const welcomePopup = document.getElementById('welcomePopup');

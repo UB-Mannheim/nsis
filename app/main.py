@@ -491,6 +491,17 @@ async def api_info():
     }
 
 
+@app.get("/api/config", include_in_schema=False)
+async def get_config():
+    """Frontend configuration endpoint for instance-specific settings."""
+    return {
+        "vufind_base_url": settings.vufind_base_url,
+        "csp_vufind_domain": settings.csp_vufind_domain,
+        "csp_institution_domain": settings.csp_institution_domain,
+        "api_prefix": settings.api_prefix,
+    }
+
+
 @app.get("/health")
 async def health_check():
     """
