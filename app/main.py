@@ -631,4 +631,5 @@ if __name__ == "__main__":
         host=settings.host,
         port=settings.port,
         reload=False,
+        root_path=settings.root_path,
     )
