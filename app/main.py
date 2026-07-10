@@ -486,10 +486,6 @@ async def root():
     config_script = f'<script>window.RUNTIME_CONFIG = {runtime_config};</script>'
     html_content = html_content.replace("<head>", f"<head>\n    {config_script}", 1)
 
-    # Inject static base URL for CSS (replace hardcoded /ai/static/ with actual root_path)
-    static_base = f'{settings.root_path}/static'
-    html_content = html_content.replace('/ai/static/', f'{static_base}/')
-
     return HTMLResponse(content=html_content)
 
 
