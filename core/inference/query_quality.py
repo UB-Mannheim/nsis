@@ -80,6 +80,8 @@ async def assess_query_quality(user_request: str, titles: List[str], subjects: O
     if is_well_formed_json(result):
         generated_json = json.loads(result)
         DevPrint.success(f"Quality score: {generated_json.get('qualityScore', 0)} | Relevant: {generated_json.get('relevantIndices', [])}")
+        if generated_json.get('answer'):
+            DevPrint.info(f"Answer: {generated_json.get('answer')[:100]}...")
         return generated_json
     else:
-        return {"assessment": "Failed to assess query quality", "qualityScore": 0.0, "relevantIndices": []}
+        return {"assessment": "Failed to assess query quality", "qualityScore": 0.0, "relevantIndices": [], "answer": ""}
