@@ -71,6 +71,14 @@ const UI_STRINGS = {
     activeOptions: "Aktive Optionen",
     resetBtn: "Zurücksetzen",
 
+    // Sort labels
+    sortRelevance: "Relevanz",
+    sortAuthor: "Autor",
+    sortTitle: "Titel",
+    sortDate: "Datum",
+    sortCallnumber: "Signatur",
+    sortLabel: "Sortierung:",
+
     // Vocab Popup
     selectOptions: "Optionen auswählen",
     close: "Schließen",
@@ -230,6 +238,14 @@ const UI_STRINGS_EN = {
     noSearchOptionsAvailable: "No search options available yet",
     activeOptions: "Active Options",
     resetBtn: "Reset",
+
+    // Sort labels
+    sortRelevance: "Relevance",
+    sortAuthor: "Author",
+    sortTitle: "Title",
+    sortDate: "Date",
+    sortCallnumber: "Call Number",
+    sortLabel: "Sort:",
 
     // Vocab Popup
     selectOptions: "Select Options",

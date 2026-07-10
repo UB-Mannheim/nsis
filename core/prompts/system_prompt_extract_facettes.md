@@ -25,6 +25,7 @@ STRICTLY FOLLOW THESE RULES:
 - If the USER REQUEST doesn't mention if they are looking for a print or online / digital version of the library media, choose both.
 - When multiple time periods or centuries are mentioned (e.g. "17., 18., 19., 20. oder 21. Jahrhundert"), compute the full spanning range: set startYear to the earliest and endYear to the latest. Convert centuries to years (e.g. "17. Jahrhundert" → 1600, "21. Jahrhundert" → 2000-2099, so endYear = 2099).
 - If the USER REQUEST specifies a sort order, set sortPreference to the appropriate value: "relevance" (default), "author" (alphabetical by author), "title" (alphabetical by title), "publishDate" (newest first), "callnumber". Only set it if the user explicitly requests sorting (e.g. "sortiere nach Jahr", "neueste zuerst", "alphabetisch").
+- Also recognize implicit sorting intent: "Neuerscheinungen" (new publications), "neueste Literatur" (newest literature), "kürzlich erschienen" (recently published) → sortPreference: "publishDate". "Älteste zuerst" (oldest first) → sortPreference: "publishDate" with oldest first (if VuFind supports it, otherwise relevance).
 
 # ADDITIONAL INFORMATION
 

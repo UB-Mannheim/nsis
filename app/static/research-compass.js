@@ -2169,12 +2169,31 @@ function updateControlsBar() {
     const activeCount = STATE.options.filter(option => option.active).length;
     const controlsContainer = $('#controlsContainer');
     const controlsBadge = $('#controlsBadge');
+    const controlsSort = $('#controlsSort');
+    const controlsSortLabel = $('#controlsSortLabel');
     if (STATE.options.length > 0) {
         if (controlsContainer) controlsContainer.style.display = 'flex';
     } else {
         if (controlsContainer) controlsContainer.style.display = 'none';
     }
     if (controlsBadge) controlsBadge.textContent = activeCount;
+
+    // Show sort indicator if a non-default sort is active
+    const strings = getStrings();
+    const sortLabels = {
+        relevance: strings.sortRelevance,
+        author: strings.sortAuthor,
+        title: strings.sortTitle,
+        publishDate: strings.sortDate,
+        callnumber: strings.sortCallnumber,
+    };
+    if (STATE.sort && STATE.sort !== 'relevance' && controlsSort && controlsSortLabel) {
+        controlsSortLabel.textContent = (strings.sortLabel || 'Sort:') + ' ' + (sortLabels[STATE.sort] || STATE.sort);
+        controlsSort.style.display = 'flex';
+        controlsSort.title = strings.sortLabel || 'Sort';
+    } else if (controlsSort) {
+        controlsSort.style.display = 'none';
+    }
 }
 
 /**
@@ -2739,6 +2758,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     $('#resetBtn').addEventListener('click', resetOptions);
+    $('#controlsSort').addEventListener('click', () => {
+        STATE.sort = null;
+        updateControlsBar();
+        rebuildUrl({ skipFetch: false });
+    });
     $('#clearHistoryBtn').addEventListener('click', clearHistory);
     $$('.search-example-item').forEach(button => button.addEventListener('click', () => {
         $('#searchInput').value = button.dataset.query;
