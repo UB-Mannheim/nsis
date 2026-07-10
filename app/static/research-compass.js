@@ -614,6 +614,31 @@ function onQT(metadata) {
         } catch (error) {
             console.error('extractOptionsFromMeta error', error);
         }
+
+        // Remove keywords from STATE.options that match detected author names
+        // (author names should only be used as author facets, not as keyword search terms)
+        const authorFilters = metadata?.filters?.authorNames || [];
+        const authorValues = new Set(authorFilters.map(af => af.filterValue?.toLowerCase()));
+        if (authorValues.size > 0) {
+            // Also add the original (non-normalized) author names to the set
+            const authorLabels = new Set(authorFilters.map(af => af.label?.toLowerCase()));
+            authorValues.forEach(v => authorLabels.add(v));
+
+            // Remove matching keywords from STATE.options
+            STATE.options = STATE.options.filter(option => {
+                if (option.paramType === 'keyword' && authorLabels.has(option.value?.toLowerCase())) {
+                    return false; // Remove this keyword
+                }
+                return true;
+            });
+
+            // Also remove from qeConcepts.positive any terms matching author names
+            Object.keys(STATE.qeConcepts.positive).forEach(conceptKey => {
+                STATE.qeConcepts.positive[conceptKey] = STATE.qeConcepts.positive[conceptKey].filter(
+                    term => !authorLabels.has(term.toLowerCase())
+                );
+            });
+        }
     }
 
     renderOptions();
