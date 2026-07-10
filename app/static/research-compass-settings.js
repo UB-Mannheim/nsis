@@ -3,8 +3,10 @@
    Application settings and constants.
    ================================================================ */
 const CONFIG = {
-    // API_BASE_URL is derived from current website location
-    API_BASE_URL: (window.location.origin) + '/ai/api/v1',
+    // ROOT_PATH is derived from the current page URL (e.g. "/ai" or "/nsis")
+    ROOT_PATH: '/' + window.location.pathname.split('/')[1],
+    // API_BASE_URL is derived from current website location + ROOT_PATH
+    API_BASE_URL: window.location.origin + CONFIG.ROOT_PATH + '/api/v1',
     // VUFIND_BASE_URL: fallback value, injected at runtime from .env
     VUFIND_BASE_URL: 'https://stabikat.de',
     MAX_HISTORY: 5,
@@ -336,9 +338,9 @@ const UI_STRINGS_EN = {
    ================================================================ */
 const UI_ELEMENTS = {
     // Images
-    logoSrc: "/ai/static/images/logo.svg",
-    footerLogoSrc: "/ai/static/images/logo.svg",
-    faviconSrc: "/ai/static/images/favicon.ico",
+    logoSrc: CONFIG.ROOT_PATH + "/static/images/logo.svg",
+    footerLogoSrc: CONFIG.ROOT_PATH + "/static/images/logo.svg",
+    faviconSrc: CONFIG.ROOT_PATH + "/static/images/favicon.ico",
 
     // External Resources
     // TODO: avoid external URLs
