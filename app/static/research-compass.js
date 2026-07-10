@@ -1301,14 +1301,13 @@ function buildLTParams(tree, activeSubjects, searchType, startIndex = 0) {
     const aliveSubjects = new Set(activeSubjects.map(subject => subject.value));
 
     // Recursively serializes a logical tree node into a query string.
-    // Handles 'term' nodes (quoted if containing spaces) and 'group' nodes (AND/OR joined).
+    // Handles 'term' nodes and 'group' nodes (AND/OR joined).
     function serializeNode(node) {
         if (node.type === 'term') {
             if (!aliveSubjects.has(node.value)) {
                 return null;
             }
-            const result = node.value.includes(' ') ? `"${node.value}"` : node.value;
-            return result;
+            return node.value;
         }
         if (node.type === 'group') {
             const parts = (node.items || []).map(serializeNode).filter(Boolean);
