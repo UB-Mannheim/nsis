@@ -5,13 +5,14 @@
 
 # STEPS
 
-1. Extract media forms 
-2. Extract content genres 
+1. Extract media forms
+2. Extract content genres
 3. Extract author names
 4. Extract languages of media
 5. Extract date range (startYear and endYear)
 6. Extract language of original request
-6. Extract topics in original language and in english 
+7. Extract topics in original language and in English
+8. Extract sort preference (if user requests a specific sort order)
 
 # INSTRUCTIONS
 
@@ -23,6 +24,7 @@ STRICTLY FOLLOW THESE RULES:
 - Split the topics into groups of 1 to 3 words along the commas. Prefer smaller groups, if possible.
 - If the USER REQUEST doesn't mention if they are looking for a print or online / digital version of the library media, choose both.
 - When multiple time periods or centuries are mentioned (e.g. "17., 18., 19., 20. oder 21. Jahrhundert"), compute the full spanning range: set startYear to the earliest and endYear to the latest. Convert centuries to years (e.g. "17. Jahrhundert" → 1600, "21. Jahrhundert" → 2000-2099, so endYear = 2099).
+- If the USER REQUEST specifies a sort order, set sortPreference to the appropriate value: "relevance" (default), "author" (alphabetical by author), "title" (alphabetical by title), "publishDate" (newest first), "callnumber". Only set it if the user explicitly requests sorting (e.g. "sortiere nach Jahr", "neueste zuerst", "alphabetisch").
 
 # ADDITIONAL INFORMATION
 

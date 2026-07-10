@@ -12,6 +12,9 @@ const STATE = {
     options: [], // Active options from QE/QT pipeline results; toggleable by user
     initialOptions: [], // Deep copy of options after search pipeline initally completes; used by resetOptions
 
+    // Sort preference from QT
+    sort: null, // e.g. 'relevance', 'author', 'title', 'publishDate'
+
     // Pipeline results
     siMeta: null, // Search intent metadata (search intention)
     qeMeta: null, // Query expansion metadata (expanded keywords)
@@ -451,6 +454,7 @@ async function doSearch(query) {
     STATE.query = query;
     STATE.options = [];
     STATE.initialOptions = [];
+    STATE.sort = null;
     STATE.qeConcepts = {
         positive: {},
         negative: {}
@@ -663,6 +667,15 @@ function onQT(metadata) {
                     term => !matchesAuthor(term)
                 );
             });
+        }
+
+        // Handle sort preference from QT
+        const validSorts = ['relevance', 'author', 'title', 'publishDate', 'callnumber'];
+        const sortPref = metadata?.sortPreference;
+        if (sortPref && validSorts.includes(sortPref)) {
+            STATE.sort = sortPref;
+        } else {
+            STATE.sort = null;
         }
 
         renderOptions();
@@ -1287,6 +1300,11 @@ function buildUrl() {
         params.append(VUFIND_PARAMS.PARAM_DATERANGE_ARRAY, VUFIND_PARAMS.PARAM_PUBLISH_DATE);
         if (dateFrom) params.append(VUFIND_PARAMS.PARAM_PUBLISH_DATE_FROM, dateFrom.value);
         if (dateTo) params.append(VUFIND_PARAMS.PARAM_PUBLISH_DATE_TO, dateTo.value);
+    }
+
+    // Add sort parameter if set
+    if (STATE.sort) {
+        params.append(VUFIND_PARAMS.PARAM_SORT, STATE.sort);
     }
 
     // Ensure join=AND appears first in the URL (both logical trees add join=AND at top level)

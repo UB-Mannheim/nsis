@@ -648,5 +648,11 @@ class NsisQtSchemaFacettes(BaseModel):
         description="List of topics/subject headings translated to English"
     )
 
+    sort_preference: Optional[str] = Field(
+        default=None,
+        alias="sortPreference",
+        description="Sort order for results: 'relevance', 'author', 'title', 'publishDate' (newest first), 'callnumber'"
+    )
+
     class Config:
         populate_by_name = True

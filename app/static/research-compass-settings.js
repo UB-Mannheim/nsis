@@ -592,6 +592,14 @@ const VUFIND_PARAMS = {
     PARAM_PUBLISH_DATE: 'publishDate',
     PARAM_PUBLISH_DATE_FROM: 'publishDatefrom',
     PARAM_PUBLISH_DATE_TO: 'publishDateto',
+    PARAM_SORT: 'sort',
+
+    // Sort Options
+    SORT_RELEVANCE: 'relevance',
+    SORT_AUTHOR: 'author',
+    SORT_TITLE: 'title',
+    SORT_DATE: 'publishDate',
+    SORT_CALLNUMBER: 'callnumber',
 
     // Boolean Operators
     BOOL_AND: 'AND',

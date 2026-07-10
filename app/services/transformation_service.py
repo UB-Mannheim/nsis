@@ -99,6 +99,7 @@ class TransformationService:
         end_year = date_range.get("endYear")
         topics_orig = facettes.get("topicsInOriginalLanguage", []) or []
         topics_en = facettes.get("topicsInEnglish", []) or []
+        sort_preference = facettes.get("sortPreference")
 
         DevPrint.debug(f"searchIntent: {search_intent}")
         DevPrint.debug(f"mediaForms: {media_forms}")
@@ -374,6 +375,7 @@ class TransformationService:
                 "from": start_year,
                 "to": end_year,
             },
+            "sortPreference": sort_preference,
             "logicalTree": logical_tree,
         }
 
