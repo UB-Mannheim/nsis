@@ -618,7 +618,6 @@ function onQT(metadata) {
         // Remove keywords from STATE.options that match detected author names
         // (author names should only be used as author facets, not as keyword search terms)
         const authorFilters = metadata?.filters?.authorNames || [];
-        console.log('Author filters:', authorFilters);
 
         // Build set of author values - include normalized form, label, and original form
         const authorValues = new Set();
@@ -628,11 +627,6 @@ function onQT(metadata) {
             // Also add original form if present (e.g., "Sabine Gehrlein" from German pattern extraction)
             if (af.original) authorValues.add(af.original.toLowerCase());
         });
-        console.log('Author values to remove:', authorValues);
-
-        // Check what keywords are in STATE.options
-        const keywordOptions = STATE.options.filter(o => o.paramType === 'keyword');
-        console.log('Keyword options before removal:', keywordOptions.map(o => o.value));
 
         if (authorValues.size > 0) {
             // Remove matching keywords from STATE.options
@@ -649,8 +643,6 @@ function onQT(metadata) {
                     term => !authorValues.has(term.toLowerCase())
                 );
             });
-
-            console.log('Keyword options after removal:', STATE.options.filter(o => o.paramType === 'keyword').map(o => o.value));
         }
     }
 
