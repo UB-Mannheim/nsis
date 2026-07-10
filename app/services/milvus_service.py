@@ -90,20 +90,12 @@ class MilvusService:
         self.db_gnd_desc = milvus_search.Milvus_Search("gnd_saz", self.device)
         self.db_gnd_geo = milvus_search.Milvus_Search("gnd_geo", self.device)
 
-        # Load databases in batches of 2 to avoid OOM
-        # Database creation is done via ./scripts/initialize_databases.py
+        # Load all databases in parallel for faster startup
         start_time = time.time()
-
-        # Batch 1: GND-SAZ-HEAD and GND-SAZ-DESC
-        DevPrint.info("    Loading batch 1: GND-SAZ-HEAD and GND-SAZ-DESC...")
+        DevPrint.info("    Loading all databases in parallel...")
         await asyncio.gather(
             asyncio.to_thread(self.db_gnd_head.load_db, self.gnd_saz_head_db_path, "gnd_sachbegriffe_head"),
             asyncio.to_thread(self.db_gnd_desc.load_db, self.gnd_saz_desc_db_path, "gnd_sachbegriffe_desc"),
-        )
-
-        # Batch 2: BK and GND-GEO
-        DevPrint.info("    Loading batch 2: BK and GND-GEO...")
-        await asyncio.gather(
             asyncio.to_thread(self.db_bk.load_db, self.bk_db_path, "bk_alle_klassen"),
             asyncio.to_thread(self.db_gnd_geo.load_db, self.gnd_geo_db_path, "gnd_geografika"),
         )
