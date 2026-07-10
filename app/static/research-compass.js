@@ -630,8 +630,9 @@ function onQT(metadata) {
  * @param {string|Object} item - Raw value or object with label/filterValue
  * @param {string} paramType - Param type ('filter', 'search_subject', 'date_from', 'date_to')
  * @param {string} [conceptKey] - Optional concept key for logical tree grouping
+ * @param {boolean} [autoActivate] - If true, option is activated by default
  */
-function pushOption(optionId, category, item, paramType, conceptKey = undefined) {
+function pushOption(optionId, category, item, paramType, conceptKey = undefined, autoActivate = false) {
     const label = typeof item === 'object' ? safeStr(item.label) : safeStr(item);
     const filterValue = typeof item === 'object' ? safeStr(item.filterValue) : safeStr(item);
     if (!label) return;
@@ -642,7 +643,7 @@ function pushOption(optionId, category, item, paramType, conceptKey = undefined)
         value: filterValue,
         filterValue: filterValue,
         label,
-        active: false,
+        active: autoActivate,
         paramType,
         conceptKey
     });
@@ -670,9 +671,9 @@ function extractOptionsFromMeta(metadata) {
         pushOption(`qt_lang_${index}`, 'language', language, 'filter');
     });
 
-    // Author name facets
+    // Author name facets - auto-activate since author intent is clear
     (filters.authorNames || []).forEach((authorName, index) => {
-        pushOption(`qt_auth_${index}`, 'author_facet', authorName, 'filter');
+        pushOption(`qt_auth_${index}`, 'author_facet', authorName, 'filter', undefined, true);
     });
 
     // GND subject headings - using gndHeadingsConcepts for grouped access
