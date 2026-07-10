@@ -1307,13 +1307,12 @@ function buildUrl() {
         params.append(VUFIND_PARAMS.PARAM_SORT, STATE.sort);
     }
 
-    // Ensure join=AND appears first in the URL (both logical trees add join=AND at top level)
+    // Ensure join param appears first in the URL (logical tree sets join at top level)
     const joinValues = params.getAll(VUFIND_PARAMS.PARAM_JOIN);
     if (joinValues.length >= 1) {
         params.delete(VUFIND_PARAMS.PARAM_JOIN);
-        // Reconstruct URL with join=AND at the start, after SEARCH_PATH?
         const remainingParams = params.toString();
-        return CONFIG.VUFIND_BASE_URL + VUFIND_PARAMS.SEARCH_PATH + '?' + VUFIND_PARAMS.PARAM_JOIN + '=' + VUFIND_PARAMS.BOOL_AND + (remainingParams ? '&' + remainingParams : '');
+        return CONFIG.VUFIND_BASE_URL + VUFIND_PARAMS.SEARCH_PATH + '?' + VUFIND_PARAMS.PARAM_JOIN + '=' + joinValues[0] + (remainingParams ? '&' + remainingParams : '');
     }
 
     const finalUrl = CONFIG.VUFIND_BASE_URL + VUFIND_PARAMS.SEARCH_PATH + '?' + params.toString();
