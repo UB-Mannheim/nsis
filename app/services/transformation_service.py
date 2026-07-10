@@ -29,60 +29,6 @@ from core import milvus_search
 from app.utils.dev_print import DevPrint
 
 
-def _normalize_author_name(name: str) -> str:
-    """
-    Normalize author name to 'Surname, Given name' format.
-
-    Handles names in natural language format like 'Sabine Gehrlein' and
-    converts them to catalog format 'Gehrlein, Sabine'. Names already in
-    the correct format (containing a comma) are returned unchanged.
-
-    Args:
-        name: Author name in any format
-
-    Returns:
-        Author name in 'Surname, Given name' format
-    """
-    name = name.strip()
-    if "," in name:
-        return name
-    parts = name.split()
-    if len(parts) >= 2:
-        return f"{parts[-1]}, {' '.join(parts[:-1])}"
-    return name
-
-
-def _extract_german_author_patterns(query: str) -> List[str]:
-    """
-    Extract potential author names from German query patterns.
-
-    In German, "von [Name]" often indicates authorship (e.g., "von Sabine Gehrlein").
-    This function extracts names following such patterns as potential authors.
-
-    Args:
-        query: The user query string
-
-    Returns:
-        List of potential author names found in the query
-    """
-    import re
-    authors = []
-
-    # Pattern: "von [Name]" - captures names after "von" indicating authorship
-    # Matches: "von Sabine Gehrlein", "von Prof. Dr. Müller", "von 'Name'"
-    von_pattern = re.compile(
-        r'\bvon\s+([A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)+)',
-        re.UNICODE
-    )
-    for match in von_pattern.finditer(query):
-        name = match.group(1).strip()
-        # Validate: should have at least 2 words (typical name)
-        if len(name.split()) >= 2:
-            authors.append(name)
-
-    return authors
-
-
 class TransformationService:
     """Service for query transformation operations."""
 
@@ -148,33 +94,11 @@ class TransformationService:
         content_genres = facettes.get("contentGenres", []) or []
         author_names = facettes.get("authorNames", []) or []
         languages = facettes.get("languages", []) or []
-
-        # Supplement with German author patterns (e.g., "von Sabine Gehrlein")
-        german_authors = _extract_german_author_patterns(user_request)
-        # Track original author names (before normalization) for frontend matching
-        original_author_names_map = {}  # normalized -> original
-        for ga in german_authors:
-            ga_normalized = _normalize_author_name(ga)
-            # Only keep the first original form for each normalized name
-            if ga_normalized.lower() not in original_author_names_map:
-                original_author_names_map[ga_normalized.lower()] = ga
-        author_names_normalized = set(_normalize_author_name(a).lower() for a in author_names)
-        for ga in german_authors:
-            ga_normalized = _normalize_author_name(ga)
-            if ga_normalized.lower() not in author_names_normalized:
-                author_names.append(ga)
-                author_names_normalized.add(ga_normalized.lower())
-                DevPrint.debug(f"Added author from German pattern: {ga}")
         date_range = facettes.get("dateRange", {}) or {}
         start_year = date_range.get("startYear")
         end_year = date_range.get("endYear")
         topics_orig = facettes.get("topicsInOriginalLanguage", []) or []
         topics_en = facettes.get("topicsInEnglish", []) or []
-
-        # Remove author names from topics to avoid duplicate search
-        # (author names should only be used as facets, not search terms)
-        topics_orig = [t for t in topics_orig if t.lower() not in author_names_normalized]
-        topics_en = [t for t in topics_en if t.lower() not in author_names_normalized]
 
         DevPrint.debug(f"searchIntent: {search_intent}")
         DevPrint.debug(f"mediaForms: {media_forms}")
@@ -409,12 +333,8 @@ class TransformationService:
             meta_languages.append({"label": lang, "filterValue": lang})
 
         meta_authors = []
-        # Track original author names for frontend matching (e.g., "Sabine Gehrlein" -> "Gehrlein, Sabine")
         for a in author_names:
-            normalized = _normalize_author_name(a)
-            # Check if we have an original form stored (from German pattern extraction)
-            original = original_author_names_map.get(normalized.lower(), None)
-            meta_authors.append({"label": normalized, "filterValue": normalized, "original": original})
+            meta_authors.append({"label": a, "filterValue": a})
 
         meta_bk = [
             {"notation": bk["entity"]["notation"], "label": str(bk["entity"].get("label", bk["entity"]["notation"]))}
