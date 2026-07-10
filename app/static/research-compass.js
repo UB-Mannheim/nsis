@@ -1364,28 +1364,62 @@ function buildLTParams(tree, activeSubjects, searchType, startIndex = 0) {
             output.push(
                 [`${VUFIND_PARAMS.PARAM_LOOKFOR}${startIndex}[]`, root.value],
                 [`${VUFIND_PARAMS.PARAM_TYPE}${startIndex}[]`, searchType],
-                [`${VUFIND_PARAMS.PARAM_BOOL}${startIndex}[]`, VUFIND_PARAMS.BOOL_AND],
-                [VUFIND_PARAMS.PARAM_JOIN, VUFIND_PARAMS.BOOL_AND]
+                [`${VUFIND_PARAMS.PARAM_BOOL}${startIndex}[]`, VUFIND_PARAMS.BOOL_AND]
             );
         }
     } else if (root.type === 'group') {
         let currentIndex = startIndex;
         const items = root.items || [];
 
-        for (let i = 0; i < items.length; i++) {
-            const item = items[i];
-            const queryStr = serializeNode(item);
-            if (queryStr) {
-                output.push(
-                    [`${VUFIND_PARAMS.PARAM_LOOKFOR}${currentIndex}[]`, queryStr],
-                    [`${VUFIND_PARAMS.PARAM_TYPE}${currentIndex}[]`, searchType]
-                );
-                let boolOp = item.operator || VUFIND_PARAMS.BOOL_AND;
-                output.push([`${VUFIND_PARAMS.PARAM_BOOL}${currentIndex}[]`, boolOp]);
+        if (root.operator === 'OR') {
+            // For OR groups, each term becomes a separate lookfor parameter at the same index
+            // VuFind combines terms at the same index using the bool operator
+            const termItems = items.filter(item => item.type === 'term' && aliveSubjects.has(item.value));
+            if (termItems.length > 0) {
+                termItems.forEach(item => {
+                    output.push(
+                        [`${VUFIND_PARAMS.PARAM_LOOKFOR}${currentIndex}[]`, item.value],
+                        [`${VUFIND_PARAMS.PARAM_TYPE}${currentIndex}[]`, searchType]
+                    );
+                });
+                output.push([`${VUFIND_PARAMS.PARAM_BOOL}${currentIndex}[]`, VUFIND_PARAMS.BOOL_OR]);
                 currentIndex++;
             }
+        } else {
+            // For AND/NOT groups, each item becomes a separate search group
+            for (let i = 0; i < items.length; i++) {
+                const item = items[i];
+
+                // Check if this is an OR group - expand into separate lookfor parameters
+                if (item.type === 'group' && item.operator === 'OR') {
+                    const orItems = (item.items || []).filter(sub => sub.type === 'term' && aliveSubjects.has(sub.value));
+                    if (orItems.length > 0) {
+                        orItems.forEach(sub => {
+                            output.push(
+                                [`${VUFIND_PARAMS.PARAM_LOOKFOR}${currentIndex}[]`, sub.value],
+                                [`${VUFIND_PARAMS.PARAM_TYPE}${currentIndex}[]`, searchType]
+                            );
+                        });
+                        output.push([`${VUFIND_PARAMS.PARAM_BOOL}${currentIndex}[]`, VUFIND_PARAMS.BOOL_OR]);
+                        currentIndex++;
+                    }
+                } else {
+                    // Single term or other group type
+                    const queryStr = serializeNode(item);
+                    if (queryStr) {
+                        output.push(
+                            [`${VUFIND_PARAMS.PARAM_LOOKFOR}${currentIndex}[]`, queryStr],
+                            [`${VUFIND_PARAMS.PARAM_TYPE}${currentIndex}[]`, searchType]
+                        );
+                        let boolOp = item.operator || VUFIND_PARAMS.BOOL_AND;
+                        output.push([`${VUFIND_PARAMS.PARAM_BOOL}${currentIndex}[]`, boolOp]);
+                        currentIndex++;
+                    }
+                }
+            }
         }
-        if (currentIndex > startIndex) {
+
+        if (currentIndex > startIndex + 1) {
             output.push([VUFIND_PARAMS.PARAM_JOIN, root.operator]);
         }
     }
