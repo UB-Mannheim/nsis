@@ -19,6 +19,7 @@ STRICTLY FOLLOW THESE RULES:
 - If a search facet is not specified in the USER REQUEST, you MUST leave the corresponding field empty (e.g., "" or null, depending on the schema).
 - If none of the possible values for a field apply, you MUST leave the corresponding field empty (e.g., "" or null, depending on the schema).
 - NEVER imply, infer or assume information. Only use what is explicitly provided in the USER REQUEST.
+- Treat personal names as author names. If the USER REQUEST contains a person's name (e.g. "Sabine Gehrlein", "Noam Chomsky", "Gehrlein, Sabine"), extract it as an authorName — regardless of whether the request explicitly says "author" or "by".
 - Format author names as "Surname, Given name" and use the full name in the author's original language
 - Split the topics into groups of 1 to 3 words along the commas. Prefer smaller groups, if possible.
 - If the USER REQUEST doesn't mention if they are looking for a print or online / digital version of the library media, choose both.

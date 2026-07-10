@@ -615,20 +615,17 @@ function onQT(metadata) {
             console.error('extractOptionsFromMeta error', error);
         }
 
-        // Auto-activate author facets and remove matching QE keywords.
-        // QE may have added an author name (e.g. "Sabine Gehrlein") as a keyword
-        // which would restrict results. The author facet (e.g. "Gehrlein, Sabine")
-        // is the correct way to filter by author.
+        // Auto-activate author facets.
         const authorFilters = STATE.options.filter(
             option => option.source === 'qt' && option.category === 'author_facet'
         );
 
         if (authorFilters.length > 0) {
-            // Build a set of normalized word sets for each author for matching.
+            authorFilters.forEach(af => { af.active = true; });
+
+            // Build word sets for matching QE keywords against author names.
             // QT formats as "Surname, Given name", QE uses natural order "Given Surname".
-            // We normalize both to a sorted set of lowercase words for comparison.
             const authorWordSets = authorFilters.map(af => {
-                af.active = true;
                 const text = af.filterValue || af.label || '';
                 return new Set(text.toLowerCase().replace(/,/g, '').split(/\s+/).filter(Boolean));
             });
@@ -641,16 +638,7 @@ function onQT(metadata) {
                 );
             };
 
-            // Remove QE keywords that match any author name
-            STATE.options = STATE.options.filter(option => {
-                if (option.source === 'qe' && option.paramType === 'keyword' &&
-                    matchesAuthor(option.value || '')) {
-                    return false;
-                }
-                return true;
-            });
-
-            // Also remove matching terms from qeConcepts
+            // Remove matching terms from qeConcepts (prevents re-adding via UI)
             Object.keys(STATE.qeConcepts.positive).forEach(conceptKey => {
                 STATE.qeConcepts.positive[conceptKey] = STATE.qeConcepts.positive[conceptKey].filter(
                     term => !matchesAuthor(term)
