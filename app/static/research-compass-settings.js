@@ -5,8 +5,8 @@
 const CONFIG = {
     // ROOT_PATH is derived from the current page URL (e.g. "/ai" or "/nsis")
     ROOT_PATH: '/' + window.location.pathname.split('/')[1],
-    // API_BASE_URL is derived from current website location + ROOT_PATH
-    API_BASE_URL: window.location.origin + CONFIG.ROOT_PATH + '/api/v1',
+    // API_BASE_URL uses ROOT_PATH directly to avoid circular reference
+    API_BASE_URL: window.location.origin + '/' + window.location.pathname.split('/')[1] + '/api/v1',
     // VUFIND_BASE_URL: fallback value, injected at runtime from .env
     VUFIND_BASE_URL: 'https://stabikat.de',
     MAX_HISTORY: 5,
