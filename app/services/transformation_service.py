@@ -151,15 +151,23 @@ class TransformationService:
 
         # Supplement with German author patterns (e.g., "von Sabine Gehrlein")
         german_authors = _extract_german_author_patterns(user_request)
+        author_names_normalized = set(_normalize_author_name(a).lower() for a in author_names)
         for ga in german_authors:
-            if ga not in author_names:
+            ga_normalized = _normalize_author_name(ga)
+            if ga_normalized.lower() not in author_names_normalized:
                 author_names.append(ga)
+                author_names_normalized.add(ga_normalized.lower())
                 DevPrint.debug(f"Added author from German pattern: {ga}")
         date_range = facettes.get("dateRange", {}) or {}
         start_year = date_range.get("startYear")
         end_year = date_range.get("endYear")
         topics_orig = facettes.get("topicsInOriginalLanguage", []) or []
         topics_en = facettes.get("topicsInEnglish", []) or []
+
+        # Remove author names from topics to avoid duplicate search
+        # (author names should only be used as facets, not search terms)
+        topics_orig = [t for t in topics_orig if t.lower() not in author_names_normalized]
+        topics_en = [t for t in topics_en if t.lower() not in author_names_normalized]
 
         DevPrint.debug(f"searchIntent: {search_intent}")
         DevPrint.debug(f"mediaForms: {media_forms}")
