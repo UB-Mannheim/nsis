@@ -4,7 +4,7 @@
    ================================================================ */
 const CONFIG = {
     // API_BASE_URL is derived from current website location
-    API_BASE_URL: (window.location.origin) + '/nsis/api/v1',
+    API_BASE_URL: (window.location.origin) + '/ai/api/v1',
     // VUFIND_BASE_URL: fallback value, injected at runtime from .env
     VUFIND_BASE_URL: 'https://stabikat.de',
     MAX_HISTORY: 5,
@@ -336,9 +336,9 @@ const UI_STRINGS_EN = {
    ================================================================ */
 const UI_ELEMENTS = {
     // Images
-    logoSrc: "/nsis/static/images/logo.svg",
-    footerLogoSrc: "/nsis/static/images/logo.svg",
-    faviconSrc: "/nsis/static/images/favicon.ico",
+    logoSrc: "/ai/static/images/logo.svg",
+    footerLogoSrc: "/ai/static/images/logo.svg",
+    faviconSrc: "/ai/static/images/favicon.ico",
 
     // External Resources
     // TODO: avoid external URLs
