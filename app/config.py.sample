@@ -95,6 +95,7 @@ class Settings(BaseSettings):
     csp_fonts_domain: str = "https://fonts.bunny.net"
     csp_icons_domain: str = "https://unpkg.com"
     csp_vufind_domain: str = "CSP_VUFIND_DOMAIN" # same as VUFIND_BASE_URL
+    csp_script_src: str = "'self' 'unsafe-inline'" # allow inline scripts for dynamic path loading
     csp_institution_domain: str = "CSP_INSTITUTION_DOMAIN"
 
     @property
@@ -104,7 +105,7 @@ class Settings(BaseSettings):
             f"default-src 'self';\n"
             f"font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
-            f"script-src 'self' 'unsafe-inline';\n"
+            f"script-src {self.csp_script_src};\n"
             f"style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"style-src-attr 'unsafe-inline';\n"
             f"connect-src 'self' {self.domain}"
@@ -117,7 +118,7 @@ class Settings(BaseSettings):
             f"default-src 'self';\n"
             f"        font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"        img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
-            f"        script-src 'self';\n"
+            f"        script-src {self.csp_script_src};\n"
             f"        style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"        style-src-attr 'unsafe-inline';\n"
             f"        connect-src 'self' {self.domain}"
