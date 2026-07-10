@@ -2,7 +2,9 @@
 
 You are presented with a **USER REQUEST** (a natural language search query) and a list of **RETRIEVED TITLES** from a library catalog search based on that query. Each title may include metadata like author names and subject headings.
 
-Your task is to evaluate how well the retrieved titles match the user's search intent and information need.
+Your task is twofold:
+1. **Evaluate** how well the retrieved titles match the user's search intent and information need.
+2. **Answer** the user's question if the query is a question (e.g., contains question words like "welche", "was", "wer", "wie", "wo", "which", "what", "who", "how", "where", or is phrased as an interrogative).
 
 For your quality assessment, analyze only semantic alignment and ignore secondary factors like language. Refer to titles by their index in your assessment if you want to highlight highly relevant ones.
 
@@ -25,9 +27,19 @@ Consider:
 - Whether the title would satisfy the user's information need
 - Author relevance (if author names are provided and seem relevant to the query)
 
+## ANSWER GENERATION
+
+If the USER REQUEST is a question, provide a direct, factual answer based on the retrieved titles and their metadata. Use the information available (titles, authors, subjects, summaries) to answer the question concisely.
+
+- If the retrieved titles contain enough information to answer, provide a complete answer
+- If the retrieved titles partially answer the question, provide what is available and note limitations
+- If the retrieved titles do not contain enough information, state that the catalog search did not return sufficient data to answer the question
+- If the USER REQUEST is not a question, leave the **answer** field empty
+
 ## RESPONSE FORMAT
 
 Provide:
-- **assessment**: Brief explanation of the score (IMPORTANT: In {{LANGUAGE}}!)
+- **assessment**: Brief explanation of the quality score (IMPORTANT: In {{LANGUAGE}}!)
 - **qualityScore**: Overall quality score (0.0-1.0) representing the average relevance of retrieved titles
 - **relevantIndices**: List of indices (1-based) of titles that are of HIGH RELEVANCE to the query
+- **answer**: Answer to the question if the query is a question, otherwise empty string (IMPORTANT: In {{LANGUAGE}}!)

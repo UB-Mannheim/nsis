@@ -129,6 +129,7 @@ class QueryQualityResponse(BaseModel):
     originalQuery: str = Field(..., description="The original natural language query")
     assessment: str = Field(..., description="Assessment of query quality")
     relevantIndices: List[int] = Field(default_factory=list, description="Indices (1-based) of relevant titles")
+    answer: str = Field(default="", description="Answer to the question if the query is a question, otherwise empty string")
 
 
 class VocabularyResult(BaseModel):

@@ -27,6 +27,7 @@ class QueryQualityAssessment(BaseModel):
     - assessment: Brief explanation of the quality score
     - qualityScore: Score from 0.0 (poor) to 1.0 (excellent)
     - relevantTitles: List of titles from the results that are relevant
+    - answer: Answer to the question if the query is a question, otherwise empty string
     """
     assessment: str = Field(
         ...,
@@ -45,6 +46,11 @@ class QueryQualityAssessment(BaseModel):
         default_factory=list,
         alias="relevantIndices",
         description="List of indices (1-based) of titles from the retrieved results that are relevant to the query."
+    )
+
+    answer: str = Field(
+        default="",
+        description="Answer to the question if the query is a question, otherwise empty string."
     )
 
     class Config:

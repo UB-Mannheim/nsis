@@ -1361,6 +1361,33 @@ body {
     box-sizing: border-box;
 }
 
+/* Quality answer container - hidden by default */
+.quality-answer-container {
+    position: relative;
+    padding: 0.5rem 1.5rem 0.0rem 1.5rem;
+    background: var(--color-white);
+    display: none;
+}
+
+/* Show quality answer when visible */
+.quality-answer-container.visible {
+    display: block;
+}
+
+/* Quality answer - distinct styling for question answers */
+.quality-answer {
+    display: inline-block;
+    position: relative;
+    background: var(--color-main);
+    color: var(--color-white);
+    padding: 0.7rem;
+    border-radius: 6px;
+    font-size: var(--font-size-xl);
+    width: 100%;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+
 /* Count spinner - small rotating indicator */
 .count-spinner {
     width: 12px;

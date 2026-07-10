@@ -32,7 +32,7 @@ LANGUAGE_NAMES = {
 }
 
 
-async def assess_query_quality(user_request: str, titles: List[str], subjects: Optional[List[List[List[str]]]] = None, authors: Optional[List[List[str]]] = None, output_language: str = "de") -> Dict:
+async def assess_query_quality(user_request: str, titles: List[str], subjects: Optional[List[List[List[str]]]] = None, authors: Optional[List[List[str]]] = None, output_language: str = "de", search_intent: Optional[str] = None) -> Dict:
     """
     Assess quality of search results by evaluating title relevance.
 
@@ -42,9 +42,10 @@ async def assess_query_quality(user_request: str, titles: List[str], subjects: O
         subjects: List of subject heading lists for each title
         authors: List of author lists for each title
         output_language: Language for assessment output (default: "de" for German)
+        search_intent: Optional search intent (e.g., 'searchQuestion') to enable answer generation
 
     Returns:
-        dict: Contains assessment, qualityScore (0.0-1.0), and relevantTitles
+        dict: Contains assessment, qualityScore (0.0-1.0), relevantTitles, and answer
     """
     system_prompt = read_prompt("system_prompt_query_quality")
     language_name = LANGUAGE_NAMES.get(output_language, "German")

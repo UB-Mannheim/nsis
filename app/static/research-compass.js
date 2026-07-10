@@ -37,6 +37,7 @@ const STATE = {
     // Query quality assessment
     qualityScore: null, // Score 0–1 indicating URL match quality
     qualityAssessment: '', // Human-readable explanation of the quality score
+    qualityAnswer: '', // Answer to the question if query is a search question
     relevantIndices: [], // Indices (1-based) of relevant titles from query quality assessment
 
     // URL generation
@@ -476,6 +477,7 @@ async function doSearch(query) {
     STATE.totalResults = null;
     STATE.qualityScore = null;
     STATE.qualityAssessment = '';
+    STATE.qualityAnswer = '';
     STATE.generatedUrl = '';
     renderQualityScore();
 
@@ -960,7 +962,8 @@ function fetchQueryQuality(searchUrl, resultTitles, fetchId = null) {
         query: STATE.query,
         url: searchUrl,
         titles: resultTitles, // Pass pre-fetched titles to avoid redundant VuFind call
-        output_language: CONFIG.UI_LANGUAGE
+        output_language: CONFIG.UI_LANGUAGE,
+        search_intent: STATE.siMeta?.searchIntent || null
     }).then(data => onQueryQuality(data, fetchId)).catch(() => {
         hideQualityLoading();
     });
@@ -980,6 +983,7 @@ function onQueryQuality(qualityData, fetchId = null) {
     hideQualityLoading();
     STATE.qualityScore = qualityData.qualityScore;
     STATE.qualityAssessment = qualityData.assessment || '';
+    STATE.qualityAnswer = qualityData.answer || '';
     STATE.relevantIndices = qualityData.relevantIndices || [];
     renderQualityScore();
     highlightRelevantTitles(); // Toggle classes on existing elements
@@ -994,6 +998,8 @@ function renderQualityScore() {
     const subtitleScoreEl = $('#subtitleQualityScore');
     const qualityAssessmentContainer = $('#qualityAssessmentContainer');
     const qualityAssessmentText = $('#qualityAssessmentText');
+    const qualityAnswerContainer = $('#qualityAnswerContainer');
+    const qualityAnswerText = $('#qualityAnswerText');
 
     const score = STATE.qualityScore;
     if (score === null) {
@@ -1004,6 +1010,9 @@ function renderQualityScore() {
         // Hide quality assessment when loading or no score
         if (qualityAssessmentContainer) {
             qualityAssessmentContainer.classList.remove('visible');
+        }
+        if (qualityAnswerContainer) {
+            qualityAnswerContainer.classList.remove('visible');
         }
         return;
     }
@@ -1021,6 +1030,16 @@ function renderQualityScore() {
             qualityAssessmentContainer.classList.add('visible');
         } else {
             qualityAssessmentContainer.classList.remove('visible');
+        }
+    }
+
+    // Show/hide answer text for search questions
+    if (qualityAnswerContainer && qualityAnswerText) {
+        if (STATE.qualityAnswer && STATE.qualityAnswer.trim() !== '') {
+            qualityAnswerText.innerHTML = escapeHtml(STATE.qualityAnswer);
+            qualityAnswerContainer.classList.add('visible');
+        } else {
+            qualityAnswerContainer.classList.remove('visible');
         }
     }
 }
@@ -1168,6 +1187,7 @@ async function rebuildUrl({
     // Reset quality score when initiating new fetch
     STATE.qualityScore = null;
     STATE.qualityAssessment = '';
+    STATE.qualityAnswer = '';
     STATE.relevantIndices = [];
     renderQualityScore();
 
@@ -2262,6 +2282,7 @@ function createStateSnapshot() {
         totalResults: STATE.totalResults,
         qualityScore: STATE.qualityScore,
         qualityAssessment: STATE.qualityAssessment,
+        qualityAnswer: STATE.qualityAnswer,
         relevantIndices: JSON.parse(JSON.stringify(STATE.relevantIndices)),
         generatedUrl: STATE.generatedUrl,
     };
@@ -2305,6 +2326,7 @@ function restoreFromSnapshot(snapshot) {
     STATE.totalResults = snapshot.totalResults;
     STATE.qualityScore = snapshot.qualityScore;
     STATE.qualityAssessment = snapshot.qualityAssessment || '';
+    STATE.qualityAnswer = snapshot.qualityAnswer || '';
     STATE.relevantIndices = JSON.parse(JSON.stringify(snapshot.relevantIndices || []));
     STATE.generatedUrl = snapshot.generatedUrl || '';
 

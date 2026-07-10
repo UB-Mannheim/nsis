@@ -96,6 +96,10 @@ class QueryQualityRequest(BaseModel):
         default="de",
         description="Language for assessment output ('de' for German, 'en' for English)"
     )
+    search_intent: Optional[str] = Field(
+        default=None,
+        description="Optional search intent (e.g., 'searchQuestion') to enable answer generation"
+    )
 
 
 class VocabularyLookupRequest(BaseModel):

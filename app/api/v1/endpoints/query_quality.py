@@ -101,7 +101,7 @@ async def query_judge_quality(
     subject_strings = [t.subjects for t in titles]
     author_strings = [t.authors for t in titles]
     assessment_result = await assess_query_quality(
-        api_request.query, title_strings, subject_strings, author_strings, api_request.output_language
+        api_request.query, title_strings, subject_strings, author_strings, api_request.output_language, api_request.search_intent
     )
 
     # Check again after LLM call
@@ -137,5 +137,6 @@ async def query_judge_quality(
         qualityScore=assessment_result.get("qualityScore", 0.5),
         originalQuery=api_request.query,
         assessment=assessment_result.get("assessment", "Quality assessment completed"),
-        relevantIndices=assessment_result.get("relevantIndices", [])
+        relevantIndices=assessment_result.get("relevantIndices", []),
+        answer=assessment_result.get("answer", "")
     )
