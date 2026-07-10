@@ -52,6 +52,37 @@ def _normalize_author_name(name: str) -> str:
     return name
 
 
+def _extract_german_author_patterns(query: str) -> List[str]:
+    """
+    Extract potential author names from German query patterns.
+
+    In German, "von [Name]" often indicates authorship (e.g., "von Sabine Gehrlein").
+    This function extracts names following such patterns as potential authors.
+
+    Args:
+        query: The user query string
+
+    Returns:
+        List of potential author names found in the query
+    """
+    import re
+    authors = []
+
+    # Pattern: "von [Name]" - captures names after "von" indicating authorship
+    # Matches: "von Sabine Gehrlein", "von Prof. Dr. Müller", "von 'Name'"
+    von_pattern = re.compile(
+        r'\bvon\s+([A-ZÄÖÜ][a-zäöüß]+(?:\s+[A-ZÄÖÜ][a-zäöüß]+)+)',
+        re.UNICODE
+    )
+    for match in von_pattern.finditer(query):
+        name = match.group(1).strip()
+        # Validate: should have at least 2 words (typical name)
+        if len(name.split()) >= 2:
+            authors.append(name)
+
+    return authors
+
+
 class TransformationService:
     """Service for query transformation operations."""
 
@@ -117,6 +148,13 @@ class TransformationService:
         content_genres = facettes.get("contentGenres", []) or []
         author_names = facettes.get("authorNames", []) or []
         languages = facettes.get("languages", []) or []
+
+        # Supplement with German author patterns (e.g., "von Sabine Gehrlein")
+        german_authors = _extract_german_author_patterns(user_request)
+        for ga in german_authors:
+            if ga not in author_names:
+                author_names.append(ga)
+                DevPrint.debug(f"Added author from German pattern: {ga}")
         date_range = facettes.get("dateRange", {}) or {}
         start_year = date_range.get("startYear")
         end_year = date_range.get("endYear")

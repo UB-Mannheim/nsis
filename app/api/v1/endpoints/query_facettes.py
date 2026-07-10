@@ -21,7 +21,7 @@ from app.utils.abort import check_disconnected
 from app.utils.dev_print_api import api_call_start, api_call_end
 from core.usage_stats_logging import usage_stats_logger
 from core.inference import extract_facettes
-from app.services.transformation_service import _normalize_author_name
+from app.services.transformation_service import _normalize_author_name, _extract_german_author_patterns
 
 router = APIRouter()
 
@@ -54,6 +54,16 @@ async def query_facettes(
 
     result = await extract_facettes(api_request.query)
 
+    # Extract author names from LLM response
+    author_names_llm = result.get("authorNames", []) or []
+
+    # Supplement with German author patterns (e.g., "von Sabine Gehrlein")
+    author_names = list(author_names_llm)
+    german_authors = _extract_german_author_patterns(api_request.query)
+    for ga in german_authors:
+        if ga not in author_names:
+            author_names.append(ga)
+
     # Check if client disconnected after LLM call
     if await check_disconnected(request):
         api_call_end(endpoint, 499, (time.time() - start_time) * 1000)
@@ -75,9 +85,9 @@ async def query_facettes(
     ]
 
     # Convert author names
-    author_names = [
+    author_filters = [
         FilterValue(label=_normalize_author_name(an), filterValue=_normalize_author_name(an))
-        for an in result.get("authorNames", [])
+        for an in author_names
     ]
 
     # Convert languages
@@ -110,7 +120,7 @@ async def query_facettes(
     return QueryFacettesResponse(
         mediaForms=media_forms,
         contentGenres=content_genres,
-        authorNames=author_names,
+        authorNames=author_filters,
         languages=languages,
         dateRange=date_range,
         topicsInOriginalLanguage=result.get("topicsInOriginalLanguage", []),
