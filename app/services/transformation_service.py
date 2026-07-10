@@ -29,6 +29,29 @@ from core import milvus_search
 from app.utils.dev_print import DevPrint
 
 
+def _normalize_author_name(name: str) -> str:
+    """
+    Normalize author name to 'Surname, Given name' format.
+
+    Handles names in natural language format like 'Sabine Gehrlein' and
+    converts them to catalog format 'Gehrlein, Sabine'. Names already in
+    the correct format (containing a comma) are returned unchanged.
+
+    Args:
+        name: Author name in any format
+
+    Returns:
+        Author name in 'Surname, Given name' format
+    """
+    name = name.strip()
+    if "," in name:
+        return name
+    parts = name.split()
+    if len(parts) >= 2:
+        return f"{parts[-1]}, {' '.join(parts[:-1])}"
+    return name
+
+
 class TransformationService:
     """Service for query transformation operations."""
 
@@ -334,7 +357,8 @@ class TransformationService:
 
         meta_authors = []
         for a in author_names:
-            meta_authors.append({"label": a, "filterValue": a})
+            normalized = _normalize_author_name(a)
+            meta_authors.append({"label": normalized, "filterValue": normalized})
 
         meta_bk = [
             {"notation": bk["entity"]["notation"], "label": str(bk["entity"].get("label", bk["entity"]["notation"]))}
