@@ -615,6 +615,13 @@ function onQT(metadata) {
             console.error('extractOptionsFromMeta error', error);
         }
 
+        // Auto-activate date range filters from QT.
+        STATE.options.forEach(option => {
+            if (option.source === 'qt' && (option.paramType === 'date_from' || option.paramType === 'date_to')) {
+                option.active = true;
+            }
+        });
+
         // Auto-activate author facets and remove matching QE keywords.
         // QE may have added an author name (e.g. "Sabine Gehrlein") as a keyword
         // which would restrict results. The author facet (e.g. "Gehrlein, Sabine")
