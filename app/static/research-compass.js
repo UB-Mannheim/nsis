@@ -622,7 +622,6 @@ function onQT(metadata) {
         const authorFilters = STATE.options.filter(
             option => option.source === 'qt' && option.category === 'author_facet'
         );
-        let keywordsRemoved = false;
 
         if (authorFilters.length > 0) {
             // Build a set of normalized word sets for each author for matching.
@@ -643,7 +642,6 @@ function onQT(metadata) {
             };
 
             // Remove QE keywords that match any author name
-            const before = STATE.options.length;
             STATE.options = STATE.options.filter(option => {
                 if (option.source === 'qe' && option.paramType === 'keyword' &&
                     matchesAuthor(option.value || '')) {
@@ -651,27 +649,24 @@ function onQT(metadata) {
                 }
                 return true;
             });
-            keywordsRemoved = STATE.options.length < before;
 
             // Also remove matching terms from qeConcepts
-            if (keywordsRemoved) {
-                Object.keys(STATE.qeConcepts.positive).forEach(conceptKey => {
-                    STATE.qeConcepts.positive[conceptKey] = STATE.qeConcepts.positive[conceptKey].filter(
-                        term => !matchesAuthor(term)
-                    );
-                });
-            }
+            Object.keys(STATE.qeConcepts.positive).forEach(conceptKey => {
+                STATE.qeConcepts.positive[conceptKey] = STATE.qeConcepts.positive[conceptKey].filter(
+                    term => !matchesAuthor(term)
+                );
+            });
         }
 
         renderOptions();
-        // Re-fetch when keywords were removed so results reflect the corrected search
+        // Always fetch — QT has the final word on which keywords/facets are active.
         rebuildUrl({
-            skipFetch: !keywordsRemoved
+            skipFetch: false
         });
     } else {
         renderOptions();
         rebuildUrl({
-            skipFetch: true
+            skipFetch: false
         });
     }
 }
@@ -844,9 +839,10 @@ function onQE(result) {
         });
 
     renderOptions();
+    // Don't fetch here — QT will handle the fetch after removing
+    // author-matching keywords to avoid a flash of wrong results.
     rebuildUrl({
-        skipFetch: false,
-        immediate: true
+        skipFetch: true
     });
 }
 
