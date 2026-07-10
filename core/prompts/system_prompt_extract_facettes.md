@@ -22,6 +22,7 @@ STRICTLY FOLLOW THESE RULES:
 - Format author names as "Surname, Given name" and use the full name in the author's original language
 - Split the topics into groups of 1 to 3 words along the commas. Prefer smaller groups, if possible.
 - If the USER REQUEST doesn't mention if they are looking for a print or online / digital version of the library media, choose both.
+- When multiple time periods or centuries are mentioned (e.g. "17., 18., 19., 20. oder 21. Jahrhundert"), compute the full spanning range: set startYear to the earliest and endYear to the latest. Convert centuries to years (e.g. "17. Jahrhundert" → 1600, "21. Jahrhundert" → 2000-2099, so endYear = 2099).
 
 # ADDITIONAL INFORMATION
 
