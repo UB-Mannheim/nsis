@@ -151,6 +151,13 @@ class TransformationService:
 
         # Supplement with German author patterns (e.g., "von Sabine Gehrlein")
         german_authors = _extract_german_author_patterns(user_request)
+        # Track original author names (before normalization) for frontend matching
+        original_author_names_map = {}  # normalized -> original
+        for ga in german_authors:
+            ga_normalized = _normalize_author_name(ga)
+            # Only keep the first original form for each normalized name
+            if ga_normalized.lower() not in original_author_names_map:
+                original_author_names_map[ga_normalized.lower()] = ga
         author_names_normalized = set(_normalize_author_name(a).lower() for a in author_names)
         for ga in german_authors:
             ga_normalized = _normalize_author_name(ga)
@@ -403,13 +410,11 @@ class TransformationService:
 
         meta_authors = []
         # Track original author names for frontend matching (e.g., "Sabine Gehrlein" -> "Gehrlein, Sabine")
-        original_author_names = set()
         for a in author_names:
             normalized = _normalize_author_name(a)
-            # If this is a German pattern-extracted name (different from normalized), store both
-            if a != normalized:
-                original_author_names.add(a)
-            meta_authors.append({"label": normalized, "filterValue": normalized, "original": a if a != normalized else None})
+            # Check if we have an original form stored (from German pattern extraction)
+            original = original_author_names_map.get(normalized.lower(), None)
+            meta_authors.append({"label": normalized, "filterValue": normalized, "original": original})
 
         meta_bk = [
             {"notation": bk["entity"]["notation"], "label": str(bk["entity"].get("label", bk["entity"]["notation"]))}
