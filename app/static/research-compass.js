@@ -618,15 +618,20 @@ function onQT(metadata) {
         // Remove keywords from STATE.options that match detected author names
         // (author names should only be used as author facets, not as keyword search terms)
         const authorFilters = metadata?.filters?.authorNames || [];
-        const authorValues = new Set(authorFilters.map(af => af.filterValue?.toLowerCase()));
-        if (authorValues.size > 0) {
-            // Also add the original (non-normalized) author names to the set
-            const authorLabels = new Set(authorFilters.map(af => af.label?.toLowerCase()));
-            authorValues.forEach(v => authorLabels.add(v));
 
+        // Build set of author values - include normalized form, label, and original form
+        const authorValues = new Set();
+        authorFilters.forEach(af => {
+            if (af.filterValue) authorValues.add(af.filterValue.toLowerCase());
+            if (af.label) authorValues.add(af.label.toLowerCase());
+            // Also add original form if present (e.g., "Sabine Gehrlein" from German pattern extraction)
+            if (af.original) authorValues.add(af.original.toLowerCase());
+        });
+
+        if (authorValues.size > 0) {
             // Remove matching keywords from STATE.options
             STATE.options = STATE.options.filter(option => {
-                if (option.paramType === 'keyword' && authorLabels.has(option.value?.toLowerCase())) {
+                if (option.paramType === 'keyword' && authorValues.has(option.value?.toLowerCase())) {
                     return false; // Remove this keyword
                 }
                 return true;
@@ -635,7 +640,7 @@ function onQT(metadata) {
             // Also remove from qeConcepts.positive any terms matching author names
             Object.keys(STATE.qeConcepts.positive).forEach(conceptKey => {
                 STATE.qeConcepts.positive[conceptKey] = STATE.qeConcepts.positive[conceptKey].filter(
-                    term => !authorLabels.has(term.toLowerCase())
+                    term => !authorValues.has(term.toLowerCase())
                 );
             });
         }

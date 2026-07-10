@@ -402,9 +402,14 @@ class TransformationService:
             meta_languages.append({"label": lang, "filterValue": lang})
 
         meta_authors = []
+        # Track original author names for frontend matching (e.g., "Sabine Gehrlein" -> "Gehrlein, Sabine")
+        original_author_names = set()
         for a in author_names:
             normalized = _normalize_author_name(a)
-            meta_authors.append({"label": normalized, "filterValue": normalized})
+            # If this is a German pattern-extracted name (different from normalized), store both
+            if a != normalized:
+                original_author_names.add(a)
+            meta_authors.append({"label": normalized, "filterValue": normalized, "original": a if a != normalized else None})
 
         meta_bk = [
             {"notation": bk["entity"]["notation"], "label": str(bk["entity"].get("label", bk["entity"]["notation"]))}
