@@ -1,0 +1,25 @@
+[Unit]
+Description=Recherche-Kompass (KaRMa AI Search Interface)
+After=network.target
+
+[Service]
+Type=exec
+User=ai
+Group=ai
+WorkingDirectory=/srv/nsis
+ExecStart=/srv/nsis/.venv/bin/python -m app.main
+Restart=on-failure
+RestartSec=5
+
+# Security hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/srv/nsis
+PrivateTmp=true
+
+# Environment
+EnvironmentFile=/srv/nsis/.env
+
+[Install]
+WantedBy=multi-user.target

@@ -238,6 +238,28 @@ uv run python scripts/initialize_databases.py --all
 uv run python -m app.main
 ```
 
+#### 7a. Production: systemd service (optional)
+
+Create a dedicated system user:
+```bash
+groupadd --system ai
+useradd --system --gid ai --home-dir /srv/nsis --shell /usr/sbin/nologin ai
+chown -R ai:ai /srv/nsis
+```
+
+Install and enable the service:
+```bash
+cp deploy/research-compass.service /etc/systemd/system/
+systemctl daemon-reload
+systemctl enable --now research-compass
+```
+
+Check status:
+```bash
+systemctl status research-compass
+journalctl -u research-compass -f
+```
+
 #### 8. Test API locally against the running server (optional)
 ```bash
 uv run python tests/access_test.py
