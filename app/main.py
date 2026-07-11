@@ -482,9 +482,28 @@ async def root():
         "csp_vufind_domain": settings.csp_vufind_domain,
         "csp_institution_domain": settings.csp_institution_domain,
         "root_path": settings.root_path,
+        "matomo_url": settings.matomo_url,
+        "matomo_site_id": settings.matomo_site_id,
     })
     config_script = f'<script>window.RUNTIME_CONFIG = {runtime_config};</script>'
     html_content = html_content.replace("<head>", f"<head>\n    {config_script}", 1)
+
+    # Inject Matomo tracking script if configured
+    if settings.matomo_url and settings.matomo_site_id:
+        matomo_url = settings.matomo_url.rstrip("/")
+        matomo_script = f"""    <script>
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {{
+            var u="{matomo_url}/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '{settings.matomo_site_id}']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        }})();
+    </script>"""
+        html_content = html_content.replace("<head>", f"<head>\n{matomo_script}", 1)
 
     return HTMLResponse(content=html_content)
 

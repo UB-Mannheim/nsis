@@ -90,6 +90,10 @@ class Settings(BaseSettings):
     log_dir: str = "LOG_DIR"
     logger_name: str = "LOGGER_NAME"
 
+    # Matomo Analytics Configuration (optional)
+    matomo_url: str = "" # Matomo instance URL, e.g. https://matomo.example.org
+    matomo_site_id: str = "" # Matomo site ID
+
     # Content Security Policy Configuration
     # Single source of truth for external domains used by the frontend
     csp_fonts_domain: str = "https://fonts.bunny.net"
@@ -99,29 +103,47 @@ class Settings(BaseSettings):
     csp_institution_domain: str = "CSP_INSTITUTION_DOMAIN"
 
     @property
+    def _matomo_domain(self) -> str:
+        """Extract domain from Matomo URL for CSP, or empty string if not configured."""
+        if self.matomo_url:
+            from urllib.parse import urlparse
+            parsed = urlparse(self.matomo_url)
+            if parsed.scheme and parsed.netloc:
+                return f"{parsed.scheme}://{parsed.netloc}"
+        return ""
+
+    @property
     def csp_value(self) -> str:
         """Generate CSP meta tag value from domain configuration."""
+        matomo = self._matomo_domain
+        matomo_script = f" {matomo}" if matomo else ""
+        matomo_connect = f" {matomo}" if matomo else ""
+        matomo_img = f" {matomo}" if matomo else ""
         return (
             f"default-src 'self';\n"
             f"font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
-            f"img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
-            f"script-src {self.csp_script_src};\n"
+            f"img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain}{matomo_img};\n"
+            f"script-src {self.csp_script_src}{matomo_script};\n"
             f"style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"style-src-attr 'unsafe-inline';\n"
-            f"connect-src 'self' {self.domain}"
+            f"connect-src 'self' {self.domain}{matomo_connect}"
         )
 
     @property
     def csp_meta_tag(self) -> str:
         """Generate CSP meta tag HTML with formatted, readable output."""
+        matomo = self._matomo_domain
+        matomo_script = f" {matomo}" if matomo else ""
+        matomo_connect = f" {matomo}" if matomo else ""
+        matomo_img = f" {matomo}" if matomo else ""
         content = (
             f"default-src 'self';\n"
             f"        font-src {self.csp_fonts_domain} {self.csp_icons_domain};\n"
-            f"        img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain};\n"
-            f"        script-src {self.csp_script_src};\n"
+            f"        img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain}{matomo_img};\n"
+            f"        script-src {self.csp_script_src}{matomo_script};\n"
             f"        style-src 'self' {self.csp_fonts_domain} {self.csp_icons_domain};\n"
             f"        style-src-attr 'unsafe-inline';\n"
-            f"        connect-src 'self' {self.domain}"
+            f"        connect-src 'self' {self.domain}{matomo_connect}"
         )
         return (
             f'<meta http-equiv="Content-Security-Policy"\n'
