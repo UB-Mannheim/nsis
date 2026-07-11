@@ -102,7 +102,6 @@ cp app/config.py.sample app/config.py
 | Setting | Description | Default |
 |---------|-------------|---------|
 | `csp_fonts_domain` | Font CDN domain | `https://fonts.bunny.net` |
-| `csp_icons_domain` | Icon CDN domain | `https://unpkg.com` |
 | `csp_vufind_domain` | VuFind domain | (empty) |
 | `csp_institution_domain` | Institution domain | (empty) |
 

@@ -359,9 +359,9 @@ const UI_ELEMENTS = {
     faviconSrc: CONFIG.ROOT_PATH + "/static/images/favicon.ico",
 
     // External Resources
-    // TODO: avoid external URLs
     fontsUrl: "https://fonts.bunny.net/css",
-    iconsUrl: "https://unpkg.com/@fortawesome/fontawesome-free@6.5.1/css/all.min.css",
+    // Icons (self-hosted)
+    iconsUrl: CONFIG.ROOT_PATH + "/static/vendor/fontawesome/css/all.min.css",
 
     // External Links
     institutionUrl: "https://www.bib.uni-mannheim.de/",
