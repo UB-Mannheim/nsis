@@ -96,7 +96,6 @@ class Settings(BaseSettings):
 
     # Content Security Policy Configuration
     # Single source of truth for external domains used by the frontend
-    csp_fonts_domain: str = "https://fonts.bunny.net"
     csp_vufind_domain: str = "CSP_VUFIND_DOMAIN" # same as VUFIND_BASE_URL
     csp_script_src: str = "'self' 'unsafe-inline'" # allow inline scripts for dynamic path loading
     csp_institution_domain: str = "CSP_INSTITUTION_DOMAIN"
@@ -120,10 +119,10 @@ class Settings(BaseSettings):
         matomo_img = f" {matomo}" if matomo else ""
         return (
             f"default-src 'self';\n"
-            f"font-src {self.csp_fonts_domain};\n"
+            f"font-src 'self';\n"
             f"img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain}{matomo_img};\n"
             f"script-src {self.csp_script_src}{matomo_script};\n"
-            f"style-src 'self' {self.csp_fonts_domain};\n"
+            f"style-src 'self';\n"
             f"style-src-attr 'unsafe-inline';\n"
             f"connect-src 'self' {self.domain}{matomo_connect}"
         )
@@ -137,10 +136,10 @@ class Settings(BaseSettings):
         matomo_img = f" {matomo}" if matomo else ""
         content = (
             f"default-src 'self';\n"
-            f"        font-src {self.csp_fonts_domain};\n"
+            f"        font-src 'self';\n"
             f"        img-src {self.domain} {self.csp_vufind_domain} {self.csp_institution_domain}{matomo_img};\n"
             f"        script-src {self.csp_script_src}{matomo_script};\n"
-            f"        style-src 'self' {self.csp_fonts_domain};\n"
+            f"        style-src 'self';\n"
             f"        style-src-attr 'unsafe-inline';\n"
             f"        connect-src 'self' {self.domain}{matomo_connect}"
         )

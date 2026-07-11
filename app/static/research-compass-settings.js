@@ -358,8 +358,8 @@ const UI_ELEMENTS = {
     footerLogoSrc: CONFIG.ROOT_PATH + "/static/images/logo.svg",
     faviconSrc: CONFIG.ROOT_PATH + "/static/images/favicon.ico",
 
-    // External Resources
-    fontsUrl: "https://fonts.bunny.net/css",
+    // Fonts (self-hosted)
+    fontsUrl: CONFIG.ROOT_PATH + "/static/vendor/notosans/notosans.css",
     // Icons (self-hosted)
     iconsUrl: CONFIG.ROOT_PATH + "/static/vendor/fontawesome/css/all.min.css",
 

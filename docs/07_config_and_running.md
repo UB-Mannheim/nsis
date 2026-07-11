@@ -101,7 +101,6 @@ cp app/config.py.sample app/config.py
 **Content Security Policy:**
 | Setting | Description | Default |
 |---------|-------------|---------|
-| `csp_fonts_domain` | Font CDN domain | `https://fonts.bunny.net` |
 | `csp_vufind_domain` | VuFind domain | (empty) |
 | `csp_institution_domain` | Institution domain | (empty) |
 
